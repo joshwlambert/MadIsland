@@ -4,10 +4,13 @@
 \alias{default_params_doc}
 \title{Documentation to be inherited by other functions in the package}
 \usage{
-default_params_doc(bar)
+default_params_doc(bar, file_name)
 }
 \arguments{
 \item{bar}{temporary argument name}
+
+\item{file_name}{character string with the file name, including the file
+extension (needs to be .csv)}
 }
 \value{
 Nothing

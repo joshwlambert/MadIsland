@@ -3,7 +3,7 @@ Type: Package
 Title: Package to hold all the scripts to reproduce paper on colonisation and 
     divesification history of Madagascar's tetrapods
 Version: 0.1.0
-Author:  person(given = "Joshua W.",
+Author: person(given = "Joshua W.",
            family = "Lambert",
            email = "j.w.l.lambert@rug.nl",
            role = c("aut", "cre"),
@@ -28,3 +28,5 @@ Imports:
 Remotes:
     joshwlambert/DAISIEprep@develop
     tece-lab/DAISIEutils@develop
+Depends: 
+    R (>= 3.5.0)

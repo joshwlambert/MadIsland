@@ -2,3 +2,4 @@
 
 export(default_params_doc)
 export(foo)
+export(process_raw_data)
