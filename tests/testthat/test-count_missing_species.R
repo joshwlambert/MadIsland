@@ -1,5 +1,6 @@
 test_that("count_missing_species works for mammals", {
-  missing_mammals <- count_missing_species(file_name = "mammal_checklist.csv")
+  mammal_checklist <- read_checklist(file_name = "mammal_checklist.csv")
+  missing_mammals <- count_missing_species(checklist = mammal_checklist)
   expect_true(is.data.frame(missing_mammals))
   expect_equal(ncol(missing_mammals), 2)
   expect_equal(nrow(missing_mammals), 21)

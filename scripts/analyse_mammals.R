@@ -2,6 +2,9 @@
 # load madagascar mammals species data table
 data("madagascar_mammals", package = "MadIsland")
 
+# get missing species
+count_missing_species(file_name = )
+
 # load the DNA only and complete trees
 mammal_posterior_dna <- ape::read.nexus(
   file = system.file(
@@ -102,7 +105,7 @@ daisie_data_list_complete <- lapply(
 # ensure dna data list and complete data list are the same length
 length(daisie_data_list_dna) == length(daisie_data_list_complete)
 
-# combine tree and endemicity status
+# run DAISIE model
 ml_dna <- list()
 ml_complete <- list()
 for (i in seq_along(dna_phylos)) {

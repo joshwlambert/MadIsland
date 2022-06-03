@@ -6,11 +6,10 @@
 not in the phylogeny (represented by NA) and counts the number of species
 missing from the phylogeny each genus}
 \usage{
-count_missing_species(file_name)
+count_missing_species(checklist)
 }
 \arguments{
-\item{file_name}{character string with the file name, including the file
-extension (needs to be .csv)}
+\item{checklist}{data frame with information on species on the island}
 }
 \value{
 Data frame
@@ -21,5 +20,6 @@ not in the phylogeny (represented by NA) and counts the number of species
 missing from the phylogeny each genus
 }
 \examples{
-count_missing_species(file_name = "mammal_checklist.csv")
+mammal_checklist <- read_checklist(file_name = "mammal_checklist.csv")
+count_missing_species(checklist = mammal_checklist)
 }

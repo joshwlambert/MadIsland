@@ -4,13 +4,15 @@
 \alias{default_params_doc}
 \title{Documentation to be inherited by other functions in the package}
 \usage{
-default_params_doc(bar, file_name)
+default_params_doc(bar, file_name, checklist)
 }
 \arguments{
 \item{bar}{temporary argument name}
 
 \item{file_name}{character string with the file name, including the file
 extension (needs to be .csv)}
+
+\item{checklist}{data frame with information on species on the island}
 }
 \value{
 Nothing
