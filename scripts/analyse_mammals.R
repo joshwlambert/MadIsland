@@ -2,12 +2,7 @@
 # load madagascar mammals species data table
 data("madagascar_mammals", package = "MadIsland")
 
-# extract data using DAISIEprep
-
-# run DAISIE
-phy100 <- readRDS(file = system.file("extdata/Upham_dna_posterior_100.rds", package = "MadIsland"))
-
-
+# load the DNA only and complete trees
 mammal_posterior_dna <- ape::read.nexus(
   file = system.file(
     "extdata/Upham_dna_posterior_100.nex",
@@ -15,16 +10,12 @@ mammal_posterior_dna <- ape::read.nexus(
   )
 )
 
-# load the DNA only and complete trees
-mammal_posterior_dna <- ape::read.nexus(system.file(
-  "extdata/Upham_dna_posterior_100.nex",
-  package = "DAISIEprepExtra"
-))
-
-mammal_posterior_complete <- ape::read.nexus(system.file(
-  "extdata/Upham_complete_posterior_100.nex",
-  package = "DAISIEprepExtra"
-))
+mammal_posterior_complete <- ape::read.nexus(
+  file = system.file(
+    "extdata/Upham_complete_posterior_100.nex",
+    package = "MadIsland"
+  )
+)
 
 # convert trees to phylo4 objects
 dna_phylos <- lapply(mammal_posterior_dna, phylobase::phylo4)
