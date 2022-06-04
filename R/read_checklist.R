@@ -22,8 +22,7 @@ read_checklist <- function(file_name){
       file_path,
       package = "MadIsland"
     ),
-    header = TRUE,
-    sep = ";"
+    header = TRUE
   )
 
   # return checklist

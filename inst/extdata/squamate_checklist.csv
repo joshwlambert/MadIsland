@@ -1,432 +1,432 @@
-Genus;Species;Subspecies;Family;Order;Common_Name;Our_Name;Name_In_Tree;Sampled;DNA_In_Tree;Extinct_Extant;Status_Species;DAISIE_Status_Species;Remove_Species
-Acrantophis;dumerili;NA;Boidae;Squamata;Dumeril's boa;Acrantophis_dumerili;Acrantophis_dumerili;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Acrantophis;madagascariensis;NA;Boidae;Squamata;Madagascar ground boa;Acrantophis_madagascariensis;Acrantophis_madagascariensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Agama;agama;NA;Agamidae;Squamata;Common Agama;Agama_agama;Agama_agama;TRUE;TRUE;Extant;Non-endemic;NA;TRUE
-Alluaudina;bellyi;NA;Pseudoxyrhophiidae;Squamata;None;Alluaudina_bellyi;Alluaudina_bellyi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Alluaudina;mocquardi;NA;Pseudoxyrhophiidae;Squamata;None;Alluaudina_mocquardi;Alluaudina_mocquardi;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Amphiglossus;astrolabi;NA;Scincidae;Squamata;Diving Skink ;Amphiglossus_astrolabi;Amphiglossus_astrolabi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Amphiglossus;reticulatus;NA;Scincidae;Squamata;None;Amphiglossus_reticulatus;Amphiglossus_reticulatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Blaesodactylus;ambonihazo;NA;Gekkonidae;Squamata;None;Blaesodactylus_ambonihazo;Blaesodactylus_ambonihazo;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Blaesodactylus;antongilensis;NA;Gekkonidae;Squamata;None;Blaesodactylus_antongilensis;Blaesodactylus_antongilensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Blaesodactylus;boivini;NA;Gekkonidae;Squamata;None;Blaesodactylus_boivini;Blaesodactylus_boivini;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Blaesodactylus;microtuberculatus;NA;Gekkonidae;Squamata;None;Blaesodactylus_microtuberculatus;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Blaesodactylus;sakalava;NA;Gekkonidae;Squamata;None;Blaesodactylus_sakalava;Blaesodactylus_sakalava;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Blaesodactylus;victori;NA;Gekkonidae;Squamata;Victor’s Madagascar Velvet gecko;Blaesodactylus_victori;NA;FASLE;FALSE;Extant;Endemic;Endemic;FALSE
-Brachyseps;anosyensis;NA;Scincidae;Squamata;None;Brachyseps_anosyensis;Amphiglossus_anosyensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brachyseps;frontoparietalis;NA;Scincidae;Squamata;Boulenger's Tree Skink ;Brachyseps_frontoparietalis;Amphiglossus_frontoparietalis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brachyseps;gastrostictus;NA;Scincidae;Squamata;O'Shaughnessy's Madagascar Skink ;Brachyseps_gastrostictus;Amphiglossus_gastrostictus;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Brachyseps;macrocercus;NA;Scincidae;Squamata;Black-striped Skink ;Brachyseps_macrocercus;Amphiglossus_macrocercus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brachyseps;mandady;NA;Scincidae;Squamata;None;Brachyseps_mandady;Amphiglossus_mandady;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Brachyseps;punctatus;NA;Scincidae;Squamata;None;Brachyseps_punctatus;Amphiglossus_punctatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brachyseps;spilostichus;NA;Scincidae;Squamata;None;Brachyseps_spilostichus;Amphiglossus_spilostichus;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Brachyseps;splendidus;NA;Scincidae;Squamata;Splendid Skink ;Brachyseps_splendidus;Amphiglossus_splendidus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;antakarana;NA;Chamaeleonidae ;Squamata;None;Brookesia_antakarana;Brookesia_antakarana;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;bekolosy;NA;Chamaeleonidae ;Squamata;None;Brookesia_bekolosy;Brookesia_bekolosy;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Brookesia;betschi;NA;Chamaeleonidae ;Squamata;None;Brookesia_betschi;Brookesia_betschi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;bonsi;NA;Chamaeleonidae ;Squamata;None;Brookesia_bonsi;Brookesia_bonsi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;brunoi;NA;Chamaeleonidae ;Squamata;None;Brookesia_brunoi;Brookesia_brunoi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;brygooi;NA;Chamaeleonidae ;Squamata;None;Brookesia_brygooi;Brookesia_brygooi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;confidens;NA;Chamaeleonidae ;Squamata;None;Brookesia_confidens;Brookesia_confidens;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;decaryi;NA;Chamaeleonidae ;Squamata;Spiny Leaf Chameleon;Brookesia_decaryi;Brookesia_decaryi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;dentata;NA;Chamaeleonidae;Squamata;Toothed Leaf Chameleon ;Brookesia_dentata;Brookesia_dentata;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;desperata;NA;Chamaeleonidae ;Squamata;None;Brookesia_desperata;Brookesia_desperata;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;ebenaui;NA;Chamaeleonidae ;Squamata;Northem Leaf Chameleon ;Brookesia_ebenaui;Brookesia_ebenaui;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;exarmata;NA;Chamaeleonidae ;Squamata;None;Brookesia_exarmata;Brookesia_exarmata;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;griveaudi;NA;Chamaeleonidae ;Squamata;Marojejy Leaf Chameleon ;Brookesia_griveaudi;Brookesia_griveaudi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;karchei;NA;Chamaeleonidae ;Squamata;None;Brookesia_karchei;Brookesia_karchei;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;lambertoni;NA;Chamaeleonidae ;Squamata;Fito Leaf Chameleon ;Brookesia_lambertoni;Brookesia_lambertoni;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Brookesia;lineata;NA;Chamaeleonidae ;Squamata;None;Brookesia_lineata;Brookesia_lineata;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;micra;NA;Chamaeleonidae ;Squamata;None;Brookesia_micra;Brookesia_micra;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;minima;NA;Chamaeleonidae;Squamata;Minute Leaf Chameleon;Brookesia_minima;Brookesia_minima;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;nana;NA;Chamaeleonidae ;Squamata;None;Brookesia_nana;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Brookesia;perarmata;NA;Chamaeleonidae;Squamata;Antsingy Leaf Chameleon ;Brookesia_perarmata;Brookesia_perarmata;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;peyrierasi;NA;Chamaeleonidae;Squamata;None;Brookesia_peyrierasi;Brookesia_peyrierasi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;ramanantsoai;NA;Chamaeleonidae ;Squamata;None;Brookesia_ramanantsoai;Brookesia_ramanantsoai;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;stumpffi;NA;Chamaeleonidae ;Squamata;Plated Leaf Chameleon;Brookesia_stumpffi;Brookesia_stumpffi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;superciliaris;NA;Chamaeleonidae ;Squamata;Brown Leaf Chameleon;Brookesia_superciliaris;Brookesia_superciliaris;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;tedi;NA;Chamaeleonidae ;Squamata;None;Brookesia_tedi;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Brookesia;therezieni;NA;Chamaeleonidae ;Squamata;Permet Leaf Chameleon ;Brookesia_therezieni;Brookesia_therezieni;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;thieli;NA;Chamaeleonidae ;Squamata;Domergue's Leaf Chameleon ;Brookesia_thieli;Brookesia_thieli;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;tristis;NA;Chamaeleonidae ;Squamata;None;Brookesia_tristis;Brookesia_tristis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;tuberculata;NA;Chamaeleonidae;Squamata;Mount d'Ambre Leaf Chameleon ;Brookesia_tuberculata;Brookesia_tuberculata;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;vadoni;NA;Chamaeleonidae ;Squamata;Iaraka River Leaf Chameleon ;Brookesia_vadoni;Brookesia_vadoni;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brookesia;valerieae;NA;Chamaeleonidae ;Squamata;None;Brookesia_valerieae;Brookesia_valerieae;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Brygophis;coulangesi;NA;Pseudoxyrhophiidae;Squamata;None;Brygophis_coulangesi;Brygophis_coulangesi;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Calumma;amber;NA;Chamaeleonidae;Squamata;None;Calumma_amber;Calumma_amber;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;ambreense;NA;Chamaeleonidae;Squamata;None;Calumma_ambreense;Calumma_ambreense;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;andringitraense;NA;Chamaeleonidae;Squamata;None;Calumma_andringitraense;Calumma_andringitraense;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;boettgeri;NA;Chamaeleonidae;Squamata;None;Calumma_boettgeri;Calumma_boettgeri;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;brevicorne;Calumma brevicorne brevicorne, Calumma brevicorne tsarafidyi;Chamaeleonidae;Squamata;None;Calumma_brevicorne;Calumma_brevicorne;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;capuroni;NA;Chamaeleonidae;Squamata;None;Calumma_capuroni;Calumma_capuroni;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;crypticum;NA;Chamaeleonidae;Squamata;None;Calumma_crypticum;Calumma_crypticum;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;cucullatum;NA;Chamaeleonidae;Squamata;None;Calumma_cucullatum;Calumma_cucullatum;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;emelinae;NA;Chamaeleonidae;Squamata;None;Calumma_emelinae;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Calumma;fallax;NA;Chamaeleonidae;Squamata;None;Calumma_fallax;Calumma_fallax;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;furcifer;NA;Chamaeleonidae;Squamata;None;Calumma_furcifer;Calumma_furcifer;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;gallus;NA;Chamaeleonidae;Squamata;Pinocchio-Chamäleon ;Calumma_gallus;Calumma_gallus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;gastrotaenia;NA;Chamaeleonidae;Squamata;None;Calumma_gastrotaenia;Calumma_gastrotaenia;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;gehringi;NA;Chamaeleonidae;Squamata;None;Calumma_gehringi;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Calumma;glawi;NA;Chamaeleonidae;Squamata;None;Calumma_glawi;Calumma_glawi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;globifer;NA;Chamaeleonidae;Squamata;None;Calumma_globifer;Calumma_globifer;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;guibei;NA;Chamaeleonidae;Squamata;None;Calumma_guibei;Calumma_guibei;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;guillaumeti;NA;Chamaeleonidae;Squamata;None;Calumma_guillaumeti;Calumma_guillaumeti;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;hafahafa;NA;Chamaeleonidae;Squamata;None;Calumma_hafahafa;Calumma_hafahafa;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;hilleniusi;NA;Chamaeleonidae;Squamata;None;Calumma_hilleniusi;Calumma_hilleniusi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;jejy;NA;Chamaeleonidae;Squamata;None;Calumma_jejy;Calumma_jejy;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Calumma;juliae;NA;Chamaeleonidae;Squamata;None;Calumma_juliae;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Calumma;lefona;NA;Chamaeleonidae;Squamata;None;Calumma_lefona;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Calumma;linotum;NA;Chamaeleonidae;Squamata;None;Calumma_linotum;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Calumma;malthe;NA;Chamaeleonidae;Squamata;None;Calumma_malthe;Calumma_malthe;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;marojezense;NA;Chamaeleonidae;Squamata;None;Calumma_marojezense;Calumma_marojezense;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;nasutum;NA;Chamaeleonidae;Squamata;None;Calumma_nasutum;Calumma_nasutum;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;oshaughnessyi;NA;Chamaeleonidae;Squamata;None;Calumma_oshaughnessyi;Calumma_oshaughnessyi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;parsonii;Calumma parsonii cristifer, Calumma parsonii parsonii;Chamaeleonidae;Squamata;Parson’s chameleon ;Calumma_parsonii;Calumma_parsonii;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;peltierorum;NA;Chamaeleonidae;Squamata;None;Calumma_peltierorum;Calumma_peltierorum;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;peyrierasi;NA;Chamaeleonidae;Squamata;None;Calumma_peyrierasi;Calumma_peyrierasi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;radamanus;NA;Chamaeleonidae;Squamata;None;Calumma_radamanus;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Calumma;ratnasariae;NA;Chamaeleonidae;Squamata;None;Calumma_ratnasariae;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Calumma;roaloko;NA;Chamaeleonidae;Squamata;two-toned soft-nosed chameleon;Calumma_roaloko;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Calumma;tarzan;NA;Chamaeleonidae;Squamata;None;Calumma_tarzan;Calumma_tarzan;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;tjiasmantoi;NA;Chamaeleonidae;Squamata;None;Calumma_tjiasmantoi;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Calumma;tsaratananense;NA;Chamaeleonidae;Squamata;None;Calumma_tsaratananense;Calumma_tsaratananense;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;tsycorne;NA;Chamaeleonidae;Squamata;None;Calumma_tsycorne;Calumma_tsycorne;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Calumma;uetzi;NA;Chamaeleonidae;Squamata;Uetz’s soft-nosed chameleon;Calumma_uetzi;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Calumma;vatosoa;NA;Chamaeleonidae;Squamata;None;Calumma_vatosoa;Calumma_vatosoa;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Calumma;vencesi;NA;Chamaeleonidae;Squamata;None;Calumma_vencesi;Calumma_vencesi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Calumma;vohibola;NA;Chamaeleonidae;Squamata;None;Calumma_vohibola;Calumma_vohibola;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Chalarodon;madagascariensis;NA;Opluridae;Squamata;Madagascar iguana;Chalarodon_madagascariensis;Chalarodon_madagascariensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Chalarodon;steinkampi;NA;Opluridae;Squamata;Steinkamp’s Madagascar iguana;Chalarodon_steinkampi;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Compsophis;albiventris;NA;Pseudoxyrhophiidae;Squamata;Madagascar Bighead Snake ;Compsophis_albiventris;Compsophis_albiventris;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Compsophis;boulengeri;NA;Pseudoxyrhophiidae;Squamata;Boulenger's Forest Snake ;Compsophis_boulengeri;Compsophis_boulengeri;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Compsophis;fatsibe;NA;Pseudoxyrhophiidae;Squamata;None;Compsophis_fatsibe;Compsophis_fatsibe;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Compsophis;infralineatus;NA;Pseudoxyrhophiidae;Squamata;Lined Forest Snake ;Compsophis_infralineatus;Compsophis_infralineatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Compsophis;laphystius;NA;Pseudoxyrhophiidae;Squamata;None;Compsophis_laphystius;Compsophis_laphystius;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Compsophis;vinckei;NA;Pseudoxyrhophiidae;Squamata;None;Compsophis_vinckei;Compsophis_vinckei;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Compsophis;zeny;NA;Pseudoxyrhophiidae;Squamata;None;Compsophis_zeny;Compsophis_zeny;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Cryptoblepharus;cognatus;NA;Scincidae;Squamata;Nosy Be Snake-eyed Skink ;Cryptoblepharus_cognatus;Cryptoblepharus_cognatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Cryptoblepharus;voeltzkowi;NA;Scincidae;Squamata;Voeltzkow’s Snake-eyed Skink ;Cryptoblepharus_voeltzkowi;Cryptoblepharus_voeltzkowi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Dromicodryas;bernieri;NA;Pseudoxyrhophiidae;Squamata;Bernier's Striped Snake ;Dromicodryas_bernieri;Dromicodryas_bernieri;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Dromicodryas;quadrilineatus;NA;Pseudoxyrhophiidae;Squamata;Four-striped Snake ;Dromicodryas_quadrilineatus;Dromicodryas_quadrilineatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Ebenavia;boettgeri;NA;Gekkonidae;Squamata;None;Ebenavia_boettgeri;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Ebenavia;inunguis;NA;Gekkonidae;Squamata;Madagascar Clawless Gecko;Ebenavia_inunguis;Ebenavia_inunguis;TRUE;TRUE;Extant;Non-endemic;Endemic;FALSE
-Ebenavia;maintimainty;NA;Gekkonidae;Squamata;None;Ebenavia_maintimainty;Ebenavia_maintimainty;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Ebenavia;robusta;NA;Gekkonidae;Squamata;None;Ebenavia_robusta;NA;FALSE;TRUE;Extant;Endemic;Endemic;FALSE
-Ebenavia;safari;NA;Gekkonidae;Squamata;None;Ebenavia_safari;NA;FALSE;FALSE;Extant;Non-endemic;Endemic;FALSE
-Elapotinus;picteti;NA;Pseudoxyrhophiidae;Squamata;None;Elapotinus_picteti;Elapotinus_picteti;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Flexiseps;alluaudi;NA;Scincidae;Squamata;None;Flexiseps_alluaudi;Amphiglossus_alluaudi;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Flexiseps;andranovahensis;NA;Scincidae;Squamata;Andranovaho Skink ;Flexiseps_andranovahensis;Amphiglossus_andranovahensis;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Flexiseps;ardouini;NA;Scincidae;Squamata;Yellow Skink ;Flexiseps_ardouini;Amphiglossus_ardouini;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Flexiseps;crenni;NA;Scincidae;Squamata;None;Flexiseps_crenni;Amphiglossus_crenni;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Flexiseps;decaryi;NA;Scincidae;Squamata;Rock Skink ;Flexiseps_decaryi;Amphiglossus_decaryi;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Flexiseps;elongatus;NA;Scincidae;Squamata;None;Flexiseps_elongatus;Amphiglossus_elongatus;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Flexiseps;mandokava;NA;Scincidae;Squamata;Mandokava ;Flexiseps_mandokava;Amphiglossus_mandokava;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Flexiseps;melanurus;NA;Scincidae;Squamata;Spotted Skink;Flexiseps_melanurus;Amphiglossus_melanurus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Flexiseps;meva;NA;Scincidae;Squamata;None;Flexiseps_meva;Amphiglossus_meva;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Flexiseps;ornaticeps;NA;Scincidae;Squamata;Gray Skink ;Flexiseps_ornaticeps;Amphiglossus_ornaticeps;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Flexiseps;stylus;NA;Scincidae;Squamata;None;Flexiseps_stylus;Amphiglossus_stylus;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Flexiseps;tanysoma;NA;Scincidae;Squamata;None;Flexiseps_tanysoma;Amphiglossus_tanysoma;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Flexiseps;tsaratananensis;NA;Scincidae;Squamata;Tsaratanan Skink ;Flexiseps_tsaratananensis;Amphiglossus_tsaratananensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;angeli;NA;Chamaeleonidae;Squamata;Angel’s chameleon ;Furcifer_angeli;Furcifer_angeli;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;antimena;NA;Chamaeleonidae;Squamata;None;Furcifer_antimena;Furcifer_antimena;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;balteatus;NA;Chamaeleonidae;Squamata;None;Furcifer_balteatus;Furcifer_balteatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;belalandaensis;NA;Chamaeleonidae;Squamata;Belalanda chameleon ;Furcifer_belalandaensis;Furcifer_belalandaensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;bifidus;NA;Chamaeleonidae;Squamata;None;Furcifer_bifidus;Furcifer_bifidus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;campani;NA;Chamaeleonidae;Squamata;Campan’s chameleon ;Furcifer_campani;Furcifer_campani;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;labordi;NA;Chamaeleonidae;Squamata;Labord’s chameleon;Furcifer_labordi;Furcifer_labordi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;lateralis;NA;Chamaeleonidae;Squamata;Carpet Chameleon, Jewel Chameleon;Furcifer_lateralis;Furcifer_lateralis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;major;NA;Chamaeleonidae;Squamata;None;Furcifer_major;Furcifer_major;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;minor;NA;Chamaeleonidae;Squamata;Lesser Chameleon ;Furcifer_minor;Furcifer_minor;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;monoceras;NA;Chamaeleonidae;Squamata;None;Furcifer_monoceras;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Furcifer;nicosiai;NA;Chamaeleonidae;Squamata;None;Furcifer_nicosiai;Furcifer_nicosiai;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;oustaleti;NA;Chamaeleonidae;Squamata;Riesenchamäleon ;Furcifer_oustaleti;Furcifer_oustaleti;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;pardalis;NA;Chamaeleonidae;Squamata;Pantherchamäleon ;Furcifer_pardalis;Furcifer_pardalis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;petteri;NA;Chamaeleonidae;Squamata;None;Furcifer_petteri;Furcifer_petteri;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;rhinoceratus;NA;Chamaeleonidae;Squamata;Rhinoceros chameleon ;Furcifer_rhinoceratus;Furcifer_rhinoceratus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;timoni;NA;Chamaeleonidae;Squamata;Timon’s chameleon ;Furcifer_timoni;Furcifer_timoni;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;tuzetae;NA;Chamaeleonidae;Squamata;None;Furcifer_tuzetae;Furcifer_tuzetae;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Furcifer;verrucosus;Furcifer verrucosus verrucosus, Furcifer verrucosus semicristatus;Chamaeleonidae;Squamata;Warzenchamäleon ;Furcifer_verrucosus;Furcifer_verrucosus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;viridis;NA;Chamaeleonidae;Squamata;Green chameleon ;Furcifer_viridis;Furcifer_viridis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Furcifer;voeltzkowi;NA;Chamaeleonidae;Squamata;Voeltzkow’s chameleon ;Furcifer_voeltzkowi;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Furcifer;willsii;NA;Chamaeleonidae;Squamata;Wills’ chameleon ;Furcifer_willsii;Furcifer_willsii;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Geckolepis;maculata;NA;Gekkonidae;Squamata;Peters' Spotted Gecko ;Geckolepis_maculata;Geckolepis_maculata;TRUE;TRUE;Extant;Non-endemic;Endemic;FALSE
-Geckolepis;megalepis;NA;Gekkonidae;Squamata;None;Geckolepis_megalepis;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Geckolepis;polylepis;NA;Gekkonidae;Squamata;Many-scaled Gecko ;Geckolepis_polylepis;Geckolepis_polylepis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Geckolepis;typica;NA;Gekkonidae;Squamata;Grandidier's Gecko;Geckolepis_typica;Geckolepis_typica;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Gekko;gecko;NA;Gekkonidae;Squamata;Tokay Gecko;Gekko_gecko;Gekko_gecko;TRUE;TRUE;Extant;Non-endemic;NA;TRUE
-Gehyra;mutilata;NA;Gekkonidae;Squamata;Stump-toed Gecko, Common Four-clawed Gecko, Stump-tailed Geck;Gehyra_mutilata;Gehyra_mutilata;TRUE;TRUE;Extant;Non-endemic;NA;TRUE
-Grandidierina;fierinensis;NA;Scincidae;Squamata;None;Grandidierina_fierinensis;Voeltzkowia_fierinensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Grandidierina;lineata;NA;Scincidae;Squamata;None;Grandidierina_lineata;Voeltzkowia_lineata;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Grandidierina;petiti;NA;Scincidae;Squamata;None;Grandidierina_petiti;Voeltzkowia_petiti;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Grandidierina;rubrocaudata;NA;Scincidae;Squamata;None;Grandidierina_rubrocaudata;Voeltzkowia_rubrocaudata;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Hemidactylus;frenatus;NA;Gekkonidae;Squamata;Chichak, Common House Gecko, South Asian House Gecko, Bridled house gecko;Hemidactylus_frenatus;Hemidactylus_frenatus;TRUE;TRUE;Extant;Non-endemic;NA;TRUE
-Hemidactylus;mercatorius;NA;Gekkonidae;Squamata;None;Hemidactylus_mercatorius;Hemidactylus_mercatorius;TRUE;TRUE;Extant;Non-endemic;Non-endemic;FALSE
-Hemidactylus;platycephalus;NA;Gekkonidae;Squamata;Tree gecko, Flathead Leaf-toed Gecko, Baobab Gecko ;Hemidactylus_platycephalus;Hemidactylus_platycephalus;TRUE;TRUE;Extant;Non-endemic;NA;TRUE
-Heteroliodon;fohy;NA;Pseudoxyrhophiidae;Squamata;None;Heteroliodon_fohy;Heteroliodon_fohy;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Heteroliodon;lava;NA;Pseudoxyrhophiidae;Squamata;None;Heteroliodon_lava;Heteroliodon_lava;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Heteroliodon;occipitalis;NA;Pseudoxyrhophiidae;Squamata;None;Heteroliodon_occipitalis;Heteroliodon_occipitalis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Hydrophis;platurus;Hydrophis platurus platurus, Hydrophis platurus xanthos;Elapidae;Squamata;Yellowbelly Sea Snake, Pelagic Sea Snake;Hydrophis_platurus;Hydrophis_platurus;TRUE;TRUE;Extant;Non-endemic;Non-endemic;TRUE
-Indotyphlops;braminus;NA;Typhlopidae ;Squamata;Flowerpot Snake, Brahminy blindsnake, Bootlace Snake;Indotyphlops_braminus;Indotyphlops_braminus;TRUE;TRUE;Extant;Non-endemic;NA;TRUE
-Ithycyphus;blanci;NA;Pseudoxyrhophiidae;Squamata;None;Ithycyphus_blanci;Ithycyphus_blanci;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Ithycyphus;goudoti;NA;Pseudoxyrhophiidae;Squamata;Forest Night Snake ;Ithycyphus_goudoti;Ithycyphus_goudoti;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Ithycyphus;miniatus;NA;Pseudoxyrhophiidae;Squamata;Cinnabar Malagasy Vinesnake, Cinnabar Malagasy Night Snake ;Ithycyphus_miniatus;Ithycyphus_miniatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Ithycyphus;oursi;NA;Pseudoxyrhophiidae;Squamata;None;Ithycyphus_oursi;Ithycyphus_oursi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Ithycyphus;perineti;NA;Pseudoxyrhophiidae;Squamata;None;Ithycyphus_perineti;Ithycyphus_perineti;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Langaha;alluaudi;NA;Pseudoxyrhophiidae;Squamata;Southern Leafnose Snake ;Langaha_alluaudi;Langaha_alluaudi;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Langaha;madagascariensis;NA;Pseudoxyrhophiidae;Squamata;None;Langaha_madagascariensis;Langaha_madagascariensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Langaha;pseudoalluaudi;NA;Pseudoxyrhophiidae;Squamata;None;Langaha_pseudoalluaudi;Langaha_pseudoalluaudi;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Leioheterodon;geayi;NA;Pseudoxyrhophiidae;Squamata;None;Leioheterodon_geayi;Leioheterodon_geayi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Leioheterodon;madagascariensis;NA;Pseudoxyrhophiidae;Squamata;None;Leioheterodon_madagascariensis;Leioheterodon_madagascariensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Leioheterodon;modestus;NA;Pseudoxyrhophiidae;Squamata;Goldene Hakennasennatter ;Leioheterodon_modestus;Leioheterodon_modestus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Liophidium;apperti;NA;Pseudoxyrhophiidae;Squamata;None;Liophidium_apperti;Liophidium_apperti;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Liophidium;chabaudi;NA;Pseudoxyrhophiidae;Squamata;None;Liophidium_chabaudi;Liophidium_chabaudi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Liophidium;maintikibo;NA;Pseudoxyrhophiidae;Squamata;None;Liophidium_maintikibo;Liophidium_maintikibo;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Liophidium;pattoni;NA;Pseudoxyrhophiidae;Squamata;None;Liophidium_pattoni;Liophidium_pattoni;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Liophidium;rhodogaster;NA;Pseudoxyrhophiidae;Squamata;Gold-collarcd Snake ;Liophidium_rhodogaster;Liophidium_rhodogaster;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Liophidium;therezieni;NA;Pseudoxyrhophiidae;Squamata;None;Liophidium_therezieni;Liophidium_therezieni;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Liophidium;torquatum;NA;Pseudoxyrhophiidae;Squamata;None;Liophidium_torquatum;Liophidium_torquatum;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Liophidium;trilineatum;NA;Pseudoxyrhophiidae;Squamata;Madagascar Three-lined Snake;Liophidium_trilineatum;Liophidium_trilineatum;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Liophidium;vaillanti;NA;Pseudoxyrhophiidae;Squamata;None;Liophidium_vaillanti;Liophidium_vaillanti;TRUE;TRUE;Extant;Non-endemic;;FALSE
-Liopholidophis;baderi;NA;Pseudoxyrhophiidae;Squamata;None;Liopholidophis_baderi;Liopholidophis_baderi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Liopholidophis;dimorphus;NA;Pseudoxyrhophiidae;Squamata;None;Liopholidophis_dimorphus;Liopholidophis_dimorphus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Liopholidophis;dolicocercus;NA;Pseudoxyrhophiidae;Squamata;None;Liopholidophis_dolicocercus;Liopholidophis_dolicocercus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Liopholidophis;grandidieri;NA;Pseudoxyrhophiidae;Squamata;Grandidier's Water Snake ;Liopholidophis_grandidieri;Liopholidophis_grandidieri;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Liopholidophis;oligolepis;NA;Pseudoxyrhophiidae;Squamata;None;Liopholidophis_oligolepis;Liopholidophis_oligolepis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Liopholidophis;rhadinaea;NA;Pseudoxyrhophiidae;Squamata;None;Liopholidophis_rhadinaea;Liopholidophis_rhadinaea;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Liopholidophis;sexlineatus;NA;Pseudoxyrhophiidae;Squamata;Six-lined Water Snake ;Liopholidophis_sexlineatus;Liopholidophis_sexlineatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Liopholidophis;varius;NA;Pseudoxyrhophiidae;Squamata;None;Liopholidophis_varius;Liopholidophis_varius;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lycodryas;carleti;NA;Pseudoxyrhophiidae;Squamata;None;Lycodryas_carleti;Lycodryas_carleti;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Lycodryas;citrinus;NA;Pseudoxyrhophiidae;Squamata;None;Lycodryas_citrinus;Lycodryas_citrinus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lycodryas;gaimardi;NA;Pseudoxyrhophiidae;Squamata;None;Lycodryas_gaimardi;Lycodryas_gaimardi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lycodryas;granuliceps;NA;Pseudoxyrhophiidae;Squamata;None;Lycodryas_granuliceps;Lycodryas_granuliceps;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lycodryas;guentheri;NA;Pseudoxyrhophiidae;Squamata;None;Lycodryas_guentheri;Lycodryas_guentheri;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Lycodryas;inopinae;NA;Pseudoxyrhophiidae;Squamata;None;Lycodryas_inopinae;Lycodryas_inopinae;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lycodryas;inornatus;NA;Pseudoxyrhophiidae;Squamata;None;Lycodryas_inornatus;Lycodryas_inornatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lycodryas;pseudogranuliceps;NA;Pseudoxyrhophiidae;Squamata;None;Lycodryas_pseudogranuliceps;Lycodryas_pseudogranuliceps;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;arnoulti;NA;Gekkonidae;Squamata;Pasteur's Dwarf Gecko, Arnoult’s Dwarf Gecko;Lygodactylus_arnoulti;Lygodactylus_arnoulti;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;bivittis;NA;Gekkonidae;Squamata;Tiny Scaled Gecko ;Lygodactylus_bivittis;Lygodactylus_bivittis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;blancae;NA;Gekkonidae;Squamata;None;Lygodactylus_blancae;Lygodactylus_blancae;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;blanci;NA;Gekkonidae;Squamata;Blanc's Dwarf Gecko ;Lygodactylus_blanci;Lygodactylus_blanci;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;decaryi;NA;Gekkonidae;Squamata;Angel's Dwarf Gecko;Lygodactylus_decaryi;Lygodactylus_decaryi;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;expectatus;NA;Gekkonidae;Squamata;Ambilobe Dwarf Gecko ;Lygodactylus_expectatus;Lygodactylus_expectatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;guibei;NA;Gekkonidae;Squamata;Guibé’s Dwarf Day Gecko ;Lygodactylus_guibei;Lygodactylus_guibei;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;heterurus;Lygodactylus heterurus trilineigularis, Lygodactylus heterurus heterurus;Gekkonidae;Squamata;Boettger's Dwarf Gecko ;Lygodactylus_heterurus;Lygodactylus_heterurus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;intermedius;NA;Gekkonidae;Squamata;None;Lygodactylus_intermedius;Lygodactylus_intermedius;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;klemmeri;NA;Gekkonidae;Squamata;Malagasy dwarf gecko;Lygodactylus_klemmeri;Lygodactylus_klemmeri;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;madagascariensis;Lygodactylus madagascariensis madagascariensis, Lygodactylus madagascariensis petteri;Gekkonidae;Squamata;Madagascar Dwarf Gecko ;Lygodactylus_madagascariensis;Lygodactylus_madagascariensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;miops;NA;Gekkonidae;Squamata;Gunther's Dwarf Gecko ;Lygodactylus_miops;Lygodactylus_miops;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;mirabilis;NA;Gekkonidae;Squamata;None;Lygodactylus_mirabilis;Lygodactylus_mirabilis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;montanus;NA;Gekkonidae;Squamata;Mount Ivohibe Gecko ;Lygodactylus_montanus;Lygodactylus_montanus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;ornatus;NA;Gekkonidae;Squamata;Ornate Dwarf Gecko ;Lygodactylus_ornatus;Lygodactylus_ornatus;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;pauliani;NA;Gekkonidae;Squamata;None;Lygodactylus_pauliani;Lygodactylus_pauliani;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;pictus;NA;Gekkonidae;Squamata;Robust Dwarf Gecko ;Lygodactylus_pictus;Lygodactylus_pictus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;rarus;NA;Gekkonidae;Squamata;Thin Dwarf Gecko;Lygodactylus_rarus;Lygodactylus_rarus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;roavolana;NA;Gekkonidae;Squamata;None;Lygodactylus_roavolana;Lygodactylus_roavolana;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;tolampyae;NA;Gekkonidae;Squamata;Grandidier's Dwarf Gecko ;Lygodactylus_tolampyae;Lygodactylus_tolampyae;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;tuberosus;NA;Gekkonidae;Squamata;None;Lygodactylus_tuberosus;Lygodactylus_tuberosus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Lygodactylus;verticillatus;NA;Gekkonidae;Squamata;Mocquard's Dwarf Gecko ;Lygodactylus_verticillatus;Lygodactylus_verticillatus;TRUE;TRUE;Extant;Non-endemic;Endemic;FALSE
-Madagascarophis;colubrinus;Madagascarophis colubrinus citrinus, Madagascarophis colubrinus colubrinus, Madagascarophis colubrinus occidentalis, Madagascarophis colubrinus pastoriensis, Madagascarophis colubrinus septentrionalis;Pseudoxyrhophiidae;Squamata;None;Madagascarophis_colubrinus;Madagascarophis_colubrinus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Madagascarophis;fuchsi;NA;Pseudoxyrhophiidae;Squamata;None;Madagascarophis_fuchsi;Madagascarophis_fuchsi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Madagascarophis;lolo;NA;Pseudoxyrhophiidae;Squamata;None;Madagascarophis_lolo;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Madagascarophis;meridionalis;NA;Pseudoxyrhophiidae;Squamata;None;Madagascarophis_meridionalis;Madagascarophis_meridionalis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Madagascarophis;ocellatus;NA;Pseudoxyrhophiidae;Squamata;None;Madagascarophis_ocellatus;Madagascarophis_ocellatus;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Madascincus;ankodabensis;NA;Scincidae;Squamata;Ankodabe Skink;Madascincus_ankodabensis;Madascincus_ankodabensis;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Madascincus;arenicola;NA;Scincidae;Squamata;None;Madascincus_arenicola;Madascincus_arenicola;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Madascincus;igneocaudatus;NA;Scincidae;Squamata;Redtail Skink ;Madascincus_igneocaudatus;Madascincus_igneocaudatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Madascincus;macrolepis;NA;Scincidae;Squamata;Rusty Skink ;Madascincus_macrolepis;Madascincus_macrolepis;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Madascincus;melanopleura;NA;Scincidae;Squamata;Common Madagascar Skink ;Madascincus_melanopleura;Madascincus_melanopleura;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Madascincus;miafina;NA;Scincidae;Squamata;None;Madascincus_miafina;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Madascincus;minutus;NA;Scincidae;Squamata;None;Madascincus_minutus;Madascincus_minutus;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Madascincus;mouroundavae;NA;Scincidae;Squamata;Morondava Skink ;Madascincus_mouroundavae;Madascincus_mouroundavae;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Madascincus;nanus;NA;Scincidae;Squamata;None;Madascincus_nanus;Madascincus_nanus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Madascincus;polleni;NA;Scincidae;Squamata;Madagascar Coastal Skink ;Madascincus_polleni;Madascincus_polleni;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Madascincus;pyrurus;NA;Scincidae;Squamata;None;Madascincus_pyrurus;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Madascincus;stumpffi;NA;Scincidae;Squamata;Stumpff's Skink ;Madascincus_stumpffi;Madascincus_stumpffi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Madatyphlops;andasibensis;NA;Typhlopidae ;Squamata;Andasibe Blind Snake ;Madatyphlops_andasibensis;Madatyphlops_andasibensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Madatyphlops;arenarius;NA;Typhlopidae ;Squamata;Sand Worm Snake ;Madatyphlops_arenarius;Madatyphlops_arenarius;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Madatyphlops;boettgeri;NA;Typhlopidae ;Squamata;Sand Worm Snake ;Madatyphlops_boettgeri;Madatyphlops_boettgeri;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Madatyphlops;decorsei;NA;Typhlopidae ;Squamata;Mocquard's Worm Snake ;Madatyphlops_decorsei;Madatyphlops_decorsei;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Madatyphlops;domerguei;NA;Typhlopidae ;Squamata;None;Madatyphlops_domerguei;Lemuriatyphlops_domerguei;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Madatyphlops;madagascariensis;NA;Typhlopidae;Squamata;Madagascar Worm Snake ;Madatyphlops_madagascariensis;Madatyphlops_madagascariensis;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Madatyphlops;microcephalus;NA;Typhlopidae ;Squamata;None;Madatyphlops_microcephalus;Lemuriatyphlops_microcephalus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Madatyphlops;mucronatus;NA;Typhlopidae ;Squamata;Boettger's Worm Snake ;Madatyphlops_mucronatus;Madatyphlops_mucronatus;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Madatyphlops;ocularis;NA;Typhlopidae ;Squamata;Parker's Worm Snake ;Madatyphlops_ocularis;Madatyphlops_ocularis;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Madatyphlops;rajeryi;NA;Typhlopidae ;Squamata;None;Madatyphlops_rajeryi;Madatyphlops_rajeryi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Madatyphlops;reuteri;NA;Typhlopidae ;Squamata;Reuters Blind Snake ;Madatyphlops_reuteri;Lemuriatyphlops_reuteri;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Matoatoa;brevipes;NA;Gekkonidae;Squamata;None;Matoatoa_brevipes;Matoatoa_brevipes;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Matoatoa;spannringi;NA;Gekkonidae;Squamata;None;Matoatoa_spannringi;Matoatoa_spannringi;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Micropisthodon;ochraceus;NA;Pseudoxyrhophiidae;Squamata;None;Micropisthodon_ochraceus;Micropisthodon_ochraceus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Mimophis;mahfalensis;Mimophis mahfalensis mahfalensis, Mimophis mahfalensis madagascariensis;Psammophiidae;Squamata;None;Mimophis_mahfalensis;Mimophis_mahfalensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Mimophis;occultus;NA;Psammophiidae;Squamata;None;Mimophis_occultus;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Oplurus;cuvieri;Oplurus cuvieri cuvieri, Oplurus cuvieri comorensis;Opluridae;Squamata;Cuvier's Madagascar Swift;Oplurus_cuvieri;Oplurus_cuvieri;TRUE;TRUE;Extant;Non-endemic;Endemic;FALSE
-Oplurus;cyclurus;NA;Opluridae;Squamata;Merrem's Madagascar Swift;Oplurus_cyclurus;Oplurus_cyclurus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Oplurus;fierinensis;NA;Opluridae;Squamata;Anzamala Madagascar Swift;Oplurus_fierinensis;Oplurus_fierinensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Oplurus;grandidieri;NA;Opluridae;Squamata;Grandidier's Madagascar Swift;Oplurus_grandidieri;Oplurus_grandidieri;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Oplurus;quadrimaculatus;NA;Opluridae;Squamata;Duméril's Madagascar Swift, Dumeril's Madagascar spiny-tailed iguana;Oplurus_quadrimaculatus;Oplurus_quadrimaculatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Oplurus;saxicola;NA;Opluridae;Squamata;Marked Madagascar Swift;Oplurus_saxicola;Oplurus_saxicola;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Palleon;lolontany;NA;Chamaeleonidae ;Squamata;None;Palleon_lolontany;Palleon_lolontany;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Palleon;nasus;Palleon nasus nasus, Palleon nasus pauliani;Chamaeleonidae ;Squamata;Eiongate Leaf Chameleon ;Palleon_nasus;Palleon_nasus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paracontias;ampijoroensis;NA;Scincidae;Squamata;None;Paracontias_ampijoroensis;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Paracontias;brocchii;NA;Scincidae;Squamata;Stone Skink ;Paracontias_brocchii;Paracontias_brocchii;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paracontias;fasika;NA;Scincidae;Squamata;None;Paracontias_fasika;Paracontias_fasika;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Paracontias;hafa;NA;Scincidae;Squamata;None;Paracontias_hafa;Paracontias_hafa;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Paracontias;hildebrandti;NA;Scincidae;Squamata;Hildebrand's Skink ;Paracontias_hildebrandti;Paracontias_hildebrandti;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paracontias;holomelas;NA;Scincidae;Squamata;Anzahamaru Skink ;Paracontias_holomelas;Paracontias_holomelas;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paracontias;kankana;NA;Scincidae;Squamata;None;Paracontias_kankana;Paracontias_kankana;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paracontias;mahamavo;NA;Scincidae;Squamata;None;Paracontias_mahamavo;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Paracontias;manify;NA;Scincidae;Squamata;None;Paracontias_manify;Paracontias_manify;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paracontias;milloti;NA;Scincidae;Squamata;Nosy Mamoko Skink;Paracontias_milloti;Paracontias_milloti;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Paracontias;minimus;NA;Scincidae;Squamata;None;Paracontias_minimus;Paracontias_minimus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paracontias;rothschildi;NA;Scincidae;Squamata;Rothschild's Skink ;Paracontias_rothschildi;Paracontias_rothschildi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paracontias;tsararano;NA;Scincidae;Squamata;None;Paracontias_tsararano;Paracontias_tsararano;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Paracontias;vermisaurus;NA;Scincidae;Squamata;None;Paracontias_vermisaurus;Paracontias_vermisaurus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paragehyra;austini;NA;Gekkonidae;Squamata;None;Paragehyra_austini;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Paragehyra;felicitae;NA;Gekkonidae;Squamata;None;Paragehyra_felicitae;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Paragehyra;gabriellae;NA;Gekkonidae;Squamata;None;Paragehyra_gabriellae;Paragehyra_gabriellae;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paragehyra;petiti;NA;Gekkonidae;Squamata;Angel's Petite Gecko ;Paragehyra_petiti;Paragehyra_petiti;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Pararhadinaea;melanogaster;Pararhadinaea melanogaster marojejyensis, Pararhadinaea melanogaster melanogaster;Pseudoxyrhophiidae;Squamata;Madagascar Burrowing Snake ;Pararhadinaea_melanogaster;Pararhadinaea_melanogaster;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Parastenophis;betsileanus;NA;Pseudoxyrhophiidae;Squamata;None;Parastenophis_betsileanus;Parastenophis_betsileanus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paroedura;androyensis;NA;Gekkonidae;Squamata;Grandidier's Madagasoer Ground Gecko ;Paroedura_androyensis;Paroedura_androyensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paroedura;bastardi;NA;Gekkonidae;Squamata;Mocquard's Madagascar Ground Geck;Paroedura_bastardi;Paroedura_bastardi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paroedura;fasciata;NA;Gekkonidae;Squamata;None;Paroedura_fasciata;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Paroedura;gracilis;NA;Gekkonidae;Squamata;Graceful Madagascar Ground Gecko ;Paroedura_gracilis;Paroedura_gracilis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paroedura;guibeae;NA;Gekkonidae;Squamata;Guibé’s Ground Gecko ;Paroedura_guibeae;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Paroedura;homalorhina;NA;Gekkonidae;Squamata;Northern Madagascar Ground Gecko ;Paroedura_homalorhina;Paroedura_homalorhina;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paroedura;hordiesi;NA;Gekkonidae;Squamata;Hordies’ Ground Gecko ;Paroedura_hordiesi;Paroedura_hordiesi;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Paroedura;ibityensis;NA;Gekkonidae;Squamata;Ibity Ground Gecko ;Paroedura_ibityensis;Paroedura_ibityensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paroedura;karstophila;NA;Gekkonidae;Squamata;None;Paroedura_karstophila;Paroedura_karstophila;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paroedura;kloki;NA;Gekkonidae;Squamata;None;Paroedura_kloki;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Paroedura;lohatsara;NA;Gekkonidae;Squamata;None;Paroedura_lohatsara;Paroedura_lohatsara;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paroedura;maingoka;NA;Gekkonidae;Squamata;None;Paroedura_maingoka;Paroedura_maingoka;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paroedura;masobe;NA;Gekkonidae;Squamata;None;Paroedura_masobe;Paroedura_masobe;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paroedura;neglecta;NA;Gekkonidae;Squamata;None;Paroedura_neglecta;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Paroedura;oviceps;NA;Gekkonidae;Squamata;NosyBe Ground Gecko ;Paroedura_oviceps;Paroedura_oviceps;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paroedura;picta;NA;Gekkonidae;Squamata;Madagaskar Großkopfgecko ;Paroedura_picta;Paroedura_picta;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paroedura;rennerae;NA;Gekkonidae;Squamata;None;Paroedura_rennerae;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Paroedura;spelaea;NA;Gekkonidae;Squamata;None;Paroedura_spelaea;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Paroedura;stumpffi;NA;Gekkonidae;Squamata;None;Paroedura_stumpffi;Paroedura_stumpffi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paroedura;tanjaka;NA;Gekkonidae;Squamata;None;Paroedura_tanjaka;Paroedura_tanjaka;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Paroedura;vahiny;NA;Gekkonidae;Squamata;None;Paroedura_vahiny;Paroedura_vahiny;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Paroedura;vazimba;NA;Gekkonidae;Squamata;None;Paroedura_vazimba;Paroedura_vazimba;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;abbotti;Phelsuma abbotti abbotti, Phelsuma abbotti chekei, Phelsuma abbotti sumptio;Gekkonidae;Squamata;Aldabra Day Gecko;Phelsuma_abbotti;Phelsuma_abbotti;TRUE;TRUE;Extant;Non-endemic;Endemic;FALSE
-Phelsuma;antanosy;NA;Gekkonidae;Squamata;None;Phelsuma_antanosy;Phelsuma_antanosy;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;barbouri;NA;Gekkonidae;Squamata;Barbour's Day Gecko ;Phelsuma_barbouri;Phelsuma_barbouri;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;berghofi;NA;Gekkonidae;Squamata;None;Phelsuma_berghofi;Phelsuma_berghofi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;borai;NA;Gekkonidae;Squamata;None;Phelsuma_borai;Phelsuma_borai;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;breviceps;NA;Gekkonidae;Squamata;Kurzkopf-Taggecko;Phelsuma_breviceps;Phelsuma_breviceps;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;cepediana;NA;Gekkonidae;Squamata;Bluetail Day Gecko;Phelsuma_cepediana;Phelsuma_cepediana;TRUE;TRUE;Extant;Non-endemic;NA;TRUE
-Phelsuma;dorsivittata;NA;Gekkonidae;Squamata;Striped Day Gecko;Phelsuma_dorsivittata;Phelsuma_dorsivittata;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;dubia;NA;Gekkonidae;Squamata;Zanzibar Day Gecko ;Phelsuma_dubia;Phelsuma_dubia;TRUE;TRUE;Extant;Non-endemic;Endemic;FALSE
-Phelsuma;flavigularis;NA;Gekkonidae;Squamata;Yellow-throated Day Gecko;Phelsuma_flavigularis;Phelsuma_flavigularis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;gouldi;NA;Gekkonidae;Squamata;None;Phelsuma_gouldi;Phelsuma_gouldi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;grandis;NA;Gekkonidae;Squamata;Madagascar Day Gecko;Phelsuma_grandis;Phelsuma_grandis;TRUE;TRUE;Extant;Non-endemic;Endemic;FALSE
-Phelsuma;guttata;NA;Gekkonidae;Squamata;Speckled Day Gecko;Phelsuma_guttata;Phelsuma_guttata;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;hielscheri;NA;Gekkonidae;Squamata;None;Phelsuma_hielscheri;Phelsuma_hielscheri;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;hoeschi;NA;Gekkonidae;Squamata;None;Phelsuma_hoeschi;Phelsuma_hoeschi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;kely;NA;Gekkonidae;Squamata;None;Phelsuma_kely;Phelsuma_kely;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;klemmeri;NA;Gekkonidae;Squamata;None;Phelsuma_klemmeri;Phelsuma_klemmeri;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;kochi;NA;Gekkonidae;Squamata;Madagascar Day Gecko;Phelsuma_kochi;Phelsuma_kochi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;laticauda;Phelsuma laticauda laticauda, Phelsuma laticauda angularis;Gekkonidae;Squamata;Gold dust day gecko, Broad-tailed Day Gecko;Phelsuma_laticauda;Phelsuma_laticauda;TRUE;TRUE;Extant;Non-endemic;Endemic;FALSE
-Phelsuma;lineata;Phelsuma lineata lineata, Phelsuma lineata bombetokensis, Phelsuma lineata elanthana, Phelsuma lineata punctulata;Gekkonidae;Squamata;Striped Day Gecko;Phelsuma_lineata;Phelsuma_lineata;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;madagascariensis;Phelsuma madagascariensis boehmei, Phelsuma madagascariensis madagascariensis;Gekkonidae;Squamata;Madagascar Day Gecko;Phelsuma_madagascariensis;Phelsuma_madagascariensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;malamakibo;NA;Gekkonidae;Squamata;None;Phelsuma_malamakibo;Phelsuma_malamakibo;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;masohoala;NA;Gekkonidae;Squamata;None;Phelsuma_masohoala;Phelsuma_masohoala;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Phelsuma;modesta;Phelsuma modesta modesta, Phelsuma modesta leiogaster;Gekkonidae;Squamata;Modest Day Gecko ;Phelsuma_modesta;Phelsuma_modesta;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;mutabilis;NA;Gekkonidae;Squamata;Thicktail Day Gecko ;Phelsuma_mutabilis;Phelsuma_mutabilis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;parva;NA;Gekkonidae;Squamata;None;Phelsuma_parva;Phelsuma_parva;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;pronki;NA;Gekkonidae;Squamata;None;Phelsuma_pronki;Phelsuma_pronki;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;pusilla;Phelsuma pusilla pusilla, Phelsuma pusilla hallmanni;Gekkonidae;Squamata;None;Phelsuma_pusilla;Phelsuma_pusilla;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;quadriocellata;Phelsuma quadriocellata quadriocellata, Phelsuma quadriocellata bimaculata, Phelsuma quadriocellata lepida;Gekkonidae;Squamata;Peacock Day Gecko;Phelsuma_quadriocellata;Phelsuma_quadriocellata;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;ravenala;NA;Gekkonidae;Squamata;None;Phelsuma_ravenala;Phelsuma_ravenala;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;roesleri;NA;Gekkonidae;Squamata;None;Phelsuma_roesleri;Phelsuma_roesleri;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;seippi;NA;Gekkonidae;Squamata;None;Phelsuma_seippi;Phelsuma_seippi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;serraticauda;NA;Gekkonidae;Squamata;Serrated Day Gecko;Phelsuma_serraticauda;Phelsuma_serraticauda;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;standingi;NA;Gekkonidae;Squamata;Standing's Day Gecko;Phelsuma_standingi;Phelsuma_standingi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phelsuma;vanheygeni;NA;Gekkonidae;Squamata;None;Phelsuma_vanheygeni;Phelsuma_vanheygeni;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phisalixella;arctifasciata;NA;Pseudoxyrhophiidae;Squamata;None;Phisalixella_arctifasciata;Phisalixella_arctifasciata;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phisalixella;tulearensis;NA;Pseudoxyrhophiidae;Squamata;None;Phisalixella_tulearensis;Phisalixella_tulearensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Phisalixella;variabilis;NA;Pseudoxyrhophiidae;Squamata;None;Phisalixella_variabilis;Phisalixella_variabilis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Pseudoacontias;angelorum;NA;Scincidae;Squamata;None;Pseudoacontias_angelorum;Pseudoacontias_angelorum;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Pseudoacontias;madagascariensis;NA;Scincidae;Squamata;Giant Madagascar Skink ;Pseudoacontias_madagascariensis;Pseudoacontias_madagascariensis;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Pseudoacontias;menamainty;NA;Scincidae;Squamata;None;Pseudoacontias_menamainty;Pseudoacontias_menamainty;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Pseudoacontias;unicolor;NA;Scincidae;Squamata;None;Pseudoacontias_unicolor;Pseudoacontias_unicolor;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Pseudoxyrhopus;ambreensis;NA;Pseudoxyrhophiidae;Squamata;Ambre Brook Snake ;Pseudoxyrhopus_ambreensis;Pseudoxyrhopus_ambreensis;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Pseudoxyrhopus;analabe;NA;Pseudoxyrhophiidae;Squamata;None;Pseudoxyrhopus_analabe;Pseudoxyrhopus_analabe;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Pseudoxyrhopus;ankafinaensis;NA;Pseudoxyrhophiidae;Squamata;None;Pseudoxyrhopus_ankafinaensis;Pseudoxyrhopus_ankafinaensis;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Pseudoxyrhopus;heterurus;NA;Pseudoxyrhophiidae;Squamata;Night Brook Snake ;Pseudoxyrhopus_heterurus;Pseudoxyrhopus_heterurus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Pseudoxyrhopus;imerinae;NA;Pseudoxyrhophiidae;Squamata;Plateau Brook Snake ;Pseudoxyrhopus_imerinae;Pseudoxyrhopus_imerinae;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Pseudoxyrhopus;kely;NA;Pseudoxyrhophiidae;Squamata;None;Pseudoxyrhopus_kely;Pseudoxyrhopus_kely;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Pseudoxyrhopus;microps;NA;Pseudoxyrhophiidae;Squamata;Brown Brook Snake ;Pseudoxyrhopus_microps;Pseudoxyrhopus_microps;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Pseudoxyrhopus;oblectator;NA;Pseudoxyrhophiidae;Squamata;None;Pseudoxyrhopus_oblectator;Pseudoxyrhopus_oblectator;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Pseudoxyrhopus;quinquelineatus;NA;Pseudoxyrhophiidae;Squamata;Striped Brook Snake ;Pseudoxyrhopus_quinquelineatus;Pseudoxyrhopus_quinquelineatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Pseudoxyrhopus;sokosoko;NA;Pseudoxyrhophiidae;Squamata;None;Pseudoxyrhopus_sokosoko;Pseudoxyrhopus_sokosoko;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Pseudoxyrhopus;tritaeniatus;NA;Pseudoxyrhophiidae;Squamata;None;Pseudoxyrhopus_tritaeniatus;Pseudoxyrhopus_tritaeniatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Pygomeles;braconnieri;NA;Scincidae;Squamata;Braconnier's Short Skink ;Pygomeles_braconnieri;Pygomeles_braconnieri;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Pygomeles;petteri;NA;Scincidae;Squamata;Petter's Short Skink ;Pygomeles_petteri;Pygomeles_petteri;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Pygomeles;trivittatus;Pygomeles trivittatus trilineatus, Pygomeles trivittatus trivittatus;Scincidae;Squamata;None;Pygomeles_trivittatus;Androngo_trivittatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Sanzinia;madagascariensis;NA;Boidae ;Squamata;Madagascar Tree Boa;Sanzinia_madagascariensis;Sanzinia_madagascariensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Sanzinia;volontany;NA;Boidae ;Squamata;Nosy Komba Tree Boa, Nosy Komba boa;Sanzinia_volontany;Sanzinia_volontany;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Thamnosophis;epistibes;NA;Pseudoxyrhophiidae;Squamata;None;Thamnosophis_epistibes;Thamnosophis_epistibes;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Thamnosophis;infrasignatus;NA;Pseudoxyrhophiidae;Squamata;None;Thamnosophis_infrasignatus;Thamnosophis_infrasignatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Thamnosophis;lateralis;NA;Pseudoxyrhophiidae;Squamata;Lateral Water Snake ;Thamnosophis_lateralis;Thamnosophis_lateralis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Thamnosophis;martae;NA;Pseudoxyrhophiidae;Squamata;None;Thamnosophis_martae;Thamnosophis_martae;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Thamnosophis;mavotenda;NA;Pseudoxyrhophiidae;Squamata;None;Thamnosophis_mavotenda;Thamnosophis_mavotenda;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Thamnosophis;stumpffi;NA;Pseudoxyrhophiidae;Squamata;Yellow-striped Water Snake;Thamnosophis_stumpffi;Thamnosophis_stumpffi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Tracheloptychus;madagascariensis;NA;Gerrhosauridae ;Squamata;Madagascar Keeled Cordylid;Tracheloptychus_madagascariensis;Tracheloptychus_madagascariensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Tracheloptychus;petersi;NA;Gerrhosauridae ;Squamata;Peters' Keeled Cordylid ;Tracheloptychus_petersi;Tracheloptychus_petersi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Trachylepis;aureopunctata;NA;Scincidae;Squamata;Gold-spotted Mabuya ;Trachylepis_aureopunctata;Trachylepis_aureopunctata;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Trachylepis;betsileana;NA;Scincidae;Squamata;Betsileo Mabuya;Trachylepis_betsileana;Trachylepis_betsileana;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Trachylepis;boettgeri;NA;Scincidae;Squamata;Boettger'sMabuya ;Trachylepis_boettgeri;Trachylepis_boettgeri;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Trachylepis;comorensis;NA;Scincidae;Squamata;None;Trachylepis_comorensis;Trachylepis_comorensis;TRUE;TRUE;Extant;Non-endemic;NA;TRUE
-Trachylepis;dumasi;NA;Scincidae;Squamata;None;Trachylepis_dumasi;Trachylepis_dumasi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Trachylepis;elegans;Trachylepis elegans elegans, Trachylepis elegans delphinensis;Scincidae;Squamata;Elegant Mabuya ;Trachylepis_elegans;Trachylepis_elegans;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Trachylepis;gravenhorstii;NA;Scincidae;Squamata;Gravenhorst's Mabuya ;Trachylepis_gravenhorstii;Trachylepis_gravenhorstii;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Trachylepis;lavarambo;NA;Scincidae;Squamata;None;Trachylepis_lavarambo;Trachylepis_lavarambo;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Trachylepis;madagascariensis;NA;Scincidae;Squamata;Malagasy Mabuya ;Trachylepis_madagascariensis;Trachylepis_madagascariensis;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Trachylepis;nancycoutuae;NA;Scincidae;Squamata;None;Trachylepis_nancycoutuae;Trachylepis_nancycoutuae;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Trachylepis;tandrefana;NA;Scincidae;Squamata;None;Trachylepis_tandrefana;Trachylepis_tandrefana;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Trachylepis;tavaratra;NA;Scincidae;Squamata;None;Trachylepis_tavaratra;Trachylepis_tavaratra;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Trachylepis;vato;NA;Scincidae;Squamata;Boulder Mabuya ;Trachylepis_vato;Trachylepis_vato;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Trachylepis;vezo;NA;Scincidae;Squamata;None;Trachylepis_vezo;Trachylepis_vezo;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Trachylepis;volamenaloha;NA;Scincidae;Squamata;None;Trachylepis_volamenaloha;Trachylepis_volamenaloha;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Uroplatus;alluaudi;NA;Gekkonidae;Squamata;Northern Flat-tail Gecko, northern leaf-tail gecko ;Uroplatus_alluaudi;Uroplatus_alluaudi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Uroplatus;ebenaui;NA;Gekkonidae;Squamata;Nosy Be FIat-tail Gecko, spearpoint leaf-tail gecko ;Uroplatus_ebenaui;Uroplatus_ebenaui;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Uroplatus;fangorn;NA;Gekkonidae;Squamata;None;Uroplatus_fangorn;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Uroplatus;fetsy;NA;Gekkonidae;Squamata;None;Uroplatus_fetsy;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Uroplatus;fiera;NA;Gekkonidae;Squamata;None;Uroplatus_fiera;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Uroplatus;fimbriatus;NA;Gekkonidae;Squamata;Common Flat-tail Gecko;Uroplatus_fimbriatus;Uroplatus_fimbriatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Uroplatus;finaritra;NA;Gekkonidae;Squamata;None;Uroplatus_finaritra;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Uroplatus;finiavana;NA;Gekkonidae;Squamata;None;Uroplatus_finiavana;Uroplatus_finiavana;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Uroplatus;fivehy;NA;Gekkonidae;Squamata;None;Uroplatus_fivehy;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Uroplatus;fotsivava;NA;Gekkonidae;Squamata;None;Uroplatus_fotsivava;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Uroplatus;giganteus;NA;Gekkonidae;Squamata;giant leaf-tail gecko;Uroplatus_giganteus;Uroplatus_giganteus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Uroplatus;guentheri;NA;Gekkonidae;Squamata;Gunther's FIat-tail Gecko;Uroplatus_guentheri;Uroplatus_guentheri;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Uroplatus;henkeli;NA;Gekkonidae;Squamata;Henkel’s Flat-tail gecko, Henkel’s leaf-tailed gecko, frilled leaf-tail gecko ;Uroplatus_henkeli;Uroplatus_henkeli;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Uroplatus;kelirambo;NA;Gekkonidae;Squamata;None;Uroplatus_kelirambo;NA;FALSE;FALSE;Extant;Endemic;Endemic;FALSE
-Uroplatus;lineatus;NA;Gekkonidae;Squamata;Lined Flat-tail Gecko ;Uroplatus_lineatus;Uroplatus_lineatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Uroplatus;malahelo;NA;Gekkonidae;Squamata;None;Uroplatus_malahelo;Uroplatus_malahelo;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Uroplatus;malama;NA;Gekkonidae;Squamata;None;Uroplatus_malama;Uroplatus_malama;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Uroplatus;phantasticus;NA;Gekkonidae;Squamata;None;Uroplatus_phantasticus;Uroplatus_phantasticus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Uroplatus;pietschmanni;NA;Gekkonidae;Squamata;Spiny Leaf-tailed Gecko, cork-bark leaf-tail gecko;Uroplatus_pietschmanni;Uroplatus_pietschmanni;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Uroplatus;sameiti;NA;Gekkonidae;Squamata;None;Uroplatus_sameiti;Uroplatus_sameiti;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Uroplatus;sikorae;NA;Gekkonidae;Squamata;None;Uroplatus_sikorae;Uroplatus_sikorae;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Voeltzkowia;mira;NA;Scincidae;Squamata;None;Voeltzkowia_mira;Voeltzkowia_mira;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Voeltzkowia;mobydick;NA;Scincidae;Squamata;None;Voeltzkowia_mobydick;Sirenoscincus_mobydick;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Voeltzkowia;yamagishii;NA;Scincidae;Squamata;None;Voeltzkowia_yamagishii;Sirenoscincus_yamagishii;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Xenotyphlops;grandidieri;NA;Xenotyphlopidae;Squamata;None;Xenotyphlops_grandidieri;Xenotyphlops_grandidieri;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Zonosaurus;aeneus;NA;Gerrhosauridae;Squamata;Bronze Girdled Lizard;Zonosaurus_aeneus;Zonosaurus_aeneus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Zonosaurus;anelanelany;NA;Gerrhosauridae ;Squamata;None;Zonosaurus_anelanelany;Zonosaurus_anelanelany;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Zonosaurus;bemaraha;NA;Gerrhosauridae ;Squamata;None;Zonosaurus_bemaraha;Zonosaurus_bemaraha;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Zonosaurus;boettgeri;NA;Gerrhosauridae ;Squamata;Boettger's Girdled Lizard ;Zonosaurus_boettgeri;Zonosaurus_boettgeri;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Zonosaurus;brygooi;NA;Gerrhosauridae;Squamata;Brygoo's Girdled Lizard ;Zonosaurus_brygooi;Zonosaurus_brygooi;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Zonosaurus;haraldmeieri;NA;Gerrhosauridae ;Squamata;Grüne Madagaskar-Ringel-Schildechse ;Zonosaurus_haraldmeieri;Zonosaurus_haraldmeieri;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Zonosaurus;karsteni;NA;Gerrhosauridae;Squamata;Karsten's Girdled Lizard ;Zonosaurus_karsteni;Zonosaurus_karsteni;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Zonosaurus;laticaudatus;NA;Gerrhosauridae ;Squamata;western Girdled Lizard;Zonosaurus_laticaudatus;Zonosaurus_laticaudatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Zonosaurus;madagascariensis;Zonosaurus madagascariensis madagascariensis, Zonosaurus madagascariensis insulanus;Gerrhosauridae;Squamata;Madagascar Girdled Lizard;Zonosaurus_madagascariensis;Zonosaurus_madagascariensis;TRUE;TRUE;Extant;Non-endemic;Endemic;FALSE
-Zonosaurus;maramaintso;NA;Gerrhosauridae ;Squamata;None;Zonosaurus_maramaintso;Zonosaurus_maramaintso;TRUE;FALSE;Extant;Endemic;Endemic;FALSE
-Zonosaurus;maximus;NA;Gerrhosauridae ;Squamata;Southeastern Girdled Lizard ;Zonosaurus_maximus;Zonosaurus_maximus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Zonosaurus;ornatus;NA;Gerrhosauridae;Squamata;Ornate Girdled Lizard ;Zonosaurus_ornatus;Zonosaurus_ornatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Zonosaurus;quadrilineatus;NA;Gerrhosauridae;Squamata;Four-lined Girdled Lizard ;Zonosaurus_quadrilineatus;Zonosaurus_quadrilineatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Zonosaurus;rufipes;NA;Gerrhosauridae;Squamata;Red-legged Girdled Lizard ;Zonosaurus_rufipes;Zonosaurus_rufipes;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Zonosaurus;subunicolor;NA;Gerrhosauridae ;Squamata;None;Zonosaurus_subunicolor;Zonosaurus_subunicolor;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Zonosaurus;trilineatus;NA;Gerrhosauridae ;Squamata;Three-lined Girdled Lizard ;Zonosaurus_trilineatus;Zonosaurus_trilineatus;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
-Zonosaurus;tsingy;NA;Gerrhosauridae ;Squamata;None;Zonosaurus_tsingy;Zonosaurus_tsingy;TRUE;TRUE;Extant;Endemic;Endemic;FALSE
+Genus,Species,Subspecies,Family,Order,Common_Name,Our_Name,Name_In_Tree,Sampled,DNA_In_Tree,Extinct_Extant,Status_Species,DAISIE_Status_Species,Remove_Species
+Acrantophis,dumerili,None,Boidae,Squamata,Dumeril's boa,Acrantophis_dumerili,Acrantophis_dumerili,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Acrantophis,madagascariensis,None,Boidae,Squamata,Madagascar ground boa,Acrantophis_madagascariensis,Acrantophis_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Agama,agama,None,Agamidae,Squamata,Common Agama,Agama_agama,Agama_agama,TRUE,TRUE,Extant,Non-endemic,NA,TRUE
+Alluaudina,bellyi,None,Pseudoxyrhophiidae,Squamata,None,Alluaudina_bellyi,Alluaudina_bellyi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Alluaudina,mocquardi,None,Pseudoxyrhophiidae,Squamata,None,Alluaudina_mocquardi,Alluaudina_mocquardi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Amphiglossus,astrolabi,None,Scincidae,Squamata,Diving SkinkÂ ,Amphiglossus_astrolabi,Amphiglossus_astrolabi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Amphiglossus,reticulatus,None,Scincidae,Squamata,None,Amphiglossus_reticulatus,Amphiglossus_reticulatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Blaesodactylus,ambonihazo,None,Gekkonidae,Squamata,None,Blaesodactylus_ambonihazo,Blaesodactylus_ambonihazo,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Blaesodactylus,antongilensis,None,Gekkonidae,Squamata,None,Blaesodactylus_antongilensis,Blaesodactylus_antongilensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Blaesodactylus,boivini,None,Gekkonidae,Squamata,None,Blaesodactylus_boivini,Blaesodactylus_boivini,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Blaesodactylus,microtuberculatus,None,Gekkonidae,Squamata,None,Blaesodactylus_microtuberculatus,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Blaesodactylus,sakalava,None,Gekkonidae,Squamata,None,Blaesodactylus_sakalava,Blaesodactylus_sakalava,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Blaesodactylus,victori,None,Gekkonidae,Squamata,Victorâ€™s Madagascar Velvet gecko,Blaesodactylus_victori,NA,FASLE,FALSE,Extant,Endemic,Endemic,FALSE
+Brachyseps,anosyensis,None,Scincidae,Squamata,None,Brachyseps_anosyensis,Amphiglossus_anosyensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brachyseps,frontoparietalis,None,Scincidae,Squamata,Boulenger's Tree SkinkÂ ,Brachyseps_frontoparietalis,Amphiglossus_frontoparietalis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brachyseps,gastrostictus,None,Scincidae,Squamata,O'Shaughnessy's Madagascar SkinkÂ ,Brachyseps_gastrostictus,Amphiglossus_gastrostictus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Brachyseps,macrocercus,None,Scincidae,Squamata,Black-striped SkinkÂ ,Brachyseps_macrocercus,Amphiglossus_macrocercus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brachyseps,mandady,None,Scincidae,Squamata,None,Brachyseps_mandady,Amphiglossus_mandady,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Brachyseps,punctatus,None,Scincidae,Squamata,None,Brachyseps_punctatus,Amphiglossus_punctatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brachyseps,spilostichus,None,Scincidae,Squamata,None,Brachyseps_spilostichus,Amphiglossus_spilostichus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Brachyseps,splendidus,None,Scincidae,Squamata,Splendid SkinkÂ ,Brachyseps_splendidus,Amphiglossus_splendidus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,antakarana,None,ChamaeleonidaeÂ ,Squamata,None,Brookesia_antakarana,Brookesia_antakarana,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,bekolosy,None,ChamaeleonidaeÂ ,Squamata,None,Brookesia_bekolosy,Brookesia_bekolosy,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Brookesia,betschi,None,ChamaeleonidaeÂ ,Squamata,None,Brookesia_betschi,Brookesia_betschi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,bonsi,None,ChamaeleonidaeÂ ,Squamata,None,Brookesia_bonsi,Brookesia_bonsi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,brunoi,None,ChamaeleonidaeÂ ,Squamata,None,Brookesia_brunoi,Brookesia_brunoi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,brygooi,None,ChamaeleonidaeÂ ,Squamata,None,Brookesia_brygooi,Brookesia_brygooi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,confidens,None,ChamaeleonidaeÂ ,Squamata,None,Brookesia_confidens,Brookesia_confidens,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,decaryi,None,ChamaeleonidaeÂ ,Squamata,Spiny Leaf Chameleon,Brookesia_decaryi,Brookesia_decaryi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,dentata,None,Chamaeleonidae,Squamata,Toothed Leaf ChameleonÂ ,Brookesia_dentata,Brookesia_dentata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,desperata,None,ChamaeleonidaeÂ ,Squamata,None,Brookesia_desperata,Brookesia_desperata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,ebenaui,None,ChamaeleonidaeÂ ,Squamata,Northem Leaf ChameleonÂ ,Brookesia_ebenaui,Brookesia_ebenaui,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,exarmata,None,ChamaeleonidaeÂ ,Squamata,None,Brookesia_exarmata,Brookesia_exarmata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,griveaudi,None,ChamaeleonidaeÂ ,Squamata,Marojejy Leaf ChameleonÂ ,Brookesia_griveaudi,Brookesia_griveaudi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,karchei,None,ChamaeleonidaeÂ ,Squamata,None,Brookesia_karchei,Brookesia_karchei,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,lambertoni,None,ChamaeleonidaeÂ ,Squamata,Fito Leaf ChameleonÂ ,Brookesia_lambertoni,Brookesia_lambertoni,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Brookesia,lineata,None,ChamaeleonidaeÂ ,Squamata,None,Brookesia_lineata,Brookesia_lineata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,micra,None,ChamaeleonidaeÂ ,Squamata,None,Brookesia_micra,Brookesia_micra,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,minima,None,Chamaeleonidae,Squamata,Minute Leaf Chameleon,Brookesia_minima,Brookesia_minima,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,nana,None,ChamaeleonidaeÂ ,Squamata,None,Brookesia_nana,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Brookesia,perarmata,None,Chamaeleonidae,Squamata,Antsingy Leaf ChameleonÂ ,Brookesia_perarmata,Brookesia_perarmata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,peyrierasi,None,Chamaeleonidae,Squamata,None,Brookesia_peyrierasi,Brookesia_peyrierasi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,ramanantsoai,None,ChamaeleonidaeÂ ,Squamata,None,Brookesia_ramanantsoai,Brookesia_ramanantsoai,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,stumpffi,None,ChamaeleonidaeÂ ,Squamata,Plated Leaf Chameleon,Brookesia_stumpffi,Brookesia_stumpffi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,superciliaris,None,ChamaeleonidaeÂ ,Squamata,Brown Leaf Chameleon,Brookesia_superciliaris,Brookesia_superciliaris,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,tedi,None,ChamaeleonidaeÂ ,Squamata,None,Brookesia_tedi,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Brookesia,therezieni,None,ChamaeleonidaeÂ ,Squamata,Permet Leaf ChameleonÂ ,Brookesia_therezieni,Brookesia_therezieni,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,thieli,None,ChamaeleonidaeÂ ,Squamata,Domergue's Leaf ChameleonÂ ,Brookesia_thieli,Brookesia_thieli,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,tristis,None,ChamaeleonidaeÂ ,Squamata,None,Brookesia_tristis,Brookesia_tristis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,tuberculata,None,Chamaeleonidae,Squamata,Mount d'Ambre Leaf ChameleonÂ ,Brookesia_tuberculata,Brookesia_tuberculata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,vadoni,None,ChamaeleonidaeÂ ,Squamata,Iaraka River Leaf ChameleonÂ ,Brookesia_vadoni,Brookesia_vadoni,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brookesia,valerieae,None,ChamaeleonidaeÂ ,Squamata,None,Brookesia_valerieae,Brookesia_valerieae,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brygophis,coulangesi,None,Pseudoxyrhophiidae,Squamata,None,Brygophis_coulangesi,Brygophis_coulangesi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Calumma,amber,None,Chamaeleonidae,Squamata,None,Calumma_amber,Calumma_amber,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,ambreense,None,Chamaeleonidae,Squamata,None,Calumma_ambreense,Calumma_ambreense,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,andringitraense,None,Chamaeleonidae,Squamata,None,Calumma_andringitraense,Calumma_andringitraense,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,boettgeri,None,Chamaeleonidae,Squamata,None,Calumma_boettgeri,Calumma_boettgeri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,brevicorne,"Calumma brevicorne brevicorne, Calumma brevicorne tsarafidyi",Chamaeleonidae,Squamata,None,Calumma_brevicorne,Calumma_brevicorne,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,capuroni,None,Chamaeleonidae,Squamata,None,Calumma_capuroni,Calumma_capuroni,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,crypticum,None,Chamaeleonidae,Squamata,None,Calumma_crypticum,Calumma_crypticum,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,cucullatum,None,Chamaeleonidae,Squamata,None,Calumma_cucullatum,Calumma_cucullatum,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,emelinae,None,Chamaeleonidae,Squamata,None,Calumma_emelinae,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Calumma,fallax,None,Chamaeleonidae,Squamata,None,Calumma_fallax,Calumma_fallax,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,furcifer,None,Chamaeleonidae,Squamata,None,Calumma_furcifer,Calumma_furcifer,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,gallus,None,Chamaeleonidae,Squamata,Pinocchio-ChamÃ¤leonÂ ,Calumma_gallus,Calumma_gallus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,gastrotaenia,None,Chamaeleonidae,Squamata,None,Calumma_gastrotaenia,Calumma_gastrotaenia,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,gehringi,None,Chamaeleonidae,Squamata,None,Calumma_gehringi,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Calumma,glawi,None,Chamaeleonidae,Squamata,None,Calumma_glawi,Calumma_glawi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,globifer,None,Chamaeleonidae,Squamata,None,Calumma_globifer,Calumma_globifer,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,guibei,None,Chamaeleonidae,Squamata,None,Calumma_guibei,Calumma_guibei,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,guillaumeti,None,Chamaeleonidae,Squamata,None,Calumma_guillaumeti,Calumma_guillaumeti,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,hafahafa,None,Chamaeleonidae,Squamata,None,Calumma_hafahafa,Calumma_hafahafa,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,hilleniusi,None,Chamaeleonidae,Squamata,None,Calumma_hilleniusi,Calumma_hilleniusi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,jejy,None,Chamaeleonidae,Squamata,None,Calumma_jejy,Calumma_jejy,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Calumma,juliae,None,Chamaeleonidae,Squamata,None,Calumma_juliae,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Calumma,lefona,None,Chamaeleonidae,Squamata,None,Calumma_lefona,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Calumma,linotum,None,Chamaeleonidae,Squamata,None,Calumma_linotum,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Calumma,malthe,None,Chamaeleonidae,Squamata,None,Calumma_malthe,Calumma_malthe,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,marojezense,None,Chamaeleonidae,Squamata,None,Calumma_marojezense,Calumma_marojezense,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,nasutum,None,Chamaeleonidae,Squamata,None,Calumma_nasutum,Calumma_nasutum,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,oshaughnessyi,None,Chamaeleonidae,Squamata,None,Calumma_oshaughnessyi,Calumma_oshaughnessyi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,parsonii,"Calumma parsonii cristifer, Calumma parsonii parsonii",Chamaeleonidae,Squamata,Parsonâ€™s chameleonÂ ,Calumma_parsonii,Calumma_parsonii,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,peltierorum,None,Chamaeleonidae,Squamata,None,Calumma_peltierorum,Calumma_peltierorum,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,peyrierasi,None,Chamaeleonidae,Squamata,None,Calumma_peyrierasi,Calumma_peyrierasi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,radamanus,None,Chamaeleonidae,Squamata,None,Calumma_radamanus,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Calumma,ratnasariae,None,Chamaeleonidae,Squamata,None,Calumma_ratnasariae,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Calumma,roaloko,None,Chamaeleonidae,Squamata,two-toned soft-nosed chameleon,Calumma_roaloko,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Calumma,tarzan,None,Chamaeleonidae,Squamata,None,Calumma_tarzan,Calumma_tarzan,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,tjiasmantoi,None,Chamaeleonidae,Squamata,None,Calumma_tjiasmantoi,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Calumma,tsaratananense,None,Chamaeleonidae,Squamata,None,Calumma_tsaratananense,Calumma_tsaratananense,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,tsycorne,None,Chamaeleonidae,Squamata,None,Calumma_tsycorne,Calumma_tsycorne,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Calumma,uetzi,None,Chamaeleonidae,Squamata,Uetzâ€™s soft-nosed chameleon,Calumma_uetzi,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Calumma,vatosoa,None,Chamaeleonidae,Squamata,None,Calumma_vatosoa,Calumma_vatosoa,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Calumma,vencesi,None,Chamaeleonidae,Squamata,None,Calumma_vencesi,Calumma_vencesi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Calumma,vohibola,None,Chamaeleonidae,Squamata,None,Calumma_vohibola,Calumma_vohibola,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Chalarodon,madagascariensis,None,Opluridae,Squamata,Madagascar iguana,Chalarodon_madagascariensis,Chalarodon_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Chalarodon,steinkampi,None,Opluridae,Squamata,Steinkampâ€™s Madagascar iguana,Chalarodon_steinkampi,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Compsophis,albiventris,None,Pseudoxyrhophiidae,Squamata,Madagascar Bighead SnakeÂ ,Compsophis_albiventris,Compsophis_albiventris,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Compsophis,boulengeri,None,Pseudoxyrhophiidae,Squamata,Boulenger's Forest SnakeÂ ,Compsophis_boulengeri,Compsophis_boulengeri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Compsophis,fatsibe,None,Pseudoxyrhophiidae,Squamata,None,Compsophis_fatsibe,Compsophis_fatsibe,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Compsophis,infralineatus,None,Pseudoxyrhophiidae,Squamata,Lined Forest SnakeÂ ,Compsophis_infralineatus,Compsophis_infralineatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Compsophis,laphystius,None,Pseudoxyrhophiidae,Squamata,None,Compsophis_laphystius,Compsophis_laphystius,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Compsophis,vinckei,None,Pseudoxyrhophiidae,Squamata,None,Compsophis_vinckei,Compsophis_vinckei,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Compsophis,zeny,None,Pseudoxyrhophiidae,Squamata,None,Compsophis_zeny,Compsophis_zeny,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Cryptoblepharus,cognatus,None,Scincidae,Squamata,Nosy Be Snake-eyed SkinkÂ ,Cryptoblepharus_cognatus,Cryptoblepharus_cognatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Cryptoblepharus,voeltzkowi,None,Scincidae,Squamata,Voeltzkowâ€™s Snake-eyed SkinkÂ ,Cryptoblepharus_voeltzkowi,Cryptoblepharus_voeltzkowi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Dromicodryas,bernieri,None,Pseudoxyrhophiidae,Squamata,Bernier's Striped SnakeÂ ,Dromicodryas_bernieri,Dromicodryas_bernieri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Dromicodryas,quadrilineatus,None,Pseudoxyrhophiidae,Squamata,Four-striped SnakeÂ ,Dromicodryas_quadrilineatus,Dromicodryas_quadrilineatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Ebenavia,boettgeri,None,Gekkonidae,Squamata,None,Ebenavia_boettgeri,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Ebenavia,inunguis,None,Gekkonidae,Squamata,Madagascar Clawless Gecko,Ebenavia_inunguis,Ebenavia_inunguis,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Ebenavia,maintimainty,None,Gekkonidae,Squamata,None,Ebenavia_maintimainty,Ebenavia_maintimainty,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Ebenavia,robusta,None,Gekkonidae,Squamata,None,Ebenavia_robusta,NA,FALSE,TRUE,Extant,Endemic,Endemic,FALSE
+Ebenavia,safari,None,Gekkonidae,Squamata,None,Ebenavia_safari,NA,FALSE,FALSE,Extant,Non-endemic,Endemic,FALSE
+Elapotinus,picteti,None,Pseudoxyrhophiidae,Squamata,None,Elapotinus_picteti,Elapotinus_picteti,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Flexiseps,alluaudi,None,Scincidae,Squamata,None,Flexiseps_alluaudi,Amphiglossus_alluaudi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Flexiseps,andranovahensis,None,Scincidae,Squamata,Andranovaho SkinkÂ ,Flexiseps_andranovahensis,Amphiglossus_andranovahensis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Flexiseps,ardouini,None,Scincidae,Squamata,Yellow SkinkÂ ,Flexiseps_ardouini,Amphiglossus_ardouini,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Flexiseps,crenni,None,Scincidae,Squamata,None,Flexiseps_crenni,Amphiglossus_crenni,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Flexiseps,decaryi,None,Scincidae,Squamata,Rock SkinkÂ ,Flexiseps_decaryi,Amphiglossus_decaryi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Flexiseps,elongatus,None,Scincidae,Squamata,None,Flexiseps_elongatus,Amphiglossus_elongatus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Flexiseps,mandokava,None,Scincidae,Squamata,MandokavaÂ ,Flexiseps_mandokava,Amphiglossus_mandokava,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Flexiseps,melanurus,None,Scincidae,Squamata,Spotted Skink,Flexiseps_melanurus,Amphiglossus_melanurus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Flexiseps,meva,None,Scincidae,Squamata,None,Flexiseps_meva,Amphiglossus_meva,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Flexiseps,ornaticeps,None,Scincidae,Squamata,Gray SkinkÂ ,Flexiseps_ornaticeps,Amphiglossus_ornaticeps,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Flexiseps,stylus,None,Scincidae,Squamata,None,Flexiseps_stylus,Amphiglossus_stylus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Flexiseps,tanysoma,None,Scincidae,Squamata,None,Flexiseps_tanysoma,Amphiglossus_tanysoma,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Flexiseps,tsaratananensis,None,Scincidae,Squamata,Tsaratanan SkinkÂ ,Flexiseps_tsaratananensis,Amphiglossus_tsaratananensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,angeli,None,Chamaeleonidae,Squamata,Angelâ€™s chameleonÂ ,Furcifer_angeli,Furcifer_angeli,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,antimena,None,Chamaeleonidae,Squamata,None,Furcifer_antimena,Furcifer_antimena,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,balteatus,None,Chamaeleonidae,Squamata,None,Furcifer_balteatus,Furcifer_balteatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,belalandaensis,None,Chamaeleonidae,Squamata,Belalanda chameleonÂ ,Furcifer_belalandaensis,Furcifer_belalandaensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,bifidus,None,Chamaeleonidae,Squamata,None,Furcifer_bifidus,Furcifer_bifidus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,campani,None,Chamaeleonidae,Squamata,Campanâ€™s chameleonÂ ,Furcifer_campani,Furcifer_campani,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,labordi,None,Chamaeleonidae,Squamata,Labordâ€™s chameleon,Furcifer_labordi,Furcifer_labordi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,lateralis,None,Chamaeleonidae,Squamata,"Carpet Chameleon, Jewel Chameleon",Furcifer_lateralis,Furcifer_lateralis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,major,None,Chamaeleonidae,Squamata,None,Furcifer_major,Furcifer_major,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,minor,None,Chamaeleonidae,Squamata,Lesser ChameleonÂ ,Furcifer_minor,Furcifer_minor,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,monoceras,None,Chamaeleonidae,Squamata,None,Furcifer_monoceras,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Furcifer,nicosiai,None,Chamaeleonidae,Squamata,None,Furcifer_nicosiai,Furcifer_nicosiai,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,oustaleti,None,Chamaeleonidae,Squamata,RiesenchamÃ¤leonÂ ,Furcifer_oustaleti,Furcifer_oustaleti,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,pardalis,None,Chamaeleonidae,Squamata,PantherchamÃ¤leonÂ ,Furcifer_pardalis,Furcifer_pardalis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,petteri,None,Chamaeleonidae,Squamata,None,Furcifer_petteri,Furcifer_petteri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,rhinoceratus,None,Chamaeleonidae,Squamata,Rhinoceros chameleonÂ ,Furcifer_rhinoceratus,Furcifer_rhinoceratus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,timoni,None,Chamaeleonidae,Squamata,Timonâ€™s chameleonÂ ,Furcifer_timoni,Furcifer_timoni,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,tuzetae,None,Chamaeleonidae,Squamata,None,Furcifer_tuzetae,Furcifer_tuzetae,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Furcifer,verrucosus,"Furcifer verrucosus verrucosus, Furcifer verrucosus semicristatus",Chamaeleonidae,Squamata,WarzenchamÃ¤leonÂ ,Furcifer_verrucosus,Furcifer_verrucosus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,viridis,None,Chamaeleonidae,Squamata,Green chameleonÂ ,Furcifer_viridis,Furcifer_viridis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Furcifer,voeltzkowi,None,Chamaeleonidae,Squamata,Voeltzkowâ€™s chameleonÂ ,Furcifer_voeltzkowi,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Furcifer,willsii,None,Chamaeleonidae,Squamata,Willsâ€™ chameleonÂ ,Furcifer_willsii,Furcifer_willsii,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Geckolepis,maculata,None,Gekkonidae,Squamata,Peters' Spotted GeckoÂ ,Geckolepis_maculata,Geckolepis_maculata,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Geckolepis,megalepis,None,Gekkonidae,Squamata,None,Geckolepis_megalepis,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Geckolepis,polylepis,None,Gekkonidae,Squamata,Many-scaled GeckoÂ ,Geckolepis_polylepis,Geckolepis_polylepis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Geckolepis,typica,None,Gekkonidae,Squamata,Grandidier's Gecko,Geckolepis_typica,Geckolepis_typica,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Gekko,gecko,None,Gekkonidae,Squamata,Tokay Gecko,Gekko_gecko,Gekko_gecko,TRUE,TRUE,Extant,Non-endemic,NA,TRUE
+Gehyra,mutilata,None,Gekkonidae,Squamata,"Stump-toed Gecko, Common Four-clawed Gecko, Stump-tailed Geck",Gehyra_mutilata,Gehyra_mutilata,TRUE,TRUE,Extant,Non-endemic,NA,TRUE
+Grandidierina,fierinensis,None,Scincidae,Squamata,None,Grandidierina_fierinensis,Voeltzkowia_fierinensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Grandidierina,lineata,None,Scincidae,Squamata,None,Grandidierina_lineata,Voeltzkowia_lineata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Grandidierina,petiti,None,Scincidae,Squamata,None,Grandidierina_petiti,Voeltzkowia_petiti,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Grandidierina,rubrocaudata,None,Scincidae,Squamata,None,Grandidierina_rubrocaudata,Voeltzkowia_rubrocaudata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Hemidactylus,frenatus,None,Gekkonidae,Squamata,"Chichak, Common House Gecko, South Asian House Gecko, Bridled house gecko",Hemidactylus_frenatus,Hemidactylus_frenatus,TRUE,TRUE,Extant,Non-endemic,NA,TRUE
+Hemidactylus,mercatorius,None,Gekkonidae,Squamata,None,Hemidactylus_mercatorius,Hemidactylus_mercatorius,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Hemidactylus,platycephalus,None,Gekkonidae,Squamata,"Tree gecko, Flathead Leaf-toed Gecko, Baobab GeckoÂ ",Hemidactylus_platycephalus,Hemidactylus_platycephalus,TRUE,TRUE,Extant,Non-endemic,NA,TRUE
+Heteroliodon,fohy,None,Pseudoxyrhophiidae,Squamata,None,Heteroliodon_fohy,Heteroliodon_fohy,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Heteroliodon,lava,None,Pseudoxyrhophiidae,Squamata,None,Heteroliodon_lava,Heteroliodon_lava,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Heteroliodon,occipitalis,None,Pseudoxyrhophiidae,Squamata,None,Heteroliodon_occipitalis,Heteroliodon_occipitalis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Hydrophis,platurus,"Hydrophis platurus platurus, Hydrophis platurus xanthos",Elapidae,Squamata,"Yellowbelly Sea Snake, Pelagic Sea Snake",Hydrophis_platurus,Hydrophis_platurus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Indotyphlops,braminus,None,TyphlopidaeÂ ,Squamata,"Flowerpot Snake, Brahminy blindsnake, Bootlace Snake",Indotyphlops_braminus,Indotyphlops_braminus,TRUE,TRUE,Extant,Non-endemic,NA,TRUE
+Ithycyphus,blanci,None,Pseudoxyrhophiidae,Squamata,None,Ithycyphus_blanci,Ithycyphus_blanci,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Ithycyphus,goudoti,None,Pseudoxyrhophiidae,Squamata,Forest Night SnakeÂ ,Ithycyphus_goudoti,Ithycyphus_goudoti,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Ithycyphus,miniatus,None,Pseudoxyrhophiidae,Squamata,"Cinnabar Malagasy Vinesnake, Cinnabar Malagasy Night SnakeÂ ",Ithycyphus_miniatus,Ithycyphus_miniatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Ithycyphus,oursi,None,Pseudoxyrhophiidae,Squamata,None,Ithycyphus_oursi,Ithycyphus_oursi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Ithycyphus,perineti,None,Pseudoxyrhophiidae,Squamata,None,Ithycyphus_perineti,Ithycyphus_perineti,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Langaha,alluaudi,None,Pseudoxyrhophiidae,Squamata,Southern Leafnose SnakeÂ ,Langaha_alluaudi,Langaha_alluaudi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Langaha,madagascariensis,None,Pseudoxyrhophiidae,Squamata,None,Langaha_madagascariensis,Langaha_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Langaha,pseudoalluaudi,None,Pseudoxyrhophiidae,Squamata,None,Langaha_pseudoalluaudi,Langaha_pseudoalluaudi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Leioheterodon,geayi,None,Pseudoxyrhophiidae,Squamata,None,Leioheterodon_geayi,Leioheterodon_geayi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Leioheterodon,madagascariensis,None,Pseudoxyrhophiidae,Squamata,None,Leioheterodon_madagascariensis,Leioheterodon_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Leioheterodon,modestus,None,Pseudoxyrhophiidae,Squamata,Goldene HakennasennatterÂ ,Leioheterodon_modestus,Leioheterodon_modestus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Liophidium,apperti,None,Pseudoxyrhophiidae,Squamata,None,Liophidium_apperti,Liophidium_apperti,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Liophidium,chabaudi,None,Pseudoxyrhophiidae,Squamata,None,Liophidium_chabaudi,Liophidium_chabaudi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Liophidium,maintikibo,None,Pseudoxyrhophiidae,Squamata,None,Liophidium_maintikibo,Liophidium_maintikibo,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Liophidium,pattoni,None,Pseudoxyrhophiidae,Squamata,None,Liophidium_pattoni,Liophidium_pattoni,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Liophidium,rhodogaster,None,Pseudoxyrhophiidae,Squamata,Gold-collarcd SnakeÂ ,Liophidium_rhodogaster,Liophidium_rhodogaster,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Liophidium,therezieni,None,Pseudoxyrhophiidae,Squamata,None,Liophidium_therezieni,Liophidium_therezieni,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Liophidium,torquatum,None,Pseudoxyrhophiidae,Squamata,None,Liophidium_torquatum,Liophidium_torquatum,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Liophidium,trilineatum,None,Pseudoxyrhophiidae,Squamata,Madagascar Three-lined Snake,Liophidium_trilineatum,Liophidium_trilineatum,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Liophidium,vaillanti,None,Pseudoxyrhophiidae,Squamata,None,Liophidium_vaillanti,Liophidium_vaillanti,TRUE,TRUE,Extant,Non-endemic,,FALSE
+Liopholidophis,baderi,None,Pseudoxyrhophiidae,Squamata,None,Liopholidophis_baderi,Liopholidophis_baderi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Liopholidophis,dimorphus,None,Pseudoxyrhophiidae,Squamata,None,Liopholidophis_dimorphus,Liopholidophis_dimorphus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Liopholidophis,dolicocercus,None,Pseudoxyrhophiidae,Squamata,None,Liopholidophis_dolicocercus,Liopholidophis_dolicocercus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Liopholidophis,grandidieri,None,Pseudoxyrhophiidae,Squamata,Grandidier's Water SnakeÂ ,Liopholidophis_grandidieri,Liopholidophis_grandidieri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Liopholidophis,oligolepis,None,Pseudoxyrhophiidae,Squamata,None,Liopholidophis_oligolepis,Liopholidophis_oligolepis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Liopholidophis,rhadinaea,None,Pseudoxyrhophiidae,Squamata,None,Liopholidophis_rhadinaea,Liopholidophis_rhadinaea,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Liopholidophis,sexlineatus,None,Pseudoxyrhophiidae,Squamata,Six-lined Water SnakeÂ ,Liopholidophis_sexlineatus,Liopholidophis_sexlineatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Liopholidophis,varius,None,Pseudoxyrhophiidae,Squamata,None,Liopholidophis_varius,Liopholidophis_varius,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lycodryas,carleti,None,Pseudoxyrhophiidae,Squamata,None,Lycodryas_carleti,Lycodryas_carleti,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Lycodryas,citrinus,None,Pseudoxyrhophiidae,Squamata,None,Lycodryas_citrinus,Lycodryas_citrinus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lycodryas,gaimardi,None,Pseudoxyrhophiidae,Squamata,None,Lycodryas_gaimardi,Lycodryas_gaimardi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lycodryas,granuliceps,None,Pseudoxyrhophiidae,Squamata,None,Lycodryas_granuliceps,Lycodryas_granuliceps,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lycodryas,guentheri,None,Pseudoxyrhophiidae,Squamata,None,Lycodryas_guentheri,Lycodryas_guentheri,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Lycodryas,inopinae,None,Pseudoxyrhophiidae,Squamata,None,Lycodryas_inopinae,Lycodryas_inopinae,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lycodryas,inornatus,None,Pseudoxyrhophiidae,Squamata,None,Lycodryas_inornatus,Lycodryas_inornatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lycodryas,pseudogranuliceps,None,Pseudoxyrhophiidae,Squamata,None,Lycodryas_pseudogranuliceps,Lycodryas_pseudogranuliceps,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,arnoulti,None,Gekkonidae,Squamata,"Pasteur's Dwarf Gecko, Arnoultâ€™s Dwarf Gecko",Lygodactylus_arnoulti,Lygodactylus_arnoulti,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,bivittis,None,Gekkonidae,Squamata,Tiny Scaled GeckoÂ ,Lygodactylus_bivittis,Lygodactylus_bivittis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,blancae,None,Gekkonidae,Squamata,None,Lygodactylus_blancae,Lygodactylus_blancae,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,blanci,None,Gekkonidae,Squamata,Blanc's Dwarf GeckoÂ ,Lygodactylus_blanci,Lygodactylus_blanci,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,decaryi,None,Gekkonidae,Squamata,Angel's Dwarf Gecko,Lygodactylus_decaryi,Lygodactylus_decaryi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,expectatus,None,Gekkonidae,Squamata,Ambilobe Dwarf GeckoÂ ,Lygodactylus_expectatus,Lygodactylus_expectatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,guibei,None,Gekkonidae,Squamata,GuibÃ©â€™s Dwarf Day GeckoÂ ,Lygodactylus_guibei,Lygodactylus_guibei,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,heterurus,"Lygodactylus heterurus trilineigularis, Lygodactylus heterurus heterurus",Gekkonidae,Squamata,Boettger's Dwarf GeckoÂ ,Lygodactylus_heterurus,Lygodactylus_heterurus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,intermedius,None,Gekkonidae,Squamata,None,Lygodactylus_intermedius,Lygodactylus_intermedius,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,klemmeri,None,Gekkonidae,Squamata,Malagasy dwarf gecko,Lygodactylus_klemmeri,Lygodactylus_klemmeri,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,madagascariensis,"Lygodactylus madagascariensis madagascariensis, Lygodactylus madagascariensis petteri",Gekkonidae,Squamata,Madagascar Dwarf GeckoÂ ,Lygodactylus_madagascariensis,Lygodactylus_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,miops,None,Gekkonidae,Squamata,Gunther's Dwarf GeckoÂ ,Lygodactylus_miops,Lygodactylus_miops,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,mirabilis,None,Gekkonidae,Squamata,None,Lygodactylus_mirabilis,Lygodactylus_mirabilis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,montanus,None,Gekkonidae,Squamata,Mount Ivohibe GeckoÂ ,Lygodactylus_montanus,Lygodactylus_montanus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,ornatus,None,Gekkonidae,Squamata,Ornate Dwarf GeckoÂ ,Lygodactylus_ornatus,Lygodactylus_ornatus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,pauliani,None,Gekkonidae,Squamata,None,Lygodactylus_pauliani,Lygodactylus_pauliani,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,pictus,None,Gekkonidae,Squamata,Robust Dwarf GeckoÂ ,Lygodactylus_pictus,Lygodactylus_pictus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,rarus,None,Gekkonidae,Squamata,Thin Dwarf Gecko,Lygodactylus_rarus,Lygodactylus_rarus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,roavolana,None,Gekkonidae,Squamata,None,Lygodactylus_roavolana,Lygodactylus_roavolana,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,tolampyae,None,Gekkonidae,Squamata,Grandidier's Dwarf GeckoÂ ,Lygodactylus_tolampyae,Lygodactylus_tolampyae,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,tuberosus,None,Gekkonidae,Squamata,None,Lygodactylus_tuberosus,Lygodactylus_tuberosus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Lygodactylus,verticillatus,None,Gekkonidae,Squamata,Mocquard's Dwarf GeckoÂ ,Lygodactylus_verticillatus,Lygodactylus_verticillatus,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Madagascarophis,colubrinus,"Madagascarophis colubrinus citrinus, Madagascarophis colubrinus colubrinus, Madagascarophis colubrinus occidentalis, Madagascarophis colubrinus pastoriensis, Madagascarophis colubrinus septentrionalis",Pseudoxyrhophiidae,Squamata,None,Madagascarophis_colubrinus,Madagascarophis_colubrinus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Madagascarophis,fuchsi,None,Pseudoxyrhophiidae,Squamata,None,Madagascarophis_fuchsi,Madagascarophis_fuchsi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Madagascarophis,lolo,None,Pseudoxyrhophiidae,Squamata,None,Madagascarophis_lolo,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Madagascarophis,meridionalis,None,Pseudoxyrhophiidae,Squamata,None,Madagascarophis_meridionalis,Madagascarophis_meridionalis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Madagascarophis,ocellatus,None,Pseudoxyrhophiidae,Squamata,None,Madagascarophis_ocellatus,Madagascarophis_ocellatus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Madascincus,ankodabensis,None,Scincidae,Squamata,Ankodabe Skink,Madascincus_ankodabensis,Madascincus_ankodabensis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Madascincus,arenicola,None,Scincidae,Squamata,None,Madascincus_arenicola,Madascincus_arenicola,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Madascincus,igneocaudatus,None,Scincidae,Squamata,Redtail SkinkÂ ,Madascincus_igneocaudatus,Madascincus_igneocaudatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Madascincus,macrolepis,None,Scincidae,Squamata,Rusty SkinkÂ ,Madascincus_macrolepis,Madascincus_macrolepis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Madascincus,melanopleura,None,Scincidae,Squamata,Common Madagascar SkinkÂ ,Madascincus_melanopleura,Madascincus_melanopleura,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Madascincus,miafina,None,Scincidae,Squamata,None,Madascincus_miafina,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Madascincus,minutus,None,Scincidae,Squamata,None,Madascincus_minutus,Madascincus_minutus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Madascincus,mouroundavae,None,Scincidae,Squamata,Morondava SkinkÂ ,Madascincus_mouroundavae,Madascincus_mouroundavae,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Madascincus,nanus,None,Scincidae,Squamata,None,Madascincus_nanus,Madascincus_nanus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Madascincus,polleni,None,Scincidae,Squamata,Madagascar Coastal SkinkÂ ,Madascincus_polleni,Madascincus_polleni,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Madascincus,pyrurus,None,Scincidae,Squamata,None,Madascincus_pyrurus,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Madascincus,stumpffi,None,Scincidae,Squamata,Stumpff's SkinkÂ ,Madascincus_stumpffi,Madascincus_stumpffi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Madatyphlops,andasibensis,None,TyphlopidaeÂ ,Squamata,Andasibe Blind SnakeÂ ,Madatyphlops_andasibensis,Madatyphlops_andasibensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Madatyphlops,arenarius,None,TyphlopidaeÂ ,Squamata,Sand Worm SnakeÂ ,Madatyphlops_arenarius,Madatyphlops_arenarius,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Madatyphlops,boettgeri,None,TyphlopidaeÂ ,Squamata,Sand Worm SnakeÂ ,Madatyphlops_boettgeri,Madatyphlops_boettgeri,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Madatyphlops,decorsei,None,TyphlopidaeÂ ,Squamata,Mocquard's Worm SnakeÂ ,Madatyphlops_decorsei,Madatyphlops_decorsei,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Madatyphlops,domerguei,None,TyphlopidaeÂ ,Squamata,None,Madatyphlops_domerguei,Lemuriatyphlops_domerguei,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Madatyphlops,madagascariensis,None,Typhlopidae,Squamata,Madagascar Worm SnakeÂ ,Madatyphlops_madagascariensis,Madatyphlops_madagascariensis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Madatyphlops,microcephalus,None,TyphlopidaeÂ ,Squamata,None,Madatyphlops_microcephalus,Lemuriatyphlops_microcephalus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Madatyphlops,mucronatus,None,TyphlopidaeÂ ,Squamata,Boettger's Worm SnakeÂ ,Madatyphlops_mucronatus,Madatyphlops_mucronatus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Madatyphlops,ocularis,None,TyphlopidaeÂ ,Squamata,Parker's Worm SnakeÂ ,Madatyphlops_ocularis,Madatyphlops_ocularis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Madatyphlops,rajeryi,None,TyphlopidaeÂ ,Squamata,None,Madatyphlops_rajeryi,Madatyphlops_rajeryi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Madatyphlops,reuteri,None,TyphlopidaeÂ ,Squamata,Reuters Blind SnakeÂ ,Madatyphlops_reuteri,Lemuriatyphlops_reuteri,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Matoatoa,brevipes,None,Gekkonidae,Squamata,None,Matoatoa_brevipes,Matoatoa_brevipes,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Matoatoa,spannringi,None,Gekkonidae,Squamata,None,Matoatoa_spannringi,Matoatoa_spannringi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Micropisthodon,ochraceus,None,Pseudoxyrhophiidae,Squamata,None,Micropisthodon_ochraceus,Micropisthodon_ochraceus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Mimophis,mahfalensis,"Mimophis mahfalensis mahfalensis, Mimophis mahfalensis madagascariensis",Psammophiidae,Squamata,None,Mimophis_mahfalensis,Mimophis_mahfalensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Mimophis,occultus,None,Psammophiidae,Squamata,None,Mimophis_occultus,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Oplurus,cuvieri,"Oplurus cuvieri cuvieri, Oplurus cuvieri comorensis",Opluridae,Squamata,Cuvier's Madagascar Swift,Oplurus_cuvieri,Oplurus_cuvieri,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Oplurus,cyclurus,None,Opluridae,Squamata,Merrem's Madagascar Swift,Oplurus_cyclurus,Oplurus_cyclurus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Oplurus,fierinensis,None,Opluridae,Squamata,Anzamala Madagascar Swift,Oplurus_fierinensis,Oplurus_fierinensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Oplurus,grandidieri,None,Opluridae,Squamata,Grandidier's Madagascar Swift,Oplurus_grandidieri,Oplurus_grandidieri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Oplurus,quadrimaculatus,None,Opluridae,Squamata,"DumÃ©ril's Madagascar Swift, Dumeril's Madagascar spiny-tailed iguana",Oplurus_quadrimaculatus,Oplurus_quadrimaculatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Oplurus,saxicola,None,Opluridae,Squamata,Marked Madagascar Swift,Oplurus_saxicola,Oplurus_saxicola,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Palleon,lolontany,None,ChamaeleonidaeÂ ,Squamata,None,Palleon_lolontany,Palleon_lolontany,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Palleon,nasus,"Palleon nasus nasus, Palleon nasus pauliani",ChamaeleonidaeÂ ,Squamata,Eiongate Leaf ChameleonÂ ,Palleon_nasus,Palleon_nasus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paracontias,ampijoroensis,None,Scincidae,Squamata,None,Paracontias_ampijoroensis,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Paracontias,brocchii,None,Scincidae,Squamata,Stone SkinkÂ ,Paracontias_brocchii,Paracontias_brocchii,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paracontias,fasika,None,Scincidae,Squamata,None,Paracontias_fasika,Paracontias_fasika,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Paracontias,hafa,None,Scincidae,Squamata,None,Paracontias_hafa,Paracontias_hafa,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Paracontias,hildebrandti,None,Scincidae,Squamata,Hildebrand's SkinkÂ ,Paracontias_hildebrandti,Paracontias_hildebrandti,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paracontias,holomelas,None,Scincidae,Squamata,Anzahamaru SkinkÂ ,Paracontias_holomelas,Paracontias_holomelas,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paracontias,kankana,None,Scincidae,Squamata,None,Paracontias_kankana,Paracontias_kankana,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paracontias,mahamavo,None,Scincidae,Squamata,None,Paracontias_mahamavo,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Paracontias,manify,None,Scincidae,Squamata,None,Paracontias_manify,Paracontias_manify,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paracontias,milloti,None,Scincidae,Squamata,Nosy Mamoko Skink,Paracontias_milloti,Paracontias_milloti,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Paracontias,minimus,None,Scincidae,Squamata,None,Paracontias_minimus,Paracontias_minimus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paracontias,rothschildi,None,Scincidae,Squamata,Rothschild's SkinkÂ ,Paracontias_rothschildi,Paracontias_rothschildi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paracontias,tsararano,None,Scincidae,Squamata,None,Paracontias_tsararano,Paracontias_tsararano,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Paracontias,vermisaurus,None,Scincidae,Squamata,None,Paracontias_vermisaurus,Paracontias_vermisaurus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paragehyra,austini,None,Gekkonidae,Squamata,None,Paragehyra_austini,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Paragehyra,felicitae,None,Gekkonidae,Squamata,None,Paragehyra_felicitae,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Paragehyra,gabriellae,None,Gekkonidae,Squamata,None,Paragehyra_gabriellae,Paragehyra_gabriellae,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paragehyra,petiti,None,Gekkonidae,Squamata,Angel's Petite GeckoÂ ,Paragehyra_petiti,Paragehyra_petiti,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Pararhadinaea,melanogaster,"Pararhadinaea melanogaster marojejyensis, Pararhadinaea melanogaster melanogaster",Pseudoxyrhophiidae,Squamata,Madagascar Burrowing SnakeÂ ,Pararhadinaea_melanogaster,Pararhadinaea_melanogaster,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Parastenophis,betsileanus,None,Pseudoxyrhophiidae,Squamata,None,Parastenophis_betsileanus,Parastenophis_betsileanus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paroedura,androyensis,None,Gekkonidae,Squamata,Grandidier's Madagasoer Ground GeckoÂ ,Paroedura_androyensis,Paroedura_androyensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paroedura,bastardi,None,Gekkonidae,Squamata,Mocquard's Madagascar Ground Geck,Paroedura_bastardi,Paroedura_bastardi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paroedura,fasciata,None,Gekkonidae,Squamata,None,Paroedura_fasciata,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Paroedura,gracilis,None,Gekkonidae,Squamata,Graceful Madagascar Ground GeckoÂ ,Paroedura_gracilis,Paroedura_gracilis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paroedura,guibeae,None,Gekkonidae,Squamata,GuibÃ©â€™s Ground GeckoÂ ,Paroedura_guibeae,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Paroedura,homalorhina,None,Gekkonidae,Squamata,Northern Madagascar Ground GeckoÂ ,Paroedura_homalorhina,Paroedura_homalorhina,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paroedura,hordiesi,None,Gekkonidae,Squamata,Hordiesâ€™ Ground GeckoÂ ,Paroedura_hordiesi,Paroedura_hordiesi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Paroedura,ibityensis,None,Gekkonidae,Squamata,Ibity Ground GeckoÂ ,Paroedura_ibityensis,Paroedura_ibityensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paroedura,karstophila,None,Gekkonidae,Squamata,None,Paroedura_karstophila,Paroedura_karstophila,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paroedura,kloki,None,Gekkonidae,Squamata,None,Paroedura_kloki,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Paroedura,lohatsara,None,Gekkonidae,Squamata,None,Paroedura_lohatsara,Paroedura_lohatsara,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paroedura,maingoka,None,Gekkonidae,Squamata,None,Paroedura_maingoka,Paroedura_maingoka,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paroedura,masobe,None,Gekkonidae,Squamata,None,Paroedura_masobe,Paroedura_masobe,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paroedura,neglecta,None,Gekkonidae,Squamata,None,Paroedura_neglecta,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Paroedura,oviceps,None,Gekkonidae,Squamata,NosyBe Ground GeckoÂ ,Paroedura_oviceps,Paroedura_oviceps,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paroedura,picta,None,Gekkonidae,Squamata,Madagaskar GroÃŸkopfgeckoÂ ,Paroedura_picta,Paroedura_picta,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paroedura,rennerae,None,Gekkonidae,Squamata,None,Paroedura_rennerae,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Paroedura,spelaea,None,Gekkonidae,Squamata,None,Paroedura_spelaea,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Paroedura,stumpffi,None,Gekkonidae,Squamata,None,Paroedura_stumpffi,Paroedura_stumpffi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paroedura,tanjaka,None,Gekkonidae,Squamata,None,Paroedura_tanjaka,Paroedura_tanjaka,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paroedura,vahiny,None,Gekkonidae,Squamata,None,Paroedura_vahiny,Paroedura_vahiny,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Paroedura,vazimba,None,Gekkonidae,Squamata,None,Paroedura_vazimba,Paroedura_vazimba,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,abbotti,"Phelsuma abbotti abbotti, Phelsuma abbotti chekei, Phelsuma abbotti sumptio",Gekkonidae,Squamata,Aldabra Day Gecko,Phelsuma_abbotti,Phelsuma_abbotti,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Phelsuma,antanosy,None,Gekkonidae,Squamata,None,Phelsuma_antanosy,Phelsuma_antanosy,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,barbouri,None,Gekkonidae,Squamata,Barbour's Day GeckoÂ ,Phelsuma_barbouri,Phelsuma_barbouri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,berghofi,None,Gekkonidae,Squamata,None,Phelsuma_berghofi,Phelsuma_berghofi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,borai,None,Gekkonidae,Squamata,None,Phelsuma_borai,Phelsuma_borai,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,breviceps,None,Gekkonidae,Squamata,Kurzkopf-Taggecko,Phelsuma_breviceps,Phelsuma_breviceps,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,cepediana,None,Gekkonidae,Squamata,Bluetail Day Gecko,Phelsuma_cepediana,Phelsuma_cepediana,TRUE,TRUE,Extant,Non-endemic,NA,TRUE
+Phelsuma,dorsivittata,None,Gekkonidae,Squamata,Striped Day Gecko,Phelsuma_dorsivittata,Phelsuma_dorsivittata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,dubia,None,Gekkonidae,Squamata,Zanzibar Day GeckoÂ ,Phelsuma_dubia,Phelsuma_dubia,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Phelsuma,flavigularis,None,Gekkonidae,Squamata,Yellow-throated Day Gecko,Phelsuma_flavigularis,Phelsuma_flavigularis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,gouldi,None,Gekkonidae,Squamata,None,Phelsuma_gouldi,Phelsuma_gouldi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,grandis,None,Gekkonidae,Squamata,Madagascar Day Gecko,Phelsuma_grandis,Phelsuma_grandis,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Phelsuma,guttata,None,Gekkonidae,Squamata,Speckled Day Gecko,Phelsuma_guttata,Phelsuma_guttata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,hielscheri,None,Gekkonidae,Squamata,None,Phelsuma_hielscheri,Phelsuma_hielscheri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,hoeschi,None,Gekkonidae,Squamata,None,Phelsuma_hoeschi,Phelsuma_hoeschi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,kely,None,Gekkonidae,Squamata,None,Phelsuma_kely,Phelsuma_kely,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,klemmeri,None,Gekkonidae,Squamata,None,Phelsuma_klemmeri,Phelsuma_klemmeri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,kochi,None,Gekkonidae,Squamata,Madagascar Day Gecko,Phelsuma_kochi,Phelsuma_kochi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,laticauda,"Phelsuma laticauda laticauda, Phelsuma laticauda angularis",Gekkonidae,Squamata,"Gold dust day gecko, Broad-tailed Day Gecko",Phelsuma_laticauda,Phelsuma_laticauda,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Phelsuma,lineata,"Phelsuma lineata lineata, Phelsuma lineata bombetokensis, Phelsuma lineata elanthana, Phelsuma lineata punctulata",Gekkonidae,Squamata,Striped Day Gecko,Phelsuma_lineata,Phelsuma_lineata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,madagascariensis,"Phelsuma madagascariensis boehmei, Phelsuma madagascariensis madagascariensis",Gekkonidae,Squamata,Madagascar Day Gecko,Phelsuma_madagascariensis,Phelsuma_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,malamakibo,None,Gekkonidae,Squamata,None,Phelsuma_malamakibo,Phelsuma_malamakibo,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,masohoala,None,Gekkonidae,Squamata,None,Phelsuma_masohoala,Phelsuma_masohoala,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Phelsuma,modesta,"Phelsuma modesta modesta, Phelsuma modesta leiogaster",Gekkonidae,Squamata,Modest Day GeckoÂ ,Phelsuma_modesta,Phelsuma_modesta,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,mutabilis,None,Gekkonidae,Squamata,Thicktail Day GeckoÂ ,Phelsuma_mutabilis,Phelsuma_mutabilis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,parva,None,Gekkonidae,Squamata,None,Phelsuma_parva,Phelsuma_parva,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,pronki,None,Gekkonidae,Squamata,None,Phelsuma_pronki,Phelsuma_pronki,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,pusilla,"Phelsuma pusilla pusilla, Phelsuma pusilla hallmanni",Gekkonidae,Squamata,None,Phelsuma_pusilla,Phelsuma_pusilla,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,quadriocellata,"Phelsuma quadriocellata quadriocellata, Phelsuma quadriocellata bimaculata, Phelsuma quadriocellata lepida",Gekkonidae,Squamata,Peacock Day Gecko,Phelsuma_quadriocellata,Phelsuma_quadriocellata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,ravenala,None,Gekkonidae,Squamata,None,Phelsuma_ravenala,Phelsuma_ravenala,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,roesleri,None,Gekkonidae,Squamata,None,Phelsuma_roesleri,Phelsuma_roesleri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,seippi,None,Gekkonidae,Squamata,None,Phelsuma_seippi,Phelsuma_seippi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,serraticauda,None,Gekkonidae,Squamata,Serrated Day Gecko,Phelsuma_serraticauda,Phelsuma_serraticauda,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,standingi,None,Gekkonidae,Squamata,Standing's Day Gecko,Phelsuma_standingi,Phelsuma_standingi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phelsuma,vanheygeni,None,Gekkonidae,Squamata,None,Phelsuma_vanheygeni,Phelsuma_vanheygeni,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phisalixella,arctifasciata,None,Pseudoxyrhophiidae,Squamata,None,Phisalixella_arctifasciata,Phisalixella_arctifasciata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phisalixella,tulearensis,None,Pseudoxyrhophiidae,Squamata,None,Phisalixella_tulearensis,Phisalixella_tulearensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Phisalixella,variabilis,None,Pseudoxyrhophiidae,Squamata,None,Phisalixella_variabilis,Phisalixella_variabilis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Pseudoacontias,angelorum,None,Scincidae,Squamata,None,Pseudoacontias_angelorum,Pseudoacontias_angelorum,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Pseudoacontias,madagascariensis,None,Scincidae,Squamata,Giant Madagascar SkinkÂ ,Pseudoacontias_madagascariensis,Pseudoacontias_madagascariensis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Pseudoacontias,menamainty,None,Scincidae,Squamata,None,Pseudoacontias_menamainty,Pseudoacontias_menamainty,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Pseudoacontias,unicolor,None,Scincidae,Squamata,None,Pseudoacontias_unicolor,Pseudoacontias_unicolor,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Pseudoxyrhopus,ambreensis,None,Pseudoxyrhophiidae,Squamata,Ambre Brook SnakeÂ ,Pseudoxyrhopus_ambreensis,Pseudoxyrhopus_ambreensis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Pseudoxyrhopus,analabe,None,Pseudoxyrhophiidae,Squamata,None,Pseudoxyrhopus_analabe,Pseudoxyrhopus_analabe,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Pseudoxyrhopus,ankafinaensis,None,Pseudoxyrhophiidae,Squamata,None,Pseudoxyrhopus_ankafinaensis,Pseudoxyrhopus_ankafinaensis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Pseudoxyrhopus,heterurus,None,Pseudoxyrhophiidae,Squamata,Night Brook SnakeÂ ,Pseudoxyrhopus_heterurus,Pseudoxyrhopus_heterurus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Pseudoxyrhopus,imerinae,None,Pseudoxyrhophiidae,Squamata,Plateau Brook SnakeÂ ,Pseudoxyrhopus_imerinae,Pseudoxyrhopus_imerinae,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Pseudoxyrhopus,kely,None,Pseudoxyrhophiidae,Squamata,None,Pseudoxyrhopus_kely,Pseudoxyrhopus_kely,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Pseudoxyrhopus,microps,None,Pseudoxyrhophiidae,Squamata,Brown Brook SnakeÂ ,Pseudoxyrhopus_microps,Pseudoxyrhopus_microps,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Pseudoxyrhopus,oblectator,None,Pseudoxyrhophiidae,Squamata,None,Pseudoxyrhopus_oblectator,Pseudoxyrhopus_oblectator,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Pseudoxyrhopus,quinquelineatus,None,Pseudoxyrhophiidae,Squamata,Striped Brook SnakeÂ ,Pseudoxyrhopus_quinquelineatus,Pseudoxyrhopus_quinquelineatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Pseudoxyrhopus,sokosoko,None,Pseudoxyrhophiidae,Squamata,None,Pseudoxyrhopus_sokosoko,Pseudoxyrhopus_sokosoko,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Pseudoxyrhopus,tritaeniatus,None,Pseudoxyrhophiidae,Squamata,None,Pseudoxyrhopus_tritaeniatus,Pseudoxyrhopus_tritaeniatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Pygomeles,braconnieri,None,Scincidae,Squamata,Braconnier's Short SkinkÂ ,Pygomeles_braconnieri,Pygomeles_braconnieri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Pygomeles,petteri,None,Scincidae,Squamata,Petter's Short SkinkÂ ,Pygomeles_petteri,Pygomeles_petteri,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Pygomeles,trivittatus,"Pygomeles trivittatus trilineatus, Pygomeles trivittatus trivittatus",Scincidae,Squamata,None,Pygomeles_trivittatus,Androngo_trivittatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Sanzinia,madagascariensis,None,BoidaeÂ ,Squamata,Madagascar Tree Boa,Sanzinia_madagascariensis,Sanzinia_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Sanzinia,volontany,None,BoidaeÂ ,Squamata,"Nosy Komba Tree Boa, Nosy Komba boa",Sanzinia_volontany,Sanzinia_volontany,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Thamnosophis,epistibes,None,Pseudoxyrhophiidae,Squamata,None,Thamnosophis_epistibes,Thamnosophis_epistibes,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Thamnosophis,infrasignatus,None,Pseudoxyrhophiidae,Squamata,None,Thamnosophis_infrasignatus,Thamnosophis_infrasignatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Thamnosophis,lateralis,None,Pseudoxyrhophiidae,Squamata,Lateral Water SnakeÂ ,Thamnosophis_lateralis,Thamnosophis_lateralis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Thamnosophis,martae,None,Pseudoxyrhophiidae,Squamata,None,Thamnosophis_martae,Thamnosophis_martae,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Thamnosophis,mavotenda,None,Pseudoxyrhophiidae,Squamata,None,Thamnosophis_mavotenda,Thamnosophis_mavotenda,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Thamnosophis,stumpffi,None,Pseudoxyrhophiidae,Squamata,Yellow-striped Water Snake,Thamnosophis_stumpffi,Thamnosophis_stumpffi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Tracheloptychus,madagascariensis,None,GerrhosauridaeÂ ,Squamata,Madagascar Keeled Cordylid,Tracheloptychus_madagascariensis,Tracheloptychus_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Tracheloptychus,petersi,None,GerrhosauridaeÂ ,Squamata,Peters' Keeled CordylidÂ ,Tracheloptychus_petersi,Tracheloptychus_petersi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Trachylepis,aureopunctata,None,Scincidae,Squamata,Gold-spotted MabuyaÂ ,Trachylepis_aureopunctata,Trachylepis_aureopunctata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Trachylepis,betsileana,None,Scincidae,Squamata,Betsileo Mabuya,Trachylepis_betsileana,Trachylepis_betsileana,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Trachylepis,boettgeri,None,Scincidae,Squamata,Boettger'sMabuyaÂ ,Trachylepis_boettgeri,Trachylepis_boettgeri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Trachylepis,comorensis,None,Scincidae,Squamata,None,Trachylepis_comorensis,Trachylepis_comorensis,TRUE,TRUE,Extant,Non-endemic,NA,TRUE
+Trachylepis,dumasi,None,Scincidae,Squamata,None,Trachylepis_dumasi,Trachylepis_dumasi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Trachylepis,elegans,"Trachylepis elegans elegans, Trachylepis elegans delphinensis",Scincidae,Squamata,Elegant MabuyaÂ ,Trachylepis_elegans,Trachylepis_elegans,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Trachylepis,gravenhorstii,None,Scincidae,Squamata,Gravenhorst's MabuyaÂ ,Trachylepis_gravenhorstii,Trachylepis_gravenhorstii,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Trachylepis,lavarambo,None,Scincidae,Squamata,None,Trachylepis_lavarambo,Trachylepis_lavarambo,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Trachylepis,madagascariensis,None,Scincidae,Squamata,Malagasy MabuyaÂ ,Trachylepis_madagascariensis,Trachylepis_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Trachylepis,nancycoutuae,None,Scincidae,Squamata,None,Trachylepis_nancycoutuae,Trachylepis_nancycoutuae,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Trachylepis,tandrefana,None,Scincidae,Squamata,None,Trachylepis_tandrefana,Trachylepis_tandrefana,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Trachylepis,tavaratra,None,Scincidae,Squamata,None,Trachylepis_tavaratra,Trachylepis_tavaratra,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Trachylepis,vato,None,Scincidae,Squamata,Boulder MabuyaÂ ,Trachylepis_vato,Trachylepis_vato,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Trachylepis,vezo,None,Scincidae,Squamata,None,Trachylepis_vezo,Trachylepis_vezo,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Trachylepis,volamenaloha,None,Scincidae,Squamata,None,Trachylepis_volamenaloha,Trachylepis_volamenaloha,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Uroplatus,alluaudi,None,Gekkonidae,Squamata,"Northern Flat-tail Gecko, northern leaf-tail geckoÂ ",Uroplatus_alluaudi,Uroplatus_alluaudi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Uroplatus,ebenaui,None,Gekkonidae,Squamata,"Nosy Be FIat-tail Gecko, spearpoint leaf-tail geckoÂ ",Uroplatus_ebenaui,Uroplatus_ebenaui,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Uroplatus,fangorn,None,Gekkonidae,Squamata,None,Uroplatus_fangorn,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Uroplatus,fetsy,None,Gekkonidae,Squamata,None,Uroplatus_fetsy,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Uroplatus,fiera,None,Gekkonidae,Squamata,None,Uroplatus_fiera,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Uroplatus,fimbriatus,None,Gekkonidae,Squamata,Common Flat-tail Gecko,Uroplatus_fimbriatus,Uroplatus_fimbriatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Uroplatus,finaritra,None,Gekkonidae,Squamata,None,Uroplatus_finaritra,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Uroplatus,finiavana,None,Gekkonidae,Squamata,None,Uroplatus_finiavana,Uroplatus_finiavana,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Uroplatus,fivehy,None,Gekkonidae,Squamata,None,Uroplatus_fivehy,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Uroplatus,fotsivava,None,Gekkonidae,Squamata,None,Uroplatus_fotsivava,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Uroplatus,giganteus,None,Gekkonidae,Squamata,giant leaf-tail gecko,Uroplatus_giganteus,Uroplatus_giganteus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Uroplatus,guentheri,None,Gekkonidae,Squamata,Gunther's FIat-tail Gecko,Uroplatus_guentheri,Uroplatus_guentheri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Uroplatus,henkeli,None,Gekkonidae,Squamata,"Henkelâ€™s Flat-tail gecko, Henkelâ€™s leaf-tailed gecko, frilled leaf-tail geckoÂ ",Uroplatus_henkeli,Uroplatus_henkeli,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Uroplatus,kelirambo,None,Gekkonidae,Squamata,None,Uroplatus_kelirambo,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Uroplatus,lineatus,None,Gekkonidae,Squamata,Lined Flat-tail GeckoÂ ,Uroplatus_lineatus,Uroplatus_lineatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Uroplatus,malahelo,None,Gekkonidae,Squamata,None,Uroplatus_malahelo,Uroplatus_malahelo,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Uroplatus,malama,None,Gekkonidae,Squamata,None,Uroplatus_malama,Uroplatus_malama,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Uroplatus,phantasticus,None,Gekkonidae,Squamata,None,Uroplatus_phantasticus,Uroplatus_phantasticus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Uroplatus,pietschmanni,None,Gekkonidae,Squamata,"Spiny Leaf-tailed Gecko, cork-bark leaf-tail gecko",Uroplatus_pietschmanni,Uroplatus_pietschmanni,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Uroplatus,sameiti,None,Gekkonidae,Squamata,None,Uroplatus_sameiti,Uroplatus_sameiti,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Uroplatus,sikorae,None,Gekkonidae,Squamata,None,Uroplatus_sikorae,Uroplatus_sikorae,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Voeltzkowia,mira,None,Scincidae,Squamata,None,Voeltzkowia_mira,Voeltzkowia_mira,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Voeltzkowia,mobydick,None,Scincidae,Squamata,None,Voeltzkowia_mobydick,Sirenoscincus_mobydick,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Voeltzkowia,yamagishii,None,Scincidae,Squamata,None,Voeltzkowia_yamagishii,Sirenoscincus_yamagishii,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Xenotyphlops,grandidieri,None,Xenotyphlopidae,Squamata,None,Xenotyphlops_grandidieri,Xenotyphlops_grandidieri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Zonosaurus,aeneus,None,Gerrhosauridae,Squamata,Bronze Girdled Lizard,Zonosaurus_aeneus,Zonosaurus_aeneus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Zonosaurus,anelanelany,None,GerrhosauridaeÂ ,Squamata,None,Zonosaurus_anelanelany,Zonosaurus_anelanelany,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Zonosaurus,bemaraha,None,GerrhosauridaeÂ ,Squamata,None,Zonosaurus_bemaraha,Zonosaurus_bemaraha,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Zonosaurus,boettgeri,None,GerrhosauridaeÂ ,Squamata,Boettger's Girdled LizardÂ ,Zonosaurus_boettgeri,Zonosaurus_boettgeri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Zonosaurus,brygooi,None,Gerrhosauridae,Squamata,Brygoo's Girdled LizardÂ ,Zonosaurus_brygooi,Zonosaurus_brygooi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Zonosaurus,haraldmeieri,None,GerrhosauridaeÂ ,Squamata,GrÃ¼ne Madagaskar-Ringel-SchildechseÂ ,Zonosaurus_haraldmeieri,Zonosaurus_haraldmeieri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Zonosaurus,karsteni,None,Gerrhosauridae,Squamata,Karsten's Girdled LizardÂ ,Zonosaurus_karsteni,Zonosaurus_karsteni,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Zonosaurus,laticaudatus,None,GerrhosauridaeÂ ,Squamata,western Girdled Lizard,Zonosaurus_laticaudatus,Zonosaurus_laticaudatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Zonosaurus,madagascariensis,"Zonosaurus madagascariensis madagascariensis, Zonosaurus madagascariensis insulanus",Gerrhosauridae,Squamata,Madagascar Girdled Lizard,Zonosaurus_madagascariensis,Zonosaurus_madagascariensis,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Zonosaurus,maramaintso,None,GerrhosauridaeÂ ,Squamata,None,Zonosaurus_maramaintso,Zonosaurus_maramaintso,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Zonosaurus,maximus,None,GerrhosauridaeÂ ,Squamata,Southeastern Girdled LizardÂ ,Zonosaurus_maximus,Zonosaurus_maximus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Zonosaurus,ornatus,None,Gerrhosauridae,Squamata,Ornate Girdled LizardÂ ,Zonosaurus_ornatus,Zonosaurus_ornatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Zonosaurus,quadrilineatus,None,Gerrhosauridae,Squamata,Four-lined Girdled LizardÂ ,Zonosaurus_quadrilineatus,Zonosaurus_quadrilineatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Zonosaurus,rufipes,None,Gerrhosauridae,Squamata,Red-legged Girdled LizardÂ ,Zonosaurus_rufipes,Zonosaurus_rufipes,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Zonosaurus,subunicolor,None,GerrhosauridaeÂ ,Squamata,None,Zonosaurus_subunicolor,Zonosaurus_subunicolor,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Zonosaurus,trilineatus,None,GerrhosauridaeÂ ,Squamata,Three-lined Girdled LizardÂ ,Zonosaurus_trilineatus,Zonosaurus_trilineatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Zonosaurus,tsingy,None,GerrhosauridaeÂ ,Squamata,None,Zonosaurus_tsingy,Zonosaurus_tsingy,TRUE,TRUE,Extant,Endemic,Endemic,FALSE

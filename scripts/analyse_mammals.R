@@ -1,4 +1,3 @@
-# read in raw data
 # load madagascar mammals species data table
 data("madagascar_mammals", package = "MadIsland")
 
@@ -20,6 +19,10 @@ mammal_posterior_complete <- ape::read.nexus(
     package = "MadIsland"
   )
 )
+
+#delete
+mammal_posterior_dna <- mammal_posterior_dna[1:3]
+mammal_posterior_complete <- mammal_posterior_complete[1:3]
 
 # convert trees to phylo4 objects
 dna_phylos <- lapply(mammal_posterior_dna, phylobase::phylo4)
@@ -62,8 +65,21 @@ for (i in seq_along(dna_phylos)) {
 }
 
 # extract island community using min algorithm
+multi_island_tbl_dna_unique <- DAISIEprep::multi_extract_island_species(
+  multi_phylod = dna_multi_phylods,
+  extraction_method = "min",
+  verbose = TRUE
+)
+
 multi_island_tbl_dna <- DAISIEprep::multi_extract_island_species(
   multi_phylod = dna_multi_phylods,
+  extraction_method = "min",
+  verbose = TRUE,
+  unique_clade_name = FALSE
+)
+
+multi_island_tbl_complete_unique <- DAISIEprep::multi_extract_island_species(
+  multi_phylod = complete_multi_phylods,
   extraction_method = "min",
   verbose = TRUE
 )
@@ -71,18 +87,33 @@ multi_island_tbl_dna <- DAISIEprep::multi_extract_island_species(
 multi_island_tbl_complete <- DAISIEprep::multi_extract_island_species(
   multi_phylod = complete_multi_phylods,
   extraction_method = "min",
-  verbose = TRUE
+  verbose = TRUE,
+  unique_clade_name = FALSE
 )
+
+# add missing species to each island table
+island_tbl_unique <- DAISIEprep::get_island_tbl(multi_island_tbl_dna_unique[[1]])
+island_tbl_unique_clade_name <- island_tbl_unique$clade_name
+missing_species_clade_name <- missing_mammal_species$clade_name
+island_tbl_split_names <- strsplit(x = island_tbl_unique_clade_name, split = "_")
+island_tbl_genus_names <- sapply(island_tbl_split_names, "[[", 1)
+which_missing_species <- which(
+  missing_species_clade_name %in% island_tbl_genus_names
+)
+island_missing_species <- missing_mammal_species[which_missing_species, ]
 
 # add missing species to each island table
 island_tbl <- DAISIEprep::get_island_tbl(multi_island_tbl_dna[[1]])
 island_tbl_clade_name <- island_tbl$clade_name
-missing_species_clade_name <- as.character(missing_mammal_species$clade_name)
+missing_species_clade_name <- missing_mammal_species$clade_name
 island_tbl_split_names <- strsplit(x = island_tbl_clade_name, split = "_")
 island_tbl_genus_names <- sapply(island_tbl_split_names, "[[", 1)
 island_missing_species <- missing_mammal_species[which(missing_species_clade_name %in% island_tbl_genus_names), ]
 
-island_tbl <- DAISIEprep::add_missing_species(island_tbl = multi_island_tbl_dna[[1]], missing_species_df = island_missing_species)
+island_tbl <- DAISIEprep::add_missing_species(
+  island_tbl = multi_island_tbl_dna_unique[[1]],
+  missing_species_df = island_missing_species
+)
 
 # convert to daisie data table
 daisie_datatable_dna <- lapply(

@@ -25,8 +25,7 @@ process_raw_data <- function(file_name) {
       file_path,
       package = "MadIsland"
     ),
-    header = TRUE,
-    sep = ";"
+    header = TRUE
   )
 
   # Naming convention is the raw data column names are underscore separated
