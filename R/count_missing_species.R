@@ -23,7 +23,7 @@ count_missing_species <- function(checklist) {
 
   missing_species <- as.data.frame(missing_species)
 
-  missing_species$clade_name <- as.character(missing_species$clade_name)
+  missing_species$missing_genus <- as.character(missing_species$missing_genus)
 
   colnames(missing_species) <- c("clade_name", "missing_species")
 
