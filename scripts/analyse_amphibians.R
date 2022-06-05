@@ -66,16 +66,18 @@ multi_island_tbl_complete <- DAISIEprep::multi_extract_island_species(
 missing_genus <- lapply(multi_island_tbl_complete, unique_missing_species)
 
 # add missing species that match genera found in the island tbl
-multi_island_tbl_complete[[1]] <- add_phylo_missing_species(
-  missing_species = missing_amphibian_species,
-  missing_genus = missing_genus[[1]],
-  island_tbl = multi_island_tbl_complete[[1]]
+multi_island_tbl_complete <- mapply(
+  add_phylo_missing_species,
+  missing_genus,
+  multi_island_tbl_complete,
+  missing_species = list(missing_amphibian_species)
 )
 
 # remove missing species that have already been inserted into the island tbl
-no_phylo_missing_amphibian_species <- rm_phylo_missing_species(
-  missing_species = missing_amphibian_species,
-  missing_genus = missing_genus[[1]]
+no_phylo_missing_amphibian_species <- lapply(
+  missing_genus,
+  rm_phylo_missing_species,
+  missing_species = missing_amphibian_species
 )
 
 mini_stem_age <- DAISIEprep::extract_stem_age(
