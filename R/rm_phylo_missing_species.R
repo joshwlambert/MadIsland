@@ -1,3 +1,17 @@
+#' Loops through the genera that have missing species and removes the ones that
+#' are found in the missing genus list which have phylogenetic data. This is
+#' useful when wanting to know which missing species have not been assigned to
+#' the island_tbl using `add_phylo_missing_species()`.
+#'
+#' @inheritParams default_params_doc
+#'
+#' @return Data frame
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#'   #WIP
+#' }
 rm_phylo_missing_species <- function(missing_species,
                                      missing_genus) {
 

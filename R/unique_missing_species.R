@@ -1,4 +1,6 @@
-#' Title
+#' Determines the unique genera that are included in the island clades contained
+#' within the island_tbl object and stores them as a list with each genus
+#' only occuring once in the first island clade it appears in
 #'
 #' @inheritParams default_params_doc
 #'
@@ -6,6 +8,9 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
+#'   #WIP
+#' }
 unique_missing_species <- function(island_tbl) {
 
   # convert island_tbl to data frame

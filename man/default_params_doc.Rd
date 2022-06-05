@@ -4,7 +4,14 @@
 \alias{default_params_doc}
 \title{Documentation to be inherited by other functions in the package}
 \usage{
-default_params_doc(bar, file_name, checklist)
+default_params_doc(
+  bar,
+  file_name,
+  checklist,
+  island_tbl,
+  missing_species,
+  missing_genus
+)
 }
 \arguments{
 \item{bar}{temporary argument name}
@@ -13,6 +20,14 @@ default_params_doc(bar, file_name, checklist)
 extension (needs to be .csv)}
 
 \item{checklist}{data frame with information on species on the island}
+
+\item{island_tbl}{Object of Island_tbl class from DAISIEprep package}
+
+\item{missing_species}{A two column data frame of genera with missing species
+and the number of missing species}
+
+\item{missing_genus}{A list of character vectors containing the genera in
+each island clade}
 }
 \value{
 Nothing

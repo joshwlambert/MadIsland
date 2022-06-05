@@ -1,3 +1,19 @@
+#' Calculates the number of missing species to be assigned to each island clade
+#' in the island_tbl object and assigns the missing species to them. In the case
+#' that multiple genera are in an island clade and each have missing species
+#' the number of missing species is summed. Currently the missing species
+#' are assigned to the genus that first matches with the missing species table,
+#' however a more biologically or stochastic assignment is in development.
+#'
+#' @inheritParams default_params_doc
+#'
+#' @return Object of Island_tbl class
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#'   #WIP
+#' }
 add_phylo_missing_species <- function(missing_species,
                                       missing_genus,
                                       island_tbl) {
