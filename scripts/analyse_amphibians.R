@@ -72,33 +72,10 @@ multi_island_tbl_complete[[1]] <- add_phylo_missing_species(
   island_tbl = multi_island_tbl_complete[[1]]
 )
 
-# remove missing species that have already been assigned to the island tbl
-missing_amphibian_species <- rm_phylo_missing_species(
+# remove missing species that have already been inserted into the island tbl
+no_phylo_missing_amphibian_species <- rm_phylo_missing_species(
   missing_species = missing_amphibian_species,
   missing_genus = missing_genus[[1]]
-)
-
-
-# remove those missing species that have already been inserted into the island
-# tbl
-no_phylo_missing_species <- missing_amphibian_species[-which_missing_species, ]
-
-anodonthyla_stem_age <- DAISIEprep::extract_stem_age(
-  genus_name = "Anodonthyla",
-  phylod = complete_multi_phylods[[1]],
-  extraction_method = "min"
-)
-
-cophyla_stem_age <- DAISIEprep::extract_stem_age(
-  genus_name = "Cophyla",
-  phylod = complete_multi_phylods[[1]],
-  extraction_method = "min"
-)
-
-guibemantis_stem_age <- DAISIEprep::extract_stem_age(
-  genus_name = "Guibemantis",
-  phylod = complete_multi_phylods[[1]],
-  extraction_method = "min"
 )
 
 mini_stem_age <- DAISIEprep::extract_stem_age(
@@ -107,26 +84,12 @@ mini_stem_age <- DAISIEprep::extract_stem_age(
   extraction_method = "min"
 )
 
-platypelis_stem_age <- DAISIEprep::extract_stem_age(
-  genus_name = "Platypelis",
-  phylod = complete_multi_phylods[[1]],
-  extraction_method = "min"
-)
-
-plethodontohyla_stem_age <- DAISIEprep::extract_stem_age(
-  genus_name = "Plethodontohyla",
-  phylod = complete_multi_phylods[[1]],
-  extraction_method = "min"
-)
-
-rhombophryne_stem_age <- DAISIEprep::extract_stem_age(
-  genus_name = "Rhombophryne",
-  phylod = complete_multi_phylods[[1]],
-  extraction_method = "min"
-)
-
-stumpffia_stem_age <- DAISIEprep::extract_stem_age(
-  genus_name = "Stumpffia",
-  phylod = complete_multi_phylods[[1]],
-  extraction_method = "min"
+complete_multi_phylods[[1]] <- DAISIEprep::add_island_colonist(
+  island_tbl = multi_island_tbl_complete[[1]],
+  clade_name = "Mini",
+  status = "endemic",
+  missing_species = 3,
+  branching_times = 88,
+  min_age = NA,
+  species = c(...)
 )
