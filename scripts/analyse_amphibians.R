@@ -63,47 +63,21 @@ multi_island_tbl_complete <- DAISIEprep::multi_extract_island_species(
   verbose = TRUE
 )
 
-# consider deleting
-# extract island community again but this time set unique_clade_name = FALSE
-# multi_island_tbl_complete_unique <- DAISIEprep::multi_extract_island_species(
-#   multi_phylod = complete_multi_phylods,
-#   extraction_method = "min",
-#   verbose = TRUE,
-#   unique_clade_name = FALSE
-# )
+missing_genus <- lapply(multi_island_tbl_complete, unique_missing_species)
 
-# add missing species to each island table
-island_tbl <- DAISIEprep::get_island_tbl(multi_island_tbl_complete[[1]])
-island_tbl_species <- island_tbl$species
-island_tbl_split_names <- lapply(island_tbl$species, strsplit, split = "_")
-island_tbl_genus_names <- lapply(island_tbl_split_names, function(x) {
-  lapply(x, "[[", 1)
-})
-island_tbl_genus_names <- lapply(island_tbl_genus_names, unlist)
-for (i in seq_along(island_tbl_genus_names)) {
-  which_species <- which(
-    missing_amphibian_species$clade_name %in% island_tbl_genus_names[[i]]
-  )
+# add missing species that match genera found in the island tbl
+multi_island_tbl_complete[[1]] <- add_phylo_missing_species(
+  missing_species = missing_amphibian_species,
+  missing_genus = missing_genus[[1]],
+  island_tbl = multi_island_tbl_complete[[1]]
+)
 
-  # if that clade contains a genus that has missing species then add missing
-  # species to island_tbl
-  if (length(which_species) > 0) {
-    phylo_missing_species <- missing_amphibian_species[which_species, ]
+# remove missing species that have already been assigned to the island tbl
+missing_amphibian_species <- rm_phylo_missing_species(
+  missing_species = missing_amphibian_species,
+  missing_genus = missing_genus[[1]]
+)
 
-    # sum up number of missing species if there are multiple genera in a clade
-    phylo_missing_species <- data.frame(
-      clade_name = multi_island_tbl_complete[[1]]@island_tbl$clade_name[i],
-      missing_species = sum(phylo_missing_species$missing_species)
-    )
-
-    # add the number of missing species to the island tbl for those that have been
-    # extracted already
-    multi_island_tbl_complete[[1]] <- DAISIEprep::add_missing_species(
-      island_tbl = multi_island_tbl_complete[[1]],
-      missing_species_df = phylo_missing_species
-    )
-  }
-}
 
 # remove those missing species that have already been inserted into the island
 # tbl
