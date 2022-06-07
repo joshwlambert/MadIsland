@@ -21,22 +21,40 @@ for (i in seq_along(daisie_data_list_complete)) {
   DAISIEutils::run_daisie_ml(
     data = daisie_data_list_complete[[i]],
     data_name = "amphibian_complete",
+    model = "cr_di",
+    array_index = 1,
+    cond = 0,
+    optimmethod = "simplex",
+    low_rates = TRUE
+  )
+
+  DAISIEutils::run_daisie_ml(
+    data = daisie_data_list_complete[[i]],
+    data_name = "amphibian_complete",
     model = "cr_dd",
     array_index = 1,
     cond = 0,
-    optimmethod = "subplex"
+    optimmethod = "subplex",
+    low_rates = TRUE
   )
 
+  DAISIEutils::run_daisie_ml(
+    data = daisie_data_list_complete[[i]],
+    data_name = "amphibian_complete",
+    model = "cr_di_0laa",
+    array_index = 1,
+    cond = 0,
+    optimmethod = "subplex",
+    low_rates = TRUE
+  )
 
-  ml_complete[[i]] <- DAISIE::DAISIE_ML_CS(
-    datalist = daisie_data_list_complete[[i]],
-    initparsopt = c(1, 1, 200, 0.1, 1),
-    idparsopt = 1:5,
-    parsfix = NULL,
-    idparsfix = NULL,
-    ddmodel = 11,
-    jitter = 1e-5
+  DAISIEutils::run_daisie_ml(
+    data = daisie_data_list_complete[[i]],
+    data_name = "amphibian_complete",
+    model = "cr_dd_0laa",
+    array_index = 1,
+    cond = 0,
+    optimmethod = "subplex",
+    low_rates = TRUE
   )
 }
-
-
