@@ -56,16 +56,16 @@ Laephotis,robertsi,None,Vespertilionidae,Chiroptera,Robert's serotine,Neoromicia
 Macronycteris,besaoka,None,Hipposideridae,Chiroptera,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
 Macronycteris,commersoni,None,Hipposideridae,Chiroptera,Commerson's leaf-nosed bat,Hipposideros_commersoni,Yes,Yes,Extant,Endemic,Endemic,FALSE
 Macronycteris,cryptovalorona,None,Hipposideridae,Chiroptera,Madagascar cryptic leaf-nosed bat,NA,No,No,Extant,Endemic,Endemic,FALSE
-Miniopterus,aelleni,None,Miniopteridae,Chiroptera,Aellen's long-fingered bat,Miniopterus_aelleni,Yes,Yes,Extant,Non-endemic,Non-endemic,FALSE
+Miniopterus,aelleni,None,Miniopteridae,Chiroptera,Aellen's long-fingered bat,Miniopterus_aelleni,Yes,Yes,Extant,Non-endemic,Endemic,FALSE
 Miniopterus,ambohitrensis,None,Miniopteridae,Chiroptera,Montagne d’Ambre long-fingered Bat,Miniopterus_ambohitrensis,Yes,No,Extant,Endemic,Endemic,FALSE
 Miniopterus,brachytragos,None,Miniopteridae,Chiroptera,Short-tragus long-fingered bat,Miniopterus_brachytragos,Yes,No,Extant,Endemic,Endemic,FALSE
 Miniopterus,egeri,None,Miniopteridae,Chiroptera,Eger's long-fingered bat,Miniopterus_egeri,Yes,No,Extant,Endemic,Endemic,FALSE
 Miniopterus,gleni,None,Miniopteridae,Chiroptera,Glen's long-fingered bat,Miniopterus_gleni,Yes,Yes,Extant,Endemic,Endemic,FALSE
 Miniopterus,griffithsi,None,Miniopteridae,Chiroptera,Griffith's long-fingered bat,Miniopterus_griffithsi,Yes,Yes,Extant,Endemic,Endemic,FALSE
-Miniopterus,griveaudi,None,Miniopteridae,Chiroptera,Griveaud's long-fingered bat,Miniopterus_griveaudi,Yes,Yes,Extant,Non-endemic,Non-endemic,FALSE
+Miniopterus,griveaudi,None,Miniopteridae,Chiroptera,Griveaud's long-fingered bat,Miniopterus_griveaudi,Yes,Yes,Extant,Non-endemic,Endemic,FALSE
 Miniopterus,mahafaliensis,None,Miniopteridae,Chiroptera,Mahafaly long-fingered bat,Miniopterus_mahafaliensis,Yes,No,Extant,Endemic,Endemic,FALSE
 Miniopterus,majori,None,Miniopteridae,Chiroptera,Major's long-fingered bat,Miniopterus_majori,Yes,Yes,Extant,Endemic,Endemic,FALSE
-Miniopterus,manavi,None,Miniopteridae,Chiroptera,Manavi long-fingered bat,Miniopterus_manavi,Yes,Yes,Extant,Non-endemic,Non-endemic,FALSE
+Miniopterus,manavi,None,Miniopteridae,Chiroptera,Manavi long-fingered bat,Miniopterus_manavi,Yes,Yes,Extant,Non-endemic,Endemic,FALSE
 Miniopterus,petersoni,None,Miniopteridae,Chiroptera,Peterson's long-fingered bat,Miniopterus_petersoni,Yes,Yes,Extant,Endemic,Endemic,FALSE
 Miniopterus,sororculus,None,Miniopteridae,Chiroptera,Small sister long-fingered bat,Miniopterus_sororculus,Yes,No,Extant,Endemic,Endemic,FALSE
 Mops,leucostigma,None,Molossidae,Chiroptera,Malagasy large white-bellied free-tailed bat,Mops_leucostigma,Yes,Yes,Extant,Non-endemic,Non-endemic,FALSE
