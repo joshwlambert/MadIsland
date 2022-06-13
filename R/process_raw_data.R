@@ -40,11 +40,7 @@ process_raw_data <- function(file_name,
   island_species <- tbl[, c("Name_In_Tree", "Status_Species")]
 
   if (grepl(pattern = "dna", x = dna_or_complete, ignore.case = TRUE)) {
-    dna_species <- grepl(
-      pattern = "yes",
-      x = tbl$DNA_In_Tree,
-      ignore.case = TRUE
-    )
+    dna_species <- which(tbl$DNA_In_Tree)
     island_species <- island_species[dna_species, ]
   }
 
