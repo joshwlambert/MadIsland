@@ -8,8 +8,12 @@
 #' @export
 #'
 #' @examples
-#' data <- process_raw_data(file_name = "mammal_checklist.csv")
-process_raw_data <- function(file_name) {
+#' data <- process_raw_data(
+#'   file_name = "mammal_checklist.csv",
+#'   dna_or_complete = "complete"
+#' )
+process_raw_data <- function(file_name,
+                             dna_or_complete) {
 
   # check that a single csv file name is input
   if (!all(grepl(pattern = ".csv", x = file_name)) || length(file_name) != 1) {
@@ -34,6 +38,15 @@ process_raw_data <- function(file_name) {
 
   # subset to name in the phylogeny and the endemicity status
   island_species <- tbl[, c("Name_In_Tree", "Status_Species")]
+
+  if (grepl(pattern = "dna", x = dna_or_complete, ignore.case = TRUE)) {
+    dna_species <- grepl(
+      pattern = "yes",
+      x = tbl$DNA_In_Tree,
+      ignore.case = TRUE
+    )
+    island_species <- island_species[dna_species, ]
+  }
 
   names(island_species) <- c("tip_labels", "tip_endemicity_status")
 

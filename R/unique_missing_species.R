@@ -37,7 +37,7 @@ unique_missing_species <- function(island_tbl) {
   missing_genus[-1] <- mapply(
     setdiff,
     missing_genus[-1],
-    head(Reduce(c, genus_unique, accumulate=TRUE), -1)
+    utils::head(Reduce(c, genus_unique, accumulate=TRUE), -1)
   )
 
   # return missing_genus

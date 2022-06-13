@@ -9,6 +9,9 @@
 #' and the number of missing species
 #' @param missing_genus A list of character vectors containing the genera in
 #' each island clade
+#' @param dna_or_complete A character string, either "DNA" or "complete" (case
+#' insensitive) to determine whether to produce data for the DNA-only phylogeny
+#' or the complete phylogeny
 #'
 #' @return Nothing
 #' @keywords internal
@@ -18,6 +21,7 @@ default_params_doc <- function(bar,
                                checklist,
                                island_tbl,
                                missing_species,
-                               missing_genus) {
+                               missing_genus,
+                               dna_or_complete) {
   #Nothing
 }

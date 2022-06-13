@@ -10,7 +10,8 @@ default_params_doc(
   checklist,
   island_tbl,
   missing_species,
-  missing_genus
+  missing_genus,
+  dna_or_complete
 )
 }
 \arguments{
@@ -28,6 +29,10 @@ and the number of missing species}
 
 \item{missing_genus}{A list of character vectors containing the genera in
 each island clade}
+
+\item{dna_or_complete}{A character string, either "DNA" or "complete" (case
+insensitive) to determine whether to produce data for the DNA-only phylogeny
+or the complete phylogeny}
 }
 \value{
 Nothing

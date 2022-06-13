@@ -6,11 +6,15 @@
 data on many aspects (e.g. phenotypic trait) down to a data file with only
 the species names in the phylogeny and their endemicity status on the island}
 \usage{
-process_raw_data(file_name)
+process_raw_data(file_name, dna_or_complete)
 }
 \arguments{
 \item{file_name}{character string with the file name, including the file
 extension (needs to be .csv)}
+
+\item{dna_or_complete}{A character string, either "DNA" or "complete" (case
+insensitive) to determine whether to produce data for the DNA-only phylogeny
+or the complete phylogeny}
 }
 \value{
 Data frame
@@ -21,5 +25,8 @@ data on many aspects (e.g. phenotypic trait) down to a data file with only
 the species names in the phylogeny and their endemicity status on the island
 }
 \examples{
-data <- process_raw_data(file_name = "mammal_checklist.csv")
+data <- process_raw_data(
+  file_name = "mammal_checklist.csv",
+  dna_or_complete = "complete"
+)
 }

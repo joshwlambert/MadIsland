@@ -1,250 +1,250 @@
-Genus;Species;Subspecies;Family;Order ;Common_Name;Name_In_Tree;Sampled;DNA_In_Tree;Extinct_Extant;Status_Species
-Echinops;telfairi;NA;Tenrecidae;Afrosoricida;Lesser hedgehog tenrec;Echinops telfairi;TRUE;TRUE;Extant;Endemic
-Geogale;aurita;NA;Tenrecidae;Afrosoricida;Large-eared tenrec;Geogale aurita;TRUE;TRUE;Extant;Endemic
-Hemicentetes;nigriceps;NA;Tenrecidae;Afrosoricida;Highland streaked tenrec;Hemicentetes nigriceps;TRUE;FALSE;Extant;Endemic
-Hemicentetes;semispinosus;NA;Tenrecidae;Afrosoricida;Lowland streaked tenrec;Hemicentetes semispinosus;TRUE;TRUE;Extant;Endemic
-Microgale;brevicaudata;NA;Tenrecidae;Afrosoricida;Short-tailed shrew-tenrec;Microgale brevicaudata;TRUE;TRUE;Extant;Endemic
-Microgale;cowani;NA;Tenrecidae;Afrosoricida;Cowan's shrew tenrec;Microgale cowani;TRUE;TRUE;Extant;Endemic
-Microgale;drouhardi;NA;Tenrecidae;Afrosoricida;Drouhard's shrew tenrec;Microgale drouhardi;TRUE;FALSE;Extant;Endemic
-Microgale;dryas;NA;Tenrecidae;Afrosoricida;Dryad shrew tenrec;Microgale dryas;TRUE;FALSE;Extant;Endemic
-Microgale;fotsifotsy;NA;Tenrecidae;Afrosoricida;Pale shrew tenrec;Microgale fotsifotsy;TRUE;FALSE;Extant;Endemic
-Microgale;gracilis;NA;Tenrecidae;Afrosoricida;Gracile shrew tenrec;Microgale gracilis;TRUE;FALSE;Extant;Endemic
-Microgale;grandidieri;NA;Tenrecidae;Afrosoricida;Grandidier's shrew tenrec;Microgale grandidieri;TRUE;TRUE;Extant;Endemic
-Microgale;gymnorhyncha;NA;Tenrecidae;Afrosoricida;Naked-nosed shrew tenrec;Microgale gymnorhyncha;TRUE;FALSE;Extant;Endemic
-Microgale;jenkinsae;NA;Tenrecidae;Afrosoricida;Jenkins' shrew tenrec;Microgale jenkinsae;TRUE;FALSE;Extant;Endemic
-Microgale;jobihely;NA;Tenrecidae;Afrosoricida;Northern shrew tenrec;Microgale jobihely;TRUE;FALSE;Extant;Endemic
-Microgale;longicaudata;NA;Tenrecidae;Afrosoricida;Lesser long-tailed shrew-tenrec;Microgale longicaudata;TRUE;TRUE;Extant;Endemic
-Microgale;macpheei;NA;Tenrecidae;Afrosoricida;NA;NA;FALSE;FALSE;Extinct;Endemic
-Microgale;majori;NA;Tenrecidae;Afrosoricida;Major's long-tailed tenrec ;Microgale majori;TRUE;TRUE;Extant;Endemic
-Microgale;mergulus;NA;Tenrecidae;Afrosoricida;Web-footed Aquatic tenrec;Limnogale mergulus;TRUE;TRUE;Extant;Endemic
-Microgale;monticola;NA;Tenrecidae;Afrosoricida;Montane shrew tenrec;Microgale monticola;TRUE;FALSE;Extant;Endemic
-Microgale;nasoloi;NA;Tenrecidae;Afrosoricida;Nasolo's shrew-tenrec;Microgale nasoloi;TRUE;FALSE;Extant;Endemic
-Microgale;parvula;NA;Tenrecidae;Afrosoricida;Pygmy shrew tenrec;Microgale parvula;TRUE;FALSE;Extant;Endemic
-Microgale;principula;NA;Tenrecidae;Afrosoricida;Greater long-tailed shrew-tenrec;Microgale principula;TRUE;TRUE;Extant;Endemic
-Microgale;pusilla;NA;Tenrecidae;Afrosoricida;Lesser shrew-tenrec;Microgale pusilla;TRUE;TRUE;Extant;Endemic
-Microgale;soricoides;NA;Tenrecidae;Afrosoricida;Shrew-toothed shrew tenrec;Microgale soricoides;TRUE;FALSE;Extant;Endemic
-Microgale;taiva;NA;Tenrecidae;Afrosoricida;Taiva shrew tenrec;Microgale taiva;TRUE;FALSE;Extant;Endemic
-Microgale;thomasi;NA;Tenrecidae;Afrosoricida;Thomas' shrew tenrec;Microgale thomasi;TRUE;FALSE;Extant;Endemic
-Nesogale;dobsoni;NA;Tenrecidae;Afrosoricida;Dobson's shrew tenrec;Microgale dobsoni;TRUE;FALSE;Extant;Endemic
-Nesogale;talazaci;NA;Tenrecidae;Afrosoricida;Talzac's shrew tenrec;Microgale talazaci;TRUE;TRUE;Extant;Endemic
-Oryzorictes;hova;NA;Tenrecidae;Afrosoricida;Mole-like Hova rice tenrec;Oryzorictes hova;TRUE;TRUE;Extant;Endemic
-Oryzorictes;tetradactylus;NA;Tenrecidae;Afrosoricida;Four-toed mole tenrec;Oryzorictes tetradactylus;TRUE;FALSE;Extant;Endemic
-Plesiorycteropus;germainepetterae;NA;Tenrecidae;Afrosoricida;"Bibymalagasy/Malagasy ""aardvark""";NA;FALSE;FALSE;Extinct;Endemic
-Plesiorycteropus;madagascariensis;NA;Tenrecidae;Afrosoricida;"Bibymalagasy/Malagasy ""aardvark""";NA;FALSE;FALSE;Extinct;Endemic
-Setifer;setosus;NA;Tenrecidae;Afrosoricida;Greater hedgehog tenrec;Setifer setosus;TRUE;TRUE;Extant;Endemic
-Tenrec;ecaudatus;NA;Tenrecidae;Afrosoricida;Common tailless tenrec;Tenrec ecaudatus;TRUE;TRUE;Extant;Endemic
-Hippopotamus;laloumena;NA;Hippopotamidae;Artiodactyla;NA;NA;FALSE;FALSE;Extinct;Endemic
-Hippopotamus;lemerlei;NA;Hippopotamidae;Artiodactyla;Malagasy dwarf hippopotamus;Hippopotamus lemerlei;TRUE;FALSE;Extinct;Endemic
-Hippopotamus;madagascariensis;NA;Hippopotamidae;Artiodactyla;Malagasy pygmy hippo;Hippopotamus guldbergi;TRUE;FALSE;Extinct;Endemic
-Cryptoprocta;ferox;NA;Eupleridae;Carnivora;Fosa;Cryptoprocta ferox;TRUE;TRUE;Extant;Endemic
-Cryptoprocta;sp. nov.;NA;Eupleridae;Carnivora;NA;NA;FALSE;FALSE;Extinct;Endemic
-Cryptoprocta;spelea;NA;Eupleridae;Carnivora;NA;Cryptoprocta spelea;TRUE;FALSE;Extinct;Endemic
-Eupleres;goudotii;NA;Eupleridae;Carnivora;Falanouc;Eupleres goudotii;TRUE;TRUE;Extant;Endemic
-Fossa;fossana;NA;Eupleridae;Carnivora;Spotted fanaloka;Fossa fossana;TRUE;TRUE;Extant;Endemic
-Galidia;elegans;elegans, dambrensis, occidentalis;Eupleridae;Carnivora;Ring-tailed vontsira;Galidia elegans;TRUE;TRUE;Extant;Endemic
-Galidictis;fasciata;fasciata, grandidieri;Eupleridae;Carnivora;Broad-striped vontsira;Galidictis fasciata;TRUE;TRUE;Extant;Endemic
-Mungotictis;decemlineata;declimineata, lineata;Eupleridae;Carnivora;Narrow-striped boky;Mungotictis decemlineata;TRUE;TRUE;Extant;Endemic
-Salanoia;concolor;NA;Eupleridae;Carnivora;Brown-tailed vontsira;Salanoia concolor;TRUE;TRUE;Extant;Endemic
-Chaerephon;atsinanana;NA;Molossidae;Chiroptera;Madagascar eastern free-tailed bat;Chaerephon atsinanana;TRUE;TRUE;Extant;Endemic
-Chaerephon;jobimena;NA;Molossidae;Chiroptera;Malagasy western free-tailed bat;Tadarida jobimena;TRUE;TRUE;Extant;Endemic
-Chaerephon;leucogaster;NA;Molossidae;Chiroptera;Grandidier's lesser free-tailed bat;NA;FALSE;FALSE;Extant;Non-endemic
-Coleura;kibomalandy;NA;Emballonuridae;Chiroptera;Madagascar sheath-tailed bat;Coleura kibomalandy;TRUE;TRUE;Extant;Endemic
-Eidolon;dupreanum;NA;Pteropodidae;Chiroptera;Madagascar straw-coloured fruit bat;Eidolon dupreanum;TRUE;TRUE;Extant;Endemic
-Laephotis;malagasyensis;NA;Vespertilionidae;Chiroptera;Isalo Serotine;Neoromicia malagasyensis;TRUE;TRUE;Extant;Endemic
-Laephotis;matroka;NA;Vespertilionidae;Chiroptera;Malagasy serotine;Neoromicia matroka;TRUE;TRUE;Extant;Endemic
-Laephotis;robertsi;NA;Vespertilionidae;Chiroptera;Robert's serotine;Neoromicia robertsi;TRUE;TRUE;Extant;Endemic
-Macronycteris;besaoka;NA;Hipposideridae;Chiroptera;NA;NA;FALSE;FALSE;Extinct;Endemic
-Macronycteris;commersoni;NA;Hipposideridae;Chiroptera;Commerson's leaf-nosed bat;Hipposideros commersoni;TRUE;TRUE;Extant;Endemic
-Macronycteris;cryptovalorona;NA;Hipposideridae;Chiroptera;Madagascar cryptic leaf-nosed bat;NA;FALSE;FALSE;Extant;Endemic
-Miniopterus;aelleni;NA;Miniopteridae;Chiroptera;Aellen's long-fingered bat;Miniopterus aelleni;TRUE;TRUE;Extant;Non-endemic
-Miniopterus;ambohitrensis;NA;Miniopteridae;Chiroptera;Montagne d’Ambre long-fingered Bat;Miniopterus ambohitrensis;TRUE;FALSE;Extant;Endemic
-Miniopterus;brachytragos;NA;Miniopteridae;Chiroptera;Short-tragus long-fingered bat;Miniopterus brachytragos;TRUE;FALSE;Extant;Endemic
-Miniopterus;egeri;NA;Miniopteridae;Chiroptera;Eger's long-fingered bat;Miniopterus egeri;TRUE;FALSE;Extant;Endemic
-Miniopterus;gleni;NA;Miniopteridae;Chiroptera;Glen's long-fingered bat;Miniopterus gleni;TRUE;TRUE;Extant;Endemic
-Miniopterus;griffithsi;NA;Miniopteridae;Chiroptera;Griffith's long-fingered bat;Miniopterus griffithsi;TRUE;TRUE;Extant;Endemic
-Miniopterus;griveaudi;NA;Miniopteridae;Chiroptera;Griveaud's long-fingered bat;Miniopterus griveaudi;TRUE;TRUE;Extant;Non-endemic
-Miniopterus;mahafaliensis;NA;Miniopteridae;Chiroptera;Mahafaly long-fingered bat;Miniopterus mahafaliensis;TRUE;FALSE;Extant;Endemic
-Miniopterus;majori;NA;Miniopteridae;Chiroptera;Major's long-fingered bat;Miniopterus majori;TRUE;TRUE;Extant;Endemic
-Miniopterus;manavi;NA;Miniopteridae;Chiroptera;Manavi long-fingered bat;Miniopterus manavi;TRUE;TRUE;Extant;Non-endemic
-Miniopterus;petersoni;NA;Miniopteridae;Chiroptera;Peterson's long-fingered bat;Miniopterus petersoni;TRUE;TRUE;Extant;Endemic
-Miniopterus;sororculus;NA;Miniopteridae;Chiroptera;Small sister long-fingered bat;Miniopterus sororculus;TRUE;FALSE;Extant;Endemic
-Mops;leucostigma;NA;Molossidae;Chiroptera;Malagasy large white-bellied free-tailed bat;Mops leucostigma;TRUE;TRUE;Extant;Non-endemic
-Mops;midas;miarensis;Molossidae;Chiroptera;Midas' free-tailed bat;Mops midas;TRUE;TRUE;Extant;Non-endemic
-Mormopterus;jugularis;NA;Molossidae;Chiroptera;Peters'  goblin bat;Mormopterus jugularis;TRUE;TRUE;Extant;Endemic
-Myotis;goudoti;NA;Vespertilionidae;Chiroptera;Malagasy mouse-eared bat;Myotis goudoti;TRUE;TRUE;Extant;Endemic
-Myzopoda;aurita;NA;Myzopodidae;Chiroptera;Eastern sucker-footed bat;Myzopoda aurita;TRUE;TRUE;Extant;Endemic
-Myzopoda;schliemanni;NA;Myzopodidae;Chiroptera;Schliemann's sucker-footed bat;Myzopoda schliemanni;TRUE;TRUE;Extant;Endemic
-Neoromicia;bemainty;NA;Vespertilionidae;Chiroptera;Dark Madagascar pipistrelle;Hypsugo bemainty;TRUE;TRUE;Extant;Endemic
-Otomops;madagascariensis;NA;Molossidae;Chiroptera;Malagasy large-eared free-tailed bat;Otomops madagascariensis;TRUE;TRUE;Extant;Endemic
-Paratriaenops;auritus;NA;Hipposideridae;Chiroptera;Golden trident bat;Paratriaenops auritus;TRUE;TRUE;Extant;Endemic
-Paratriaenops;furculus;NA;Hipposideridae;Chiroptera;Trouessart's trident Bat;Paratriaenops furculus;TRUE;TRUE;Extant;Endemic
-Paratriaenops;goodmani;NA;Hipposideridae;Chiroptera;NA;NA;FALSE;FALSE;Extinct;Endemic
-Paremballonura;atrata;NA;Emballonuridae;Chiroptera;Peters' sheath-tailed bat;Emballonura atrata;TRUE;TRUE;Extant;Endemic
-Paremballonura;tiavato;NA;Emballonuridae;Chiroptera;Rock-dwelling sheath-tailed bat;Emballonura tiavato;TRUE;TRUE;Extant;Endemic
-Pipistrellus;hesperidus;NA;Vespertilionidae;Chiroptera;Dusky pipistrelle;Pipistrellus hesperidus;TRUE;TRUE;Extant;Non-endemic
-Pipistrellus;raceyi;NA;Vespertilionidae;Chiroptera;Racey's pipistrelle;Pipistrellus raceyi;TRUE;FALSE;Extant;Endemic
-Pteropus;rufus;NA;Pteropodidae;Chiroptera;Madagascar flying fox;Pteropus rufus;TRUE;TRUE;Extant;Endemic
-Rousettus;madagascariensis;NA;Pteropodidae;Chiroptera;Madagascar rousette;Rousettus madagascariensis;TRUE;TRUE;Extant;Endemic
-Scotophilus;marovaza;NA;Vespertilionidae;Chiroptera;Marovaza house bat;Scotophilus marovaza;TRUE;TRUE;Extant;Endemic
-Scotophilus;robustus;NA;Vespertilionidae;Chiroptera;Malagasy large house bat;Scotophilus robustus;TRUE;TRUE;Extant;Endemic
-Scotophilus;tandrefana;NA;Vespertilionidae;Chiroptera;Malagasy western house bat;Scotophilus tandrefana;TRUE;TRUE;Extant;Endemic
-Tadarida;fulminans;NA;Molossidae;Chiroptera;Malagasy free-tailed bat;Tadarida fulminans;TRUE;TRUE;Extant;Non-endemic
-Taphozous;mauritianus;NA;Emballonuridae;Chiroptera;Mauritian tomb bat;Taphozous mauritianus;TRUE;TRUE;Extant;Non-endemic
-Triaenops;menamena;NA;Hipposideridae;Chiroptera;Rufous trident bat;Triaenops menamena;TRUE;TRUE;Extant;Endemic
-Allocebus;trichotis;NA;Cheirogaleidae;Primates;Hairy-eared dwarf lemur;Allocebus trichotis;TRUE;TRUE;Extant;Endemic
-Archaeoindris;fontoynontii;NA;Palaeopropithecidae;Primates;Sloth lemur;NA;FALSE;FALSE;Extinct;Endemic
-Archaeolemur;edwardsi;NA;Archaeolemuridae;Primates;Monkey Lemur;Archaeolemur edwardsi;TRUE;FALSE;Extinct;Endemic
-Archaeolemur;majori;NA;Archaeolemuridae;Primates;NA;Archaeolemur majori;TRUE;TRUE;Extinct;Endemic
-Avahi;betsileo;NA;Indriidae;Primates;Betsileo woolly lemur;Avahi betsileo;TRUE;FALSE;Extant;Endemic
-Avahi;cleesei;NA;Indriidae;Primates;Cleese's bemaraha woolly lemur;Avahi cleesei;TRUE;TRUE;Extant;Endemic
-Avahi;laniger;NA;Indriidae;Primates;Eastern woolly lemur;Avahi laniger;TRUE;TRUE;Extant;Endemic
-Avahi;meridionalis;NA;Indriidae;Primates;Southern woolly lemur;Avahi meridionalis;TRUE;FALSE;Extant;Endemic
-Avahi;mooreorum;NA;Indriidae;Primates;Moore's Masoala woolly lemur ;Avahi mooreorum;TRUE;FALSE;Extant;Endemic
-Avahi;occidentalis;NA;Indriidae;Primates;Lorenz Von Liburnau's western woolly lemur;Avahi occidentalis;TRUE;TRUE;Extant;Endemic
-Avahi;peyrierasi;NA;Indriidae;Primates;Peyrieras' woolly lemur;Avahi peyrierasi;TRUE;FALSE;Extant;Endemic
-Avahi;ramanantsoavanai;NA;Indriidae;Primates;Ramantsoavana's southern woolly lemur;Avahi ramanantsoavanai;TRUE;FALSE;Extant;Endemic
-Avahi;unicolor;NA;Indriidae;Primates;Sambirano woolly lemur;Avahi unicolor;TRUE;FALSE;Extant;Endemic
-Babakotia;radofilai;NA;Palaeopropithecidae;Primates;NA;NA;FALSE;FALSE;Extinct;Endemic
-Cheirogaleus;andysabini;NA;Cheirogaleidae;Primates;Montagne d'Ambre dwarf lemur;NA;FALSE;FALSE;Extant;Endemic
-Cheirogaleus;crossleyi;NA;Cheirogaleidae;Primates;Crossley's dwarf lemur;Cheirogaleus crossleyi;TRUE;TRUE;Extant;Endemic
-Cheirogaleus;grovesi;NA;Cheirogaleidae;Primates;Grove's dwarf lemur;NA;FALSE;FALSE;Extant;Endemic
-Cheirogaleus;lavasoensis;NA;Cheirogaleidae;Primates;Lavasoa dwarf lemur;Cheirogaleus lavasoensis;TRUE;TRUE;Extant;Endemic
-Cheirogaleus;major;NA;Cheirogaleidae;Primates;Geoffroy's greater dwarf lemur;Cheirogaleus major;TRUE;TRUE;Extant;Endemic
-Cheirogaleus;medius;NA;Cheirogaleidae;Primates;Western fat-tailed dwarf lemur;Cheirogaleus medius;TRUE;TRUE;Extant;Endemic
-Cheirogaleus;minusculus;NA;Cheirogaleidae;Primates;Lesser Iron-gray dwarf lemur;Cheirogaleus minusculus;TRUE;FALSE;Extant;Endemic
-Cheirogaleus;shethi;NA;Cheirogaleidae;Primates;Sheth's Ankarana dwarf lemur;NA;FALSE;FALSE;Extant;Endemic
-Cheirogaleus;sibreei;NA;Cheirogaleidae;Primates;Sibree's dwarf lemur;Cheirogaleus sibreei;TRUE;TRUE;Extant;Endemic
-Cheirogaleus;thomasi;NA;Cheirogaleidae;Primates;Thomas' Dwarf Lemur;NA;FALSE;FALSE;Extant;Endemic
-Daubentonia;madagascariensis;NA;Daubentoniidae;Primates;Aye-aye;Daubentonia madagascariensis;TRUE;TRUE;Extant;Endemic
-Daubentonia;robusta;NA;Daubentoniidae;Primates;Giant aye-aye;NA;FALSE;FALSE;Extinct;Endemic
-Eulemur;albifrons;NA;Lemuridae;Primates;White-fronted brown lemur;Eulemur albifrons;TRUE;TRUE;Extant;Endemic
-Eulemur;cinereiceps;NA;Lemuridae;Primates;White-collared lemur;Eulemur cinereiceps;TRUE;TRUE;Extant;Endemic
-Eulemur;collaris;NA;Lemuridae;Primates;Collared brown lemur;Eulemur collaris;TRUE;TRUE;Extant;Endemic
-Eulemur;coronatus;NA;Lemuridae;Primates;Crowned lemur;Eulemur coronatus;TRUE;TRUE;Extant;Endemic
-Eulemur;flavifrons;NA;Lemuridae;Primates;Sclater's Blue-eyed black lemur;Eulemur flavifrons;TRUE;TRUE;Extant;Endemic
-Eulemur;fulvus;NA;Lemuridae;Primates;Common brown lemur;Eulemur fulvus;TRUE;TRUE;Extant;Endemic
-Eulemur;macaco;NA;Lemuridae;Primates;Black lemur;Eulemur macaco;TRUE;TRUE;Extant;Endemic
-Eulemur;mongoz;NA;Lemuridae;Primates;Mongoose lemur;Eulemur mongoz;TRUE;TRUE;Extant;Endemic
-Eulemur;rubriventer;NA;Lemuridae;Primates;Red-bellied lemur;Eulemur rubriventer;TRUE;TRUE;Extant;Endemic
-Eulemur;rufifrons;NA;Lemuridae;Primates;Bennett's Red-fronted brown lemur;Eulemur rufifrons;TRUE;TRUE;Extant;Endemic
-Eulemur;rufus;NA;Lemuridae;Primates;Audebert's red-fronted brown lemur;Eulemur rufus;TRUE;TRUE;Extant;Endemic
-Eulemur;sanfordi;NA;Lemuridae;Primates;Sanford's brown lemur;Eulemur sanfordi;TRUE;TRUE;Extant;Endemic
-Hadropithecus;stenognathus;NA;Archaeolemuridae;Primates;NA;NA;FALSE;FALSE;Extinct;Endemic
-Hapalemur;alaotrensis;NA;Lemuridae;Primates;Alaotra gentle reed lemur;Hapalemur alaotrensis;TRUE;TRUE;Extant;Endemic
-Hapalemur;aureus;NA;Lemuridae;Primates;Golden bamboo lemur;Hapalemur aureus;TRUE;TRUE;Extant;Endemic
-Hapalemur;griseus;NA;Lemuridae;Primates;Eastern lesser bamboo lemur;Hapalemur griseus;TRUE;TRUE;Extant;Endemic
-Hapalemur;meridionalis;NA;Lemuridae;Primates;Rusty-grey lesser/southern grey gentle bamboo lemur;Hapalemur meridionalis;TRUE;FALSE;Extant;Endemic
-Hapalemur;occidentalis;NA;Lemuridae;Primates;Sambirano lesser/western grey bamboo lemur;Hapalemur occidentalis;TRUE;TRUE;Extant;Endemic
-Indri;indri;NA;Indriidae;Primates;Indri;Indri indri;TRUE;TRUE;Extant;Endemic
-Lemur;catta;NA;Lemuridae;Primates;Ring-tailed lemur;Lemur catta;TRUE;TRUE;Extant;Endemic
-Lepilemur;aeeclis;NA;Lepilemuridae;Primates;Antafia red-shouldered sportive lemur;Lepilemur aeeclis;TRUE;TRUE;Extant;Endemic
-Lepilemur;ahmansonorum;NA;Lepilemuridae;Primates;Ahmanson's sportive lemur;Lepilemur ahmansonorum;TRUE;FALSE;Extant;Endemic
-Lepilemur;ankaranensis;NA;Lepilemuridae;Primates;Ankarana sportive lemur;Lepilemur ankaranensis;TRUE;TRUE;Extant;Endemic
-Lepilemur;betsileo;NA;Lepilemuridae;Primates;Betsileo sportive lemur;Lepilemur betsileo;TRUE;FALSE;Extant;Endemic
-Lepilemur;dorsalis;NA;Lepilemuridae;Primates;Gray-backed sportive lemur;Lepilemur dorsalis;TRUE;TRUE;Extant;Endemic
-Lepilemur;edwardsi;NA;Lepilemuridae;Primates;Milne-Edward's sportive lemur;Lepilemur edwardsi;TRUE;TRUE;Extant;Endemic
-Lepilemur;fleuretae;NA;Lepilemuridae;Primates;Fleurete's sportive lemur;Lepilemur fleuretae;TRUE;FALSE;Extant;Endemic
-Lepilemur;grewcockorum;NA;Lepilemuridae;Primates;Grewcock's sportive lemur;Lepilemur grewcockorum;TRUE;TRUE;Extant;Endemic
-Lepilemur;hollandorum;NA;Lepilemuridae;Primates;Holland's sportive lemur;Lepilemur hollandorum;TRUE;FALSE;Extant;Endemic
-Lepilemur;hubbardorum;NA;Lepilemuridae;Primates;Hubbard's sportive lemur;Lepilemur hubbardorum;TRUE;TRUE;Extant;Endemic
-Lepilemur;jamesorum;NA;Lepilemuridae;Primates;James' sportive lemur;Lepilemur jamesorum;TRUE;TRUE;Extant;Endemic
-Lepilemur;leucopus;NA;Lepilemuridae;Primates;White-footed sportive lemur;Lepilemur leucopus;TRUE;TRUE;Extant;Endemic
-Lepilemur;microdon;NA;Lepilemuridae;Primates;Small-toothed sportive lemur;Lepilemur microdon;TRUE;TRUE;Extant;Endemic
-Lepilemur;milanoii;NA;Lepilemuridae;Primates;Daraina sportive lemur;Lepilemur milanoii;TRUE;FALSE;Extant;Endemic
-Lepilemur;mittermeieri;NA;Lepilemuridae;Primates;Mittermeier's sportive lemur;Lepilemur mittermeieri;TRUE;TRUE;Extant;Endemic
-Lepilemur;mustelinus;NA;Lepilemuridae;Primates;Weasel sportive lemur;Lepilemur mustelinus;TRUE;TRUE;Extant;Endemic
-Lepilemur;otto;NA;Lepilemuridae;Primates;Otto's sportive lemur;Lepilemur otto;TRUE;TRUE;Extant;Endemic
-Lepilemur;petteri;NA;Lepilemuridae;Primates;Petter's sportive lemur;Lepilemur petteri;TRUE;FALSE;Extant;Endemic
-Lepilemur;randrianasoloi;NA;Lepilemuridae;Primates;Randrianasolo's sportive lemur;Lepilemur randrianasoloi;TRUE;TRUE;Extant;Endemic
-Lepilemur;ruficaudatus;NA;Lepilemuridae;Primates;Red-tailed sportive lemur;Lepilemur ruficaudatus;TRUE;TRUE;Extant;Endemic
-Lepilemur;sahamalazensis;NA;Lepilemuridae;Primates;Sahamalaza Peninsula sportive lemur;Lepilemur sahamalazensis;TRUE;TRUE;Extant;Endemic
-Lepilemur;scottorum;NA;Lepilemuridae;Primates;Scott's Masoala sportive lemur;Lepilemur scottorum;TRUE;FALSE;Extant;Endemic
-Lepilemur;seali;NA;Lepilemuridae;Primates;Seal's sportive lemur;Lepilemur seali;TRUE;FALSE;Extant;Endemic
-Lepilemur;septentrionalis;NA;Lepilemuridae;Primates;Northern sahafary sportive lemur;Lepilemur septentrionalis;TRUE;TRUE;Extant;Endemic
-Lepilemur;tymerlachsonorum;NA;Lepilemuridae;Primates;Hawk's Nosy Be sportive lemur;Lepilemur tymerlachsoni;TRUE;FALSE;Extant;Endemic
-Lepilemur;wrightae;NA;Lepilemuridae;Primates;Wright's sportive lemur;Lepilemur wrightae;TRUE;FALSE;Extant;Endemic
-Megaladapis;edwardsi;NA;Megaladapidae;Primates;NA;Megaladapis edwardsi;TRUE;TRUE;Extinct;Endemic
-Megaladapis;grandidieri;NA;Megaladapidae;Primates;NA;NA;FALSE;FALSE;Extinct;Endemic
-Megaladapis;madagascariensis;NA;Megaladapidae;Primates;NA;NA;FALSE;FALSE;Extinct;Endemic
-Mesopropithecus;dolichobrachion;NA;Palaeopropithecidae;Primates;NA;NA;FALSE;FALSE;Extinct;Endemic
-Mesopropithecus;globiceps;NA;Palaeopropithecidae;Primates;NA;NA;FALSE;FALSE;Extinct;Endemic
-Mesopropithecus;pithecoides;NA;Palaeopropithecidae;Primates;NA;NA;FALSE;FALSE;Extinct;Endemic
-Microcebus;arnholdi;NA;Cheirogaleidae;Primates;Arnhold's mouse lemur;Microcebus arnholdi;TRUE;FALSE;Extant;Endemic
-Microcebus;berthae;NA;Cheirogaleidae;Primates;Madame Berthe's mouse lemur;Microcebus berthae;TRUE;TRUE;Extant;Endemic
-Microcebus;bongolavensis;NA;Cheirogaleidae;Primates;Bongolava mouse lemur;Microcebus bongolavensis;TRUE;TRUE;Extant;Endemic
-Microcebus;boraha;NA;Cheirogaleidae;Primates;Boraha mouse lemur;NA;FALSE;FALSE;Extant;Endemic
-Microcebus;danfossi;NA;Cheirogaleidae;Primates;Danfoss' mouse lemur;Microcebus danfossi;TRUE;FALSE;Extant;Endemic
-Microcebus;ganzhorni;NA;Cheirogaleidae;Primates;Ganzhorn's mouse lemur;NA;FALSE;FALSE;Extant;Endemic
-Microcebus;gerpi;NA;Cheirogaleidae;Primates;Gerp's mouse lemur;Microcebus gerpi;TRUE;TRUE;Extant;Endemic
-Microcebus;griseorufus;NA;Cheirogaleidae;Primates;Gray-brown mouse lemur;Microcebus griseorufus;TRUE;TRUE;Extant;Endemic
-Microcebus;jollyae;NA;Cheirogaleidae;Primates;Jolly's mouse lemur;Microcebus jollyae;TRUE;FALSE;Extant;Endemic
-Microcebus;jonahi;NA;Cheirogaleidae;Primates;Jonah's mouse lemur;NA;FALSE;FALSE;Extant;Endemic
-Microcebus;lehilahytsara;NA;Cheirogaleidae;Primates;Goodman's mouse lemur;Microcebus lehilahytsara;TRUE;TRUE;Extant;Endemic
-Microcebus;macarthurii;NA;Cheirogaleidae;Primates;MacArthur's mouse lemur;Microcebus macarthurii;TRUE;TRUE;Extant;Endemic
-Microcebus;mamiratra;NA;Cheirogaleidae;Primates;Claire's mouse lemur;Microcebus mamiratra;TRUE;FALSE;Extant;Endemic
-Microcebus;manitatra;NA;Cheirogaleidae;Primates;Bemanasy mouse lemur;NA;FALSE;FALSE;Extant;Endemic
-Microcebus;margotmarshae;NA;Cheirogaleidae;Primates;Margot Marsh's mouse lemur;Microcebus margotmarshae;TRUE;FALSE;Extant;Endemic
-Microcebus;marohita;NA;Cheirogaleidae;Primates;Marohita mouse lemur;Microcebus marohita;TRUE;TRUE;Extant;Endemic
-Microcebus;mittermeieri;NA;Cheirogaleidae;Primates;Mittermeier's mouse lemur;Microcebus mittermeieri;TRUE;TRUE;Extant;Endemic
-Microcebus;murinus;NA;Hipposideridae;Primates;Gray mouse lemur;Microcebus murinus;TRUE;TRUE;Extant;Endemic
-Microcebus;myoxinus;NA;Cheirogaleidae;Primates;Peters' mouse lemur;Microcebus myoxinus;TRUE;TRUE;Extant;Endemic
-Microcebus;ravelobensis;NA;Cheirogaleidae;Primates;Golden-brown mouse lemur;Microcebus ravelobensis;TRUE;TRUE;Extant;Endemic
-Microcebus;rufus;NA;Cheirogaleidae;Primates;Rufous mouse lemur;Microcebus rufus;TRUE;TRUE;Extant;Endemic
-Microcebus;sambiranensis;NA;Cheirogaleidae;Primates;Sambirano mouse lemur;Microcebus sambiranensis;TRUE;TRUE;Extant;Endemic
-Microcebus;simmonsi;NA;Cheirogaleidae;Primates;Simmons' mouse lemur;Microcebus simmonsi;TRUE;TRUE;Extant;Endemic
-Microcebus;tanosi;NA;Cheirogaleidae;Primates;Anosi mouse lemur;Microcebus tanosi;TRUE;TRUE;Extant;Endemic
-Microcebus;tavaratra;NA;Cheirogaleidae;Primates;Northern rufous tavaratra mouse lemur;Microcebus tavaratra;TRUE;TRUE;Extant;Endemic
-Mirza;coquereli;NA;Cheirogaleidae;Primates;Coquerel's giant mouse lemur;Mirza coquereli;TRUE;TRUE;Extant;Endemic
-Mirza;zaza;NA;Cheirogaleidae;Primates;Northern giant mouse lemur;Mirza zaza;TRUE;TRUE;Extant;Endemic
-Pachylemur;insignis;NA;Lemuridae;Primates;Giant ruffed Lemur;NA;FALSE;FALSE;Extinct;Endemic
-Pachylemur;jullyi;NA;Lemuridae;Primates;NA;NA;FALSE;FALSE;Extinct;Endemic
-Palaeopropithecus;ingens;NA;Palaeopropithecidae;Primates;Large sloth lemur;Palaeopropithecus ingens;TRUE;TRUE;Extinct;Endemic
-Palaeopropithecus;kelyus;NA;Palaeopropithecidae;Primates;NA;NA;FALSE;FALSE;Extinct;Endemic
-Palaeopropithecus;maximus;NA;Palaeopropithecidae;Primates;NA;NA;FALSE;FALSE;Extinct;Endemic
-Phaner;electromontis;NA;Cheirogaleidae;Primates;Amber mountain fork-marked lemur;Phaner electromontis;TRUE;FALSE;Extant;Endemic
-Phaner;furcifer;NA;Cheirogaleidae;Primates;Masoala fork-marked lemur;Phaner furcifer;TRUE;TRUE;Extant;Endemic
-Phaner;pallescens;NA;Cheirogaleidae;Primates;Pale fork-marked lemur;Phaner pallescens;TRUE;FALSE;Extant;Endemic
-Phaner;parienti;NA;Cheirogaleidae;Primates;Sambirano fork-marked lemur;Phaner parienti;TRUE;FALSE;Extant;Endemic
-Prolemur;simus;NA;Lemuridae;Primates;Greater bamboo lemur;Prolemur simus;TRUE;TRUE;Extant;Endemic
-Propithecus;candidus;NA;Indriidae;Primates;Silky sifaka;Propithecus candidus;TRUE;FALSE;Extant;Endemic
-Propithecus;coquereli;NA;Indriidae;Primates;Coquerel's crowned sifaka;Propithecus coquereli;TRUE;TRUE;Extant;Endemic
-Propithecus;coronatus;NA;Indriidae;Primates;Crowned sifaka;Propithecus coronatus;TRUE;FALSE;Extant;Endemic
-Propithecus;deckenii;NA;Indriidae;Primates;Van der Decken's sifaka;Propithecus deckenii;TRUE;TRUE;Extant;Endemic
-Propithecus;diadema;NA;Indriidae;Primates;Diademed sifaka;Propithecus diadema;TRUE;TRUE;Extant;Endemic
-Propithecus;edwardsi;NA;Indriidae;Primates;Milne-Edward's sifaka;Propithecus edwardsi;TRUE;TRUE;Extant;Endemic
-Propithecus;perrieri;NA;Indriidae;Primates;Perrier's sifaka;Propithecus perrieri;TRUE;TRUE;Extant;Endemic
-Propithecus;tattersalli;NA;Indriidae;Primates;Tattersall's Golden-crowned sifaka;Propithecus tattersalli;TRUE;TRUE;Extant;Endemic
-Propithecus;verreauxi;NA;Indriidae;Primates;Verreaux's sifaka;Propithecus verreauxi;TRUE;TRUE;Extant;Endemic
-Varecia;rubra;NA;Lemuridae;Primates;Red ruffed lemur;Varecia rubra;TRUE;TRUE;Extant;Endemic
-Varecia;variegata;variegata, editorum, subcincta;Lemuridae;Primates;Black-and-White ruffed lemur;Varecia variegata;TRUE;TRUE;Extant;Endemic
-Brachytarsomys;albicauda;NA;Nesomyidae;Rodentia;White-tailed tree rat;Brachytarsomys albicauda;TRUE;TRUE;Extant;Endemic
-Brachytarsomys;mahajambaensis;NA;Nesomyidae;Rodentia;NA;NA;FALSE;FALSE;Extinct;Endemic
-Brachytarsomys;villosa;NA;Nesomyidae;Rodentia;Hairy-tailed tree rat;Brachytarsomys villosa;TRUE;FALSE;Extant;Endemic
-Brachyuromys;betsileoensis;NA;Nesomyidae;Rodentia;Betsileo short-tailed rat;Brachyuromys betsileoensis;TRUE;TRUE;Extant;Endemic
-Brachyuromys;ramirohitra;NA;Nesomyidae;Rodentia;Gregarious short-tailed rat;Brachyuromys ramirohitra;TRUE;TRUE;Extant;Endemic
-Eliurus;antsingy;NA;Nesomyidae;Rodentia;Tsingy tuft-tailed rat;Eliurus antsingy;TRUE;TRUE;Extant;Endemic
-Eliurus;carletoni;NA;Nesomyidae;Rodentia;Ankarana Special Reserve tufted-tailed rat;Eliurus carletoni;TRUE;TRUE;Extant;Endemic
-Eliurus;danieli;NA;Nesomyidae;Rodentia;Daniel's tuft-tailed rat;Eliurus danieli;TRUE;FALSE;Extant;Endemic
-Eliurus;ellermani;NA;Nesomyidae;Rodentia;Ellerman's tuft-tailed rat;Eliurus ellermani;TRUE;TRUE;Extant;Endemic
-Eliurus;grandidieri;NA;Nesomyidae;Rodentia;Grandidier's tuft-tailed rat;Eliurus grandidieri;TRUE;TRUE;Extant;Endemic
-Eliurus;majori;NA;Nesomyidae;Rodentia;Major's tuft-tailed rat;Eliurus majori;TRUE;TRUE;Extant;Endemic
-Eliurus;minor;NA;Nesomyidae;Rodentia;Lesser tufted-tailed rat;Eliurus minor;TRUE;TRUE;Extant;Endemic
-Eliurus;myoxinus;NA;Nesomyidae;Rodentia;Western tuft-tailed rat;Eliurus myoxinus;TRUE;TRUE;Extant;Endemic
-Eliurus;penicillatus;NA;Nesomyidae;Rodentia;White-tipped tuft-tailed rat;Eliurus penicillatus;TRUE;FALSE;Extant;Endemic
-Eliurus;petteri;NA;Nesomyidae;Rodentia;Petter's tuft-tailed rat;Eliurus petteri;TRUE;FALSE;Extant;Endemic
-Eliurus;tanala;NA;Nesomyidae;Rodentia;Tanala tuft-tailed rat;Eliurus tanala;TRUE;TRUE;Extant;Endemic
-Eliurus;tsingimbato;NA;Nesomyidae;Rodentia;NA;NA;FALSE;FALSE;Extant;Endemic
-Eliurus;webbi;NA;Nesomyidae;Rodentia;Webb's tuft-tailed rat;Eliurus webbi;TRUE;TRUE;Extant;Endemic
-Gymnuromys;roberti;NA;Nesomyidae;Rodentia;Voalavoanala;Gymnuromys roberti;TRUE;TRUE;Extant;Endemic
-Hypogeomys;antimena;NA;Nesomyidae;Rodentia;Malagasy giant jumping rat;Hypogeomys antimena;TRUE;TRUE;Extant;Endemic
-Hypogeomys;australis;NA;Nesomyidae;Rodentia;NA;NA;FALSE;FALSE;Extinct;Endemic
-Macrotarsomys;bastardi;bastardi, occidentalis;Nesomyidae;Rodentia;Western big-footed mouse;Macrotarsomys bastardi;TRUE;TRUE;Extant;Endemic
-Macrotarsomys;ingens;NA;Nesomyidae;Rodentia;Long-tailed big-footed mouse;Macrotarsomys ingens;TRUE;TRUE;Extant;Endemic
-Macrotarsomys;petteri;NA;Nesomyidae;Rodentia;Petter's big-footed mouse;Macrotarsomys petteri;TRUE;FALSE;Extant;Endemic
-Monticolomys;koopmani;NA;Nesomyidae;Rodentia;Malagasy mountain mouse;Monticolomys koopmani;TRUE;TRUE;Extant;Endemic
-Nesomys;audeberti;NA;Nesomyidae;Rodentia;Lowland red forest rat;Nesomys audeberti;TRUE;TRUE;Extant;Endemic
-Nesomys;lambertoni;NA;Nesomyidae;Rodentia;Western red forest rat;Nesomys lambertoni;TRUE;FALSE;Extant;Endemic
-Nesomys;narindaensis;NA;Nesomyidae;Rodentia;NA;NA;FALSE;FALSE;Extinct;Endemic
-Nesomys;rufus;NA;Nesomyidae;Rodentia;Eastern red forest rat;Nesomys rufus;TRUE;TRUE;Extant;Endemic
-Voalavo;antsahabensis;NA;Nesomyidae;Rodentia;Eastern voalavo;Voalavo antsahabensis;TRUE;FALSE;Extant;Endemic
-Voalavo;gymnocaudus;NA;Nesomyidae;Rodentia;Northern voalavo;Voalavo gymnocaudus;TRUE;TRUE;Extant;Endemic
+Genus,Species,Subspecies,Family,Order ,Common_Name,Name_In_Tree,Sampled,DNA_In_Tree,Extinct_Extant,Status_Species,DAISIE_Status_Species,Remove_Species
+Echinops,telfairi,None,Tenrecidae,Afrosoricida,Lesser hedgehog tenrec,Echinops_telfairi,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Geogale,aurita,None,Tenrecidae,Afrosoricida,Large-eared tenrec,Geogale_aurita,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Hemicentetes,nigriceps,None,Tenrecidae,Afrosoricida,Highland streaked tenrec,Hemicentetes_nigriceps,Yes,No,Extant,Endemic,Endemic,FALSE
+Hemicentetes,semispinosus,None,Tenrecidae,Afrosoricida,Lowland streaked tenrec,Hemicentetes_semispinosus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microgale,brevicaudata,None,Tenrecidae,Afrosoricida,Short-tailed shrew-tenrec,Microgale_brevicaudata,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microgale,cowani,None,Tenrecidae,Afrosoricida,Cowan's shrew tenrec,Microgale_cowani,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microgale,drouhardi,None,Tenrecidae,Afrosoricida,Drouhard's shrew tenrec,Microgale_drouhardi,Yes,No,Extant,Endemic,Endemic,FALSE
+Microgale,dryas,None,Tenrecidae,Afrosoricida,Dryad shrew tenrec,Microgale_dryas,Yes,No,Extant,Endemic,Endemic,FALSE
+Microgale,fotsifotsy,None,Tenrecidae,Afrosoricida,Pale shrew tenrec,Microgale_fotsifotsy,Yes,No,Extant,Endemic,Endemic,FALSE
+Microgale,gracilis,None,Tenrecidae,Afrosoricida,Gracile shrew tenrec,Microgale_gracilis,Yes,No,Extant,Endemic,Endemic,FALSE
+Microgale,grandidieri,None,Tenrecidae,Afrosoricida,Grandidier's shrew tenrec,Microgale_grandidieri,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microgale,gymnorhyncha,None,Tenrecidae,Afrosoricida,Naked-nosed shrew tenrec,Microgale_gymnorhyncha,Yes,No,Extant,Endemic,Endemic,FALSE
+Microgale,jenkinsae,None,Tenrecidae,Afrosoricida,Jenkins' shrew tenrec,Microgale_jenkinsae,Yes,No,Extant,Endemic,Endemic,FALSE
+Microgale,jobihely,None,Tenrecidae,Afrosoricida,Northern shrew tenrec,Microgale_jobihely,Yes,No,Extant,Endemic,Endemic,FALSE
+Microgale,longicaudata,None,Tenrecidae,Afrosoricida,Lesser long-tailed shrew-tenrec,Microgale_longicaudata,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microgale,macpheei,None,Tenrecidae,Afrosoricida,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Microgale,majori,None,Tenrecidae,Afrosoricida,Major's long-tailed tenrec ,Microgale_majori,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microgale,mergulus,None,Tenrecidae,Afrosoricida,Web-footed Aquatic tenrec,Limnogale_mergulus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microgale,monticola,None,Tenrecidae,Afrosoricida,Montane shrew tenrec,Microgale_monticola,Yes,No,Extant,Endemic,Endemic,FALSE
+Microgale,nasoloi,None,Tenrecidae,Afrosoricida,Nasolo's shrew-tenrec,Microgale_nasoloi,Yes,No,Extant,Endemic,Endemic,FALSE
+Microgale,parvula,None,Tenrecidae,Afrosoricida,Pygmy shrew tenrec,Microgale_parvula,Yes,No,Extant,Endemic,Endemic,FALSE
+Microgale,principula,None,Tenrecidae,Afrosoricida,Greater long-tailed shrew-tenrec,Microgale_principula,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microgale,pusilla,None,Tenrecidae,Afrosoricida,Lesser shrew-tenrec,Microgale_pusilla,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microgale,soricoides,None,Tenrecidae,Afrosoricida,Shrew-toothed shrew tenrec,Microgale_soricoides,Yes,No,Extant,Endemic,Endemic,FALSE
+Microgale,taiva,None,Tenrecidae,Afrosoricida,Taiva shrew tenrec,Microgale_taiva,Yes,No,Extant,Endemic,Endemic,FALSE
+Microgale,thomasi,None,Tenrecidae,Afrosoricida,Thomas' shrew tenrec,Microgale_thomasi,Yes,No,Extant,Endemic,Endemic,FALSE
+Nesogale,dobsoni,None,Tenrecidae,Afrosoricida,Dobson's shrew tenrec,Microgale_dobsoni,Yes,No,Extant,Endemic,Endemic,FALSE
+Nesogale,talazaci,None,Tenrecidae,Afrosoricida,Talzac's shrew tenrec,Microgale_talazaci,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Oryzorictes,hova,None,Tenrecidae,Afrosoricida,Mole-like Hova rice tenrec,Oryzorictes_hova,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Oryzorictes,tetradactylus,None,Tenrecidae,Afrosoricida,Four-toed mole tenrec,Oryzorictes_tetradactylus,Yes,No,Extant,Endemic,Endemic,FALSE
+Plesiorycteropus,germainepetterae,None,Tenrecidae,Afrosoricida,"Bibymalagasy/Malagasy ""aardvark""",NA,No,No,Extinct,Endemic,Endemic,FALSE
+Plesiorycteropus,madagascariensis,None,Tenrecidae,Afrosoricida,"Bibymalagasy/Malagasy ""aardvark""",NA,No,No,Extinct,Endemic,Endemic,FALSE
+Setifer,setosus,None,Tenrecidae,Afrosoricida,Greater hedgehog tenrec,Setifer_setosus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Tenrec,ecaudatus,None,Tenrecidae,Afrosoricida,Common tailless tenrec,Tenrec_ecaudatus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Hippopotamus,laloumena,None,Hippopotamidae,Artiodactyla,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Hippopotamus,lemerlei,None,Hippopotamidae,Artiodactyla,Malagasy dwarf hippopotamus,Hippopotamus_lemerlei,Yes,No,Extinct,Endemic,Endemic,FALSE
+Hippopotamus,madagascariensis,None,Hippopotamidae,Artiodactyla,Malagasy pygmy hippo,Hippopotamus_guldbergi,Yes,No,Extinct,Endemic,Endemic,FALSE
+Cryptoprocta,ferox,None,Eupleridae,Carnivora,Fosa,Cryptoprocta_ferox,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Cryptoprocta,sp. nov.,None,Eupleridae,Carnivora,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Cryptoprocta,spelea,None,Eupleridae,Carnivora,None,Cryptoprocta_spelea,Yes,No,Extinct,Endemic,Endemic,FALSE
+Eupleres,goudotii,None,Eupleridae,Carnivora,Falanouc,Eupleres_goudotii,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Fossa,fossana,None,Eupleridae,Carnivora,Spotted fanaloka,Fossa_fossana,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Galidia,elegans,"elegans, dambrensis, occidentalis",Eupleridae,Carnivora,Ring-tailed vontsira,Galidia_elegans,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Galidictis,fasciata,"fasciata, grandidieri",Eupleridae,Carnivora,Broad-striped vontsira,Galidictis_fasciata,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Mungotictis,decemlineata,"declimineata, lineata",Eupleridae,Carnivora,Narrow-striped boky,Mungotictis_decemlineata,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Salanoia,concolor,None,Eupleridae,Carnivora,Brown-tailed vontsira,Salanoia_concolor,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Chaerephon,atsinanana,None,Molossidae,Chiroptera,Madagascar eastern free-tailed bat,Chaerephon_atsinanana,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Chaerephon,jobimena,None,Molossidae,Chiroptera,Malagasy western free-tailed bat,Tadarida_jobimena,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Chaerephon,leucogaster,None,Molossidae,Chiroptera,Grandidier's lesser free-tailed bat,NA,No,No,Extant,Non-endemic,Non-endemic,FALSE
+Coleura,kibomalandy,None,Emballonuridae,Chiroptera,Madagascar sheath-tailed bat,Coleura_kibomalandy,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eidolon,dupreanum,None,Pteropodidae,Chiroptera,Madagascar straw-coloured fruit bat,Eidolon_dupreanum,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Laephotis,malagasyensis,None,Vespertilionidae,Chiroptera,Isalo Serotine,Neoromicia_malagasyensis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Laephotis,matroka,None,Vespertilionidae,Chiroptera,Malagasy serotine,Neoromicia_matroka,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Laephotis,robertsi,None,Vespertilionidae,Chiroptera,Robert's serotine,Neoromicia_robertsi,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Macronycteris,besaoka,None,Hipposideridae,Chiroptera,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Macronycteris,commersoni,None,Hipposideridae,Chiroptera,Commerson's leaf-nosed bat,Hipposideros_commersoni,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Macronycteris,cryptovalorona,None,Hipposideridae,Chiroptera,Madagascar cryptic leaf-nosed bat,NA,No,No,Extant,Endemic,Endemic,FALSE
+Miniopterus,aelleni,None,Miniopteridae,Chiroptera,Aellen's long-fingered bat,Miniopterus_aelleni,Yes,Yes,Extant,Non-endemic,Non-endemic,FALSE
+Miniopterus,ambohitrensis,None,Miniopteridae,Chiroptera,Montagne dâ€™Ambre long-fingered Bat,Miniopterus_ambohitrensis,Yes,No,Extant,Endemic,Endemic,FALSE
+Miniopterus,brachytragos,None,Miniopteridae,Chiroptera,Short-tragus long-fingered bat,Miniopterus_brachytragos,Yes,No,Extant,Endemic,Endemic,FALSE
+Miniopterus,egeri,None,Miniopteridae,Chiroptera,Eger's long-fingered bat,Miniopterus_egeri,Yes,No,Extant,Endemic,Endemic,FALSE
+Miniopterus,gleni,None,Miniopteridae,Chiroptera,Glen's long-fingered bat,Miniopterus_gleni,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Miniopterus,griffithsi,None,Miniopteridae,Chiroptera,Griffith's long-fingered bat,Miniopterus_griffithsi,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Miniopterus,griveaudi,None,Miniopteridae,Chiroptera,Griveaud's long-fingered bat,Miniopterus_griveaudi,Yes,Yes,Extant,Non-endemic,Non-endemic,FALSE
+Miniopterus,mahafaliensis,None,Miniopteridae,Chiroptera,Mahafaly long-fingered bat,Miniopterus_mahafaliensis,Yes,No,Extant,Endemic,Endemic,FALSE
+Miniopterus,majori,None,Miniopteridae,Chiroptera,Major's long-fingered bat,Miniopterus_majori,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Miniopterus,manavi,None,Miniopteridae,Chiroptera,Manavi long-fingered bat,Miniopterus_manavi,Yes,Yes,Extant,Non-endemic,Non-endemic,FALSE
+Miniopterus,petersoni,None,Miniopteridae,Chiroptera,Peterson's long-fingered bat,Miniopterus_petersoni,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Miniopterus,sororculus,None,Miniopteridae,Chiroptera,Small sister long-fingered bat,Miniopterus_sororculus,Yes,No,Extant,Endemic,Endemic,FALSE
+Mops,leucostigma,None,Molossidae,Chiroptera,Malagasy large white-bellied free-tailed bat,Mops_leucostigma,Yes,Yes,Extant,Non-endemic,Non-endemic,FALSE
+Mops,midas,miarensis,Molossidae,Chiroptera,Midas' free-tailed bat,Mops_midas,Yes,Yes,Extant,Non-endemic,Non-endemic,FALSE
+Mormopterus,jugularis,None,Molossidae,Chiroptera,Peters'  goblin bat,Mormopterus_jugularis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Myotis,goudoti,None,Vespertilionidae,Chiroptera,Malagasy mouse-eared bat,Myotis_goudoti,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Myzopoda,aurita,None,Myzopodidae,Chiroptera,Eastern sucker-footed bat,Myzopoda_aurita,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Myzopoda,schliemanni,None,Myzopodidae,Chiroptera,Schliemann's sucker-footed bat,Myzopoda_schliemanni,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Neoromicia,bemainty,None,Vespertilionidae,Chiroptera,Dark Madagascar pipistrelle,Hypsugo_bemainty,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Otomops,madagascariensis,None,Molossidae,Chiroptera,Malagasy large-eared free-tailed bat,Otomops_madagascariensis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Paratriaenops,auritus,None,Hipposideridae,Chiroptera,Golden trident bat,Paratriaenops_auritus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Paratriaenops,furculus,None,Hipposideridae,Chiroptera,Trouessart's trident Bat,Paratriaenops_furculus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Paratriaenops,goodmani,None,Hipposideridae,Chiroptera,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Paremballonura,atrata,None,Emballonuridae,Chiroptera,Peters' sheath-tailed bat,Emballonura_atrata,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Paremballonura,tiavato,None,Emballonuridae,Chiroptera,Rock-dwelling sheath-tailed bat,Emballonura_tiavato,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Pipistrellus,hesperidus,None,Vespertilionidae,Chiroptera,Dusky pipistrelle,Pipistrellus_hesperidus,Yes,Yes,Extant,Non-endemic,Non-endemic,FALSE
+Pipistrellus,raceyi,None,Vespertilionidae,Chiroptera,Racey's pipistrelle,Pipistrellus_raceyi,Yes,No,Extant,Endemic,Endemic,FALSE
+Pteropus,rufus,None,Pteropodidae,Chiroptera,Madagascar flying fox,Pteropus_rufus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Rousettus,madagascariensis,None,Pteropodidae,Chiroptera,Madagascar rousette,Rousettus_madagascariensis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Scotophilus,marovaza,None,Vespertilionidae,Chiroptera,Marovaza house bat,Scotophilus_marovaza,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Scotophilus,robustus,None,Vespertilionidae,Chiroptera,Malagasy large house bat,Scotophilus_robustus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Scotophilus,tandrefana,None,Vespertilionidae,Chiroptera,Malagasy western house bat,Scotophilus_tandrefana,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Tadarida,fulminans,None,Molossidae,Chiroptera,Malagasy free-tailed bat,Tadarida_fulminans,Yes,Yes,Extant,Non-endemic,Non-endemic,FALSE
+Taphozous,mauritianus,None,Emballonuridae,Chiroptera,Mauritian tomb bat,Taphozous_mauritianus,Yes,Yes,Extant,Non-endemic,Non-endemic,FALSE
+Triaenops,menamena,None,Hipposideridae,Chiroptera,Rufous trident bat,Triaenops_menamena,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Allocebus,trichotis,None,Cheirogaleidae,Primates,Hairy-eared dwarf lemur,Allocebus_trichotis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Archaeoindris,fontoynontii,None,Palaeopropithecidae,Primates,Sloth lemur,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Archaeolemur,edwardsi,None,Archaeolemuridae,Primates,Monkey Lemur,Archaeolemur_edwardsi,Yes,No,Extinct,Endemic,Endemic,FALSE
+Archaeolemur,majori,None,Archaeolemuridae,Primates,None,Archaeolemur_majori,Yes,Yes,Extinct,Endemic,Endemic,FALSE
+Avahi,betsileo,None,Indriidae,Primates,Betsileo woolly lemur,Avahi_betsileo,Yes,No,Extant,Endemic,Endemic,FALSE
+Avahi,cleesei,None,Indriidae,Primates,Cleese's bemaraha woolly lemur,Avahi_cleesei,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Avahi,laniger,None,Indriidae,Primates,Eastern woolly lemur,Avahi_laniger,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Avahi,meridionalis,None,Indriidae,Primates,Southern woolly lemur,Avahi_meridionalis,Yes,No,Extant,Endemic,Endemic,FALSE
+Avahi,mooreorum,None,Indriidae,Primates,Moore's Masoala woolly lemur ,Avahi_mooreorum,Yes,No,Extant,Endemic,Endemic,FALSE
+Avahi,occidentalis,None,Indriidae,Primates,Lorenz Von Liburnau's western woolly lemur,Avahi_occidentalis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Avahi,peyrierasi,None,Indriidae,Primates,Peyrieras' woolly lemur,Avahi_peyrierasi,Yes,No,Extant,Endemic,Endemic,FALSE
+Avahi,ramanantsoavanai,None,Indriidae,Primates,Ramantsoavana's southern woolly lemur,Avahi_ramanantsoavanai,Yes,No,Extant,Endemic,Endemic,FALSE
+Avahi,unicolor,None,Indriidae,Primates,Sambirano woolly lemur,Avahi_unicolor,Yes,No,Extant,Endemic,Endemic,FALSE
+Babakotia,radofilai,None,Palaeopropithecidae,Primates,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Cheirogaleus,andysabini,None,Cheirogaleidae,Primates,Montagne d'Ambre dwarf lemur,NA,No,No,Extant,Endemic,Endemic,FALSE
+Cheirogaleus,crossleyi,None,Cheirogaleidae,Primates,Crossley's dwarf lemur,Cheirogaleus_crossleyi,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Cheirogaleus,grovesi,None,Cheirogaleidae,Primates,Grove's dwarf lemur,NA,No,No,Extant,Endemic,Endemic,FALSE
+Cheirogaleus,lavasoensis,None,Cheirogaleidae,Primates,Lavasoa dwarf lemur,Cheirogaleus_lavasoensis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Cheirogaleus,major,None,Cheirogaleidae,Primates,Geoffroy's greater dwarf lemur,Cheirogaleus_major,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Cheirogaleus,medius,None,Cheirogaleidae,Primates,Western fat-tailed dwarf lemur,Cheirogaleus_medius,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Cheirogaleus,minusculus,None,Cheirogaleidae,Primates,Lesser Iron-gray dwarf lemur,Cheirogaleus_minusculus,Yes,No,Extant,Endemic,Endemic,FALSE
+Cheirogaleus,shethi,None,Cheirogaleidae,Primates,Sheth's Ankarana dwarf lemur,NA,No,No,Extant,Endemic,Endemic,FALSE
+Cheirogaleus,sibreei,None,Cheirogaleidae,Primates,Sibree's dwarf lemur,Cheirogaleus_sibreei,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Cheirogaleus,thomasi,None,Cheirogaleidae,Primates,Thomas' Dwarf Lemur,NA,No,No,Extant,Endemic,Endemic,FALSE
+Daubentonia,madagascariensis,None,Daubentoniidae,Primates,Aye-aye,Daubentonia_madagascariensis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Daubentonia,robusta,None,Daubentoniidae,Primates,Giant aye-aye,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Eulemur,albifrons,None,Lemuridae,Primates,White-fronted brown lemur,Eulemur_albifrons,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eulemur,cinereiceps,None,Lemuridae,Primates,White-collared lemur,Eulemur_cinereiceps,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eulemur,collaris,None,Lemuridae,Primates,Collared brown lemur,Eulemur_collaris,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eulemur,coronatus,None,Lemuridae,Primates,Crowned lemur,Eulemur_coronatus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eulemur,flavifrons,None,Lemuridae,Primates,Sclater's Blue-eyed black lemur,Eulemur_flavifrons,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eulemur,fulvus,None,Lemuridae,Primates,Common brown lemur,Eulemur_fulvus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eulemur,macaco,None,Lemuridae,Primates,Black lemur,Eulemur_macaco,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eulemur,mongoz,None,Lemuridae,Primates,Mongoose lemur,Eulemur_mongoz,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eulemur,rubriventer,None,Lemuridae,Primates,Red-bellied lemur,Eulemur_rubriventer,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eulemur,rufifrons,None,Lemuridae,Primates,Bennett's Red-fronted brown lemur,Eulemur_rufifrons,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eulemur,rufus,None,Lemuridae,Primates,Audebert's red-fronted brown lemur,Eulemur_rufus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eulemur,sanfordi,None,Lemuridae,Primates,Sanford's brown lemur,Eulemur_sanfordi,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Hadropithecus,stenognathus,None,Archaeolemuridae,Primates,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Hapalemur,alaotrensis,None,Lemuridae,Primates,Alaotra gentle reed lemur,Hapalemur_alaotrensis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Hapalemur,aureus,None,Lemuridae,Primates,Golden bamboo lemur,Hapalemur_aureus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Hapalemur,griseus,None,Lemuridae,Primates,Eastern lesser bamboo lemur,Hapalemur_griseus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Hapalemur,meridionalis,None,Lemuridae,Primates,Rusty-grey lesser/southern grey gentle bamboo lemur,Hapalemur_meridionalis,Yes,No,Extant,Endemic,Endemic,FALSE
+Hapalemur,occidentalis,None,Lemuridae,Primates,Sambirano lesser/western grey bamboo lemur,Hapalemur_occidentalis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Indri,indri,None,Indriidae,Primates,Indri,Indri_indri,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lemur,catta,None,Lemuridae,Primates,Ring-tailed lemur,Lemur_catta,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lepilemur,aeeclis,None,Lepilemuridae,Primates,Antafia red-shouldered sportive lemur,Lepilemur_aeeclis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lepilemur,ahmansonorum,None,Lepilemuridae,Primates,Ahmanson's sportive lemur,Lepilemur_ahmansonorum,Yes,No,Extant,Endemic,Endemic,FALSE
+Lepilemur,ankaranensis,None,Lepilemuridae,Primates,Ankarana sportive lemur,Lepilemur_ankaranensis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lepilemur,betsileo,None,Lepilemuridae,Primates,Betsileo sportive lemur,Lepilemur_betsileo,Yes,No,Extant,Endemic,Endemic,FALSE
+Lepilemur,dorsalis,None,Lepilemuridae,Primates,Gray-backed sportive lemur,Lepilemur_dorsalis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lepilemur,edwardsi,None,Lepilemuridae,Primates,Milne-Edward's sportive lemur,Lepilemur_edwardsi,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lepilemur,fleuretae,None,Lepilemuridae,Primates,Fleurete's sportive lemur,Lepilemur_fleuretae,Yes,No,Extant,Endemic,Endemic,FALSE
+Lepilemur,grewcockorum,None,Lepilemuridae,Primates,Grewcock's sportive lemur,Lepilemur_grewcockorum,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lepilemur,hollandorum,None,Lepilemuridae,Primates,Holland's sportive lemur,Lepilemur_hollandorum,Yes,No,Extant,Endemic,Endemic,FALSE
+Lepilemur,hubbardorum,None,Lepilemuridae,Primates,Hubbard's sportive lemur,Lepilemur_hubbardorum,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lepilemur,jamesorum,None,Lepilemuridae,Primates,James' sportive lemur,Lepilemur_jamesorum,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lepilemur,leucopus,None,Lepilemuridae,Primates,White-footed sportive lemur,Lepilemur_leucopus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lepilemur,microdon,None,Lepilemuridae,Primates,Small-toothed sportive lemur,Lepilemur_microdon,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lepilemur,milanoii,None,Lepilemuridae,Primates,Daraina sportive lemur,Lepilemur_milanoii,Yes,No,Extant,Endemic,Endemic,FALSE
+Lepilemur,mittermeieri,None,Lepilemuridae,Primates,Mittermeier's sportive lemur,Lepilemur_mittermeieri,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lepilemur,mustelinus,None,Lepilemuridae,Primates,Weasel sportive lemur,Lepilemur_mustelinus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lepilemur,otto,None,Lepilemuridae,Primates,Otto's sportive lemur,Lepilemur_otto,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lepilemur,petteri,None,Lepilemuridae,Primates,Petter's sportive lemur,Lepilemur_petteri,Yes,No,Extant,Endemic,Endemic,FALSE
+Lepilemur,randrianasoloi,None,Lepilemuridae,Primates,Randrianasolo's sportive lemur,Lepilemur_randrianasoloi,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lepilemur,ruficaudatus,None,Lepilemuridae,Primates,Red-tailed sportive lemur,Lepilemur_ruficaudatus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lepilemur,sahamalazensis,None,Lepilemuridae,Primates,Sahamalaza Peninsula sportive lemur,Lepilemur_sahamalazensis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lepilemur,scottorum,None,Lepilemuridae,Primates,Scott's Masoala sportive lemur,Lepilemur_scottorum,Yes,No,Extant,Endemic,Endemic,FALSE
+Lepilemur,seali,None,Lepilemuridae,Primates,Seal's sportive lemur,Lepilemur_seali,Yes,No,Extant,Endemic,Endemic,FALSE
+Lepilemur,septentrionalis,None,Lepilemuridae,Primates,Northern sahafary sportive lemur,Lepilemur_septentrionalis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Lepilemur,tymerlachsonorum,None,Lepilemuridae,Primates,Hawk's Nosy Be sportive lemur,Lepilemur_tymerlachsoni,Yes,No,Extant,Endemic,Endemic,FALSE
+Lepilemur,wrightae,None,Lepilemuridae,Primates,Wright's sportive lemur,Lepilemur_wrightae,Yes,No,Extant,Endemic,Endemic,FALSE
+Megaladapis,edwardsi,None,Megaladapidae,Primates,None,Megaladapis_edwardsi,Yes,Yes,Extinct,Endemic,Endemic,FALSE
+Megaladapis,grandidieri,None,Megaladapidae,Primates,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Megaladapis,madagascariensis,None,Megaladapidae,Primates,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Mesopropithecus,dolichobrachion,None,Palaeopropithecidae,Primates,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Mesopropithecus,globiceps,None,Palaeopropithecidae,Primates,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Mesopropithecus,pithecoides,None,Palaeopropithecidae,Primates,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Microcebus,arnholdi,None,Cheirogaleidae,Primates,Arnhold's mouse lemur,Microcebus_arnholdi,Yes,No,Extant,Endemic,Endemic,FALSE
+Microcebus,berthae,None,Cheirogaleidae,Primates,Madame Berthe's mouse lemur,Microcebus_berthae,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microcebus,bongolavensis,None,Cheirogaleidae,Primates,Bongolava mouse lemur,Microcebus_bongolavensis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microcebus,boraha,None,Cheirogaleidae,Primates,Boraha mouse lemur,NA,No,No,Extant,Endemic,Endemic,FALSE
+Microcebus,danfossi,None,Cheirogaleidae,Primates,Danfoss' mouse lemur,Microcebus_danfossi,Yes,No,Extant,Endemic,Endemic,FALSE
+Microcebus,ganzhorni,None,Cheirogaleidae,Primates,Ganzhorn's mouse lemur,NA,No,No,Extant,Endemic,Endemic,FALSE
+Microcebus,gerpi,None,Cheirogaleidae,Primates,Gerp's mouse lemur,Microcebus_gerpi,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microcebus,griseorufus,None,Cheirogaleidae,Primates,Gray-brown mouse lemur,Microcebus_griseorufus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microcebus,jollyae,None,Cheirogaleidae,Primates,Jolly's mouse lemur,Microcebus_jollyae,Yes,No,Extant,Endemic,Endemic,FALSE
+Microcebus,jonahi,None,Cheirogaleidae,Primates,Jonah's mouse lemur,NA,No,No,Extant,Endemic,Endemic,FALSE
+Microcebus,lehilahytsara,None,Cheirogaleidae,Primates,Goodman's mouse lemur,Microcebus_lehilahytsara,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microcebus,macarthurii,None,Cheirogaleidae,Primates,MacArthur's mouse lemur,Microcebus_macarthurii,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microcebus,mamiratra,None,Cheirogaleidae,Primates,Claire's mouse lemur,Microcebus_mamiratra,Yes,No,Extant,Endemic,Endemic,FALSE
+Microcebus,manitatra,None,Cheirogaleidae,Primates,Bemanasy mouse lemur,NA,No,No,Extant,Endemic,Endemic,FALSE
+Microcebus,margotmarshae,None,Cheirogaleidae,Primates,Margot Marsh's mouse lemur,Microcebus_margotmarshae,Yes,No,Extant,Endemic,Endemic,FALSE
+Microcebus,marohita,None,Cheirogaleidae,Primates,Marohita mouse lemur,Microcebus_marohita,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microcebus,mittermeieri,None,Cheirogaleidae,Primates,Mittermeier's mouse lemur,Microcebus_mittermeieri,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microcebus,murinus,None,Hipposideridae,Primates,Gray mouse lemur,Microcebus_murinus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microcebus,myoxinus,None,Cheirogaleidae,Primates,Peters' mouse lemur,Microcebus_myoxinus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microcebus,ravelobensis,None,Cheirogaleidae,Primates,Golden-brown mouse lemur,Microcebus_ravelobensis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microcebus,rufus,None,Cheirogaleidae,Primates,Rufous mouse lemur,Microcebus_rufus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microcebus,sambiranensis,None,Cheirogaleidae,Primates,Sambirano mouse lemur,Microcebus_sambiranensis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microcebus,simmonsi,None,Cheirogaleidae,Primates,Simmons' mouse lemur,Microcebus_simmonsi,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microcebus,tanosi,None,Cheirogaleidae,Primates,Anosi mouse lemur,Microcebus_tanosi,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Microcebus,tavaratra,None,Cheirogaleidae,Primates,Northern rufous tavaratra mouse lemur,Microcebus_tavaratra,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Mirza,coquereli,None,Cheirogaleidae,Primates,Coquerel's giant mouse lemur,Mirza_coquereli,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Mirza,zaza,None,Cheirogaleidae,Primates,Northern giant mouse lemur,Mirza_zaza,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Pachylemur,insignis,None,Lemuridae,Primates,Giant ruffed Lemur,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Pachylemur,jullyi,None,Lemuridae,Primates,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Palaeopropithecus,ingens,None,Palaeopropithecidae,Primates,Large sloth lemur,Palaeopropithecus_ingens,Yes,Yes,Extinct,Endemic,Endemic,FALSE
+Palaeopropithecus,kelyus,None,Palaeopropithecidae,Primates,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Palaeopropithecus,maximus,None,Palaeopropithecidae,Primates,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Phaner,electromontis,None,Cheirogaleidae,Primates,Amber mountain fork-marked lemur,Phaner_electromontis,Yes,No,Extant,Endemic,Endemic,FALSE
+Phaner,furcifer,None,Cheirogaleidae,Primates,Masoala fork-marked lemur,Phaner_furcifer,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Phaner,pallescens,None,Cheirogaleidae,Primates,Pale fork-marked lemur,Phaner_pallescens,Yes,No,Extant,Endemic,Endemic,FALSE
+Phaner,parienti,None,Cheirogaleidae,Primates,Sambirano fork-marked lemur,Phaner_parienti,Yes,No,Extant,Endemic,Endemic,FALSE
+Prolemur,simus,None,Lemuridae,Primates,Greater bamboo lemur,Prolemur_simus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Propithecus,candidus,None,Indriidae,Primates,Silky sifaka,Propithecus_candidus,Yes,No,Extant,Endemic,Endemic,FALSE
+Propithecus,coquereli,None,Indriidae,Primates,Coquerel's crowned sifaka,Propithecus_coquereli,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Propithecus,coronatus,None,Indriidae,Primates,Crowned sifaka,Propithecus_coronatus,Yes,No,Extant,Endemic,Endemic,FALSE
+Propithecus,deckenii,None,Indriidae,Primates,Van der Decken's sifaka,Propithecus_deckenii,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Propithecus,diadema,None,Indriidae,Primates,Diademed sifaka,Propithecus_diadema,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Propithecus,edwardsi,None,Indriidae,Primates,Milne-Edward's sifaka,Propithecus_edwardsi,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Propithecus,perrieri,None,Indriidae,Primates,Perrier's sifaka,Propithecus_perrieri,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Propithecus,tattersalli,None,Indriidae,Primates,Tattersall's Golden-crowned sifaka,Propithecus_tattersalli,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Propithecus,verreauxi,None,Indriidae,Primates,Verreaux's sifaka,Propithecus_verreauxi,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Varecia,rubra,None,Lemuridae,Primates,Red ruffed lemur,Varecia_rubra,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Varecia,variegata,"variegata, editorum, subcincta",Lemuridae,Primates,Black-and-White ruffed lemur,Varecia_variegata,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Brachytarsomys,albicauda,None,Nesomyidae,Rodentia,White-tailed tree rat,Brachytarsomys_albicauda,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Brachytarsomys,mahajambaensis,None,Nesomyidae,Rodentia,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Brachytarsomys,villosa,None,Nesomyidae,Rodentia,Hairy-tailed tree rat,Brachytarsomys_villosa,Yes,No,Extant,Endemic,Endemic,FALSE
+Brachyuromys,betsileoensis,None,Nesomyidae,Rodentia,Betsileo short-tailed rat,Brachyuromys_betsileoensis,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Brachyuromys,ramirohitra,None,Nesomyidae,Rodentia,Gregarious short-tailed rat,Brachyuromys_ramirohitra,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eliurus,antsingy,None,Nesomyidae,Rodentia,Tsingy tuft-tailed rat,Eliurus_antsingy,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eliurus,carletoni,None,Nesomyidae,Rodentia,Ankarana Special Reserve tufted-tailed rat,Eliurus_carletoni,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eliurus,danieli,None,Nesomyidae,Rodentia,Daniel's tuft-tailed rat,Eliurus_danieli,Yes,No,Extant,Endemic,Endemic,FALSE
+Eliurus,ellermani,None,Nesomyidae,Rodentia,Ellerman's tuft-tailed rat,Eliurus_ellermani,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eliurus,grandidieri,None,Nesomyidae,Rodentia,Grandidier's tuft-tailed rat,Eliurus_grandidieri,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eliurus,majori,None,Nesomyidae,Rodentia,Major's tuft-tailed rat,Eliurus_majori,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eliurus,minor,None,Nesomyidae,Rodentia,Lesser tufted-tailed rat,Eliurus_minor,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eliurus,myoxinus,None,Nesomyidae,Rodentia,Western tuft-tailed rat,Eliurus_myoxinus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eliurus,penicillatus,None,Nesomyidae,Rodentia,White-tipped tuft-tailed rat,Eliurus_penicillatus,Yes,No,Extant,Endemic,Endemic,FALSE
+Eliurus,petteri,None,Nesomyidae,Rodentia,Petter's tuft-tailed rat,Eliurus_petteri,Yes,No,Extant,Endemic,Endemic,FALSE
+Eliurus,tanala,None,Nesomyidae,Rodentia,Tanala tuft-tailed rat,Eliurus_tanala,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Eliurus,tsingimbato,None,Nesomyidae,Rodentia,None,NA,No,No,Extant,Endemic,Endemic,FALSE
+Eliurus,webbi,None,Nesomyidae,Rodentia,Webb's tuft-tailed rat,Eliurus_webbi,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Gymnuromys,roberti,None,Nesomyidae,Rodentia,Voalavoanala,Gymnuromys_roberti,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Hypogeomys,antimena,None,Nesomyidae,Rodentia,Malagasy giant jumping rat,Hypogeomys_antimena,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Hypogeomys,australis,None,Nesomyidae,Rodentia,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Macrotarsomys,bastardi,"bastardi, occidentalis",Nesomyidae,Rodentia,Western big-footed mouse,Macrotarsomys_bastardi,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Macrotarsomys,ingens,None,Nesomyidae,Rodentia,Long-tailed big-footed mouse,Macrotarsomys_ingens,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Macrotarsomys,petteri,None,Nesomyidae,Rodentia,Petter's big-footed mouse,Macrotarsomys_petteri,Yes,No,Extant,Endemic,Endemic,FALSE
+Monticolomys,koopmani,None,Nesomyidae,Rodentia,Malagasy mountain mouse,Monticolomys_koopmani,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Nesomys,audeberti,None,Nesomyidae,Rodentia,Lowland red forest rat,Nesomys_audeberti,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Nesomys,lambertoni,None,Nesomyidae,Rodentia,Western red forest rat,Nesomys_lambertoni,Yes,No,Extant,Endemic,Endemic,FALSE
+Nesomys,narindaensis,None,Nesomyidae,Rodentia,None,NA,No,No,Extinct,Endemic,Endemic,FALSE
+Nesomys,rufus,None,Nesomyidae,Rodentia,Eastern red forest rat,Nesomys_rufus,Yes,Yes,Extant,Endemic,Endemic,FALSE
+Voalavo,antsahabensis,None,Nesomyidae,Rodentia,Eastern voalavo,Voalavo_antsahabensis,Yes,No,Extant,Endemic,Endemic,FALSE
+Voalavo,gymnocaudus,None,Nesomyidae,Rodentia,Northern voalavo,Voalavo_gymnocaudus,Yes,Yes,Extant,Endemic,Endemic,FALSE
