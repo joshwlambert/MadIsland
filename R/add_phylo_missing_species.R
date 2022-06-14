@@ -34,12 +34,15 @@ add_phylo_missing_species <- function(missing_species,
         missing_species = sum(phylo_missing_species$missing_species)
       )
 
-      # add the number of missing species to the island tbl for those that have been
-      # extracted already
-      island_tbl <- DAISIEprep::add_missing_species(
-        island_tbl = island_tbl,
-        missing_species_df = phylo_missing_species
-      )
+      # check if the species is endemic, if not do not add missing species
+      if (island_tbl@island_tbl$status[i] == "endemic") {
+        # add the number of missing species to the island tbl for those that
+        # have been extracted already
+        island_tbl <- DAISIEprep::add_missing_species(
+          island_tbl = island_tbl,
+          missing_species_df = phylo_missing_species
+        )
+      }
     }
   }
 

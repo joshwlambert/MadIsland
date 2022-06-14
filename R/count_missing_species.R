@@ -23,8 +23,28 @@ count_missing_species <- function(checklist,
     not_in_tree <- which(!checklist$Sampled)
   }
 
+  # get the genus name from the tree complete tree if sampled
+  phylo_genus <- checklist[not_in_tree, "Name_In_Tree"]
+  phylo_genus <- strsplit(x = phylo_genus, split = "_")
+  phylo_genus <- sapply(phylo_genus, "[[", 1)
+
+  # get the genus name from the checklist
   missing_genus <- checklist[not_in_tree, "Genus"]
 
+  # if genus name in checklist and the tree differ use the name from tree
+  genus_name <- data.frame(phylo = phylo_genus, genus = missing_genus)
+  match_index <- c()
+  for (i in seq_len(nrow(genus_name))) {
+    if (!is.na(genus_name$phylo[i])) {
+      if (!genus_name$phylo[i] == genus_name$genus[i]) {
+        match_index[i] <- i
+      }
+    }
+  }
+  match_index <- na.omit(match_index)[1]
+  missing_genus[match_index] <- phylo_genus[match_index]
+
+  # sum the number of missing species in each genera
   missing_species <- table(missing_genus)
 
   missing_species <- as.data.frame(missing_species)
