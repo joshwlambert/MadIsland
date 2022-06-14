@@ -10,13 +10,19 @@
 #' @examples
 #' mammal_checklist <- read_checklist(file_name = "mammal_checklist.csv")
 #' count_missing_species(checklist = mammal_checklist)
-count_missing_species <- function(checklist) {
+count_missing_species <- function(checklist,
+                                  dna_or_complete) {
 
   # Naming convention is the raw data column names are underscore separated
   # title case, when the data is modified in memory (i.e. in R) data column
   # names are underscore separated lowercase
 
-  not_in_tree <- which(is.na(checklist$Name_In_Tree))
+  if (grepl(pattern = "dna", x = dna_or_complete, ignore.case = TRUE)) {
+    not_in_tree <- which(!checklist$DNA_In_Tree)
+  } else {
+    not_in_tree <- which(!checklist$Sampled)
+  }
+
   missing_genus <- checklist[not_in_tree, "Genus"]
 
   missing_species <- table(missing_genus)
