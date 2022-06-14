@@ -1,5 +1,5 @@
 # load madagascar amphibians species data table
-data("madagascar_amphibians", package = "MadIsland")
+data("madagascar_amphibians_complete", package = "MadIsland")
 
 # check that the data has loaded correctly and that it has the correct data
 head(madagascar_amphibians)
