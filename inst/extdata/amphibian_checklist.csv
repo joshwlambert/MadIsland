@@ -1,4 +1,4 @@
-Genus,Species,Subspecies,Family,Order,Common_Name,Name_In_Tree,Sampled,DNA_In_Tree,Extinct_Extant,Status_Species,DAISIE_Species_Status,Remove_Species
+Genus,Species,Subspecies,Family,Order,Common_Name,Name_In_Tree,Sampled,DNA_In_Tree,Extinct_Extant,Status_Species,DAISIE_Status_Species,Remove_Species
 Hoplobatrachus,tigerinus,None,Dicroglossidae,Anura,Indus Valley Bullfrog,Hoplobatrachus_tigerinus,TRUE,TRUE,Extant,Non-endemic,NA,TRUE
 Heterixalus,alboguttatus,None,Hyperoliidae,Anura,None,Heterixalus_alboguttatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
 Heterixalus,andrakata,None,Hyperoliidae,Anura,None,Heterixalus_andrakata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
