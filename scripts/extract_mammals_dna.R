@@ -1,9 +1,13 @@
+library(MadIsland)
+
 # load madagascar mammals species data table
 data("madagascar_mammals_dna", package = "MadIsland")
 
 # check that the data has loaded correctly and that it has the correct data
 head(madagascar_mammals_dna)
-all(colnames(madagascar_mammals_dna) == c("tip_labels", "tip_endemicity_status"))
+all(
+  colnames(madagascar_mammals_dna) == c("tip_labels", "tip_endemicity_status")
+)
 
 # load the full raw data checklist of mammal species of madagascar
 mammal_checklist <- read_checklist(file_name = "mammal_checklist.csv")
@@ -140,12 +144,6 @@ DAISIEprep::extract_stem_age(
 )
 
 DAISIEprep::extract_stem_age(
-  genus_name = "Nesogale",
-  phylod = dna_multi_phylods[[1]],
-  extraction_method = "min"
-)
-
-DAISIEprep::extract_stem_age(
   genus_name = "Pachylemur",
   phylod = dna_multi_phylods[[1]],
   extraction_method = "min"
@@ -245,21 +243,6 @@ multi_island_tbl_dna <- lapply(
   )
 )
 
-# add the Nesogale as an island age max age as there is no stem age in
-# the tree
-multi_island_tbl_dna <- lapply(
-  multi_island_tbl_dna,
-  DAISIEprep::add_island_colonist,
-  clade_name = "",
-  status = "endemic",
-  missing_species = ,
-  branching_times = 88,
-  min_age = NA,
-  species = c(
-
-  )
-)
-
 # add the Pachylemur as an island age max age as there is no stem age in
 # the tree
 multi_island_tbl_dna <- lapply(
@@ -310,18 +293,18 @@ daisie_data_list_dna <- lapply(
 # save the main data outputs
 # 1) the multi_island_tbl
 saveRDS(
-  object = multi_island_tbl_complete,
-  file = "inst/extdata/amphibian_island_tbl_complete.rds"
+  object = multi_island_tbl_dna,
+  file = "inst/extdata/mammal_island_tbl_dna.rds"
 )
 
 # 2) the DAISIE data table
 saveRDS(
-  object = daisie_datatable_complete,
-  file = "inst/extdata/amphibian_daisie_datatable_complete.rds"
+  object = daisie_datatable_dna,
+  file = "inst/extdata/mammal_daisie_datatable_dna.rds"
 )
 
 # 3) the DAISIE data list
 saveRDS(
-  object = daisie_data_list_complete,
-  file = "inst/extdata/amphibian_daisie_data_list_complete.rds"
+  object = daisie_data_list_dna,
+  file = "inst/extdata/mammal_daisie_data_list_dna.rds"
 )
