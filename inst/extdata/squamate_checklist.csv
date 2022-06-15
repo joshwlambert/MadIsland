@@ -11,7 +11,7 @@ Blaesodactylus,antongilensis,None,Gekkonidae,Squamata,None,Blaesodactylus_antong
 Blaesodactylus,boivini,None,Gekkonidae,Squamata,None,Blaesodactylus_boivini,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
 Blaesodactylus,microtuberculatus,None,Gekkonidae,Squamata,None,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
 Blaesodactylus,sakalava,None,Gekkonidae,Squamata,None,Blaesodactylus_sakalava,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Blaesodactylus,victori,None,Gekkonidae,Squamata,Victor’s Madagascar Velvet gecko,NA,FASLE,FALSE,Extant,Endemic,Endemic,FALSE
+Blaesodactylus,victori,None,Gekkonidae,Squamata,Victor’s Madagascar Velvet gecko,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
 Brachyseps,anosyensis,None,Scincidae,Squamata,None,Amphiglossus_anosyensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
 Brachyseps,frontoparietalis,None,Scincidae,Squamata,Boulenger's Tree Skink ,Amphiglossus_frontoparietalis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
 Brachyseps,gastrostictus,None,Scincidae,Squamata,O'Shaughnessy's Madagascar Skink ,Amphiglossus_gastrostictus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
