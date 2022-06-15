@@ -18,8 +18,11 @@ count_missing_species <- function(checklist,
   # names are underscore separated lowercase
 
   if (grepl(pattern = "dna", x = dna_or_complete, ignore.case = TRUE)) {
+    # check data is boolean
+    if (any(!is.logical(checklist$DNA_In_Tree))) stop("Must be boolean values")
     not_in_tree <- which(!checklist$DNA_In_Tree)
   } else {
+    if (any(!is.logical(checklist$Sampled))) stop("Must be boolean values")
     not_in_tree <- which(!checklist$Sampled)
   }
 
@@ -41,7 +44,7 @@ count_missing_species <- function(checklist,
       }
     }
   }
-  match_index <- na.omit(match_index)[1]
+  match_index <- na.omit(match_index)
   missing_genus[match_index] <- phylo_genus[match_index]
 
   # sum the number of missing species in each genera
