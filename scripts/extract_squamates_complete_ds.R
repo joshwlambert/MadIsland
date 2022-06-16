@@ -1,12 +1,12 @@
 library(MadIsland)
 
 # load madagascar squamate species data table
-data("madagascar_squamates_complete", package = "MadIsland")
+data("madagascar_squamates_complete_ds", package = "MadIsland")
 
 # check that the data has loaded correctly and that it has the correct data
-head(madagascar_squamates_complete)
+head(madagascar_squamates_complete_ds)
 all(
-  colnames(madagascar_squamates_complete) ==
+  colnames(madagascar_squamates_complete_ds) ==
     c("tip_labels", "tip_endemicity_status")
 )
 
@@ -52,7 +52,7 @@ gc()
 endemicity_status_complete <- lapply(
   complete_phylos,
   DAISIEprep::create_endemicity_status,
-  island_species = madagascar_squamates_complete
+  island_species = madagascar_squamates_complete_ds
 )
 
 # combine tree and endemicity status
@@ -116,7 +116,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "squamate_island_tbl_complete.rds"
+    "squamate_island_tbl_complete_ds.rds"
   )
 )
 
@@ -127,7 +127,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "squamate_daisie_datatable_complete.rds"
+    "squamate_daisie_datatable_complete_ds.rds"
   )
 )
 
@@ -138,6 +138,6 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "squamate_daisie_data_list_complete.rds"
+    "squamate_daisie_data_list_complete_ds.rds"
   )
 )
