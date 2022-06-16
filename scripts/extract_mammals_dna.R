@@ -32,7 +32,7 @@ missing_mammal_species
 # load the DNA only trees
 mammal_posterior_dna <- ape::read.nexus(
   file = system.file(
-    "extdata/Upham_dna_posterior_100.nex",
+    "extdata", "phylos", "Upham_dna_posterior_100.nex",
     package = "MadIsland"
   )
 )
@@ -294,17 +294,32 @@ daisie_data_list_dna <- lapply(
 # 1) the multi_island_tbl
 saveRDS(
   object = multi_island_tbl_dna,
-  file = "inst/extdata/mammal_island_tbl_dna.rds"
+  file = file.path(
+    "inst",
+    "extdata",
+    "extracted_data",
+    "mammal_island_tbl_dna.rds"
+  )
 )
 
 # 2) the DAISIE data table
 saveRDS(
   object = daisie_datatable_dna,
-  file = "inst/extdata/mammal_daisie_datatable_dna.rds"
+  file = file.path(
+    "inst",
+    "extdata",
+    "extracted_data",
+    "mammal_daisie_datatable_dna.rds"
+  )
 )
 
 # 3) the DAISIE data list
 saveRDS(
   object = daisie_data_list_dna,
-  file = "inst/extdata/mammal_daisie_data_list_dna.rds"
+  file = file.path(
+    "inst",
+    "extdata",
+    "extracted_data",
+    "mammal_daisie_data_list_dna.rds"
+  )
 )

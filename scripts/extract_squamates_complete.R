@@ -112,17 +112,17 @@ daisie_data_list_complete <- lapply(
 # 1) the multi_island_tbl
 saveRDS(
   object = multi_island_tbl_complete,
-  file = "inst/extdata/squamate_island_tbl_complete.rds"
+  file = "inst/extdata/extracted_data/squamate_island_tbl_complete.rds"
 )
 
 # 2) the DAISIE data table
 saveRDS(
   object = daisie_datatable_complete,
-  file = "inst/extdata/squamate_daisie_datatable_complete.rds"
+  file = "inst/extdata/extracted_data/squamate_daisie_datatable_complete.rds"
 )
 
 # 3) the DAISIE data list
 saveRDS(
   object = daisie_data_list_complete,
-  file = "inst/extdata/squamate_daisie_data_list_complete.rds"
+  file = "inst/extdata/extracted_data/squamate_daisie_data_list_complete.rds"
 )

@@ -15,7 +15,7 @@ read_checklist <- function(file_name){
   }
 
   # generate file path from file_name input
-  file_path <- file.path("extdata", file_name)
+  file_path <- file.path("extdata", "checklists", file_name)
 
   # read csv
   tbl <- utils::read.csv(
