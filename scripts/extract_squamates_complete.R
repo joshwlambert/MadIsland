@@ -90,38 +90,8 @@ no_phylo_missing_squamate_species_complete <- lapply(
   missing_species = missing_squamate_species
 )
 
-# check that all the missing species that have not already been assigned are the
-# same between different trees in the posterior
-sapply(
-  list(
-    no_phylo_missing_squamate_species_complete[[2]]$clade_name,
-    no_phylo_missing_squamate_species_complete[[3]]$clade_name
-  ), identical,
-  no_phylo_missing_squamate_species_complete[[1]]$clade_name
-)
-
-# check which missing species that are not already assigned have stem ages in
-# the tree, when no stem is found only one tree needs to be checked as each
-# tree in the posterior contains the same species and just differs in branch
-# lengths and topology, when the stem age is found, a stem age from each tree is
-# required
-DAISIEprep::extract_stem_age(
-  genus_name = "Mini",
-  phylod = complete_multi_phylods[[1]],
-  extraction_method = "min"
-)
-
-# add the Mini as an island age max age as there is no stem age in the tree
-multi_island_tbl_complete <- lapply(
-  multi_island_tbl_complete,
-  DAISIEprep::add_island_colonist,
-  clade_name = "Mini_ature",
-  status = "endemic",
-  missing_species = 3,
-  branching_times = 88,
-  min_age = NA,
-  species = c("Mini_ature", "Mini_mum", "Mini_scule")
-)
+# there are no missing species left to be assigned to the multi_island_tbls
+no_phylo_missing_squamate_species_complete
 
 # convert to daisie data table
 daisie_datatable_complete <- lapply(
