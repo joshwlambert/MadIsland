@@ -3,14 +3,18 @@ library(MadIsland)
 # load the complete trees
 amphibian_posterior_complete <- ape::read.nexus(
   file = system.file(
-    "extdata/Jetz_Pyron_complete_posterior_100.nex",
+    "extdata", "phylos", "Jetz_Pyron_complete_posterior_100.nex",
     package = "MadIsland"
   )
 )
 
 # load species names that with whether they have DNA data
-amphibian_dna_phylogeny <- read_checklist(
-  file_name = "amphibian_dna_phylogeny.csv"
+amphibian_dna_phylogeny <- utils::read.csv(
+  file = system.file(
+    "extdata", "dna_species", "amphibian_dna_phylogeny.csv",
+    package = "MadIsland"
+  ),
+  header = TRUE,
 )
 
 # check that the data has loaded correctly and that it has the correct data
@@ -42,8 +46,12 @@ Jetz_Pyron_dna_posterior_100 <- lapply(
 class(Jetz_Pyron_dna_posterior_100) <- "multiPhylo"
 
 # save DNA-only trees
-# 1) the multi_island_tbl
 ape::write.nexus(
   Jetz_Pyron_dna_posterior_100,
-  file = "inst/extdata/Jetz_Pyron_dna_posterior_100.nex"
+  file = file.path(
+    "inst",
+    "extdata",
+    "phylos",
+    "Jetz_Pyron_dna_posterior_100.nex"
+  )
 )

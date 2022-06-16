@@ -3,14 +3,18 @@ library(MadIsland)
 # load the complete trees
 squamate_posterior_complete <- ape::read.nexus(
   file = system.file(
-    "extdata/Tonini_complete_posterior_100.nex",
+    "extdata", "phylos", "Tonini_complete_posterior_100.nex",
     package = "MadIsland"
   )
 )
 
 # load species names that with whether they have DNA data
-squamate_dna_phylogeny <- read_checklist(
-  file_name = "squamate_dna_phylogeny.csv"
+squamate_dna_phylogeny <- utils::read.csv(
+  file = system.file(
+    "extdata", "dna_species", "squamate_dna_phylogeny.csv",
+    package = "MadIsland"
+  ),
+  header = TRUE,
 )
 
 # check that the data has loaded correctly and that it has the correct data
@@ -45,5 +49,10 @@ class(Tonini_dna_posterior_100) <- "multiPhylo"
 # save DNA-only trees
 ape::write.nexus(
   Tonini_dna_posterior_100,
-  file = "inst/extdata/Tonini_dna_posterior_100.nex"
+  file = file.path(
+    "inst",
+    "extdata",
+    "phylos",
+    "Tonini_dna_posterior_100.nex"
+  )
 )
