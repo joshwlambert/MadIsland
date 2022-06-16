@@ -13,7 +13,8 @@
 #'   dna_or_complete = "complete"
 #' )
 process_raw_data <- function(file_name,
-                             dna_or_complete) {
+                             dna_or_complete,
+                             daisie_status) {
 
   # check that a single csv file name is input
   if (!all(grepl(pattern = ".csv", x = file_name)) || length(file_name) != 1) {
@@ -44,7 +45,14 @@ process_raw_data <- function(file_name,
   }
 
   # subset to name in the phylogeny and the endemicity status
-  island_species <- tbl[, c("Name_In_Tree", "Status_Species")]
+  if (daisie_status) {
+    # use endemicity status corrected for DAISIE
+    island_species <- tbl[, c("Name_In_Tree", "DAISIE_Status_Species")]
+  } else {
+    # use true endemicity status
+    island_species <- tbl[, c("Name_In_Tree", "Status_Species")]
+  }
+
 
   if (grepl(pattern = "dna", x = dna_or_complete, ignore.case = TRUE)) {
     dna_species <- which(tbl$DNA_In_Tree)

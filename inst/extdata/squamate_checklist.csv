@@ -185,7 +185,7 @@ Liophidium,rhodogaster,None,Pseudoxyrhophiidae,Squamata,Gold-collarcd Snake ,Li
 Liophidium,therezieni,None,Pseudoxyrhophiidae,Squamata,None,Liophidium_therezieni,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
 Liophidium,torquatum,None,Pseudoxyrhophiidae,Squamata,None,Liophidium_torquatum,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
 Liophidium,trilineatum,None,Pseudoxyrhophiidae,Squamata,Madagascar Three-lined Snake,Liophidium_trilineatum,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Liophidium,vaillanti,None,Pseudoxyrhophiidae,Squamata,None,Liophidium_vaillanti,TRUE,TRUE,Extant,Non-endemic,,FALSE
+Liophidium,vaillanti,None,Pseudoxyrhophiidae,Squamata,None,Liophidium_vaillanti,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
 Liopholidophis,baderi,None,Pseudoxyrhophiidae,Squamata,None,Liopholidophis_baderi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
 Liopholidophis,dimorphus,None,Pseudoxyrhophiidae,Squamata,None,Liopholidophis_dimorphus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
 Liopholidophis,dolicocercus,None,Pseudoxyrhophiidae,Squamata,None,Liopholidophis_dolicocercus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
