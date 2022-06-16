@@ -1,4 +1,4 @@
-Genus,Species,Subspecies,Family,Order,Common_Name,Name_In_Tree,Sampled,DNA_In_Tree,Extinct_Extant,Status_Species,DAISIE_Status_Species,Remove_species
+Genus,Species,Subspecies,Family,Order,Common_Name,Name_In_Tree,Sampled,DNA_In_Tree,Extinct_Extant,Status_Species,DAISIE_Status_Species,Remove_Species
 Aquila,sp. A,None,Accipitridae,Falconiformes,Extinct eagle,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
 Aquila,sp. B,None,Accipitridae,Falconiformes,Extinct eagle,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
 Stephanoaetus,mahery,None,Accipitridae,Accipitriformes,Malagasy Crowned eagle,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE

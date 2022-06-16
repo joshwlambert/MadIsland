@@ -36,6 +36,13 @@ process_raw_data <- function(file_name,
   # title case, when the data is modified in memory (i.e. in R) data column
   # names are underscore separated lowercase
 
+  # remove species that are tagged as needing removal from the data set
+  # likely as they are introduced (alien) to the island
+  rm_species <- which(tbl$Remove_Species)
+  if (length(rm_species) > 0) {
+    tbl <- tbl[-rm_species, ]
+  }
+
   # subset to name in the phylogeny and the endemicity status
   island_species <- tbl[, c("Name_In_Tree", "Status_Species")]
 
