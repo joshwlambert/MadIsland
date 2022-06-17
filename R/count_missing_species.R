@@ -17,6 +17,13 @@ count_missing_species <- function(checklist,
   # title case, when the data is modified in memory (i.e. in R) data column
   # names are underscore separated lowercase
 
+  # remove species that are tagged as needing removal from the data set
+  # likely as they are introduced (alien) to the island
+  rm_species <- which(checklist$Remove_Species)
+  if (length(rm_species) > 0) {
+    checklist <- checklist[-rm_species, ]
+  }
+
   if (grepl(pattern = "dna", x = dna_or_complete, ignore.case = TRUE)) {
     # check data is boolean
     if (any(!is.logical(checklist$DNA_In_Tree))) stop("Must be boolean values")

@@ -105,87 +105,417 @@ sapply(
 # tree in the posterior contains the same species and just differs in branch
 # lengths and topology, when the stem age is found, a stem age from each tree is
 # required
-DAISIEprep::extract_stem_age(
-  genus_name = "Accipiter",
-  phylod = dna_multi_phylods[[1]],
-  extraction_method = "min"
-)
+Accipiter_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Accipiter_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Accipiter",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
 
-DAISIEprep::extract_stem_age(
-  genus_name = "Actophilornis",
-  phylod = dna_multi_phylods[[1]],
-  extraction_method = "min"
-)
+Actophilornis_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Actophilornis_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Actophilornis",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
 
 DAISIEprep::extract_stem_age(
   genus_name = "Aepyornis",
-  phylod = complete_multi_phylods[[1]],
+  phylod = dna_multi_phylods[[1]],
   extraction_method = "min"
 )
 
 Alopochen_stem_age <- list()
-for (i in seq_along(complete_multi_phylods)) {
+for (i in seq_along(dna_multi_phylods)) {
   Alopochen_stem_age[[i]] <- DAISIEprep::extract_stem_age(
     genus_name = "Alopochen",
-    phylod = complete_multi_phylods[[i]],
+    phylod = dna_multi_phylods[[i]],
     extraction_method = "min"
   )
 }
 
-Aquila_stem_age <- list()
-for (i in seq_along(complete_multi_phylods)) {
-  Aquila_stem_age[[i]] <- DAISIEprep::extract_stem_age(
-    genus_name = "Aquila",
-    phylod = complete_multi_phylods[[i]],
+Amaurornis_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Amaurornis_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Amaurornis",
+    phylod = dna_multi_phylods[[i]],
     extraction_method = "min"
   )
 }
 
 DAISIEprep::extract_stem_age(
-  genus_name = "Centrornis",
-  phylod = complete_multi_phylods[[1]],
+  genus_name = "Anastomus",
+  phylod = dna_multi_phylods[[1]],
+  extraction_method = "min"
+)
+
+Aquila_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Aquila_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Aquila",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+Aviceda_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Aviceda_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Aviceda",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+Aythya_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Aythya_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Aythya",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+Bradypterus_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Bradypterus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Bradypterus",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+Buteo_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Buteo_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Buteo",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+DAISIEprep::extract_stem_age(
+  genus_name = "Calicalicus",
+  phylod = dna_multi_phylods[[1]],
   extraction_method = "min"
 )
 
 DAISIEprep::extract_stem_age(
+  genus_name = "Canirallus",
+  phylod = dna_multi_phylods[[1]],
+  extraction_method = "min"
+)
+
+DAISIEprep::extract_stem_age(
+  genus_name = "Centrornis",
+  phylod = dna_multi_phylods[[1]],
+  extraction_method = "min"
+)
+
+Circus_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Circus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Circus",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+DAISIEprep::extract_stem_age(
+  genus_name = "Dryolimnas",
+  phylod = dna_multi_phylods[[1]],
+  extraction_method = "min"
+)
+
+Egretta_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Egretta_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Egretta",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+DAISIEprep::extract_stem_age(
+  genus_name = "Euryceros",
+  phylod = dna_multi_phylods[[1]],
+  extraction_method = "min"
+)
+
+DAISIEprep::extract_stem_age(
+  genus_name = "Falculea",
+  phylod = dna_multi_phylods[[1]],
+  extraction_method = "min"
+)
+
+Gallinago_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Gallinago_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Gallinago",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+DAISIEprep::extract_stem_age(
   genus_name = "Hovacrex",
-  phylod = complete_multi_phylods[[1]],
+  phylod = dna_multi_phylods[[1]],
+  extraction_method = "min"
+)
+
+DAISIEprep::extract_stem_age(
+  genus_name = "Hypositta",
+  phylod = dna_multi_phylods[[1]],
+  extraction_method = "min"
+)
+
+DAISIEprep::extract_stem_age(
+  genus_name = "Leptopterus",
+  phylod = dna_multi_phylods[[1]],
+  extraction_method = "min"
+)
+
+Leptosomus_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Leptosomus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Leptosomus",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+DAISIEprep::extract_stem_age(
+  genus_name = "Lophotibis",
+  phylod = dna_multi_phylods[[1]],
   extraction_method = "min"
 )
 
 DAISIEprep::extract_stem_age(
   genus_name = "Mentocrex",
-  phylod = complete_multi_phylods[[1]],
+  phylod = dna_multi_phylods[[1]],
   extraction_method = "min"
 )
+
+Mesitornis_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Mesitornis_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Mesitornis",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+Mirafra_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Mirafra_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Mirafra",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+Monias_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Monias_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Monias",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
 
 DAISIEprep::extract_stem_age(
   genus_name = "Mullerornis",
-  phylod = complete_multi_phylods[[1]],
+  phylod = dna_multi_phylods[[1]],
   extraction_method = "min"
 )
 
+Nettapus_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Nettapus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Nettapus",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+DAISIEprep::extract_stem_age(
+  genus_name = "Newtonia",
+  phylod = dna_multi_phylods[[1]],
+  extraction_method = "min"
+)
+
+Ninox_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Ninox_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Ninox",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+DAISIEprep::extract_stem_age(
+  genus_name = "Oriolia",
+  phylod = dna_multi_phylods[[1]],
+  extraction_method = "min"
+)
+
+Phalacrocorax_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Phalacrocorax_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Phalacrocorax",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+Ploceus_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Ploceus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Ploceus",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+Polyboroides_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Polyboroides_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Polyboroides",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+Pterocles_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Pterocles_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Pterocles",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+Rallus_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Rallus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Rallus",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+DAISIEprep::extract_stem_age(
+  genus_name = "Randia",
+  phylod = dna_multi_phylods[[1]],
+  extraction_method = "min"
+)
+
+Sarothrura_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Sarothrura_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Sarothrura",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+DAISIEprep::extract_stem_age(
+  genus_name = "Schetba",
+  phylod = dna_multi_phylods[[1]],
+  extraction_method = "min"
+)
+
+Scopus_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Scopus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Scopus",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
 Stephanoaetus_stem_age <- list()
-for (i in seq_along(complete_multi_phylods)) {
+for (i in seq_along(dna_multi_phylods)) {
   Stephanoaetus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
     genus_name = "Stephanoaetus",
-    phylod = complete_multi_phylods[[i]],
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+Tachybaptus_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Tachybaptus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Tachybaptus",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+Terpsiphone_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Terpsiphone_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Terpsiphone",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+Threskiornis_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Threskiornis_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Threskiornis",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+Turnix_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Turnix_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Turnix",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
+
+DAISIEprep::extract_stem_age(
+  genus_name = "Tylas",
+  phylod = dna_multi_phylods[[1]],
+  extraction_method = "min"
+)
+
+Upupa_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Upupa_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Upupa",
+    phylod = dna_multi_phylods[[i]],
     extraction_method = "min"
   )
 }
 
 Vanellus_stem_age <- list()
-for (i in seq_along(complete_multi_phylods)) {
+for (i in seq_along(dna_multi_phylods)) {
   Vanellus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
     genus_name = "Vanellus",
-    phylod = complete_multi_phylods[[i]],
+    phylod = dna_multi_phylods[[i]],
     extraction_method = "min"
   )
 }
 
 DAISIEprep::extract_stem_age(
   genus_name = "Vorombe",
-  phylod = complete_multi_phylods[[1]],
+  phylod = dna_multi_phylods[[1]],
+  extraction_method = "min"
+)
+
+DAISIEprep::extract_stem_age(
+  genus_name = "Zoonavena",
+  phylod = dna_multi_phylods[[1]],
   extraction_method = "min"
 )
 
@@ -206,10 +536,39 @@ multi_island_tbl_complete <- lapply(
   )
 )
 
-# add the Alopochen as an stem age max age given the stem age in the tree
-new_multi_island_tbl_complete <- mapply(
+# add the Actophilornis as an stem age max age given the stem age in the tree
+new_multi_island_tbl_dna <- mapply(
   DAISIEprep::add_island_colonist,
-  multi_island_tbl_complete,
+  multi_island_tbl_dna,
+  clade_name = list("Actophilornis_albinucha"),
+  status = list("endemic"),
+  missing_species = list(1),
+  branching_times = Actophilornis_stem_age,
+  min_age = list(NA),
+  species = list("Actophilornis_albinucha")
+)
+
+# add the Aepyornis as an island age max age as there is no stem age in the tree
+multi_island_tbl_dna <- lapply(
+  multi_island_tbl_dna,
+  DAISIEprep::add_island_colonist,
+  clade_name = "Aepyornis_gracilis",
+  status = "endemic",
+  missing_species = 4,
+  branching_times = 88,
+  min_age = NA,
+  species = c(
+    "Aepyornis_gracilis",
+    "Aepyornis_hildebrandti",
+    "Aepyornis_maximus",
+    "Aepyornis_medius"
+  )
+)
+
+# add the Alopochen as an stem age max age given the stem age in the tree
+multi_island_tbl_dna <- mapply(
+  DAISIEprep::add_island_colonist,
+  multi_island_tbl_dna,
   clade_name = list("Alopochen_sirabensis"),
   status = list("endemic"),
   missing_species = list(1),
@@ -218,10 +577,34 @@ new_multi_island_tbl_complete <- mapply(
   species = list("Alopochen_sirabensis")
 )
 
-# add the Aquila as an stem age max age given the stem age in the tree
-multi_island_tbl_complete <- mapply(
+# add the Amaurornis as an stem age max age given the stem age in the tree
+multi_island_tbl_dna <- mapply(
   DAISIEprep::add_island_colonist,
-  multi_island_tbl_complete,
+  multi_island_tbl_dna,
+  clade_name = list("Amaurornis_olivieri"),
+  status = list("endemic"),
+  missing_species = list(1),
+  branching_times = Amaurornis_stem_age,
+  min_age = list(NA),
+  species = list("Amaurornis_olivieri")
+)
+
+# add the Anastomus as an island age max age as there is no stem age in the tree
+multi_island_tbl_dna <- lapply(
+  multi_island_tbl_dna,
+  DAISIEprep::add_island_colonist,
+  clade_name = "Anastomus_lamelligerus",
+  status = "nonendemic",
+  missing_species = 1,
+  branching_times = 88,
+  min_age = NA,
+  species = "Anastomus_lamelligerus"
+)
+
+# add the Aquila as an stem age max age given the stem age in the tree
+multi_island_tbl_dna <- mapply(
+  DAISIEprep::add_island_colonist,
+  multi_island_tbl_dna,
   clade_name = list("Aquila_A"),
   status = list("endemic"),
   missing_species = list(2),
@@ -230,40 +613,167 @@ multi_island_tbl_complete <- mapply(
   species = list(c("Aquila_A", "Aquila_B"))
 )
 
-# add the Centrornis as an island age max age as there is no stem age in the tree
-multi_island_tbl_complete <- lapply(
-  multi_island_tbl_complete,
+# add the Aviceda as an stem age max age given the stem age in the tree
+multi_island_tbl_dna <- mapply(
+  DAISIEprep::add_island_colonist,
+  multi_island_tbl_dna,
+  clade_name = list("Aviceda_madagascariensis"),
+  status = list("endemic"),
+  missing_species = list(1),
+  branching_times = Aviceda_stem_age,
+  min_age = list(NA),
+  species = list("Aviceda_madagascariensis")
+)
+
+# add the Aythya as an stem age max age given the stem age in the tree
+multi_island_tbl_dna <- mapply(
+  DAISIEprep::add_island_colonist,
+  multi_island_tbl_dna,
+  clade_name = list("Aythya_innotata"),
+  status = list("endemic"),
+  missing_species = list(1),
+  branching_times = Aythya_stem_age,
+  min_age = list(NA),
+  species = list("Aythya_innotata")
+)
+
+# add the Bradypterus as an stem age max age given the stem age in the tree
+multi_island_tbl_dna <- mapply(
+  DAISIEprep::add_island_colonist,
+  multi_island_tbl_dna,
+  clade_name = list("Bradypterus_seebohmi"),
+  status = list("endemic"),
+  missing_species = list(1),
+  branching_times = Bradypterus_stem_age,
+  min_age = list(NA),
+  species = list("Bradypterus_seebohmi")
+)
+
+# add the Buteo as an stem age max age given the stem age in the tree
+multi_island_tbl_dna <- mapply(
+  DAISIEprep::add_island_colonist,
+  multi_island_tbl_dna,
+  clade_name = list("Buteo_brachypterus"),
+  status = list("endemic"),
+  missing_species = list(1),
+  branching_times = Buteo_stem_age,
+  min_age = list(NA),
+  species = list("Buteo_brachypterus")
+)
+
+# add the Calicalicus as an island age max age as there is no stem age in the
+# tree
+multi_island_tbl_dna <- lapply(
+  multi_island_tbl_dna,
+  DAISIEprep::add_island_colonist,
+  clade_name = "Calicalicus_madagascariensis",
+  status = "endemic",
+  missing_species = 2,
+  branching_times = 88,
+  min_age = NA,
+  species = c(
+    "Calicalicus_madagascariensis",
+    "Calicalicus_rufocarpalis"
+  )
+)
+
+# add the Canirallus as an island age max age as there is no stem age in the
+# tree
+multi_island_tbl_dna <- lapply(
+  multi_island_tbl_dna,
+  DAISIEprep::add_island_colonist,
+  clade_name = "Canirallus_kioloides",
+  status = "endemic",
+  missing_species = 1,
+  branching_times = 88,
+  min_age = NA,
+  species = "Canirallus_kioloides"
+)
+
+# add the Centrornis as an island age max age as there is no stem age in the
+# tree
+multi_island_tbl_dna <- lapply(
+  multi_island_tbl_dna,
   DAISIEprep::add_island_colonist,
   clade_name = "Centrornis_majori",
   status = "endemic",
   missing_species = 1,
   branching_times = 88,
   min_age = NA,
-  species = "Centrornis	majori"
+  species = "Centrornis_majori"
 )
 
-# add the Hovacrex as an island age max age as there is no stem age in the tree
-multi_island_tbl_complete <- lapply(
-  multi_island_tbl_complete,
+# add the Circus as an stem age max age given the stem age in the tree
+multi_island_tbl_dna <- mapply(
   DAISIEprep::add_island_colonist,
-  clade_name = "Hovacrex_roberti",
+  multi_island_tbl_dna,
+  clade_name = list("Circus_macrosceles"),
+  status = list("endemic"),
+  missing_species = list(1),
+  branching_times = Circus_stem_age,
+  min_age = list(NA),
+  species = list("Circus_macrosceles")
+)
+
+# add the Dryolimnas as an island age max age as there is no stem age in the
+# tree
+multi_island_tbl_dna <- lapply(
+  multi_island_tbl_dna,
+  DAISIEprep::add_island_colonist,
+  clade_name = "Dryolimnas_cuvieri",
+  status = "nonendemic",
+  missing_species = 1,
+  branching_times = 88,
+  min_age = NA,
+  species = "Dryolimnas_cuvieri"
+)
+
+# add the Egretta as an stem age max age given the stem age in the tree
+multi_island_tbl_dna <- mapply(
+  DAISIEprep::add_island_colonist,
+  multi_island_tbl_dna,
+  clade_name = list("Egretta_ardesiaca"),
+  status = list("nonendemic"),
+  missing_species = list(1),
+  branching_times = Egretta_stem_age,
+  min_age = list(NA),
+  species = list("Egretta_ardesiaca")
+)
+
+# add the Euryceros as an island age max age as there is no stem age in the tree
+multi_island_tbl_dna <- lapply(
+  multi_island_tbl_dna,
+  DAISIEprep::add_island_colonist,
+  clade_name = "Euryceros_prevostii",
   status = "endemic",
   missing_species = 1,
   branching_times = 88,
   min_age = NA,
-  species = "Hovacrex_roberti"
+  species = "Euryceros_prevostii"
 )
 
-# add the Mentocrex as an island age max age as there is no stem age in the tree
-multi_island_tbl_complete <- lapply(
-  multi_island_tbl_complete,
+# add the Falculea as an island age max age as there is no stem age in the tree
+multi_island_tbl_dna <- lapply(
+  multi_island_tbl_dna,
   DAISIEprep::add_island_colonist,
-  clade_name = "Mentocrex_beankaensis",
+  clade_name = "Falculea_palliata",
   status = "endemic",
   missing_species = 1,
   branching_times = 88,
   min_age = NA,
-  species = "Mentocrex_beankaensis"
+  species = "Falculea_palliata"
+)
+
+# add the Gallinago as an stem age max age given the stem age in the tree
+multi_island_tbl_dna <- mapply(
+  DAISIEprep::add_island_colonist,
+  multi_island_tbl_dna,
+  clade_name = list("Gallinago_macrodactyla"),
+  status = list("endemic"),
+  missing_species = list(1),
+  branching_times = Gallinago_stem_age,
+  min_age = list(NA),
+  species = list("Gallinago_macrodactyla")
 )
 
 # add the Mullerornis as an island age max age as there is no stem age in the tree

@@ -16,22 +16,7 @@ process_raw_data <- function(file_name,
                              dna_or_complete,
                              daisie_status) {
 
-  # check that a single csv file name is input
-  if (!all(grepl(pattern = ".csv", x = file_name)) || length(file_name) != 1) {
-    stop("This function processes a single csv file")
-  }
-
-  # generate file path from file_name input
-  file_path <- file.path("extdata", file_name)
-
-  # read csv
-  tbl <- utils::read.csv(
-    file = system.file(
-      file_path,
-      package = "MadIsland"
-    ),
-    header = TRUE
-  )
+  tbl <- read_checklist(file_name = file_name)
 
   # Naming convention is the raw data column names are underscore separated
   # title case, when the data is modified in memory (i.e. in R) data column
