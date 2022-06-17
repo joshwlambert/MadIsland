@@ -155,7 +155,7 @@ multi_island_tbl_complete <- lapply(
   DAISIEprep::add_island_colonist,
   clade_name = "Archaeoindris_fontoynontii",
   status = "endemic",
-  missing_species = 1,
+  missing_species = 0,
   branching_times = 88,
   min_age = NA,
   species = c("Archaeoindris_fontoynontii")
@@ -168,7 +168,7 @@ multi_island_tbl_complete <- lapply(
   DAISIEprep::add_island_colonist,
   clade_name = "Babakotia_radofilai",
   status = "endemic",
-  missing_species = 1,
+  missing_species = 0,
   branching_times = 88,
   min_age = NA,
   species = c("Babakotia_radofilai")
@@ -181,7 +181,7 @@ multi_island_tbl_complete <- lapply(
   DAISIEprep::add_island_colonist,
   clade_name = "Hadropithecus_stenognathus",
   status = "endemic",
-  missing_species = 1,
+  missing_species = 0,
   branching_times = 88,
   min_age = NA,
   species = c("Hadropithecus_stenognathus")
@@ -194,7 +194,7 @@ multi_island_tbl_complete <- lapply(
   DAISIEprep::add_island_colonist,
   clade_name = "Macronycteris_besaoka",
   status = "endemic",
-  missing_species = 2,
+  missing_species = 1,
   branching_times = 88,
   min_age = NA,
   species = c(
@@ -210,7 +210,7 @@ multi_island_tbl_complete <- lapply(
   DAISIEprep::add_island_colonist,
   clade_name = "Mesopropithecus_dolichobrachion",
   status = "endemic",
-  missing_species = 3,
+  missing_species = 2,
   branching_times = 88,
   min_age = NA,
   species = c(
@@ -227,7 +227,7 @@ multi_island_tbl_complete <- lapply(
   DAISIEprep::add_island_colonist,
   clade_name = "Pachylemur_insignis",
   status = "endemic",
-  missing_species = 2,
+  missing_species = 1,
   branching_times = 88,
   min_age = NA,
   species = c(
@@ -243,7 +243,7 @@ multi_island_tbl_complete <- lapply(
   DAISIEprep::add_island_colonist,
   clade_name = "Plesiorycteropus_germainepetterae",
   status = "endemic",
-  missing_species = 2,
+  missing_species = 1,
   branching_times = 88,
   min_age = NA,
   species = c(

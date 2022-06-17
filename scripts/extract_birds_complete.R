@@ -183,7 +183,7 @@ multi_island_tbl_complete <- lapply(
   DAISIEprep::add_island_colonist,
   clade_name = "Aepyornis_gracilis",
   status = "endemic",
-  missing_species = 4,
+  missing_species = 3,
   branching_times = 88,
   min_age = NA,
   species = c(
@@ -200,7 +200,7 @@ new_multi_island_tbl_complete <- mapply(
   multi_island_tbl_complete,
   clade_name = list("Alopochen_sirabensis"),
   status = list("endemic"),
-  missing_species = list(1),
+  missing_species = list(0),
   branching_times = Alopochen_stem_age,
   min_age = list(NA),
   species = list("Alopochen_sirabensis")
@@ -212,7 +212,7 @@ multi_island_tbl_complete <- mapply(
   multi_island_tbl_complete,
   clade_name = list("Aquila_A"),
   status = list("endemic"),
-  missing_species = list(2),
+  missing_species = list(1),
   branching_times = Aquila_stem_age,
   min_age = list(NA),
   species = list(c("Aquila_A", "Aquila_B"))
@@ -224,7 +224,7 @@ multi_island_tbl_complete <- lapply(
   DAISIEprep::add_island_colonist,
   clade_name = "Centrornis_majori",
   status = "endemic",
-  missing_species = 1,
+  missing_species = 0,
   branching_times = 88,
   min_age = NA,
   species = "Centrornis	majori"
@@ -236,7 +236,7 @@ multi_island_tbl_complete <- lapply(
   DAISIEprep::add_island_colonist,
   clade_name = "Hovacrex_roberti",
   status = "endemic",
-  missing_species = 1,
+  missing_species = 0,
   branching_times = 88,
   min_age = NA,
   species = "Hovacrex_roberti"
@@ -248,7 +248,7 @@ multi_island_tbl_complete <- lapply(
   DAISIEprep::add_island_colonist,
   clade_name = "Mentocrex_beankaensis",
   status = "endemic",
-  missing_species = 1,
+  missing_species = 0,
   branching_times = 88,
   min_age = NA,
   species = "Mentocrex_beankaensis"
@@ -260,7 +260,7 @@ multi_island_tbl_complete <- lapply(
   DAISIEprep::add_island_colonist,
   clade_name = "Mullerornis_agilis",
   status = "endemic",
-  missing_species = 4,
+  missing_species = 3,
   branching_times = 88,
   min_age = NA,
   species = c(
@@ -277,7 +277,7 @@ multi_island_tbl_complete <- mapply(
   multi_island_tbl_complete,
   clade_name = list("Stephanoaetus_mahery"),
   status = list("endemic"),
-  missing_species = list(1),
+  missing_species = list(0),
   branching_times = Stephanoaetus_stem_age,
   min_age = list(NA),
   species = list("Stephanoaetus_mahery")
@@ -289,7 +289,7 @@ multi_island_tbl_complete <- mapply(
   multi_island_tbl_complete,
   clade_name = list("Vanellus_madagascariensis"),
   status = list("endemic"),
-  missing_species = list(1),
+  missing_species = list(0),
   branching_times = Vanellus_stem_age,
   min_age = list(NA),
   species = list("Vanellus_madagascariensis")
@@ -301,7 +301,7 @@ multi_island_tbl_complete <- lapply(
   DAISIEprep::add_island_colonist,
   clade_name = "Vorombe_titans",
   status = "endemic",
-  missing_species = 1,
+  missing_species = 0,
   branching_times = 88,
   min_age = NA,
   species = "Vorombe_titans"

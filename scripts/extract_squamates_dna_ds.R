@@ -129,7 +129,7 @@ multi_island_tbl_dna <- lapply(
   DAISIEprep::add_island_colonist,
   clade_name = "Brygophis_coulangesi",
   status = "endemic",
-  missing_species = 1,
+  missing_species = 0,
   branching_times = 88,
   min_age = NA,
   species = c("Brygophis_coulangesi")
@@ -142,7 +142,7 @@ multi_island_tbl_dna <- lapply(
   DAISIEprep::add_island_colonist,
   clade_name = "Pararhadinaea_melanogaster",
   status = "endemic",
-  missing_species = 1,
+  missing_species = 0,
   branching_times = 88,
   min_age = NA,
   species = c("Pararhadinaea_melanogaster")
@@ -155,10 +155,13 @@ multi_island_tbl_dna <- lapply(
   DAISIEprep::add_island_colonist,
   clade_name = "Sirenoscincus_mobydick",
   status = "endemic",
-  missing_species = 2,
+  missing_species = 1,
   branching_times = 88,
   min_age = NA,
-  species = c("Sirenoscincus_mobydick", "Sirenoscincus_yamagishii")
+  species = c(
+    "Sirenoscincus_mobydick",
+    "Sirenoscincus_yamagishii"
+  )
 )
 
 # convert to daisie data table

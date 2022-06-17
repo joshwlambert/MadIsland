@@ -117,7 +117,7 @@ multi_island_tbl_complete <- lapply(
   DAISIEprep::add_island_colonist,
   clade_name = "Mini_ature",
   status = "endemic",
-  missing_species = 3,
+  missing_species = 2,
   branching_times = 88,
   min_age = NA,
   species = c("Mini_ature", "Mini_mum", "Mini_scule")
