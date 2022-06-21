@@ -1,12 +1,12 @@
 library(MadIsland)
 
 # load madagascar amphibians species data table
-data("madagascar_amphibians_complete_ds", package = "MadIsland")
+data("madagascar_amphibians_complete", package = "MadIsland")
 
 # check that the data has loaded correctly and that it has the correct data
-head(madagascar_amphibians_complete_ds)
+head(madagascar_amphibians_complete)
 all(
-  colnames(madagascar_amphibians_complete_ds) ==
+  colnames(madagascar_amphibians_complete) ==
     c("tip_labels", "tip_endemicity_status")
 )
 
@@ -52,7 +52,7 @@ gc()
 endemicity_status_complete <- lapply(
   complete_phylos,
   DAISIEprep::create_endemicity_status,
-  island_species = madagascar_amphibians_complete_ds
+  island_species = madagascar_amphibians_complete
 )
 
 # combine tree and endemicity status
@@ -155,7 +155,7 @@ saveRDS(
     "extdata",
     "extracted_data",
     "amphibian_data",
-    "amphibian_island_tbl_complete_ds_asr.rds"
+    "amphibian_island_tbl_complete_asr.rds"
   )
 )
 
@@ -167,7 +167,7 @@ saveRDS(
     "extdata",
     "extracted_data",
     "amphibian_data",
-    "amphibian_daisie_datatable_complete_ds_asr.rds"
+    "amphibian_daisie_datatable_complete_asr.rds"
   )
 )
 
@@ -179,6 +179,6 @@ saveRDS(
     "extdata",
     "extracted_data",
     "amphibian_data",
-    "amphibian_daisie_data_list_complete_ds_asr.rds"
+    "amphibian_daisie_data_list_complete_asr.rds"
   )
 )
