@@ -1,12 +1,13 @@
 library(MadIsland)
 
 # load madagascar mammals species data table
-data("madagascar_mammals_dna", package = "MadIsland")
+data("madagascar_mammals_dna_ds", package = "MadIsland")
 
 # check that the data has loaded correctly and that it has the correct data
-head(madagascar_mammals_dna)
+head(madagascar_mammals_dna_ds)
 all(
-  colnames(madagascar_mammals_dna) == c("tip_labels", "tip_endemicity_status")
+  colnames(madagascar_mammals_dna_ds) ==
+    c("tip_labels", "tip_endemicity_status")
 )
 
 # load the full raw data checklist of mammal species of madagascar
@@ -51,7 +52,7 @@ gc()
 endemicity_status_dna <- lapply(
   dna_phylos,
   DAISIEprep::create_endemicity_status,
-  island_species = madagascar_mammals_dna
+  island_species = madagascar_mammals_dna_ds
 )
 
 # combine tree and endemicity status
@@ -307,7 +308,7 @@ saveRDS(
     "extdata",
     "extracted_data",
     "mammal_data",
-    "mammal_island_tbl_dna_asr.rds"
+    "mammal_island_tbl_dna_ds_asr.rds"
   )
 )
 
@@ -319,7 +320,7 @@ saveRDS(
     "extdata",
     "extracted_data",
     "mammal_data",
-    "mammal_daisie_datatable_dna_asr.rds"
+    "mammal_daisie_datatable_dna_ds_asr.rds"
   )
 )
 
@@ -331,6 +332,6 @@ saveRDS(
     "extdata",
     "extracted_data",
     "mammal_data",
-    "mammal_daisie_data_list_dna_asr.rds"
+    "mammal_daisie_data_list_dna_ds_asr.rds"
   )
 )
