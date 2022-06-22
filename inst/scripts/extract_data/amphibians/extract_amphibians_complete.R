@@ -90,6 +90,30 @@ no_phylo_missing_amphibian_species_complete <- lapply(
   missing_species = missing_amphibian_species
 )
 
+##########################################################
+##########################################################
+
+island_data <- extract_species(
+  checklist_file_name = "amphibian_checklist.csv",
+  phylo_file_name = "Jetz_Pyron_complete_posterior_100.nex",
+  dna_or_complete = "complete",
+  daisie_status = FALSE,
+  extraction_method = "min"
+)
+
+identical(island_data$multi_island_tbl, multi_island_tbl_complete)
+identical(
+  island_data$no_phylo_missing_species,
+  no_phylo_missing_amphibian_species_complete
+)
+waldo::compare(island_data$multi_island_tbl, multi_island_tbl_complete)
+waldo::compare(
+  island_data$no_phylo_missing_species,
+  no_phylo_missing_amphibian_species_complete
+)
+##########################################################
+##########################################################
+
 # check that all the missing species that have not already been assigned are the
 # same between different trees in the posterior
 sapply(

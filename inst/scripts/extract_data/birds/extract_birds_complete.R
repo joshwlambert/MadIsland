@@ -100,6 +100,30 @@ sapply(
   no_phylo_missing_bird_species_complete[[1]]$clade_name
 )
 
+##########################################################
+##########################################################
+
+island_data <- extract_species(
+  checklist_file_name = "bird_checklist.csv",
+  phylo_file_name = "Jetz_complete_posterior_100.nex",
+  dna_or_complete = "complete",
+  daisie_status = FALSE,
+  extraction_method = "min"
+)
+
+identical(island_data$multi_island_tbl, multi_island_tbl_complete)
+identical(
+  island_data$no_phylo_missing_species,
+  no_phylo_missing_bird_species_complete
+)
+waldo::compare(island_data$multi_island_tbl, multi_island_tbl_complete)
+waldo::compare(
+  island_data$no_phylo_missing_species,
+  no_phylo_missing_bird_species_complete
+)
+##########################################################
+##########################################################
+
 # check which missing species that are not already assigned have stem ages in
 # the tree, when no stem is found only one tree needs to be checked as each
 # tree in the posterior contains the same species and just differs in branch

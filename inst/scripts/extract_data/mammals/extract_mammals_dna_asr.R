@@ -1,110 +1,11 @@
 library(MadIsland)
 
-# load madagascar mammals species data table
-data("madagascar_mammals_dna", package = "MadIsland")
-
-# check that the data has loaded correctly and that it has the correct data
-head(madagascar_mammals_dna)
-all(
-  colnames(madagascar_mammals_dna) == c("tip_labels", "tip_endemicity_status")
-)
-
-# load the full raw data checklist of mammal species of madagascar
-mammal_checklist <- read_checklist(file_name = "mammal_checklist.csv")
-
-# check that the data has loaded correctly and that it has the correct data
-head(mammal_checklist)
-all(colnames(mammal_checklist) == c(
-  "Genus", "Species", "Subspecies", "Family", "Order", "Common_Name",
-  "Name_In_Tree", "Sampled", "DNA_In_Tree", "Extinct_Extant", "Status_Species",
-  "DAISIE_Status_Species", "Remove_Species"
-))
-
-# count the number of missing species for each genus
-missing_mammal_species <- count_missing_species(
-  checklist = mammal_checklist,
-  dna_or_complete = "DNA"
-)
-
-# look at missing species to check
-missing_mammal_species
-
-# load the DNA only trees
-mammal_posterior_dna <- ape::read.nexus(
-  file = system.file(
-    "extdata", "phylos", "Upham_dna_posterior_100.nex",
-    package = "MadIsland"
-  )
-)
-
-#delete
-mammal_posterior_dna <- mammal_posterior_dna[1:3]
-
-# convert trees to phylo4 objects
-dna_phylos <- lapply(mammal_posterior_dna, phylobase::phylo4)
-
-# remove phylo objects to free up some memory
-rm(mammal_posterior_dna)
-gc()
-
-# create endemicity status data frame
-endemicity_status_dna <- lapply(
-  dna_phylos,
-  DAISIEprep::create_endemicity_status,
-  island_species = madagascar_mammals_dna
-)
-
-# combine tree and endemicity status
-dna_multi_phylods <- mapply(
-  phylobase::phylo4d,
-  dna_phylos,
-  endemicity_status_dna
-)
-
-# reconstruct geographic ancestral states for extraction with asr
-dna_multi_phylods <- lapply(
-  dna_multi_phylods,
-  DAISIEprep::add_asr_node_states,
-  asr_method = "mk",
-  tie_preference = "mainland"
-)
-
-# extract island community using asr algorithm
-multi_island_tbl_dna <- DAISIEprep::multi_extract_island_species(
-  multi_phylod = dna_multi_phylods,
-  extraction_method = "asr",
-  verbose = TRUE
-)
-
-# determine which island clade the missing species should be assigned to
-missing_genus_dna <- lapply(
-  multi_island_tbl_dna,
-  unique_missing_species
-)
-
-# add missing species that match genera found in the island tbl
-multi_island_tbl_dna <- mapply(
-  add_phylo_missing_species,
-  missing_genus_dna,
-  multi_island_tbl_dna,
-  missing_species = list(missing_mammal_species)
-)
-
-# remove missing species that have already been inserted into the island tbl
-no_phylo_missing_mammal_species_dna <- lapply(
-  missing_genus_dna,
-  rm_phylo_missing_species,
-  missing_species = missing_mammal_species
-)
-
-# check that all the missing species that have not already been assigned are the
-# same between different trees in the posterior
-sapply(
-  list(
-    no_phylo_missing_mammal_species_dna[[2]]$clade_name,
-    no_phylo_missing_mammal_species_dna[[3]]$clade_name
-  ), identical,
-  no_phylo_missing_mammal_species_dna[[1]]$clade_name
+island_data <- extract_species(
+  checklist_file_name = "mammal_checklist.csv",
+  phylo_file_name = "Upham_dna_posterior_100.nex",
+  dna_or_complete = "DNA",
+  daisie_status = FALSE,
+  extraction_method = "asr"
 )
 
 # check which missing species that are not already assigned have stem ages in

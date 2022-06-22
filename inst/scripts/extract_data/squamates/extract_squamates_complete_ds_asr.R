@@ -101,6 +101,30 @@ no_phylo_missing_squamate_species_complete <- lapply(
 # there are no missing species left to be assigned to the multi_island_tbls
 no_phylo_missing_squamate_species_complete
 
+##########################################################
+##########################################################
+
+island_data <- extract_species(
+  checklist_file_name = "squamate_checklist.csv",
+  phylo_file_name = "Tonini_complete_posterior_100.nex",
+  dna_or_complete = "complete",
+  daisie_status = TRUE,
+  extraction_method = "asr"
+)
+
+identical(island_data$multi_island_tbl, multi_island_tbl_complete)
+identical(
+  island_data$no_phylo_missing_species,
+  no_phylo_missing_squamate_species_complete
+)
+waldo::compare(island_data$multi_island_tbl, multi_island_tbl_complete)
+waldo::compare(
+  island_data$no_phylo_missing_species,
+  no_phylo_missing_squamate_species_complete
+)
+##########################################################
+##########################################################
+
 # convert to daisie data table
 daisie_datatable_complete <- lapply(
   multi_island_tbl_complete,

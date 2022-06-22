@@ -108,6 +108,30 @@ sapply(
   no_phylo_missing_amphibian_species_dna[[1]]$clade_name
 )
 
+##########################################################
+##########################################################
+
+island_data <- extract_species(
+  checklist_file_name = "amphibian_checklist.csv",
+  phylo_file_name = "Jetz_Pyron_dna_posterior_100.nex",
+  dna_or_complete = "DNA",
+  daisie_status = FALSE,
+  extraction_method = "asr"
+)
+
+identical(island_data$multi_island_tbl, multi_island_tbl_dna)
+identical(
+  island_data$no_phylo_missing_species,
+  no_phylo_missing_amphibian_species_dna
+)
+waldo::compare(island_data$multi_island_tbl, multi_island_tbl_dna)
+waldo::compare(
+  island_data$no_phylo_missing_species,
+  no_phylo_missing_amphibian_species_dna
+)
+##########################################################
+##########################################################
+
 # check which missing species that are not already assigned have stem ages in
 # the tree, when no stem is found only one tree needs to be checked as each
 # tree in the posterior contains the same species and just differs in branch
