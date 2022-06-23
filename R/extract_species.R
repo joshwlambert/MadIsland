@@ -123,6 +123,7 @@ extract_species <- function(checklist_file_name,
   # assigned to the island_tbl
   list(
     multi_island_tbl = multi_island_tbl,
+    phylods = phylods,
     no_phylo_missing_species = no_phylo_missing_species
   )
 }
