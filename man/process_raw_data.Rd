@@ -6,7 +6,7 @@
 data on many aspects (e.g. phenotypic trait) down to a data file with only
 the species names in the phylogeny and their endemicity status on the island}
 \usage{
-process_raw_data(file_name, dna_or_complete)
+process_raw_data(file_name, dna_or_complete, daisie_status)
 }
 \arguments{
 \item{file_name}{character string with the file name, including the file

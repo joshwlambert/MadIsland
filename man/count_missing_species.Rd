@@ -6,10 +6,14 @@
 not in the phylogeny (represented by NA) and counts the number of species
 missing from the phylogeny each genus}
 \usage{
-count_missing_species(checklist)
+count_missing_species(checklist, dna_or_complete)
 }
 \arguments{
 \item{checklist}{data frame with information on species on the island}
+
+\item{dna_or_complete}{A character string, either "DNA" or "complete" (case
+insensitive) to determine whether to produce data for the DNA-only phylogeny
+or the complete phylogeny}
 }
 \value{
 Data frame
