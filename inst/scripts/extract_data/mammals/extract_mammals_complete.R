@@ -8,6 +8,10 @@ island_data <- extract_species(
   extraction_method = "min"
 )
 
+multi_island_tbl_complete <- island_data$multi_island_tbl
+no_phylo_missing_species <- island_data$no_phylo_missing_species
+complete_multi_phylods <- island_data$phylods
+
 # check which missing species that are not already assigned have stem ages in
 # the tree, when no stem is found only one tree needs to be checked as each
 # tree in the posterior contains the same species and just differs in branch
@@ -182,6 +186,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
+    "mammal_data",
     "mammal_island_tbl_complete.rds"
   )
 )
@@ -193,6 +198,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
+    "mammal_data",
     "mammal_daisie_datatable_complete.rds"
   )
 )
@@ -204,6 +210,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
+    "mammal_data",
     "mammal_daisie_data_list_complete.rds"
   )
 )

@@ -8,6 +8,10 @@ island_data <- extract_species(
   extraction_method = "asr"
 )
 
+multi_island_tbl_complete <- island_data$multi_island_tbl
+no_phylo_missing_species <- island_data$no_phylo_missing_species
+complete_multi_phylods <- island_data$phylods
+
 # convert to daisie data table
 daisie_datatable_complete <- lapply(
   multi_island_tbl_complete,

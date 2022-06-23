@@ -10,6 +10,7 @@ island_data <- extract_species(
 
 multi_island_tbl_dna <- island_data$multi_island_tbl
 no_phylo_missing_species <- island_data$no_phylo_missing_species
+dna_multi_phylods <- island_data$phylods
 
 # check which missing species that are not already assigned have stem ages in
 # the tree, when no stem is found only one tree needs to be checked as each
@@ -76,6 +77,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
+    "amphibian_data",
     "amphibian_island_tbl_dna.rds"
   )
 )
@@ -87,6 +89,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
+    "amphibian_data",
     "amphibian_daisie_datatable_dna.rds"
   )
 )
@@ -98,6 +101,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
+    "amphibian_data",
     "amphibian_daisie_data_list_dna.rds"
   )
 )

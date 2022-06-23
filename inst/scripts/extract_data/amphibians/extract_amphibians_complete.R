@@ -8,15 +8,9 @@ island_data <- extract_species(
   extraction_method = "min"
 )
 
-# check that all the missing species that have not already been assigned are the
-# same between different trees in the posterior
-sapply(
-  list(
-    no_phylo_missing_amphibian_species_complete[[2]]$clade_name,
-    no_phylo_missing_amphibian_species_complete[[3]]$clade_name
-  ), identical,
-  no_phylo_missing_amphibian_species_complete[[1]]$clade_name
-)
+multi_island_tbl_complete <- island_data$multi_island_tbl
+no_phylo_missing_species <- island_data$no_phylo_missing_species
+complete_multi_phylods <- island_data$phylods
 
 # check which missing species that are not already assigned have stem ages in
 # the tree, when no stem is found only one tree needs to be checked as each
@@ -64,6 +58,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
+    "amphibian_data",
     "amphibian_island_tbl_complete.rds"
   )
 )
@@ -75,6 +70,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
+    "amphibian_data",
     "amphibian_daisie_datatable_complete.rds"
   )
 )
@@ -86,6 +82,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
+    "amphibian_data",
     "amphibian_daisie_data_list_complete.rds"
   )
 )
