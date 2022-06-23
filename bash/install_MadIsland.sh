@@ -4,7 +4,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --job-name=install_MadIsland
-#SBATCH --output=/data/p287218/MadIsland/install_MadIsland.log
+#SBATCH --output=install_MadIsland.log
 #SBATCH --mem=5GB
 
 mkdir -p logs
