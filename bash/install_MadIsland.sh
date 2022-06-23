@@ -9,5 +9,5 @@
 
 mkdir -p logs
 ml R
-Rscript -e "remotes::install_github('joshwlambert/MadIsland')"
+Rscript -e "devtools::install()"
 Rscript -e 'remotes::install_github("tece-lab/DAISIEutils@extdata")'
