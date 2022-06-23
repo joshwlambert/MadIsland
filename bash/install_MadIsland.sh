@@ -8,6 +8,6 @@
 #SBATCH --mem=5GB
 
 mkdir -p logs
-mkdir -p results
 ml R
 Rscript -e "remotes::install_github('joshwlambert/MadIsland')"
+Rscript -e 'remotes::install_github("tece-lab/DAISIEutils")'
