@@ -10,4 +10,3 @@
 mkdir -p logs
 ml R
 Rscript -e "devtools::install()"
-Rscript -e 'remotes::install_github("tece-lab/DAISIEutils@reps")'
