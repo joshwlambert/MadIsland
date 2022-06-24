@@ -22,9 +22,9 @@ assign(
   value = mammal_data[[args]]
 )
 
-if (isFALSE(dir.exists(file.path(getwd(), "data")))) {
+if (isFALSE(dir.exists(file.path(getwd(), "MadIsland", "data")))) {
   dir.create("data")
 }
 
-file_path <- file.path(getwd(), "data", paste0(data_name, ".rda"))
+file_path <- file.path(getwd(), "MadIsland", "data", paste0(data_name, ".rda"))
 save(list = data_name, file = file_path)
