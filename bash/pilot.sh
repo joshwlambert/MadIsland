@@ -13,4 +13,4 @@ Rscript /home/p287218/MadIsland/inst/scripts/subset_data/subset_data.R ${SLURM_A
 
 mammal_data="mammal_data_"$SLURM_ARRAY_TASK_ID
 
-sbatch --job-name=mammals_mls DAISIEutils/bash/submit_run_daisie_ml.sh ${mammal_data} cr_di MadIsland 0 NULL lsodes subplex TRUE
+sbatch --job-name=mammals_mls DAISIEutils/bash/submit_run_daisie_ml.sh mammal_data_1 cr_di MadIsland 0 NULL lsodes subplex TRUE
