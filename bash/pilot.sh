@@ -3,7 +3,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --job-name=mammal_mls
-#SBATCH --output=logs/mammal_mls_%a.log
+#SBATCH --output=MadIsland/logs/mammal_mls_%a.log
 #SBATCH --mem=5GB
 #SBATCH --partition=regular
 #SBATCH --array=1-3
