@@ -7,6 +7,5 @@
 #SBATCH --output=install_MadIsland.log
 #SBATCH --mem=5GB
 
-mkdir -p logs
 ml R
 Rscript -e "devtools::install()"
