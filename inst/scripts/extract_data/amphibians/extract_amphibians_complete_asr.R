@@ -1,7 +1,7 @@
 print("here")
 library("MadIsland")
 print("here")
-island_data <- extract_species(
+island_data <- MadIsland::extract_species(
   checklist_file_name = "amphibian_checklist.csv",
   phylo_file_name = "Jetz_Pyron_complete_posterior_100.nex",
   dna_or_complete = "complete",
