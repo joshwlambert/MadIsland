@@ -8,4 +8,4 @@
 #SBATCH --partition=regular
 
 ml R
-Rscript MadIsland/inst/scripts/extract_data/amphibians/extract_amphibians_complete_asr.R
+Rscript inst/scripts/extract_data/amphibians/extract_amphibians_complete_asr.R
