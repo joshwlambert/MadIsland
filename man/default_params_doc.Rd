@@ -11,7 +11,11 @@ default_params_doc(
   island_tbl,
   missing_species,
   missing_genus,
-  dna_or_complete
+  dna_or_complete,
+  checklist_file_name,
+  phylo_file_name,
+  daisie_status,
+  extraction_method
 )
 }
 \arguments{
@@ -33,6 +37,22 @@ each island clade}
 \item{dna_or_complete}{A character string, either "DNA" or "complete" (case
 insensitive) to determine whether to produce data for the DNA-only phylogeny
 or the complete phylogeny}
+
+\item{checklist_file_name}{Character string with the name of the checklist
+file (and its file extension) to load}
+
+\item{phylo_file_name}{Character string with the name of the phylogenetic
+data (and its file extension) to load}
+
+\item{daisie_status}{Boolean determining whether to use the true endemicity
+status or the augmented endemicity status, called the daisie status, which
+adjusts for species that are a product of the island processes but have since
+migrated}
+
+\item{extraction_method}{Character string, either "min" or "asr" determining
+whether to use the `min` or `asr` algorithms for the
+`DAISIEprep::extract_island_species()` extraction process, see `DAISIEprep`
+documentation for more information.}
 }
 \value{
 Nothing

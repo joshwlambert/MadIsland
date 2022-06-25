@@ -1,3 +1,17 @@
+#' Wrapper function for reading in data, processing raw dat, counting number of
+#' missing species, formatting data, extracting island data, inputting missing
+#' species that have phylogenetic data and outputting the island data, the
+#' missing species that have not been assigned and the phylogenetic data used
+#' to extract the species.
+#'
+#' @inheritParams default_params_doc
+#'
+#' @return List with:
+#'   * `multi_island_tbl`, the island community data
+#'   * `phylods`, the phylogenetic data with associated endemicity data
+#'   * `no_phylo_missing_species`, the species that have not been assigned to
+#'   the island community data
+#' @export
 extract_species <- function(checklist_file_name,
                             phylo_file_name,
                             dna_or_complete,

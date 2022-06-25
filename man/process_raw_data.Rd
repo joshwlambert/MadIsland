@@ -15,6 +15,11 @@ extension (needs to be .csv)}
 \item{dna_or_complete}{A character string, either "DNA" or "complete" (case
 insensitive) to determine whether to produce data for the DNA-only phylogeny
 or the complete phylogeny}
+
+\item{daisie_status}{Boolean determining whether to use the true endemicity
+status or the augmented endemicity status, called the daisie status, which
+adjusts for species that are a product of the island processes but have since
+migrated}
 }
 \value{
 Data frame
