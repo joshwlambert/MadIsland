@@ -1,6 +1,6 @@
 library(MadIsland)
 
-island_data <- extract_species(
+island_data <- MadIsland::extract_species(
   checklist_file_name = "squamate_checklist.csv",
   phylo_file_name = "Tonini_complete_posterior_100.nex",
   dna_or_complete = "complete",

@@ -1,6 +1,6 @@
 library(MadIsland)
 
-island_data <- extract_species(
+island_data <- MadIsland::extract_species(
   checklist_file_name = "bird_checklist.csv",
   phylo_file_name = "Jetz_dna_posterior_100.nex",
   dna_or_complete = "DNA",
