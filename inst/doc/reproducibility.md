@@ -14,7 +14,42 @@ within Rstudio). The other option would be to have a platform identifier
 (e.g. .Platform$OS.type) to determine the file path as locally I use windows and
 the Peregrine HPCC uses Linux (i.e. unix). However, this platform specific 
 option prevents reproducibility for those running the scripts locally on a Mac 
-or Linux machine (because .Platform$OS.type == "unix" in those cases). 
+or Linux machine (because .Platform$OS.type == "unix" in those cases). The logs
+folder is already present at this point as it is made in the install of MadIsland, but good to check that the logs folder is in MadIsland. 
+
+Run each of the extraction scripts to produce the extracted data:
+  * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_complete_asr.sh`
+  * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_complete_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_complete_ds.sh`
+  * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_complete.sh`
+  * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_dna_asr.sh`
+  * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_dna_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_dna_ds.sh`
+  * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_dna.sh`
+  * `sbatch inst/bash/extract_data/birds/extract_birds_complete_asr.sh`
+  * `sbatch inst/bash/extract_data/birds/extract_birds_complete_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/birds/extract_birds_complete_ds.sh`
+  * `sbatch inst/bash/extract_data/birds/extract_birds_complete.sh`
+  * `sbatch inst/bash/extract_data/birds/extract_birds_dna_asr.sh`
+  * `sbatch inst/bash/extract_data/birds/extract_birds_dna_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/birds/extract_birds_dna_ds.sh`
+  * `sbatch inst/bash/extract_data/birds/extract_birds_dna.sh`
+  * `sbatch inst/bash/extract_data/mammals/extract_mammals_complete_asr.sh`
+  * `sbatch inst/bash/extract_data/mammals/extract_mammals_complete_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/mammals/extract_mammals_complete_ds.sh`
+  * `sbatch inst/bash/extract_data/mammals/extract_mammals_complete.sh`
+  * `sbatch inst/bash/extract_data/mammals/extract_mammals_dna_asr.sh`
+  * `sbatch inst/bash/extract_data/mammals/extract_mammals_dna_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/mammals/extract_mammals_dna_ds.sh`
+  * `sbatch inst/bash/extract_data/mammals/extract_mammals_dna.sh`
+  * `sbatch inst/bash/extract_data/squamates/extract_squamates_complete_asr.sh`
+  * `sbatch inst/bash/extract_data/squamates/extract_squamates_complete_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/squamates/extract_squamates_complete_ds.sh`
+  * `sbatch inst/bash/extract_data/squamates/extract_squamates_complete.sh`
+  * `sbatch inst/bash/extract_data/squamates/extract_squamates_dna_asr.sh`
+  * `sbatch inst/bash/extract_data/squamates/extract_squamates_dna_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/squamates/extract_squamates_dna_ds.sh`
+  * `sbatch inst/bash/extract_data/squamates/extract_squamates_dna.sh`
 
 Before running the analyses, make sure a logs folder is in the home directory. 
 If this is not present create a logs folder.
