@@ -2,14 +2,14 @@
 #SBATCH --time=00:10:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --job-name=mammal_complete_mls
-#SBATCH --output=logs/submit_mammal_complete_mls_cr_dd_%a.log
+#SBATCH --job-name=amphibian_complete_mls
+#SBATCH --output=logs/submit_amphibian_complete_mls_cr_dd_%a.log
 #SBATCH --mem=5GB
 #SBATCH --partition=regular
 #SBATCH --array=1-3
 
 sbatch DAISIEutils/bash/submit_run_daisie_ml.sh \
-  mammal_daisie_data_list_complete_ds_asr \
+  amphibian_daisie_data_list_complete_ds_asr \
   cr_dd \
   MadIsland \
   0 \
