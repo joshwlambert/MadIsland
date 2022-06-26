@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 # Reproducibility
 
 This document is a guide to reproducing the data and results in this package.
@@ -11,13 +16,14 @@ to ensure MadIsland is installed on the cluster (`sbatch inst/bash/install/insta
 
 Run the extraction scripts with MadIsland as the working directory due to the file paths for saving, for compatibility with running the scripts locally (e.g.
 within Rstudio). The other option would be to have a platform identifier
-(e.g. .Platform$OS.type) to determine the file path as locally I use windows and
+(e.g. .Platform\$OS.type) to determine the file path as locally I use windows and
 the Peregrine HPCC uses Linux (i.e. unix). However, this platform specific 
 option prevents reproducibility for those running the scripts locally on a Mac 
 or Linux machine (because .Platform$OS.type == "unix" in those cases). The logs
 folder is already present at this point as it is made in the install of MadIsland, but good to check that the logs folder is in MadIsland. 
 
 Run each of the extraction scripts to produce the extracted data:
+
   * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_complete_asr.sh`
   * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_complete_ds_asr.sh`
   * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_complete_ds.sh`
@@ -54,5 +60,14 @@ Run each of the extraction scripts to produce the extracted data:
 Before running the analyses, make sure a logs folder is in the home directory. 
 If this is not present create a logs folder.
 
-Run the analysis scripts the home working directory on the Peregrine HPCC. This is because MadIsland interacts with the DAISIEutils 
-package to run the DAISIE maximum likelihood models.
+Run the analysis scripts the home working directory on the Peregrine HPCC. 
+This is because MadIsland interacts with the DAISIEutils package to run the 
+DAISIE maximum likelihood models.
+
+Run each of the analysis scripts to produce the DAISIE model output (parameter
+estimates and model likelihood and Bayesian Information Criterion):
+
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_amphibians/submit_amphibian_complete_cr_dd.sh`
+  * 
+
+
