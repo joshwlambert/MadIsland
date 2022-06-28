@@ -60,6 +60,15 @@ Run each of the extraction scripts to produce the extracted data:
 Before running the analyses, make sure a logs folder is in the home directory. 
 If this is not present create a logs folder.
 
+Now that the island community data has been extracted and can be used for 
+fitting the DAISIE inference models there is one more preparation step. The
+DAISIEutils package loads data using the `data()` function and thus it cannot
+be loaed from within the inst/ folder where the extracted data is currently 
+stored. Therefore, the data-raw scripts need to be executed to move the data
+sets we are fitting DAISIE to across to data. All data-raw scripts read the 
+extracted data from inst/extdata/extracted_data/... and save it as data to be 
+read by `data()`.
+
 Run the analysis scripts the home working directory on the Peregrine HPCC. 
 This is because MadIsland interacts with the DAISIEutils package to run the 
 DAISIE maximum likelihood models.

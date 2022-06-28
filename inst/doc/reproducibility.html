@@ -213,6 +213,7 @@ pre code {
 <li><code>sbatch inst/bash/extract_data/squamates/extract_squamates_dna.sh</code></li>
 </ul>
 <p>Before running the analyses, make sure a logs folder is in the home directory. If this is not present create a logs folder.</p>
+<p>Now that the island community data has been extracted and can be used for fitting the DAISIE inference models there is one more preparation step. The DAISIEutils package loads data using the <code>data()</code> function and thus it cannot be loaed from within the inst/ folder where the extracted data is currently stored. Therefore, the data-raw scripts need to be executed to move the data sets we are fitting DAISIE to across to data. All data-raw scripts read the extracted data from inst/extdata/extracted_data/… and save it as data to be read by <code>data()</code>.</p>
 <p>Run the analysis scripts the home working directory on the Peregrine HPCC. This is because MadIsland interacts with the DAISIEutils package to run the DAISIE maximum likelihood models.</p>
 <p>Run each of the analysis scripts to produce the DAISIE model output (parameter estimates and model likelihood and Bayesian Information Criterion):</p>
 <ul>
