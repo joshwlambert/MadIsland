@@ -16,7 +16,7 @@ unique_missing_species <- function(island_tbl) {
   # convert island_tbl to data frame
   island_tbl <- DAISIEprep::get_island_tbl(island_tbl)
 
-  # add missing species to each island table
+  # get the species from each island colonist and extract the genus name
   island_tbl_split_names <- lapply(island_tbl$species, strsplit, split = "_")
   island_tbl_genus_names <- lapply(island_tbl_split_names, function(x) {
     lapply(x, "[[", 1)
@@ -29,6 +29,17 @@ unique_missing_species <- function(island_tbl) {
 
   # get unique genera from each clade
   genus_unique <- lapply(island_tbl_genus_names, unique)
+
+  # get the endemicity status from each island colonist
+  island_tbl_status <- island_tbl$status
+
+  # which genera are non-endemic
+  nonendemic_genus <- which(island_tbl_status == "nonendemic")
+
+  # remove non-endemic elements as they cannot be assigned missing species
+  # if non-endemics are left in then missing species might not properly be
+  # assigned in add_phylo_missing_species()
+  genus_unique[nonendemic_genus] <- NA_character_
 
   # make list that will contain unique genera
   missing_genus <- genus_unique
