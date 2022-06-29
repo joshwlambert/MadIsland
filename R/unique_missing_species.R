@@ -38,7 +38,7 @@ unique_missing_species <- function(island_tbl) {
 
   # remove non-endemic elements as they cannot be assigned missing species
   # if non-endemics are left in then missing species might not properly be
-  # assigned in add_phylo_missing_species()
+  # assigned in add_island_tbl_missing_species()
   genus_unique[nonendemic_genus] <- NA_character_
 
   # make list that will contain unique genera

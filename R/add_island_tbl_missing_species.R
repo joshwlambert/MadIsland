@@ -14,9 +14,9 @@
 #' \dontrun{
 #'   #WIP
 #' }
-add_phylo_missing_species <- function(missing_species,
-                                      missing_genus,
-                                      island_tbl) {
+add_island_tbl_missing_species <- function(missing_species,
+                                           missing_genus,
+                                           island_tbl) {
 
   for (i in seq_along(missing_genus)) {
     which_species <- which(

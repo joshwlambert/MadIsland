@@ -11,7 +11,8 @@
 #' mammal_checklist <- read_checklist(file_name = "mammal_checklist.csv")
 #' count_missing_species(checklist = mammal_checklist)
 count_missing_species <- function(checklist,
-                                  dna_or_complete) {
+                                  dna_or_complete,
+                                  daisie_status) {
 
   # Naming convention is the raw data column names are underscore separated
   # title case, when the data is modified in memory (i.e. in R) data column
@@ -54,6 +55,22 @@ count_missing_species <- function(checklist,
   match_index <- na.omit(match_index)
   missing_genus[match_index] <- phylo_genus[match_index]
 
+  # get the endemicity status for each species
+  if (daisie_status) {
+    endemicity_status <- checklist[not_in_tree, "DAISIE_Status_Species"]
+  } else {
+    endemicity_status <- checklist[not_in_tree, "Status_Species"]
+  }
+
+  # standardise endemicity statuses
+  endemicity_status <- Vectorize(
+    FUN = DAISIEprep::translate_status,
+    vectorize.args = "status"
+  )(endemicity_status)
+  endemicity_status <- unname(endemicity_status)
+
+  missing_genus <- paste(missing_genus, endemicity_status, sep = "_")
+
   # sum the number of missing species in each genera
   missing_species <- table(missing_genus)
 
@@ -62,6 +79,11 @@ count_missing_species <- function(checklist,
   missing_species$missing_genus <- as.character(missing_species$missing_genus)
 
   colnames(missing_species) <- c("clade_name", "missing_species")
+
+  # make clade name and endemicity status separate columns
+  split_name <- strsplit(missing_species$clade_name, split = "_")
+  missing_species$clade_name <- sapply(split_name, "[[", 1)
+  missing_species$endemicity_status <- sapply(split_name, "[[", 2)
 
   # return missing species data frame
   missing_species

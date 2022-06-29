@@ -6,7 +6,7 @@
 not in the phylogeny (represented by NA) and counts the number of species
 missing from the phylogeny each genus}
 \usage{
-count_missing_species(checklist, dna_or_complete)
+count_missing_species(checklist, dna_or_complete, daisie_status)
 }
 \arguments{
 \item{checklist}{data frame with information on species on the island}
@@ -14,6 +14,11 @@ count_missing_species(checklist, dna_or_complete)
 \item{dna_or_complete}{A character string, either "DNA" or "complete" (case
 insensitive) to determine whether to produce data for the DNA-only phylogeny
 or the complete phylogeny}
+
+\item{daisie_status}{Boolean determining whether to use the true endemicity
+status or the augmented endemicity status, called the daisie status, which
+adjusts for species that are a product of the island processes but have since
+migrated}
 }
 \value{
 Data frame
