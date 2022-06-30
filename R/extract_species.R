@@ -9,7 +9,7 @@
 #' @return List with:
 #'   * `multi_island_tbl`, the island community data
 #'   * `phylods`, the phylogenetic data with associated endemicity data
-#'   * `no_phylo_missing_species`, the species that have not been assigned to
+#'   * `no_island_tbl_missing_species`, the species that have not been assigned to
 #'   the island community data
 #' @export
 extract_species <- function(checklist_file_name,
@@ -44,7 +44,8 @@ extract_species <- function(checklist_file_name,
   # count the number of missing species for each genus
   missing_species <- count_missing_species(
     checklist = checklist,
-    dna_or_complete = dna_or_complete
+    dna_or_complete = dna_or_complete,
+    daisie_status = daisie_status
   )
 
   # load the trees
@@ -97,30 +98,30 @@ extract_species <- function(checklist_file_name,
 
   # add missing species that match genera found in the island tbl
   multi_island_tbl <- mapply(
-    add_phylo_missing_species,
+    add_island_tbl_missing_species,
     missing_genus,
     multi_island_tbl,
     missing_species = list(missing_species)
   )
 
   # remove missing species that have already been inserted into the island tbl
-  no_phylo_missing_species <- lapply(
+  no_island_tbl_missing_species <- lapply(
     missing_genus,
-    rm_phylo_missing_species,
+    rm_island_tbl_missing_species,
     missing_species = missing_species
   )
 
   # check that all the missing species that have not already been assigned are
   # the same between different trees in the posterior
   missing_species_match <- c()
-  for (i in seq_along(no_phylo_missing_species)) {
+  for (i in seq_along(no_island_tbl_missing_species)) {
     missing_species_match[i] <- identical(
-      no_phylo_missing_species[[i]]$clade_name,
-      no_phylo_missing_species[[i + 1]]$clade_name
+      no_island_tbl_missing_species[[i]]$clade_name,
+      no_island_tbl_missing_species[[i + 1]]$clade_name
     )
 
     # cannot compute i + 1 when at the last element so stop at the last but one
-    if (i == (length(no_phylo_missing_species) - 1)) {
+    if (i == (length(no_island_tbl_missing_species) - 1)) {
       break
     }
   }
@@ -135,6 +136,6 @@ extract_species <- function(checklist_file_name,
   list(
     multi_island_tbl = multi_island_tbl,
     phylods = phylods,
-    no_phylo_missing_species = no_phylo_missing_species
+    no_island_tbl_missing_species = no_island_tbl_missing_species
   )
 }
