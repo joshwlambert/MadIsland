@@ -5,7 +5,7 @@
 #SBATCH --job-name=extract_squamates_complete
 #SBATCH --output=logs/extract_squamates_complete.log
 #SBATCH --mem=5GB
-#SBATCH --partition=regular
+#SBATCH --partition=gelifes
 
 ml R
 Rscript inst/scripts/extract_data/squamates/extract_squamates_complete.R

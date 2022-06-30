@@ -5,7 +5,7 @@
 #SBATCH --job-name=squamate_complete_mls
 #SBATCH --output=logs/submit_squamate_complete_mls_cr_dd_%a.log
 #SBATCH --mem=5GB
-#SBATCH --partition=regular
+#SBATCH --partition=gelifes
 #SBATCH --array=1-3
 
 sbatch DAISIEutils/bash/submit_run_daisie_ml.sh \

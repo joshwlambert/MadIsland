@@ -5,7 +5,7 @@
 #SBATCH --job-name=bird_dna_mls
 #SBATCH --output=logs/submit_bird_dna_mls_cr_dd_%a.log
 #SBATCH --mem=5GB
-#SBATCH --partition=regular
+#SBATCH --partition=gelifes
 #SBATCH --array=1-3
 
 sbatch DAISIEutils/bash/submit_run_daisie_ml.sh \

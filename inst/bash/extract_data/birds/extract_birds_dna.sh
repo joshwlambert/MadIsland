@@ -5,7 +5,7 @@
 #SBATCH --job-name=extract_birds_dna
 #SBATCH --output=logs/extract_birds_dna.log
 #SBATCH --mem=5GB
-#SBATCH --partition=regular
+#SBATCH --partition=gelifes
 
 ml R
 Rscript inst/scripts/extract_data/birds/extract_birds_dna.R

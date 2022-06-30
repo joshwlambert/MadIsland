@@ -5,7 +5,7 @@
 #SBATCH --job-name=extract_amphibians_dna
 #SBATCH --output=logs/extract_amphibians_dna.log
 #SBATCH --mem=5GB
-#SBATCH --partition=regular
+#SBATCH --partition=gelifes
 
 ml R
 Rscript inst/scripts/extract_data/amphibians/extract_amphibians_dna.R
