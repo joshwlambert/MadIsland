@@ -17,4 +17,5 @@ sbatch DAISIEutils/bash/submit_run_daisie_ml.sh \
   lsodes \
   subplex \
   TRUE \
-  ${SLURM_ARRAY_TASK_ID}
+  ${SLURM_ARRAY_TASK_ID} \
+  500
