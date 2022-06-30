@@ -110,7 +110,7 @@ Dromicodryas,quadrilineatus,None,Pseudoxyrhophiidae,Squamata,Four-striped SnakeÂ
 Ebenavia,boettgeri,None,Gekkonidae,Squamata,None,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
 Ebenavia,inunguis,None,Gekkonidae,Squamata,Madagascar Clawless Gecko,Ebenavia_inunguis,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
 Ebenavia,maintimainty,None,Gekkonidae,Squamata,None,Ebenavia_maintimainty,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Ebenavia,robusta,None,Gekkonidae,Squamata,None,NA,FALSE,TRUE,Extant,Endemic,Endemic,FALSE
+Ebenavia,robusta,None,Gekkonidae,Squamata,None,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
 Ebenavia,safari,None,Gekkonidae,Squamata,None,NA,FALSE,FALSE,Extant,Non-endemic,Endemic,FALSE
 Elapotinus,picteti,None,Pseudoxyrhophiidae,Squamata,None,Elapotinus_picteti,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
 Flexiseps,alluaudi,None,Scincidae,Squamata,None,Amphiglossus_alluaudi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
