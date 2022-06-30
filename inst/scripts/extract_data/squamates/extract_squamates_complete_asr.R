@@ -9,7 +9,7 @@ island_data <- MadIsland::extract_species(
 )
 
 multi_island_tbl_complete <- island_data$multi_island_tbl
-no_phylo_missing_species <- island_data$no_phylo_missing_species
+no_island_tbl_missing_species <- island_data$no_island_tbl_missing_species
 complete_multi_phylods <- island_data$phylods
 
 # convert to daisie data table
