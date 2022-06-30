@@ -9,7 +9,7 @@ island_data <- MadIsland::extract_species(
 )
 
 multi_island_tbl_dna <- island_data$multi_island_tbl
-no_phylo_missing_species <- island_data$no_phylo_missing_species
+no_island_tbl_missing_species <- island_data$no_island_tbl_missing_species
 dna_multi_phylods <- island_data$phylods
 
 # check which missing species that are not already assigned have stem ages in
@@ -22,6 +22,15 @@ DAISIEprep::extract_stem_age(
   phylod = dna_multi_phylods[[1]],
   extraction_method = "min"
 )
+
+Ebenavia_stem_age <- list()
+for (i in seq_along(dna_multi_phylods)) {
+  Ebenavia_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Ebenavia",
+    phylod = dna_multi_phylods[[i]],
+    extraction_method = "min"
+  )
+}
 
 DAISIEprep::extract_stem_age(
   genus_name = "Pararhadinaea",
@@ -45,6 +54,37 @@ multi_island_tbl_dna <- lapply(
   branching_times = 88,
   min_age = NA,
   species = c("Brygophis_coulangesi")
+)
+
+# add the Ebenavia endemics as an stem age max age given the stem age in the
+# tree
+multi_island_tbl_dna <- mapply(
+  DAISIEprep::add_island_colonist,
+  multi_island_tbl_dna,
+  clade_name = list("Ebenavia_boettgeri"),
+  status = list("endemic"),
+  missing_species = list(1),
+  branching_times = Ebenavia_stem_age,
+  min_age = list(NA),
+  species = list(c(
+    "Ebenavia_boettgeri",
+    "Ebenavia_robusta"
+  ))
+)
+
+# add the Ebenavia non-endemics as an stem age max age given the stem age in the
+# tree
+multi_island_tbl_dna <- mapply(
+  DAISIEprep::add_island_colonist,
+  multi_island_tbl_dna,
+  clade_name = list("Ebenavia_safari"),
+  status = list("nonendemic"),
+  missing_species = list(0),
+  branching_times = Ebenavia_stem_age,
+  min_age = list(NA),
+  species = list(c(
+    "Ebenavia_safari"
+  ))
 )
 
 # add the Pararhadinaea as an island age max age as there is no stem age in the
