@@ -41,7 +41,7 @@ documentation for more information.}
 List with:
   * `multi_island_tbl`, the island community data
   * `phylods`, the phylogenetic data with associated endemicity data
-  * `no_phylo_missing_species`, the species that have not been assigned to
+  * `no_island_tbl_missing_species`, the species that have not been assigned to
   the island community data
 }
 \description{

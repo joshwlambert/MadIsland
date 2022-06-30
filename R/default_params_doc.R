@@ -24,6 +24,13 @@
 #' whether to use the `min` or `asr` algorithms for the
 #' `DAISIEprep::extract_island_species()` extraction process, see `DAISIEprep`
 #' documentation for more information.
+#' @param num_missing_species Numeric specifying how many missing species to add
+#' to an island colonist
+#' @param species_name Character string determining which island colonist the
+#' missing species are assigned. This is done by matching the species name
+#' given to the species within each island colonist, therefore the species name
+#' given does not need to match the clade_name of the island colonist (which is
+#' a representative species for the clade)
 #'
 #' @return Nothing
 #' @keywords internal
@@ -38,6 +45,8 @@ default_params_doc <- function(bar,
                                checklist_file_name,
                                phylo_file_name,
                                daisie_status,
-                               extraction_method) {
+                               extraction_method,
+                               num_missing_species,
+                               species_name) {
   #Nothing
 }
