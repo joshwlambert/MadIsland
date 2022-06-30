@@ -9,7 +9,7 @@ island_data <- MadIsland::extract_species(
 )
 
 multi_island_tbl_dna <- island_data$multi_island_tbl
-no_phylo_missing_species <- island_data$no_phylo_missing_species
+no_island_tbl_missing_species <- island_data$no_island_tbl_missing_species
 dna_multi_phylods <- island_data$phylods
 
 # check which missing species that are not already assigned have stem ages in
