@@ -27,6 +27,6 @@ Imports:
     DAISIEutils
 Remotes:
     joshwlambert/DAISIEprep@develop,
-    tece-lab/DAISIEutils@v1.3.0
+    tece-lab/DAISIEutils@res
 Depends: 
     R (>= 3.5.0)
