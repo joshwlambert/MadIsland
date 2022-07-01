@@ -25,8 +25,8 @@ complete_multi_phylods <- island_data$phylods
 # add the Mini as a missing species of the clade with
 # Plethodontohyla_brevipes in it as it is a member of the Cophylinae radiation
 # on Madagascar
-multi_island_tbl_dna <- lapply(
-  multi_island_tbl_dna,
+multi_island_tbl_complete <- lapply(
+  multi_island_tbl_complete,
   add_missing_species,
   num_missing_species = 3,
   species_name = "Plethodontohyla_brevipes"
