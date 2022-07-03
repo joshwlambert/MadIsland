@@ -27,7 +27,7 @@ dna_multi_phylods <- island_data$phylods
 # on Madagascar
 multi_island_tbl_dna <- lapply(
   multi_island_tbl_dna,
-  add_missing_species,
+  DAISIEprep::add_missing_species,
   num_missing_species = 1,
   species_name = "Plethodontohyla_brevipes"
 )
@@ -37,7 +37,7 @@ multi_island_tbl_dna <- lapply(
 # on Madagascar
 multi_island_tbl_dna <- lapply(
   multi_island_tbl_dna,
-  add_missing_species,
+  DAISIEprep::add_missing_species,
   num_missing_species = 3,
   species_name = "Plethodontohyla_brevipes"
 )

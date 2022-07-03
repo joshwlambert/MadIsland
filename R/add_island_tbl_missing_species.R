@@ -28,19 +28,15 @@ add_island_tbl_missing_species <- function(missing_species,
     if (length(which_species) > 0) {
       phylo_missing_species <- missing_species[which_species, ]
 
-      # sum up number of missing species if there are multiple genera in a clade
-      phylo_missing_species <- data.frame(
-        clade_name = island_tbl@island_tbl$clade_name[i],
-        missing_species = sum(phylo_missing_species$missing_species)
-      )
-
       # check if the species is endemic, if not do not add missing species
       if (island_tbl@island_tbl$status[i] == "endemic") {
         # add the number of missing species to the island tbl for those that
-        # have been extracted already
+        # have been extracted already, sum up number of missing species if
+        # there are multiple genera in a clade
         island_tbl <- DAISIEprep::add_missing_species(
           island_tbl = island_tbl,
-          missing_species_df = phylo_missing_species
+          num_missing_species = sum(phylo_missing_species$missing_species),
+          species_name = island_tbl@island_tbl$clade_name[i]
         )
       }
     }

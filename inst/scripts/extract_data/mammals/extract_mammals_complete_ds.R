@@ -26,7 +26,7 @@ complete_multi_phylods <- island_data$phylods
 # Megaladapis_edwardsi in it as it is a extinct lemur species
 multi_island_tbl_complete <- lapply(
   multi_island_tbl_complete,
-  add_missing_species,
+  DAISIEprep::add_missing_species,
   num_missing_species = 1,
   species_name = "Megaladapis_edwardsi"
 )
@@ -35,7 +35,7 @@ multi_island_tbl_complete <- lapply(
 # Megaladapis_edwardsi in it as it is a extinct lemur species
 multi_island_tbl_complete <- lapply(
   multi_island_tbl_complete,
-  add_missing_species,
+  DAISIEprep::add_missing_species,
   num_missing_species = 1,
   species_name = "Megaladapis_edwardsi"
 )
@@ -44,7 +44,7 @@ multi_island_tbl_complete <- lapply(
 # Megaladapis_edwardsi in it as it is a extinct lemur species
 multi_island_tbl_complete <- lapply(
   multi_island_tbl_complete,
-  add_missing_species,
+  DAISIEprep::add_missing_species,
   num_missing_species = 1,
   species_name = "Megaladapis_edwardsi"
 )
@@ -53,7 +53,7 @@ multi_island_tbl_complete <- lapply(
 # Hipposideros_commersoni in it as it is a extinct lemur species
 multi_island_tbl_complete <- lapply(
   multi_island_tbl_complete,
-  add_missing_species,
+  DAISIEprep::add_missing_species,
   num_missing_species = 2,
   species_name = "Hipposideros_commersoni"
 )
@@ -62,7 +62,7 @@ multi_island_tbl_complete <- lapply(
 # Megaladapis_edwardsi in it as it is a extinct lemur species
 multi_island_tbl_complete <- lapply(
   multi_island_tbl_complete,
-  add_missing_species,
+  DAISIEprep::add_missing_species,
   num_missing_species = 3,
   species_name = "Megaladapis_edwardsi"
 )
@@ -71,7 +71,7 @@ multi_island_tbl_complete <- lapply(
 # Megaladapis_edwardsi in it as it is a extinct lemur species
 multi_island_tbl_complete <- lapply(
   multi_island_tbl_complete,
-  add_missing_species,
+  DAISIEprep::add_missing_species,
   num_missing_species = 2,
   species_name = "Megaladapis_edwardsi"
 )
@@ -80,7 +80,7 @@ multi_island_tbl_complete <- lapply(
 # Tenrec_ecaudatus in it as it is a tenrec species
 multi_island_tbl_complete <- lapply(
   multi_island_tbl_complete,
-  add_missing_species,
+  DAISIEprep::add_missing_species,
   num_missing_species = 2,
   species_name = "Tenrec_ecaudatus"
 )

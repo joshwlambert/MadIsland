@@ -66,7 +66,7 @@ multi_island_tbl_dna <- lapply(
 # radiation on Madagascar
 multi_island_tbl_dna <- lapply(
   multi_island_tbl_dna,
-  add_missing_species,
+  DAISIEprep::add_missing_species,
   num_missing_species = 2,
   species_name = "Voeltzkowia_petiti"
 )
