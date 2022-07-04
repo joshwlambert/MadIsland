@@ -44,8 +44,8 @@ extract_species <- function(checklist_file_name,
   # count the number of missing species for each genus
   missing_species <- count_missing_species(
     checklist = checklist,
-    in_phylo_col = dna_or_complete,
-    endemicity_status_col = daisie_status
+    dna_or_complete = dna_or_complete,
+    daisie_status = daisie_status
   )
 
   # load the trees
