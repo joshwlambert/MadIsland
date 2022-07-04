@@ -42,10 +42,10 @@ extract_species <- function(checklist_file_name,
   }
 
   # count the number of missing species for each genus
-  missing_species <- count_missing_species(
+  missing_species <- DAISIEprep::count_missing_species(
     checklist = checklist,
-    dna_or_complete = dna_or_complete,
-    daisie_status = daisie_status
+    in_phylo_col = dna_or_complete,
+    endemicity_status_col = daisie_status
   )
 
   # load the trees
@@ -93,7 +93,7 @@ extract_species <- function(checklist_file_name,
   # determine which island clade the missing species should be assigned to
   missing_genus <- lapply(
     multi_island_tbl,
-    unique_missing_species
+    DAISIEprep::unique_island_genera
   )
 
   # add missing species that match genera found in the island tbl
@@ -107,7 +107,7 @@ extract_species <- function(checklist_file_name,
   # remove missing species that have already been inserted into the island tbl
   no_island_tbl_missing_species <- lapply(
     missing_genus,
-    rm_island_tbl_missing_species,
+    DAISIEprep::rm_multi_missing_species,
     missing_species = missing_species
   )
 
