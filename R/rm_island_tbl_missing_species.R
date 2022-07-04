@@ -1,7 +1,7 @@
 #' Loops through the genera that have missing species and removes the ones that
 #' are found in the missing genus list which have phylogenetic data. This is
 #' useful when wanting to know which missing species have not been assigned to
-#' the island_tbl using `add_island_tbl_missing_species()`.
+#' the island_tbl using `DAISIEprep::add_multi_missing_species()`.
 #'
 #' @inheritParams default_params_doc
 #'

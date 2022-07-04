@@ -98,7 +98,7 @@ extract_species <- function(checklist_file_name,
 
   # add missing species that match genera found in the island tbl
   multi_island_tbl <- mapply(
-    add_island_tbl_missing_species,
+    DAISIEprep::add_multi_missing_species,
     missing_genus,
     multi_island_tbl,
     missing_species = list(missing_species)
