@@ -36,9 +36,12 @@ multi_island_tbl_dna <- lapply(
   clade_name = "Brygophis_coulangesi",
   status = "endemic",
   missing_species = 0,
-  branching_times = 88,
+  col_time = 88,
+  col_max_age = TRUE,
+  branching_times = NA_real_,
   min_age = NA,
-  species = c("Brygophis_coulangesi")
+  species = c("Brygophis_coulangesi"),
+  clade_type = 1
 )
 
 # extract stem age for Pararhadinaea
@@ -56,9 +59,12 @@ multi_island_tbl_dna <- lapply(
   clade_name = "Pararhadinaea_melanogaster",
   status = "endemic",
   missing_species = 0,
+  col_time = 88,
+  col_max_age = TRUE,
   branching_times = 88,
   min_age = NA,
-  species = c("Pararhadinaea_melanogaster")
+  species = c("Pararhadinaea_melanogaster"),
+  clade_type = 1
 )
 
 # add the Sirenoscincus as a missing species of the clade with

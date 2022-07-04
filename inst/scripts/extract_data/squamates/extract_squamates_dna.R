@@ -36,9 +36,12 @@ multi_island_tbl_dna <- lapply(
   clade_name = "Brygophis_coulangesi",
   status = "endemic",
   missing_species = 0,
-  branching_times = 88,
-  min_age = NA,
-  species = c("Brygophis_coulangesi")
+  col_time = 88,
+  col_max_age = TRUE,
+  branching_times = NA_real_,
+  min_age = NA_real_,
+  species = c("Brygophis_coulangesi"),
+  clade_type = 1
 )
 
 # extract stem age for Ebenavia
@@ -59,13 +62,16 @@ multi_island_tbl_dna <- mapply(
   clade_name = list("Ebenavia_boettgeri"),
   status = list("endemic"),
   missing_species = list(2),
-  branching_times = Ebenavia_stem_age,
+  col_time = Ebenavia_stem_age,
+  col_max_age = list(TRUE),
+  branching_times = list(NA_real_),
   min_age = list(NA),
   species = list(c(
     "Ebenavia_boettgeri",
     "Ebenavia_maintimainty",
     "Ebenavia_robusta"
-  ))
+  )),
+  clade_type = list(1)
 )
 
 # add the Ebenavia non-endemic as an stem age max age given the stem age in the
@@ -76,11 +82,14 @@ multi_island_tbl_dna <- mapply(
   clade_name = list("Ebenavia_safari"),
   status = list("nonendemic"),
   missing_species = list(0),
-  branching_times = Ebenavia_stem_age,
-  min_age = list(NA),
+  col_time = Ebenavia_stem_age,
+  col_max_age = list(TRUE),
+  branching_times = list(NA_real_),
+  min_age = list(NA_real_),
   species = list(c(
     "Ebenavia_safari"
-  ))
+  )),
+  clade_type = list(1)
 )
 
 # extract stem age for Pararhadinaea
@@ -98,9 +107,12 @@ multi_island_tbl_dna <- lapply(
   clade_name = "Pararhadinaea_melanogaster",
   status = "endemic",
   missing_species = 0,
-  branching_times = 88,
-  min_age = NA,
-  species = c("Pararhadinaea_melanogaster")
+  col_time = 88,
+  col_max_age = TRUE,
+  branching_times = NA_real_,
+  min_age = NA_real_,
+  species = c("Pararhadinaea_melanogaster"),
+  clade_type = 1
 )
 
 # add the Sirenoscincus as a missing species of the clade with

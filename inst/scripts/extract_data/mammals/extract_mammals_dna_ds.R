@@ -66,13 +66,16 @@ multi_island_tbl_dna <- mapply(
   clade_name = list("Hippopotamus_laloumena"),
   status = list("endemic"),
   missing_species = list(2),
-  branching_times = Hippopotamus_stem_age,
-  min_age = list(NA),
+  col_time = Hippopotamus_stem_age,
+  col_max_age = list(TRUE),
+  branching_times = list(NA_real_),
+  min_age = list(NA_real_),
   species = list(c(
     "Hippopotamus_laloumena",
     "Hippopotamus_lemerlei",
     "Hippopotamus_madagascariensis"
-  ))
+  )),
+  clade_type = list(1)
 )
 
 # add the Macronycteris as a missing species of the clade with
@@ -119,11 +122,14 @@ multi_island_tbl_dna <- mapply(
   clade_name = list("Pipistrellus raceyi"),
   status = list("endemic"),
   missing_species = list(0),
-  branching_times = Pipistrellus_stem_age,
-  min_age = list(NA),
+  col_time = Pipistrellus_stem_age,
+  col_max_age = list(TRUE),
+  branching_times = list(NA_real_),
+  min_age = list(NA_real_),
   species = list(c(
     "Pipistrellus raceyi"
-  ))
+  )),
+  clade_type = list(1)
 )
 
 # add the Plesiorycteropus as a missing_species of the clade with
