@@ -77,6 +77,21 @@ Run each of the analysis scripts to produce the DAISIE model output (parameter
 estimates and model likelihood and Bayesian Information Criterion):
 
   * `sbatch MadIsland/inst/bash/analyse_data/analyse_amphibians/submit_amphibian_complete_cr_dd.sh`
-  * 
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_amphibians/submit_amphibian_complete_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_amphibians/submit_amphibian_dna_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_amphibians/submit_amphibian_dna_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_birds/submit_bird_complete_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_birds/submit_bird_complete_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_birds/submit_bird_dna_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_birds/submit_bird_dna_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_mammals/submit_mammal_complete_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_mammals/submit_mammal_complete_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_mammals/submit_mammal_dna_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_mammals/submit_mammal_dna_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_squamates/submit_squamate_complete_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_squamates/submit_squamate_complete_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_squamates/submit_squamate_dna_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_squamates/submit_squamate_dna_nonoceanic_cr_dd.sh`
+  
 
 
