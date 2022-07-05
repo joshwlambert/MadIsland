@@ -6,7 +6,7 @@
 #SBATCH --output=logs/submit_bird_complete_mls_cr_dd_%a.log
 #SBATCH --mem=5GB
 #SBATCH --partition=gelifes
-#SBATCH --array=1-3
+#SBATCH --array=1-100
 
 sbatch DAISIEutils/bash/submit_run_daisie_ml.sh \
   bird_daisie_data_list_complete_ds_asr \

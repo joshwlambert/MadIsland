@@ -6,7 +6,7 @@
 #SBATCH --output=logs/submit_mammal_complete_mls_nonoceanic_cr_dd_%a.log
 #SBATCH --mem=5GB
 #SBATCH --partition=gelifes
-#SBATCH --array=1-3
+#SBATCH --array=1-100
 
 sbatch DAISIEutils/bash/submit_run_daisie_ml.sh \
   mammal_daisie_data_list_complete_ds_asr \
