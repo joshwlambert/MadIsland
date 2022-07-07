@@ -50,7 +50,7 @@ multi_island_tbl_complete <- lapply(
 )
 
 # add the Macronycteris as a missing species of the clade with
-# Hipposideros_commersoni in it as it is a extinct lemur species
+# Hipposideros_commersoni in it as it is a bat species
 multi_island_tbl_complete <- lapply(
   multi_island_tbl_complete,
   DAISIEprep::add_missing_species,
