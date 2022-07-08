@@ -89,6 +89,7 @@ plot_stt <- function(daisie_data_list,
     stop("length of vectors must be the same to calculate median")
   }
 
+  # calculate the median number of species for each replicate
   median_stt <- c()
   for (i in seq_along(median_stt_list[[1]])) {
     median_stt[i] <- stats::median(
@@ -105,6 +106,7 @@ plot_stt <- function(daisie_data_list,
   # remove any rows where the number of species is zero due to log transform
   median_stt <- dplyr::filter(median_stt, num_lineages >= 1)
 
+  # add the median stt line to plot
   stt_plot <- stt_plot +
     ggplot2::geom_line(
       data = median_stt,
