@@ -93,6 +93,12 @@ collate_daisie_output <- function(results_dir,
     )
   }
 
+  results_tbl <- tidyr::pivot_longer(
+    data = results_tbl,
+    cols = lambda_c:prob_init_pres,
+    names_to = "params"
+  )
+
   # return results_tbl
   results_tbl
 }
