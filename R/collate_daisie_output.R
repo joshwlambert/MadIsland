@@ -143,12 +143,14 @@ collate_daisie_output <- function(results_dir,
   )
 
   if (oceanic_or_nonoceanic == "nonoceanic") {
-    results_tbl$prob_init_pres <- vapply(
-      results,
-      "[[",
-      "prob_init_pres",
-      FUN.VALUE = numeric(1)
-    )
+    results_tbl$prob_init_pres <- unlist(lapply(
+      results, \(x) {
+        if (is.null(x)) {
+          NA_real_
+        } else {
+          x$prob_init_pres
+        }
+      }))
   }
 
   results_tbl <- tidyr::pivot_longer(
