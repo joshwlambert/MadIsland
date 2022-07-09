@@ -71,16 +71,74 @@ collate_daisie_output <- function(results_dir,
     results[[i]] <- best_posterior_rep
   }
 
+  # extract the values for each DAISIE parameter
+  # if the parameter is not available for a replicate give NA
+  lambda_c <- unlist(lapply(results, \(x) {
+    if (is.null(x)) {
+      NA_real_
+    } else {
+      x$lambda_c
+    }
+  }))
+
+  mu <- unlist(lapply(results, \(x) {
+    if (is.null(x)) {
+      NA_real_
+    } else {
+      x$mu
+    }
+  }))
+
+  K <- unlist(lapply(results, \(x) {
+    if (is.null(x)) {
+      NA_real_
+    } else {
+      x$K
+    }
+  }))
+
+  gamma <- unlist(lapply(results, \(x) {
+    if (is.null(x)) {
+      NA_real_
+    } else {
+      x$gamma
+    }
+  }))
+
+  lambda_a <- unlist(lapply(results, \(x) {
+    if (is.null(x)) {
+      NA_real_
+    } else {
+      x$lambda_a
+    }
+  }))
+
+  loglik <- unlist(lapply(results, \(x) {
+    if (is.null(x)) {
+      NA_real_
+    } else {
+      x$loglik
+    }
+  }))
+
+  bic <- unlist(lapply(results, \(x) {
+    if (is.null(x)) {
+      NA_real_
+    } else {
+      x$bic
+    }
+  }))
+
   # put posterior distribution of parameter estimates into tibble
   results_tbl <- tibble::tibble(
     phylo = 1:num_phylos,
-    lambda_c = vapply(results, "[[", "lambda_c", FUN.VALUE = numeric(1)),
-    mu = vapply(results, "[[", "mu", FUN.VALUE = numeric(1)),
-    K = vapply(results, "[[", "K", FUN.VALUE = numeric(1)),
-    gamma = vapply(results, "[[", "gamma", FUN.VALUE = numeric(1)),
-    lambda_a = vapply(results, "[[", "lambda_a", FUN.VALUE = numeric(1)),
-    loglik = vapply(results, "[[", "loglik", FUN.VALUE = numeric(1)),
-    bic = vapply(results, "[[", "bic", FUN.VALUE = numeric(1)),
+    lambda_c = lambda_c,
+    mu = mu,
+    K = K,
+    gamma = gamma,
+    lambda_a = lambda_a,
+    loglik = loglik,
+    bic = bic,
     prob_init_pres = rep(NA_real_, num_phylos)
   )
 
