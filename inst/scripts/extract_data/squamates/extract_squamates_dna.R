@@ -36,7 +36,7 @@ multi_island_tbl_dna <- lapply(
   clade_name = "Brygophis_coulangesi",
   status = "endemic",
   missing_species = 0,
-  col_time = 88,
+  col_time = 88, #NA_real_
   col_max_age = TRUE,
   branching_times = NA_real_,
   min_age = NA_real_,

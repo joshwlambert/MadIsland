@@ -1,0 +1,12 @@
+# summarise amphibian island community data
+
+amphibian_daisie_data_list_dna_ds_asr <- readRDS(
+  file = system.file(
+    "extdata",
+    "extracted_data",
+    "amphibian_data",
+    "amphibian_daisie_data_list_dna_ds_asr.rds",
+    package = "MadIsland",
+    mustWork = TRUE
+  )
+)
