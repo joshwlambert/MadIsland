@@ -17,6 +17,17 @@ plot_daisie_k <- function(results_file) {
   )
 
   ggplot2::ggplot(data = k_tbl) +
-    ggplot2::geom_density(mapping = ggplot2::aes(value)) +
-    ggplot2::theme_classic()
+    ggplot2::geom_density(
+      mapping = ggplot2::aes(value),
+      fill = "red",
+      alpha = 0.2
+    ) +
+    ggplot2::scale_x_continuous(name = "Carrying Capacity (K')") +
+    ggplot2::theme_classic() +
+    ggplot2::theme(
+      axis.title.y = ggplot2::element_blank(),
+      axis.text.y = ggplot2::element_blank(),
+      axis.ticks.y = ggplot2::element_blank()
+    )
+
 }
