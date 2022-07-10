@@ -45,8 +45,8 @@ ggplot2::ggsave(
     "stem_col_time.png"
   ),
   device = "png",
-  width = 180,
-  height = 180,
+  width = 150,
+  height = 100,
   units = "mm",
   dpi = 600
 )
@@ -64,8 +64,8 @@ ggplot2::ggsave(
     "crown_col_time.png"
   ),
   device = "png",
-  width = 180,
-  height = 180,
+  width = 150,
+  height = 100,
   units = "mm",
   dpi = 600
 )
