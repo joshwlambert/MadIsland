@@ -17,9 +17,9 @@
 #'   Mammals = mammal_daisie_data_list_complete_ds_asr,
 #'   Squamates = squamate_daisie_data_list_complete_ds_asr
 #' )
-#' plot_col(listed_daisie_data_list = daisie_data_list)
-plot_col <- function(listed_daisie_data_list,
-                     col_time = "stem") {
+#' plot_col_daisie_data_list(listed_daisie_data_list = daisie_data_list)
+plot_col_daisie_data_list <- function(listed_daisie_data_list,
+                                      col_time = "stem") {
 
   #TODO implement crown age plotting
 

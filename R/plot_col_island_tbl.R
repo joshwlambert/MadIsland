@@ -36,7 +36,7 @@
 #'   mustWork = TRUE
 #' ))
 #'
-#' daisie_data_list <- list(
+#' multi_island_tbl_list <- list(
 #'   Amphibians = amphibians,
 #'   Mammals = mammals,
 #'   Squamates = squamates
@@ -51,47 +51,45 @@ plot_col_island_tbl <- function(multi_island_tbl_list,
     stop("Data must be a named list to use the names for plotting")
   }
 
-  col_times_list <- list()
-  # loop over each daisie_data_list
+  # create empty data frame
+  col_tbl <- data.frame()
+
+
+  # loop over each multi_island_tbl
   for (i in seq_along(multi_island_tbl_list)) {
 
-    # extract the event times from each island data set
-    event_times <- lapply(multi_island_tbl_list[[i]], \(x) {
-      lapply(x, "[[", "branching_times")
-    })
+    for (j in seq_along(multi_island_tbl_list[[i]])) {
+      # extract the event times from each island data set
+      col_times <- multi_island_tbl_list[[i]][[j]]@island_tbl$col_time
 
-    # delete meta data (first element) from each data set
-    event_times <- lapply(event_times, \(x) {
-      x[-1]
-    })
+      # create temp data frame
+      temp_tbl <- data.frame(
+        clade = rep(names(multi_island_tbl_list)[i], length(col_times)),
+        posterior_index = rep(j, length(col_times)),
+        col_times = col_times
+      )
+      col_tbl <- rbind(col_tbl, temp_tbl)
 
-    # extact colonisation time for each colonist (first element is island age)
-    col_times <- unlist(lapply(event_times, \(x) {
-      vapply(x, "[[", 2, FUN.VALUE = numeric(1))
-    }))
-
-    # store col_times in list
-    col_times_list[[i]] <- col_times
+    }
   }
 
-  # name list
-  names(col_times_list) <- names(multi_island_tbl_list)
-
   # create a tibble with name of group and colonisation times
-  col_tbl <- tibble::as_tibble(utils::stack(col_times_list))
-
-  colnames(col_tbl) <- c("col_times", "clade")
+  col_tbl <- tibble::as_tibble(col_tbl)
 
   # plot colonisation times
   col_times_plot <- ggplot2::ggplot(data = col_tbl) +
     ggplot2::geom_point(
       mapping = ggplot2::aes(
         x = col_times,
-        y = clade,
+        y = posterior_index,
         colour = clade
       ),
-      alpha = 0.5,
-      position = "jitter"
+      alpha = 0.5
+    ) +
+    ggplot2::facet_wrap(
+      facets = "clade",
+      ncol = 1,
+      strip.position = "left",
     ) +
     ggplot2::scale_y_discrete(
       name = "Taxonomic group"
@@ -102,7 +100,12 @@ plot_col_island_tbl <- function(multi_island_tbl_list,
     ) +
     ggplot2::scale_color_brewer(palette = "Dark2") +
     ggplot2::theme_classic() +
-    ggplot2::theme(legend.position = "none")
+    ggplot2::theme(
+      legend.position = "none",
+      axis.line.y = ggplot2::element_blank(),
+      strip.background = ggplot2::element_blank(),
+      strip.placement = "outside"
+    )
 
   # return col_times_plot
   col_times_plot
