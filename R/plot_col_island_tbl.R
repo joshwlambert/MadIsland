@@ -45,8 +45,6 @@
 plot_col_island_tbl <- function(multi_island_tbl_list,
                                 col_time = "stem") {
 
-  #TODO implement crown age plotting
-
   if (is.null(names(multi_island_tbl_list))) {
     stop("Data must be a named list to use the names for plotting")
   }
@@ -59,8 +57,20 @@ plot_col_island_tbl <- function(multi_island_tbl_list,
   for (i in seq_along(multi_island_tbl_list)) {
 
     for (j in seq_along(multi_island_tbl_list[[i]])) {
-      # extract the event times from each island data set
-      col_times <- multi_island_tbl_list[[i]][[j]]@island_tbl$col_time
+
+      # extract the colonisation times from each island data set
+      if (col_time == "stem") {
+        col_times <- multi_island_tbl_list[[i]][[j]]@island_tbl$col_time
+      } else if (col_time == "crown") {
+        col_times <- unlist(lapply(
+          multi_island_tbl_list[[i]][[j]]@island_tbl$branching_times,
+          "[[",
+          1
+        ))
+      } else {
+        stop("col_time argument must be either 'stem' or 'crown'")
+      }
+
 
       # create temp data frame
       temp_tbl <- data.frame(
@@ -96,7 +106,8 @@ plot_col_island_tbl <- function(multi_island_tbl_list,
     ) +
     ggplot2::scale_x_continuous(
       name = "Colonisation time (Million years ago)",
-      trans = "reverse"
+      trans = "reverse",
+      breaks = scales::breaks_extended(n = 8)
     ) +
     ggplot2::scale_color_brewer(palette = "Dark2") +
     ggplot2::theme_classic() +
