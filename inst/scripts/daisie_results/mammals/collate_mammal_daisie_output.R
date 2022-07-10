@@ -1,8 +1,11 @@
+# script to collate all the DAISIE maximum likelihood parameter estimates for
+# each taxonomic group across each posterior distribution of trees
+
 # collate mammal complete data for the oceanic model
 mammal_complete_oceanic <- collate_daisie_output(
   results_dir = "mammal_daisie_data_list_complete_ds_asr",
   oceanic_or_nonoceanic = "oceanic",
-  num_phylos = 3
+  num_phylos = 100
 )
 
 # save the collated data
@@ -21,7 +24,7 @@ saveRDS(
 mammal_complete_nonoceanic <- collate_daisie_output(
   results_dir = "mammal_daisie_data_list_complete_ds_asr",
   oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 3
+  num_phylos = 100
 )
 
 # save the collated data
@@ -40,7 +43,7 @@ saveRDS(
 mammal_dna_oceanic <- collate_daisie_output(
   results_dir = "mammal_daisie_data_list_dna_ds_asr",
   oceanic_or_nonoceanic = "oceanic",
-  num_phylos = 3
+  num_phylos = 100
 )
 
 # save the collated data
@@ -59,7 +62,7 @@ saveRDS(
 mammal_dna_nonoceanic <- collate_daisie_output(
   results_dir = "mammal_daisie_data_list_dna_ds_asr",
   oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 3
+  num_phylos = 100
 )
 
 # save the collated data
