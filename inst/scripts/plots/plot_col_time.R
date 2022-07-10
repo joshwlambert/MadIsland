@@ -57,7 +57,7 @@ crown_col_time <- plot_col_island_tbl(
 )
 
 ggplot2::ggsave(
-  plot = stem_col_time,
+  plot = crown_col_time,
   filename = file.path(
     "inst",
     "plots",
