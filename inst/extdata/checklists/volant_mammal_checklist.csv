@@ -1,0 +1,47 @@
+Genus,Species,Subspecies,Family,Order ,Common_Name,Name_In_Tree,Sampled,DNA_In_Tree,Extinct_Extant,Status_Species,DAISIE_Status_Species,Remove_Species
+Chaerephon,atsinanana,None,Molossidae,Chiroptera,Madagascar eastern free-tailed bat,Chaerephon_atsinanana,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Chaerephon,jobimena,None,Molossidae,Chiroptera,Malagasy western free-tailed bat,Tadarida_jobimena,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Chaerephon,leucogaster,None,Molossidae,Chiroptera,Grandidier's lesser free-tailed bat,NA,FALSE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
+Coleura,kibomalandy,None,Emballonuridae,Chiroptera,Madagascar sheath-tailed bat,Coleura_kibomalandy,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Eidolon,dupreanum,None,Pteropodidae,Chiroptera,Madagascar straw-coloured fruit bat,Eidolon_dupreanum,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Laephotis,malagasyensis,None,Vespertilionidae,Chiroptera,Isalo Serotine,Neoromicia_malagasyensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Laephotis,matroka,None,Vespertilionidae,Chiroptera,Malagasy serotine,Neoromicia_matroka,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Laephotis,robertsi,None,Vespertilionidae,Chiroptera,Robert's serotine,Neoromicia_robertsi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Macronycteris,besaoka,None,Hipposideridae,Chiroptera,None,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Macronycteris,commersoni,None,Hipposideridae,Chiroptera,Commerson's leaf-nosed bat,Hipposideros_commersoni,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Macronycteris,cryptovalorona,None,Hipposideridae,Chiroptera,Madagascar cryptic leaf-nosed bat,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Miniopterus,aelleni,None,Miniopteridae,Chiroptera,Aellen's long-fingered bat,Miniopterus_aelleni,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Miniopterus,ambohitrensis,None,Miniopteridae,Chiroptera,Montagne d’Ambre long-fingered Bat,Miniopterus_ambohitrensis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Miniopterus,brachytragos,None,Miniopteridae,Chiroptera,Short-tragus long-fingered bat,Miniopterus_brachytragos,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Miniopterus,egeri,None,Miniopteridae,Chiroptera,Eger's long-fingered bat,Miniopterus_egeri,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Miniopterus,gleni,None,Miniopteridae,Chiroptera,Glen's long-fingered bat,Miniopterus_gleni,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Miniopterus,griffithsi,None,Miniopteridae,Chiroptera,Griffith's long-fingered bat,Miniopterus_griffithsi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Miniopterus,griveaudi,None,Miniopteridae,Chiroptera,Griveaud's long-fingered bat,Miniopterus_griveaudi,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Miniopterus,mahafaliensis,None,Miniopteridae,Chiroptera,Mahafaly long-fingered bat,Miniopterus_mahafaliensis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Miniopterus,majori,None,Miniopteridae,Chiroptera,Major's long-fingered bat,Miniopterus_majori,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Miniopterus,manavi,None,Miniopteridae,Chiroptera,Manavi long-fingered bat,Miniopterus_manavi,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Miniopterus,petersoni,None,Miniopteridae,Chiroptera,Peterson's long-fingered bat,Miniopterus_petersoni,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Miniopterus,sororculus,None,Miniopteridae,Chiroptera,Small sister long-fingered bat,Miniopterus_sororculus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Mops,leucostigma,None,Molossidae,Chiroptera,Malagasy large white-bellied free-tailed bat,Mops_leucostigma,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Mops,midas,miarensis,Molossidae,Chiroptera,Midas' free-tailed bat,Mops_midas,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Mormopterus,jugularis,None,Molossidae,Chiroptera,Peters'  goblin bat,Mormopterus_jugularis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Myotis,goudoti,None,Vespertilionidae,Chiroptera,Malagasy mouse-eared bat,Myotis_goudoti,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Myzopoda,aurita,None,Myzopodidae,Chiroptera,Eastern sucker-footed bat,Myzopoda_aurita,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Myzopoda,schliemanni,None,Myzopodidae,Chiroptera,Schliemann's sucker-footed bat,Myzopoda_schliemanni,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Neoromicia,bemainty,None,Vespertilionidae,Chiroptera,Dark Madagascar pipistrelle,Hypsugo_bemainty,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Otomops,madagascariensis,None,Molossidae,Chiroptera,Malagasy large-eared free-tailed bat,Otomops_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paratriaenops,auritus,None,Hipposideridae,Chiroptera,Golden trident bat,Paratriaenops_auritus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paratriaenops,furculus,None,Hipposideridae,Chiroptera,Trouessart's trident Bat,Paratriaenops_furculus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paratriaenops,goodmani,None,Hipposideridae,Chiroptera,None,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Paremballonura,atrata,None,Emballonuridae,Chiroptera,Peters' sheath-tailed bat,Emballonura_atrata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Paremballonura,tiavato,None,Emballonuridae,Chiroptera,Rock-dwelling sheath-tailed bat,Emballonura_tiavato,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Pipistrellus,hesperidus,None,Vespertilionidae,Chiroptera,Dusky pipistrelle,Pipistrellus_hesperidus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Pipistrellus,raceyi,None,Vespertilionidae,Chiroptera,Racey's pipistrelle,Pipistrellus_raceyi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Pteropus,rufus,None,Pteropodidae,Chiroptera,Madagascar flying fox,Pteropus_rufus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Rousettus,madagascariensis,None,Pteropodidae,Chiroptera,Madagascar rousette,Rousettus_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Scotophilus,marovaza,None,Vespertilionidae,Chiroptera,Marovaza house bat,Scotophilus_marovaza,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Scotophilus,robustus,None,Vespertilionidae,Chiroptera,Malagasy large house bat,Scotophilus_robustus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Scotophilus,tandrefana,None,Vespertilionidae,Chiroptera,Malagasy western house bat,Scotophilus_tandrefana,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Tadarida,fulminans,None,Molossidae,Chiroptera,Malagasy free-tailed bat,Tadarida_fulminans,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Taphozous,mauritianus,None,Emballonuridae,Chiroptera,Mauritian tomb bat,Taphozous_mauritianus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Triaenops,menamena,None,Hipposideridae,Chiroptera,Rufous trident bat,Triaenops_menamena,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
