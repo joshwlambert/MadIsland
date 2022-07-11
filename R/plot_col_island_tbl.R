@@ -86,6 +86,12 @@ plot_col_island_tbl <- function(multi_island_tbl_list,
   # create a tibble with name of group and colonisation times
   col_tbl <- tibble::as_tibble(col_tbl)
 
+  if (col_time == "stem") {
+    xlab <- "Colonisation time (Million years ago)"
+  } else {
+    xlab <- "Crown age (Million years ago)"
+  }
+
   # plot colonisation times
   col_times_plot <- ggplot2::ggplot(data = col_tbl) +
     ggplot2::geom_point(
@@ -105,7 +111,7 @@ plot_col_island_tbl <- function(multi_island_tbl_list,
       name = "Taxonomic group"
     ) +
     ggplot2::scale_x_continuous(
-      name = "Colonisation time (Million years ago)",
+      name = xlab,
       trans = "reverse",
       breaks = scales::breaks_extended(n = 8)
     ) +
