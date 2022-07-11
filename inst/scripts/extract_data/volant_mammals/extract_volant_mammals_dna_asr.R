@@ -1,7 +1,7 @@
 library(MadIsland)
 
 island_data <- MadIsland::extract_species(
-  checklist_file_name = "mammal_checklist.csv",
+  checklist_file_name = "volant_mammal_checklist.csv",
   phylo_file_name = "Upham_dna_posterior_100.nex",
   dna_or_complete = "DNA",
   daisie_status = FALSE,
@@ -22,62 +22,6 @@ dna_multi_phylods <- island_data$phylods
 # searched for as the species can be added as a missing species of its close
 # relative on the island
 
-# add the Archaeoindris as a missing species of the clade with
-# Megaladapis_edwardsi in it as it is a extinct lemur species
-multi_island_tbl_dna <- lapply(
-  multi_island_tbl_dna,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 1,
-  species_name = "Megaladapis_edwardsi"
-)
-
-# add the Babakotia as a missing species of the clade with
-# Megaladapis_edwardsi in it as it is a extinct lemur species
-multi_island_tbl_dna <- lapply(
-  multi_island_tbl_dna,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 1,
-  species_name = "Megaladapis_edwardsi"
-)
-
-# add the Hadropithecus as a missing species of the clade with
-# Megaladapis_edwardsi in it as it is a extinct lemur species
-multi_island_tbl_dna <- lapply(
-  multi_island_tbl_dna,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 1,
-  species_name = "Megaladapis_edwardsi"
-)
-
-# extract stem age for Hippopotamus
-Hippopotamus_stem_age <- list()
-for (i in seq_along(dna_multi_phylods)) {
-  Hippopotamus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
-    genus_name = "Hippopotamus",
-    phylod = dna_multi_phylods[[i]],
-    extraction_method = "asr"
-  )
-}
-
-# add the Hippopotamus as an stem age max age given the stem age in the tree
-multi_island_tbl_dna <- mapply(
-  DAISIEprep::add_island_colonist,
-  multi_island_tbl_dna,
-  clade_name = list("Hippopotamus_laloumena"),
-  status = list("endemic"),
-  missing_species = list(2),
-  col_time = Hippopotamus_stem_age,
-  col_max_age = list(TRUE),
-  branching_times = list(NA_real_),
-  min_age = list(NA_real_),
-  species = list(c(
-    "Hippopotamus_laloumena",
-    "Hippopotamus_lemerlei",
-    "Hippopotamus_madagascariensis"
-  )),
-  clade_type = list(1)
-)
-
 # add the Macronycteris as a missing species of the clade with
 # Hipposideros_commersoni in it as it is a bat species
 multi_island_tbl_dna <- lapply(
@@ -85,24 +29,6 @@ multi_island_tbl_dna <- lapply(
   DAISIEprep::add_missing_species,
   num_missing_species = 2,
   species_name = "Hipposideros_commersoni"
-)
-
-# add the Mesopropithecus as a missing species of the clade with
-# Megaladapis_edwardsi in it as it is a extinct lemur species
-multi_island_tbl_dna <- lapply(
-  multi_island_tbl_dna,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 3,
-  species_name = "Megaladapis_edwardsi"
-)
-
-# add the Pachylemur as a missing species of the clade with
-# Megaladapis_edwardsi in it as it is a extinct lemur species
-multi_island_tbl_dna <- lapply(
-  multi_island_tbl_dna,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 2,
-  species_name = "Megaladapis_edwardsi"
 )
 
 # extract stem age for Pipistrellus
@@ -132,15 +58,6 @@ multi_island_tbl_dna <- mapply(
   clade_type = list(1)
 )
 
-# add the Plesiorycteropus as a missing_species of the clade with
-# Tenrec_ecaudatus in it as it is a tenrec species
-multi_island_tbl_dna <- lapply(
-  multi_island_tbl_dna,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 2,
-  species_name = "Tenrec_ecaudatus"
-)
-
 # convert to daisie data table
 daisie_datatable_dna <- lapply(
   multi_island_tbl_dna,
@@ -164,8 +81,8 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "mammal_data",
-    "mammal_island_tbl_dna_asr.rds"
+    "volant_mammal_data",
+    "volant_mammal_island_tbl_dna_asr.rds"
   )
 )
 
@@ -176,8 +93,8 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "mammal_data",
-    "mammal_daisie_datatable_dna_asr.rds"
+    "volant_mammal_data",
+    "volant_mammal_daisie_datatable_dna_asr.rds"
   )
 )
 
@@ -188,7 +105,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "mammal_data",
-    "mammal_daisie_data_list_dna_asr.rds"
+    "volant_mammal_data",
+    "volant_mammal_daisie_data_list_dna_asr.rds"
   )
 )

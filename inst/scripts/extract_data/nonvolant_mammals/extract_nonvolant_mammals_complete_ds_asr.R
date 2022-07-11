@@ -1,7 +1,7 @@
 library(MadIsland)
 
 island_data <- MadIsland::extract_species(
-  checklist_file_name = "mammal_checklist.csv",
+  checklist_file_name = "nonvolant_mammal_checklist.csv",
   phylo_file_name = "Upham_complete_posterior_100.nex",
   dna_or_complete = "complete",
   daisie_status = TRUE,
@@ -47,15 +47,6 @@ multi_island_tbl_complete <- lapply(
   DAISIEprep::add_missing_species,
   num_missing_species = 1,
   species_name = "Megaladapis_edwardsi"
-)
-
-# add the Macronycteris as a missing species of the clade with
-# Hipposideros_commersoni in it as it is a bat species
-multi_island_tbl_complete <- lapply(
-  multi_island_tbl_complete,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 2,
-  species_name = "Hipposideros_commersoni"
 )
 
 # add the Mesopropithecus as a missing species of the clade with
@@ -108,8 +99,8 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "mammal_data",
-    "mammal_island_tbl_complete_ds_asr.rds"
+    "nonvolant_mammal_data",
+    "nonvolant_mammal_island_tbl_complete_ds_asr.rds"
   )
 )
 
@@ -120,8 +111,8 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "mammal_data",
-    "mammal_daisie_datatable_complete_ds_asr.rds"
+    "nonvolant_mammal_data",
+    "nonvolant_mammal_daisie_datatable_complete_ds_asr.rds"
   )
 )
 
@@ -132,7 +123,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "mammal_data",
-    "mammal_daisie_data_list_complete_ds_asr.rds"
+    "nonvolant_mammal_data",
+    "nonvolant_mammal_daisie_data_list_complete_ds_asr.rds"
   )
 )

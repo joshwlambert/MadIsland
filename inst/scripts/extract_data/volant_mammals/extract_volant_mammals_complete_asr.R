@@ -1,11 +1,11 @@
 library(MadIsland)
 
 island_data <- MadIsland::extract_species(
-  checklist_file_name = "mammal_checklist.csv",
+  checklist_file_name = "volant_mammal_checklist.csv",
   phylo_file_name = "Upham_complete_posterior_100.nex",
   dna_or_complete = "complete",
   daisie_status = FALSE,
-  extraction_method = "min"
+  extraction_method = "asr"
 )
 
 multi_island_tbl_complete <- island_data$multi_island_tbl
@@ -22,33 +22,6 @@ complete_multi_phylods <- island_data$phylods
 # searched for as the species can be added as a missing species of its close
 # relative on the island
 
-# add the Archaeoindris as a missing species of the clade with
-# Megaladapis_edwardsi in it as it is a extinct lemur species
-multi_island_tbl_complete <- lapply(
-  multi_island_tbl_complete,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 1,
-  species_name = "Megaladapis_edwardsi"
-)
-
-# add the Babakotia as a missing species of the clade with
-# Megaladapis_edwardsi in it as it is a extinct lemur species
-multi_island_tbl_complete <- lapply(
-  multi_island_tbl_complete,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 1,
-  species_name = "Megaladapis_edwardsi"
-)
-
-# add the Hadropithecus as a missing species of the clade with
-# Megaladapis_edwardsi in it as it is a extinct lemur species
-multi_island_tbl_complete <- lapply(
-  multi_island_tbl_complete,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 1,
-  species_name = "Megaladapis_edwardsi"
-)
-
 # add the Macronycteris as a missing species of the clade with
 # Hipposideros_commersoni in it as it is a bat species
 multi_island_tbl_complete <- lapply(
@@ -56,33 +29,6 @@ multi_island_tbl_complete <- lapply(
   DAISIEprep::add_missing_species,
   num_missing_species = 2,
   species_name = "Hipposideros_commersoni"
-)
-
-# add the Mesopropithecus as a missing species of the clade with
-# Megaladapis_edwardsi in it as it is a extinct lemur species
-multi_island_tbl_complete <- lapply(
-  multi_island_tbl_complete,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 3,
-  species_name = "Megaladapis_edwardsi"
-)
-
-# add the Pachylemur as a missing species of the clade with
-# Megaladapis_edwardsi in it as it is a extinct lemur species
-multi_island_tbl_complete <- lapply(
-  multi_island_tbl_complete,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 2,
-  species_name = "Megaladapis_edwardsi"
-)
-
-# add the Plesiorycteropus as a missing_species of the clade with
-# Tenrec_ecaudatus in it as it is a tenrec species
-multi_island_tbl_complete <- lapply(
-  multi_island_tbl_complete,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 2,
-  species_name = "Tenrec_ecaudatus"
 )
 
 # convert to daisie data table
@@ -108,8 +54,8 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "mammal_data",
-    "mammal_island_tbl_complete.rds"
+    "volant_mammal_data",
+    "volant_mammal_island_tbl_complete_asr.rds"
   )
 )
 
@@ -120,8 +66,8 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "mammal_data",
-    "mammal_daisie_datatable_complete.rds"
+    "volant_mammal_data",
+    "volant_mammal_daisie_datatable_complete_asr.rds"
   )
 )
 
@@ -132,7 +78,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "mammal_data",
-    "mammal_daisie_data_list_complete.rds"
+    "volant_mammal_data",
+    "volant_mammal_daisie_data_list_complete_asr.rds"
   )
 )

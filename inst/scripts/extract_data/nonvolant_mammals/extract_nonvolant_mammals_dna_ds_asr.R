@@ -1,11 +1,11 @@
 library(MadIsland)
 
 island_data <- MadIsland::extract_species(
-  checklist_file_name = "mammal_checklist.csv",
+  checklist_file_name = "nonvolant_mammal_checklist.csv",
   phylo_file_name = "Upham_dna_posterior_100.nex",
   dna_or_complete = "DNA",
   daisie_status = TRUE,
-  extraction_method = "min"
+  extraction_method = "asr"
 )
 
 multi_island_tbl_dna <- island_data$multi_island_tbl
@@ -55,7 +55,7 @@ for (i in seq_along(dna_multi_phylods)) {
   Hippopotamus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
     genus_name = "Hippopotamus",
     phylod = dna_multi_phylods[[i]],
-    extraction_method = "min"
+    extraction_method = "asr"
   )
 }
 
@@ -78,15 +78,6 @@ multi_island_tbl_dna <- mapply(
   clade_type = list(1)
 )
 
-# add the Macronycteris as a missing species of the clade with
-# Hipposideros_commersoni in it as it is a bat species
-multi_island_tbl_dna <- lapply(
-  multi_island_tbl_dna,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 2,
-  species_name = "Hipposideros_commersoni"
-)
-
 # add the Mesopropithecus as a missing species of the clade with
 # Megaladapis_edwardsi in it as it is a extinct lemur species
 multi_island_tbl_dna <- lapply(
@@ -103,33 +94,6 @@ multi_island_tbl_dna <- lapply(
   DAISIEprep::add_missing_species,
   num_missing_species = 2,
   species_name = "Megaladapis_edwardsi"
-)
-
-# extract stem age for Pipistrellus
-Pipistrellus_stem_age <- list()
-for (i in seq_along(dna_multi_phylods)) {
-  Pipistrellus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
-    genus_name = "Pipistrellus",
-    phylod = dna_multi_phylods[[i]],
-    extraction_method = "min"
-  )
-}
-
-# add the Pipistrellus as an stem age max age given the stem age in the tree
-multi_island_tbl_dna <- mapply(
-  DAISIEprep::add_island_colonist,
-  multi_island_tbl_dna,
-  clade_name = list("Pipistrellus raceyi"),
-  status = list("endemic"),
-  missing_species = list(0),
-  col_time = Pipistrellus_stem_age,
-  col_max_age = list(TRUE),
-  branching_times = list(NA_real_),
-  min_age = list(NA_real_),
-  species = list(c(
-    "Pipistrellus raceyi"
-  )),
-  clade_type = list(1)
 )
 
 # add the Plesiorycteropus as a missing_species of the clade with
@@ -164,8 +128,8 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "mammal_data",
-    "mammal_island_tbl_dna_ds.rds"
+    "nonvolant_mammal_data",
+    "nonvolant_mammal_island_tbl_dna_ds_asr.rds"
   )
 )
 
@@ -176,8 +140,8 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "mammal_data",
-    "mammal_daisie_datatable_dna_ds.rds"
+    "nonvolant_mammal_data",
+    "nonvolant_mammal_daisie_datatable_dna_ds_asr.rds"
   )
 )
 
@@ -188,7 +152,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "mammal_data",
-    "mammal_daisie_data_list_dna_ds.rds"
+    "nonvolant_mammal_data",
+    "nonvolant_mammal_daisie_data_list_dna_ds_asr.rds"
   )
 )
