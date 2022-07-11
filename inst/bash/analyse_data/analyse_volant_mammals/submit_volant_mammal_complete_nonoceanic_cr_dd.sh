@@ -2,14 +2,14 @@
 #SBATCH --time=00:10:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --job-name=mammal_dna_mls
-#SBATCH --output=logs/submit_mammal_dna_mls_nonoceanic_cr_dd_%a.log
+#SBATCH --job-name=volant_mammal_complete_mls
+#SBATCH --output=logs/submit_volant_mammal_complete_mls_nonoceanic_cr_dd_%a.log
 #SBATCH --mem=5GB
 #SBATCH --partition=gelifes
 #SBATCH --array=1-100
 
 sbatch DAISIEutils/bash/submit_run_daisie_ml_long.sh \
-  mammal_daisie_data_list_dna_ds_asr \
+  volant_mammal_daisie_data_list_complete_ds_asr \
   nonoceanic_cr_dd \
   MadIsland \
   0 \
