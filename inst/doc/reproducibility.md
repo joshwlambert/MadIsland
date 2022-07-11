@@ -1,7 +1,7 @@
 ---
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 # Reproducibility
 
@@ -40,14 +40,22 @@ Run each of the extraction scripts to produce the extracted data:
   * `sbatch inst/bash/extract_data/birds/extract_birds_dna_ds_asr.sh`
   * `sbatch inst/bash/extract_data/birds/extract_birds_dna_ds.sh`
   * `sbatch inst/bash/extract_data/birds/extract_birds_dna.sh`
-  * `sbatch inst/bash/extract_data/mammals/extract_mammals_complete_asr.sh`
-  * `sbatch inst/bash/extract_data/mammals/extract_mammals_complete_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/mammals/extract_mammals_complete_ds.sh`
-  * `sbatch inst/bash/extract_data/mammals/extract_mammals_complete.sh`
-  * `sbatch inst/bash/extract_data/mammals/extract_mammals_dna_asr.sh`
-  * `sbatch inst/bash/extract_data/mammals/extract_mammals_dna_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/mammals/extract_mammals_dna_ds.sh`
-  * `sbatch inst/bash/extract_data/mammals/extract_mammals_dna.sh`
+  * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_complete_asr.sh`
+  * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_complete_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_complete_ds.sh`
+  * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_complete.sh`
+  * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_dna_asr.sh`
+  * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_dna_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_dna_ds.sh`
+  * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_dna.sh`
+  * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_complete_asr.sh`
+  * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_complete_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_complete_ds.sh`
+  * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_complete.sh`
+  * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_dna_asr.sh`
+  * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_dna_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_dna_ds.sh`
+  * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_dna.sh`
   * `sbatch inst/bash/extract_data/squamates/extract_squamates_complete_asr.sh`
   * `sbatch inst/bash/extract_data/squamates/extract_squamates_complete_ds_asr.sh`
   * `sbatch inst/bash/extract_data/squamates/extract_squamates_complete_ds.sh`
