@@ -1,4 +1,4 @@
-Genus,Species,Subspecies,Family,Order ,Common_Name,Name_in_Tree,Sampled,DNA_In_Tree,Extinct_Extant,Status_Species,DAISIE_Status_Species,Remove_Species
+Genus,Species,Subspecies,Family,Order ,Common_Name,Name_In_Tree,Sampled,DNA_In_Tree,Extinct_Extant,Status_Species,DAISIE_Status_Species,Remove_Species
 Echinops,telfairi,None,Tenrecidae,Afrosoricida,Lesser hedgehog tenrec,Echinops_telfairi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
 Geogale,aurita,None,Tenrecidae,Afrosoricida,Large-eared tenrec,Geogale_aurita,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
 Hemicentetes,nigriceps,None,Tenrecidae,Afrosoricida,Highland streaked tenrec,Hemicentetes_nigriceps,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
