@@ -78,7 +78,7 @@
 #' }
 "bird_daisie_data_list_dna_ds_asr"
 
-#' DAISIE data list of mammals of Madagascar (complete data).
+#' DAISIE data list of nonvolant mammals of Madagascar (complete data).
 #'
 #' A dataset containing the colonist name, colonisation and branching time,
 #' missing species, and whether the island colonist is a type 1 or 2.
@@ -96,9 +96,9 @@
 #'   or type 2 clade, type 1 is the default state, type 2 is when those clades
 #'   have a distinct set of rates}
 #' }
-"mammal_daisie_data_list_complete_ds_asr"
+"nonvolant_mammal_daisie_data_list_complete_ds_asr"
 
-#' DAISIE data list of mammals of Madagascar (DNA data).
+#' DAISIE data list of nonvolant mammals of Madagascar (DNA data).
 #'
 #' A dataset containing the colonist name, colonisation and branching time,
 #' missing species, and whether the island colonist is a type 1 or 2.
@@ -116,7 +116,7 @@
 #'   or type 2 clade, type 1 is the default state, type 2 is when those clades
 #'   have a distinct set of rates}
 #' }
-"mammal_daisie_data_list_dna_ds_asr"
+"nonvolant_mammal_daisie_data_list_dna_ds_asr"
 
 #' DAISIE data list of squamates of Madagascar (complete data).
 #'
@@ -157,3 +157,43 @@
 #'   have a distinct set of rates}
 #' }
 "squamate_daisie_data_list_dna_ds_asr"
+
+#' DAISIE data list of volant mammals of Madagascar (complete data).
+#'
+#' A dataset containing the colonist name, colonisation and branching time,
+#' missing species, and whether the island colonist is a type 1 or 2.
+#'
+#' @format A list with 3 elements:
+#' \describe{
+#'   \item{colonist_name}{character string with a species representative of the
+#'   island clade}
+#'   \item{branching_times}{numeric vector with the island age, time of island
+#'   colonisation, and any branching times if the colonist has speciated on the
+#'   island}
+#'   \item{stac}{numeric determining the endemicity status and colonisation
+#'   time precision of the island colonist}
+#'   \item{type1or2}{numeric determining whether the island colonist is a type 1
+#'   or type 2 clade, type 1 is the default state, type 2 is when those clades
+#'   have a distinct set of rates}
+#' }
+"volant_mammal_daisie_data_list_complete_ds_asr"
+
+#' DAISIE data list of volant mammals of Madagascar (DNA data).
+#'
+#' A dataset containing the colonist name, colonisation and branching time,
+#' missing species, and whether the island colonist is a type 1 or 2.
+#'
+#' @format A list with 3 elements:
+#' \describe{
+#'   \item{colonist_name}{character string with a species representative of the
+#'   island clade}
+#'   \item{branching_times}{numeric vector with the island age, time of island
+#'   colonisation, and any branching times if the colonist has speciated on the
+#'   island}
+#'   \item{stac}{numeric determining the endemicity status and colonisation
+#'   time precision of the island colonist}
+#'   \item{type1or2}{numeric determining whether the island colonist is a type 1
+#'   or type 2 clade, type 1 is the default state, type 2 is when those clades
+#'   have a distinct set of rates}
+#' }
+"volant_mammal_daisie_data_list_dna_ds_asr"
