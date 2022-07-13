@@ -55,7 +55,8 @@ for (i in seq_along(dna_multi_phylods)) {
   Hippopotamus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
     genus_name = "Hippopotamus",
     phylod = dna_multi_phylods[[i]],
-    extraction_method = "asr"
+    stem = "genus",
+    constrain_to_island = FALSE
   )
 }
 

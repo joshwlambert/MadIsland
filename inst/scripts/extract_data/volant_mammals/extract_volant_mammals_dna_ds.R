@@ -37,7 +37,8 @@ for (i in seq_along(dna_multi_phylods)) {
   Pipistrellus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
     genus_name = "Pipistrellus",
     phylod = dna_multi_phylods[[i]],
-    extraction_method = "min"
+    stem = "genus",
+    constrain_to_island = FALSE
   )
 }
 

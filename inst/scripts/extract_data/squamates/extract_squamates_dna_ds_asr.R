@@ -26,7 +26,8 @@ dna_multi_phylods <- island_data$phylods
 DAISIEprep::extract_stem_age(
   genus_name = "Brygophis",
   phylod = dna_multi_phylods[[1]],
-  extraction_method = "asr"
+  stem = "genus",
+  constrain_to_island = FALSE
 )
 
 # add the Brygophis as an island age max age as there is no stem age in the tree
@@ -48,7 +49,8 @@ multi_island_tbl_dna <- lapply(
 DAISIEprep::extract_stem_age(
   genus_name = "Pararhadinaea",
   phylod = dna_multi_phylods[[1]],
-  extraction_method = "asr"
+  stem = "genus",
+  constrain_to_island = FALSE
 )
 
 # add the Pararhadinaea as an island age max age as there is no stem age in the
