@@ -34,7 +34,6 @@ plot_daisie_bic <- function(results_file_1,
     params %in% c("bic")
   )
 
-
   # join the two tables
   bic_tbl <- dplyr::right_join(
     bic_tbl_1,
@@ -44,17 +43,17 @@ plot_daisie_bic <- function(results_file_1,
 
   bic_tbl <- dplyr::mutate(bic_tbl, bic_diff = value.x - value.y)
 
-
   if (bic_diff) {
     ggplot2::ggplot(data = bic_tbl) +
       ggplot2::geom_violin(
         mapping = ggplot2::aes(
           x = params,
           y = bic_diff
-        )
+        ),
       ) +
       ggplot2::scale_y_continuous(name = "BIC difference") +
-      ggplot2::theme_classic()
+      ggplot2::theme_classic() +
+      ggplot2::theme(axis.title.x = ggplot2::element_blank())
   } else {
     ggplot2::ggplot() +
       ggplot2::geom_histogram(

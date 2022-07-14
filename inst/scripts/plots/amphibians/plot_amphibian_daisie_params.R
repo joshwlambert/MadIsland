@@ -1,15 +1,7 @@
 # script to plot the parameter estimates of the amphibian data
 
 # amphibians complete oceanic rates
-plot_daisie_rates(
-  results_file = file.path(
-    "amphibian_daisie_output",
-    "amphibian_complete_oceanic.rds"
-  )
-)
-
-# amphibians complete oceanic carrying capacity
-plot_daisie_k(
+oceanic_rates_complete <- plot_daisie_rates(
   results_file = file.path(
     "amphibian_daisie_output",
     "amphibian_complete_oceanic.rds"
@@ -17,15 +9,7 @@ plot_daisie_k(
 )
 
 # amphibians complete nonoceanic rates
-plot_daisie_rates(
-  results_file = file.path(
-    "amphibian_daisie_output",
-    "amphibian_complete_nonoceanic.rds"
-  )
-)
-
-# amphibians complete nonoceanic carrying capacity
-plot_daisie_k(
+nonoceanic_rates_complete <- plot_daisie_rates(
   results_file = file.path(
     "amphibian_daisie_output",
     "amphibian_complete_nonoceanic.rds"
@@ -33,15 +17,7 @@ plot_daisie_k(
 )
 
 # amphibians DNA oceanic rates
-plot_daisie_rates(
-  results_file = file.path(
-    "amphibian_daisie_output",
-    "amphibian_dna_oceanic.rds"
-  )
-)
-
-# amphibians DNA oceanic carrying capacity
-plot_daisie_k(
+oceanic_rates_dna <- plot_daisie_rates(
   results_file = file.path(
     "amphibian_daisie_output",
     "amphibian_dna_oceanic.rds"
@@ -49,19 +25,12 @@ plot_daisie_k(
 )
 
 # amphibians DNA nonoceanic rates
-plot_daisie_rates(
+nonoceanic_rates_dna <- plot_daisie_rates(
   results_file = file.path(
     "amphibian_daisie_output",
     "amphibian_dna_nonoceanic.rds"
   )
 )
 
-# amphibians DNA nonoceanic carrying capacity
-plot_daisie_k(
-  results_file = file.path(
-    "amphibian_daisie_output",
-    "amphibian_dna_nonoceanic.rds"
-  )
-)
-
-
+rates_complete <- cowplot::plot_grid(oceanic_rates_complete, nonoceanic_rates_complete)
+rates_dna <- cowplot::plot_grid(oceanic_rates_dna, nonoceanic_rates_dna)
