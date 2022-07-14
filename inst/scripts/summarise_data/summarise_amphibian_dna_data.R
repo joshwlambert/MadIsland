@@ -1,4 +1,4 @@
-# summarise amphibian island community data
+# summarise amphibian island community dna data
 
 amphibians <- readRDS(file = system.file(
   "extdata",

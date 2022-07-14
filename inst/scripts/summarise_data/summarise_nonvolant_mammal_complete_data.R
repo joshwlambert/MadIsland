@@ -1,4 +1,4 @@
-# summarise nonvolant mammal island community data
+# summarise nonvolant mammal island community complete data
 
 nonvolant_mammals <- readRDS(file = system.file(
   "extdata",

@@ -1,4 +1,4 @@
-# summarise volant mammal island community data
+# summarise volant mammal island community dna data
 
 volant_mammals <- readRDS(file = system.file(
   "extdata",

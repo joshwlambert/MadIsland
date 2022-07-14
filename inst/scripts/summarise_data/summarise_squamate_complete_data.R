@@ -1,4 +1,4 @@
-# summarise squamate island community data
+# summarise squamate island community complete data
 
 squamates <- readRDS(file = system.file(
   "extdata",
