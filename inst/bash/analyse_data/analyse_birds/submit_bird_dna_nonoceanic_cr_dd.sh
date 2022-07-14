@@ -6,7 +6,7 @@
 #SBATCH --output=logs/submit_bird_dna_mls_nonoceanic_cr_dd_%a.log
 #SBATCH --mem=5GB
 #SBATCH --partition=gelifes
-#SBATCH --array=1-100
+#SBATCH --array=1-20
 
 sbatch DAISIEutils/bash/submit_run_daisie_ml_long.sh \
   bird_daisie_data_list_dna_ds_asr \

@@ -56,6 +56,9 @@ extract_species <- function(checklist_file_name,
     )
   )
 
+  # delete
+  phylos <- phylos[1:20]
+
   # convert trees to phylo4 objects
   phylos <- lapply(phylos, phylobase::phylo4)
 
