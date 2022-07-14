@@ -7,11 +7,20 @@ amphibians <- readRDS(file = system.file(
   mustWork = TRUE
 ))
 
-mammals <- readRDS(file = system.file(
+nonvolant_mammals <- readRDS(file = system.file(
   "extdata",
   "extracted_data",
-  "mammal_data",
-  "mammal_island_tbl_complete_ds_asr.rds",
+  "nonvolant_mammal_data",
+  "nonvolant_mammal_island_tbl_complete_ds_asr.rds",
+  package = "MadIsland",
+  mustWork = TRUE
+))
+
+volant_mammals <- readRDS(file = system.file(
+  "extdata",
+  "extracted_data",
+  "volant_mammal_data",
+  "volant_mammal_island_tbl_complete_ds_asr.rds",
   package = "MadIsland",
   mustWork = TRUE
 ))
@@ -27,7 +36,8 @@ squamates <- readRDS(file = system.file(
 
 multi_island_tbl_list <- list(
   Amphibians = amphibians,
-  Mammals = mammals,
+  Nonvolant_Mammals = nonvolant_mammals,
+  Volant_Mammals = volant_mammals,
   Squamates = squamates
 )
 
