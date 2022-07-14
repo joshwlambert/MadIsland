@@ -24,9 +24,11 @@ Config/testthat/edition: 3
 RoxygenNote: 7.2.0
 Imports: 
     DAISIEprep,
-    DAISIEutils
+    DAISIEutils,
+    DAISIE
 Remotes:
     joshwlambert/DAISIEprep@develop,
     tece-lab/DAISIEutils@develop
+    rsetienne/DAISIE@develop
 Depends: 
     R (>= 3.5.0)
