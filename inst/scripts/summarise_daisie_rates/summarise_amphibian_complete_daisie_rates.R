@@ -1,7 +1,20 @@
 #summarise amphibian daisie rates complete data
 
-# get the files names
-amphibian_rates <- readRDS(
+amphibian_oceanic_rates <- readRDS(
+  file = system.file(
+    "extdata",
+    "collated_daisie_output",
+    "amphibian_daisie_output",
+    "amphibian_complete_oceanic.rds",
+    package = "MadIsland",
+    mustWork = TRUE
+  )
+)
+
+summarise_daisie_rates(data = amphibian_oceanic_rates)
+
+
+amphibian_nonoceanic_rates <- readRDS(
   file = system.file(
     "extdata",
     "collated_daisie_output",
@@ -12,4 +25,4 @@ amphibian_rates <- readRDS(
   )
 )
 
-summarise_daisie_rates(data = amphibian_rates)
+summarise_daisie_rates(data = amphibian_nonoceanic_rates)
