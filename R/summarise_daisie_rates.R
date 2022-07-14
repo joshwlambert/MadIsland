@@ -8,8 +8,8 @@
 summarise_daisie_rates <- function(data) {
 
   params_tbl <- dplyr::filter(
-    params_tbl,
-    params == c("lambda_c", "mu", "K", "gamma", "lambda_a", "prob_init_pres")
+    data,
+    params %in% c("lambda_c", "mu", "K", "gamma", "lambda_a", "prob_init_pres")
   )
   params_tbl <- dplyr::group_by(params_tbl, params)
   summary_stats <- dplyr::summarise(
