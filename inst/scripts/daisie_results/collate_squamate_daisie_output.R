@@ -2,7 +2,7 @@
 squamate_complete_oceanic <- collate_daisie_output(
   results_dir = "squamate_daisie_data_list_complete_ds_asr",
   oceanic_or_nonoceanic = "oceanic",
-  num_phylos = 3
+  num_phylos = 20
 )
 
 # save the collated data
@@ -21,7 +21,7 @@ saveRDS(
 squamate_complete_nonoceanic <- collate_daisie_output(
   results_dir = "squamate_daisie_data_list_complete_ds_asr",
   oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 3
+  num_phylos = 20
 )
 
 # save the collated data
@@ -40,7 +40,7 @@ saveRDS(
 squamate_dna_oceanic <- collate_daisie_output(
   results_dir = "squamate_daisie_data_list_dna_ds_asr",
   oceanic_or_nonoceanic = "oceanic",
-  num_phylos = 3
+  num_phylos = 20
 )
 
 # save the collated data
@@ -59,7 +59,7 @@ saveRDS(
 squamate_dna_nonoceanic <- collate_daisie_output(
   results_dir = "squamate_daisie_data_list_dna_ds_asr",
   oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 3
+  num_phylos = 20
 )
 
 # save the collated data
