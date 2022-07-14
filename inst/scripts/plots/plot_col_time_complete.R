@@ -52,7 +52,7 @@ ggplot2::ggsave(
   filename = file.path(
     "inst",
     "plots",
-    "stem_col_time.png"
+    "stem_col_time_complete.png"
   ),
   device = "png",
   width = 150,
@@ -71,7 +71,7 @@ ggplot2::ggsave(
   filename = file.path(
     "inst",
     "plots",
-    "crown_col_time.png"
+    "crown_col_time_complete.png"
   ),
   device = "png",
   width = 150,
