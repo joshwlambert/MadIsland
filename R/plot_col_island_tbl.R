@@ -106,6 +106,12 @@ plot_col_island_tbl <- function(multi_island_tbl_list,
       facets = "clade",
       ncol = 1,
       strip.position = "left",
+      labeller = ggplot2::labeller(clade = c(
+        Amphibians = "Amphibians",
+        Nonvolant_Mammals = "NV Mammals",
+        Volant_Mammals = "V Mammals",
+        Squamates = "Squamates"
+      ))
     ) +
     ggplot2::scale_y_discrete(
       name = "Taxonomic group"
@@ -121,7 +127,8 @@ plot_col_island_tbl <- function(multi_island_tbl_list,
       legend.position = "none",
       axis.line.y = ggplot2::element_blank(),
       strip.background = ggplot2::element_blank(),
-      strip.placement = "outside"
+      strip.placement = "outside",
+      strip.text = ggplot2::element_text(size = 8)
     )
 
   # return col_times_plot
