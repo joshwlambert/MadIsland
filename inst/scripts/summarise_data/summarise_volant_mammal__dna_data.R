@@ -4,7 +4,7 @@ volant_mammals <- readRDS(file = system.file(
   "extdata",
   "extracted_data",
   "volant_mammal_data",
-  "volant_mammal_island_tbl_complete_ds_asr.rds",
+  "volant_mammal_island_tbl_dna_ds_asr.rds",
   package = "MadIsland",
   mustWork = TRUE
 ))
