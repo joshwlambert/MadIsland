@@ -59,6 +59,9 @@ plot_daisie_k <- function(oceanic_results_file,
       alpha = 0.2
     ) +
     ggplot2::scale_x_continuous(name = "Carrying Capacity (K')") +
+    ggplot2::scale_fill_discrete(
+      name = "Model",
+      labels = c("Continental", "Oceanic")) +
     ggplot2::theme_classic() +
     ggplot2::theme(
       axis.title.y = ggplot2::element_blank(),
