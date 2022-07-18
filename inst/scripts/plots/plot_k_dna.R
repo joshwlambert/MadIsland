@@ -45,7 +45,7 @@ ggplot2::ggsave(
     "k_dna.png"
   ),
   device = "png",
-  width = 150,
+  width = 200,
   height = 100,
   units = "mm",
   dpi = 600
