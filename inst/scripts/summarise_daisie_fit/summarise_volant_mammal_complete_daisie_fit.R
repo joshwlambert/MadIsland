@@ -35,3 +35,5 @@ bic_diff <- calc_bic_diff(
 bic_diff
 mean(bic_diff)
 sd(bic_diff)
+length(which(bic_diff > 0))
+length(which(bic_diff < 0))
