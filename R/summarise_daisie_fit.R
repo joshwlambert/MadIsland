@@ -5,17 +5,28 @@
 #'
 #' @return tibble
 #' @export
-summarise_daisie_fit <- function(data) {
+summarise_daisie_fit <- function(oceanic_data,
+                                 nonoceanic_data) {
 
-  params_tbl <- dplyr::filter(
-    data,
+
+  param_tbl <- dplyr::right_join(
+    oceanic_data,
+    nonoceanic_data,
+    by = c("phylo", "params")
+  )
+
+  fit_tbl <- dplyr::filter(
+    param_tbl,
     params %in% c("loglik", "bic")
   )
-  params_tbl <- dplyr::group_by(params_tbl, params)
+
+  fit_tbl <- dplyr::group_by(fit_tbl, params)
   summary_stats <- dplyr::summarise(
-    params_tbl,
-    mean = mean(value, na.rm = TRUE),
-    sd = sd(value, na.rm = TRUE)
+    fit_tbl,
+    oceanic_mean = mean(value.x, na.rm = TRUE),
+    oceanic_sd = sd(value.x, na.rm = TRUE),
+    nonoceanic_mean = mean(value.y, na.rm = TRUE),
+    nonoceanic_sd = sd(value.y, na.rm = TRUE)
   )
 
   # return summary_stats
