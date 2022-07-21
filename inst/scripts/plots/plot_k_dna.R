@@ -30,12 +30,12 @@ densities <- cowplot::plot_grid(
 # extract the legend from one of the plots
 legend <- cowplot::get_legend(
   # create some space to the left of the legend
-  amphibian_k_dna + ggplot2::theme(legend.box.margin = ggplot2::margin(0, 0, 0, 12))
+  amphibian_k_dna + ggplot2::theme(legend.box.margin = ggplot2::margin(0, 0, 0, 15))
 )
 
 # add the legend to the row we made earlier. Give it one-third of
 # the width of one plot (via rel_widths).
-k_plot <- cowplot::plot_grid(densities, legend, rel_widths = c(3, .4))
+k_plot <- cowplot::plot_grid(densities, legend, rel_widths = c(2, 0.5))
 
 ggplot2::ggsave(
   plot = k_plot,
