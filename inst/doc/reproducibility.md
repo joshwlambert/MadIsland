@@ -1,7 +1,7 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 # Reproducibility
 
@@ -24,47 +24,17 @@ folder is already present at this point as it is made in the install of MadIslan
 
 Run each of the extraction scripts to produce the extracted data:
 
-  * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_complete_asr.sh`
   * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_complete_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_complete_ds.sh`
-  * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_complete.sh`
-  * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_dna_asr.sh`
   * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_dna_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_dna_ds.sh`
-  * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_dna.sh`
-  * `sbatch inst/bash/extract_data/birds/extract_birds_complete_asr.sh`
   * `sbatch inst/bash/extract_data/birds/extract_birds_complete_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/birds/extract_birds_complete_ds.sh`
-  * `sbatch inst/bash/extract_data/birds/extract_birds_complete.sh`
-  * `sbatch inst/bash/extract_data/birds/extract_birds_dna_asr.sh`
   * `sbatch inst/bash/extract_data/birds/extract_birds_dna_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/birds/extract_birds_dna_ds.sh`
-  * `sbatch inst/bash/extract_data/birds/extract_birds_dna.sh`
-  * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_complete_asr.sh`
   * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_complete_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_complete_ds.sh`
-  * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_complete.sh`
-  * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_dna_asr.sh`
   * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_dna_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_dna_ds.sh`
-  * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_dna.sh`
-  * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_complete_asr.sh`
   * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_complete_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_complete_ds.sh`
-  * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_complete.sh`
-  * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_dna_asr.sh`
   * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_dna_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_dna_ds.sh`
-  * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_dna.sh`
-  * `sbatch inst/bash/extract_data/squamates/extract_squamates_complete_asr.sh`
   * `sbatch inst/bash/extract_data/squamates/extract_squamates_complete_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/squamates/extract_squamates_complete_ds.sh`
-  * `sbatch inst/bash/extract_data/squamates/extract_squamates_complete.sh`
-  * `sbatch inst/bash/extract_data/squamates/extract_squamates_dna_asr.sh`
   * `sbatch inst/bash/extract_data/squamates/extract_squamates_dna_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/squamates/extract_squamates_dna_ds.sh`
-  * `sbatch inst/bash/extract_data/squamates/extract_squamates_dna.sh`
-
+  
 Before running the analyses, make sure a logs folder is in the home directory. 
 If this is not present create a logs folder.
 
@@ -84,21 +54,15 @@ DAISIE maximum likelihood models.
 Run each of the analysis scripts to produce the DAISIE model output (parameter
 estimates and model likelihood and Bayesian Information Criterion):
 
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_amphibians/submit_amphibian_complete_cr_dd.sh`
   * `sbatch MadIsland/inst/bash/analyse_data/analyse_amphibians/submit_amphibian_complete_nonoceanic_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_amphibians/submit_amphibian_dna_cr_dd.sh`
   * `sbatch MadIsland/inst/bash/analyse_data/analyse_amphibians/submit_amphibian_dna_nonoceanic_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_birds/submit_bird_complete_cr_dd.sh`
   * `sbatch MadIsland/inst/bash/analyse_data/analyse_birds/submit_bird_complete_nonoceanic_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_birds/submit_bird_dna_cr_dd.sh`
   * `sbatch MadIsland/inst/bash/analyse_data/analyse_birds/submit_bird_dna_nonoceanic_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_mammals/submit_mammal_complete_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_mammals/submit_mammal_complete_nonoceanic_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_mammals/submit_mammal_dna_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_mammals/submit_mammal_dna_nonoceanic_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_squamates/submit_squamate_complete_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_nonvolant_mammals/submit_nonvolant_mammal_complete_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_nonvolant_mammals/submit_nonvolant_mammal_dna_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_volant_mammals/submit_volant_mammal_complete_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_volant_mammals/submit_volant_mammal_dna_nonoceanic_cr_dd.sh`
   * `sbatch MadIsland/inst/bash/analyse_data/analyse_squamates/submit_squamate_complete_nonoceanic_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_squamates/submit_squamate_dna_cr_dd.sh`
   * `sbatch MadIsland/inst/bash/analyse_data/analyse_squamates/submit_squamate_dna_nonoceanic_cr_dd.sh`
   
 
