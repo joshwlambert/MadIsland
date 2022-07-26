@@ -1,261 +1,261 @@
 Genus,Species,Subspecies,Family,Order,Common_Name,Name_In_Tree,Sampled,DNA_In_Tree,Extinct_Extant,Status_Species,DAISIE_Status_Species,Remove_Species
-Aquila,sp. A,None,Accipitridae,Falconiformes,Extinct eagle,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Aquila,sp. B,None,Accipitridae,Falconiformes,Extinct eagle,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Stephanoaetus,mahery,None,Accipitridae,Accipitriformes,Malagasy Crowned eagle,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
 Accipiter,francesiae,francesiae,Accipitridae,Accipitriformes,Frances's Sparrowhawk,Accipiter_francesiae,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
 Accipiter,henstii,None,Accipitridae,Accipitriformes,Henst's Goshawk,Accipiter_henstii,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
 Accipiter,madagascariensis,None,Accipitridae,Accipitriformes,Madagascar Sparrowhawk,Accipiter_madagascariensis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Aviceda,madagascariensis,None,Accipitridae,Accipitriformes,Madagascar Cuckoo-hawk,Aviceda_madagascariensis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Buteo,brachypterus,None,Accipitridae,Accipitriformes,Madagascar Buzzard,Buteo_brachypterus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Circus,macrosceles,None,Accipitridae,Accipitriformes,Madagascar Marsh-harrier,Circus_macrosceles,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Eutriorchis,astur,None,Accipitridae,Accipitriformes,Madagascar Serpent-eagle,Eutriorchis_astur,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Haliaeetus,vociferoides,None,Accipitridae,Accipitriformes,Madagascar Fish-eagle,Haliaeetus_vociferoides,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Polyboroides,radiatus,None,Accipitridae,Accipitriformes,Madagascar Harrier-hawk,Polyboroides_radiatus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Macheiramphus,alcinus,None,Accipitridae,Accipitriformes,Bat Hawk,Macheiramphus_alcinus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Nesillas,typica,"typica, obscura",Acrocephalidae,Passeriformes,Madagascar Brush-warbler,Nesillas_typica,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
 Acrocephalus,newtoni,None,Acrocephalidae,Passeriformes,Madagascar Swamp-warbler,Acrocephalus_newtoni,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Nesillas,lantzii,None,Acrocephalidae,Passeriformes,Subdesert Brush-warbler,Nesillas_lantzii,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Actitis,hypoleucos,None,Scolopacidae,Charadriiformes,Common Sandpiper,Actitis_hypoleucos,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Actophilornis,albinucha,None,Jacanidae,Charadriiformes,Madagascar Jacana,Actophilornis_albinucha,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
 Aepyornis,gracilis,None,Aepyornithidae,Aepyornithiformes,Gracile elephant bird,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
 Aepyornis,hildebrandti,None,Aepyornithidae,Aepyornithiformes,Hildebrandt's Elephant bird,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
 Aepyornis,maximus,None,Aepyornithidae,Aepyornithiformes,Giant Elephant bird,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
 Aepyornis,medius,None,Aepyornithidae,Aepyornithiformes,Greater Elephant bird,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Mullerornis,agilis,None,Aepyornithidae,Aepyornithiformes,Agile Elephant bird,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Mullerornis,betsilei,None,Aepyornithidae,Aepyornithiformes,Betsilei's Elephant bird,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Mullerornis,grandis,None,Aepyornithidae,Aepyornithiformes,,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Mullerornis,rudis,None,Aepyornithidae,Aepyornithiformes,Robust elephant-bird,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Vorombe,titans,None,Aepyornithidae,Aepyornithiformes,Titan Elephant bird,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Eremopterix,hova,None,Alaudidae,Passeriformes,Madagascar Lark,Mirafra_hova,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Corythornis,vintsioides,vintsioides,Alcedinidae,Coraciiformes,Madagascar Kingfisher,Alcedo_vintsioides,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
-Corythornis,madagascariensis,"dilutus, madagascariensis",Alcedinidae,Coraciiformes,Madagascar Pygmy-kingfisher,Ceyx_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Agapornis,canus,None,Psittacidae,Psittaciformes,Grey-headed Lovebird,Agapornis_canus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Alectroenas,madagascariensis,None,Columbidae,Columbiformes,Madagascar Blue-pigeon,Alectroenas_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
 Alopochen,sirabensis,None,Anatidae,Anseriformes,Malagasy shelduck ,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
 Anas,bernieri,None,Anatidae,Anseriformes,Madagascar Teal,Anas_bernieri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
 Anas,erythrorhyncha,None,Anatidae,Anseriformes,Red-billed Teal,Anas_erythrorhyncha,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Aythya,innotata,None,Anatidae,Anseriformes,Madagascar Pochard,Aythya_innotata,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Centrornis,majori,None,Anatidae,Anseriformes,Malagasy sheldgoose,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Dendrocygna,bicolor,None,Anatidae,Anseriformes,Fulvous Whistling-duck,Dendrocygna_bicolor,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Nettapus,auritus,None,Anatidae,Anseriformes,African Pygmy-goose,Nettapus_auritus,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
-Spatula,hottentota,None,Anatidae,Anseriformes,Blue-billed Teal,Anas_hottentota,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Thalassornis,leuconotus,insularis,Anatidae,Anseriformes,White-backed Duck,Thalassornis_leuconotus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
 Anas,melleri,None,Anatidae,Anseriformes,Meller's Duck,Anas_melleri,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Anhinga,rufa,vulsini,Anhingidae,Suliformes,African Darter,Anhinga_rufa,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Cypsiurus,gracilis,gracilis,Apodidae,Caprimulgiformes,Madagascar Palm-swift,NA,FALSE,FALSE,Extant,Non-endemic,Endemic,FALSE
-Cypsiurus,parvus,None,Apodidae,Caprimulgiformes,African palm swift,Cypsiurus_parvus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Apus,balstoni,balstoni,Apodidae,Caprimulgiformes,Madagascar Swift,Apus_balstoni,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
-Zoonavena,grandidieri,grandidieri,Apodidae,Caprimulgiformes,Madagascar Spinetail,Zoonavena_grandidieri,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
-Apus,affinis,None,Apodidae,Caprimulgiformes,Little Swift,Apus_affinis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Tachymarptis,melba,willsi,Apodidae,Caprimulgiformes,Alpine Swift,Tachymarptis_melba,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Ardea,humbloti,None,Ardeidae,Pelecaniformes,Madagascar Heron,Ardea_humbloti,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
-Ardea,alba,melanorhynchos,Ardeidae,Pelecaniformes,Great White Egret,Casmerodius_albus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Ardea,cinerea,firasa,Ardeidae,Pelecaniformes,Grey Heron,Ardea_cinerea,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Ardea,purpurea,madagascariensis,Ardeidae,Pelecaniformes,Purple Heron,Ardea_purpurea,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
-Ardeola,ralloides,None,Ardeidae,Pelecaniformes,Squacco Heron,Ardeola_ralloides,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Butorides,striata,rutenbergi,Ardeidae,Pelecaniformes,Green-backed Heron,Butorides_striata,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Egretta,ardesiaca,None,Ardeidae,Pelecaniformes,Black Heron,Egretta_ardesiaca,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
-Ixobrychus,minutus,podiceps,Ardeidae,Pelecaniformes,Common Little Bittern,Ixobrychus_minutus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Bernieria,madagascariensis,None,Bernieridae,Passeriformes,Long-billed Tetraka,Bernieria_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Crossleyia,tenebrosa,None,Bernieridae,Passeriformes,Dusky Tetraka,Bernieria_tenebrosa,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Crossleyia,xanthophrys,None,Bernieridae,Passeriformes,Madagascar Yellowbrow,Crossleyia_xanthophrys,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Cryptosylvicola,randrianasoloi,None,Bernieridae,Passeriformes,Cryptic Warbler,Cryptosylvicola_randrianasoloi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Hartertula,flavoviridis,None,Bernieridae,Passeriformes,Wedge-tailed Tetraka,Neomixis_flavoviridis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Oxylabes,madagascariensis,None,Bernieridae,Passeriformes,White-throated Oxylabes,Oxylabes_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Randia,pseudozosterops,None,Bernieridae,Passeriformes,Rand's Warbler,Randia_pseudozosterops,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Thamnornis,chloropetoides,None,Bernieridae,Passeriformes,Thamnornis,Thamnornis_chloropetoides,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Xanthomixis,apperti,None,Bernieridae,Passeriformes,Appert's Tetraka,Bernieria_apperti,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Xanthomixis,cinereiceps,None,Bernieridae,Passeriformes,Grey-crowned Tetraka,Bernieria_cinereiceps,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Xanthomixis,zosterops,"zosterops, fulvescens, andapae, ankafanae",Bernieridae,Passeriformes,Spectacled Tetraka,Bernieria_zosterops,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Atelornis,crossleyi,None,Brachypteraciidae,Coraciiformes,Rufous-headed Ground-roller,Atelornis_crossleyi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Atelornis,pittoides,None,Brachypteraciidae,Coraciiformes,Pitta-like Ground-roller,Atelornis_pittoides,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Brachypteracias,leptosomus,None,Brachypteraciidae,Coraciiformes,Short-legged Ground-roller,Brachypteracias_leptosomus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Geobiastes,squamiger,None,Brachypteraciidae,Coraciiformes,Scaly Ground-roller,Brachypteracias_squamiger,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Uratelornis,chimaera,None,Brachypteraciidae,Coraciiformes,Long-tailed Ground-roller,Uratelornis_chimaera,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Brachypteracias,langrandi,None,Brachypteraciidae,Coraciiformes,Ampoza Ground Roller,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Ceblepyris,cinereus,"cinerea, pallida",Campephagidae,Passeriformes,Madagascar Cuckooshrike,Coracina_cinerea,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Caprimulgus,madagascariensis,madagascariensis,Caprimulgidae,Caprimulgiformes,Madagascar Nightjar,Caprimulgus_madagascariensis,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
-Gactornis,enarratus,None,Caprimulgidae,Caprimulgiformes,Collared Nightjar,Caprimulgus_enarratus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Vanellus,madagascariensis,None,Charadriidae,Charadriiformes,Madagascar Lapwing,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Charadrius,bifrontatus,None,Charadriidae,Charadriiformes,Madagascar Three-banded Plover,Charadrius_tricollaris,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Charadrius,marginatus,tenellus,Charadriidae,Charadriiformes,White-fronted Plover,Charadrius_marginatus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Charadrius,pecuarius,None,Charadriidae,Charadriiformes,Kittlitz's Plover,Charadrius_pecuarius,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
-Charadrius,thoracicus,None,Charadriidae,Charadriiformes,Black-banded Plover,Charadrius_thoracicus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
 Anastomus,lamelligerus,madagascariensis,Ciconiidae,Ciconiiformes,African Openbill,Anastomus_lamelligerus,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
-Mycteria,ibis,None,Ciconiidae,Ciconiiformes,Yellow-billed Stork,Mycteria_ibis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Neomixis,striatigula,"striatigula, sclateri, pallidior",Cisticolidae,Passeriformes,Stripe-throated Jery,Neomixis_striatigula,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Cisticola,cherina,None,Cisticolidae,Passeriformes,Madagascar Cisticola,Cisticola_cherina,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
-Neomixis,tenella,"tenella, decaryi, orientalis, debilis",Cisticolidae,Passeriformes,Common Jery,Neomixis_tenella,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Neomixis,viridis,"viridis, delacouri",Cisticolidae,Passeriformes,Green Jery,Neomixis_viridis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Nesoenas,picturatus,picturatus,Columbidae,Columbiformes,Madagascar Turtle-dove,Nesoenas_picturata,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
-Alectroenas,madagascariensis,None,Columbidae,Columbiformes,Madagascar Blue-pigeon,Alectroenas_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Oena,capensis,aliena,Columbidae,Columbiformes,Namaqua Dove,Oena_capensis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Treron,australis,"australis, xenius",Columbidae,Columbiformes,Madagascar Green-pigeon,Treron_australis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Corvus,albus,None,Corvidae,Passeriformes,Pied Crow,Corvus_albus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Coua,berthae,None,Cuculidae,Cuculiformes,Bertha's Coua,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Coua,delalandei,None,Cuculidae,Cuculiformes,Snail-eating Coua,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Coua,primavea,None,Cuculidae,Cuculiformes,Ancient coua,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Coua,cristata,"cristata, dumonti, pyropyga, maxima",Cuculidae,Cuculiformes,Crested Coua,Coua_cristata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Coua,ruficeps,"olivaceiceps, ruficeps",Cuculidae,Cuculiformes,Red-capped Coua,Coua_ruficeps,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Centropus,toulou,toulou,Cuculidae,Cuculiformes,Madagascar Coucal,Centropus_toulou,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
-Coua,caerulea,None,Cuculidae,Cuculiformes,Blue Coua,Coua_caerulea,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Coua,coquereli,None,Cuculidae,Cuculiformes,Coquerel's Coua,Coua_coquereli,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Coua,cursor,None,Cuculidae,Cuculiformes,Running Coua,Coua_cursor,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Coua,gigas,None,Cuculidae,Cuculiformes,Giant Coua,Coua_gigas,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Coua,reynaudii,None,Cuculidae,Cuculiformes,Red-fronted Coua,Coua_reynaudii,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Coua,serriana,None,Cuculidae,Cuculiformes,Red-breasted Coua,Coua_serriana,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Coua,verreauxi,None,Cuculidae,Cuculiformes,Verreaux's Coua,Coua_verreauxi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Pachycoccyx,audeberti,audeberti,Cuculidae,Cuculiformes,Thick-billed Cuckoo,Pachycoccyx_audeberti,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Dicrurus,forficatus,forficatus,Dicruridae,Passeriformes,Crested Drongo,Dicrurus_forficatus,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
-Lepidopygia,nana,None,Estrildidae,Passeriformes,Madagascar Munia,Lonchura_nana,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Falco,newtoni,newtoni,Falconidae,Falconiformes,Madagascar Kestrel,Falco_newtoni,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
-Falco,peregrinus,radama,Falconidae,Falconiformes,Peregrine Falcon,Falco_peregrinus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Falco,zoniventris,None,Falconidae,Falconiformes,Banded Kestrel,Falco_zoniventris,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Riparia,paludicola,cowani,Hirundinidae,Passeriformes,Madagascar Plain Martin,Riparia_paludicola,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Actophilornis,albinucha,None,Jacanidae,Charadriiformes,Madagascar Jacana,Actophilornis_albinucha,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Leptosomus,discolor,discolor,Leptosomidae,Leptosomiformes,Cuckoo Roller,Leptosomus_discolor,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
-Bradypterus,brunneus,None,Locustellidae,Passeriformes,Brown Emu-tail,Dromaeocercus_brunneus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Bradypterus,seebohmi,None,Locustellidae,Passeriformes,Madagascar Grassbird,Bradypterus_seebohmi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Merops,superciliosus,superciliosus,Meropidae,Coraciiformes,Olive Bee-eater,Merops_superciliosus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Monias,sp.,None,Mesitornithidae,Mesitornithiformes,Subdesert Mesite,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Mesitornis,unicolor,None,Mesitornithidae,Mesitornithiformes,Brown Mesite,Mesitornis_unicolor,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Mesitornis,variegatus,None,Mesitornithidae,Mesitornithiformes,White-breasted Mesite,Mesitornis_variegatus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Monias,benschi,None,Mesitornithidae,Mesitornithiformes,Subdesert Mesite,Monias_benschi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Terpsiphone,mutata,mutata,Monarchidae,Passeriformes,Madagascar Paradise-flycatcher,Terpsiphone_mutata,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
-Motacilla,flaviventris,None,Motacillidae,Passeriformes,Madagascar Wagtail,Motacilla_flaviventris,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Copsychus,albospecularis,"albospecularis, inexspectatus, pica",Muscicapidae,Passeriformes,Madagascar Magpie-robin,Copsychus_albospecularis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Monticola,imerina,None,Muscicapidae,Passeriformes,Littoral Rock-thrush,Monticola_imerina,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Monticola,sharpei,"bensoni, erythronotus, sharpei",Muscicapidae,Passeriformes,Forest Rock-thrush,Monticola_sharpei,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Saxicola,torquatus,sibilla,Muscicapidae,Passeriformes,Common Stonechat,Saxicola_torquatus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Cinnyris,sovimanga,"sovimanga, apolis",Nectariniidae,Passeriformes,Souimanga Sunbird,Nectarinia_sovimanga,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
-Cinnyris,notatus,notatus,Nectariniidae,Passeriformes,Long-billed Sunbird,Nectarinia_notata,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
-Phalacrocorax,sp.,None,Phalacrocoracidae,Pelecaniformes,Extinct cormorant,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Microcarbo,africanus,pictilis,Phalacrocoracidae,Suliformes,Long-tailed Cormorant,Phalacrocorax_africanus,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
-Coturnix,coturnix,None,Phasianidae,Galliformes,Common Quail,Coturnix_coturnix,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Coturnix,delegorguei,delegorguei,Phasianidae,Galliformes,Harlequin Quail,Coturnix_delegorguei,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
-Margaroperdix,madagarensis,None,Phasianidae,Galliformes,Madagascar Partridge,Margaroperdix_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Neodrepanis,coruscans,None,Philepittidae,Passeriformes,Common Sunbird-asity,Neodrepanis_coruscans,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Neodrepanis,hypoxantha,None,Philepittidae,Passeriformes,Yellow-bellied Sunbird-asity,Neodrepanis_hypoxantha,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Philepitta,castanea,None,Philepittidae,Passeriformes,Velvet Asity,Philepitta_castanea,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Philepitta,schlegeli,None,Philepittidae,Passeriformes,Schlegel's Asity,Philepitta_schlegeli,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Foudia,madagascariensis,None,Ploceidae,Passeriformes,Red Fody,Foudia_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Foudia,omissa,None,Ploceidae,Passeriformes,Forest Fody,Foudia_omissa,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Ploceus,nelicourvi,None,Ploceidae,Passeriformes,Nelicourvi Weaver,Ploceus_nelicourvi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Ploceus,sakalava,"sakalava, minor",Ploceidae,Passeriformes,Sakalava Weaver,Ploceus_sakalava,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Tachybaptus,rufolavatus,None,Podicipedidae,Podicipediformes,Alaotra Grebe,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Tachybaptus,pelzelnii,None,Podicipedidae,Podicipediformes,Madagascar Grebe,Tachybaptus_pelzelnii,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Coracopsis,nigra,"nigra, libs",Psittacidae,Psittaciformes,Black Parrot,Coracopsis_nigra,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
-Coracopsis,vasa,None,Psittacidae,Psittaciformes,Vasa Parrot,Coracopsis_vasa,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
-Agapornis,canus,None,Psittacidae,Psittaciformes,Grey-headed Lovebird,Agapornis_canus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Pterocles,personatus,None,Pteroclidae,Pterocliformes,Madagascar Sandgrouse,Pterocles_personatus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Hypsipetes,madagascariensis,madagascariensis,Pycnonotidae,Passeriformes,Madagascar Bulbul,Hypsipetes_madagascariensis,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
-Mentocrex,beankaensis,None,Rallidae,Gruiformes,Tsingy Wood-rail,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
-Dryolimnas,cuvieri,cuvieri,Rallidae,Gruiformes,White-throated Rail,Dryolimnas_cuvieri,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
-Fulica,cristata,None,Rallidae,Gruiformes,Red-knobbed Coot,Fulica_cristata,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Gallinula,chloropus,pyrrhorrhoa,Rallidae,Gruiformes,Common Moorhen,Gallinula_chloropus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Hovacrex,roberti,None,Rallidae,Gruiformes,Hova Gallinule,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
-Mentocrex,kioloides,"kioloides, berliozi",Rallidae,Gruiformes,Madagascar Wood-rail,Canirallus_kioloides,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Porphyrio,alleni,None,Rallidae,Gruiformes,Allen's Gallinule,Porphyrio_alleni,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
-Porphyrio,porphyrio,None,Rallidae,Gruiformes,Purple Swamphen,Porphyrio_porphyrio,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Rallus,madagascariensis,None,Rallidae,Gruiformes,Madagascar Rail,Rallus_madagascariensis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Sarothrura,insularis,None,Rallidae,Gruiformes,Madagascar Flufftail,Sarothrura_insularis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Sarothrura,watersi,None,Rallidae,Gruiformes,Slender-billed Flufftail,Sarothrura_watersi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Zapornia,olivieri,None,Rallidae,Gruiformes,Sakalava Rail,Amaurornis_olivieri,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Gallinago,macrodactyla,None,Scolopacidae,Charadriiformes,Madagascar Snipe,Gallinago_macrodactyla,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Scopus,umbretta,umbretta,Scopidae,Pelecaniformes,Hamerkop,Scopus_umbretta,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
-Asio,capensis,hova,Strigidae,Strigiformes,Marsh Owl,Asio_capensis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Asio,madagascariensis,None,Strigidae,Strigiformes,Madagascar Long-eared Owl,Asio_madagascariensis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Athene,superciliaris,None,Strigidae,Strigiformes,White-browed Owl,Ninox_superciliaris,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Otus,rutilus,None,Strigidae,Strigiformes,Madagascar Scops-owl,Otus_rutilus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Hartlaubius,auratus,None,Sturnidae,Passeriformes,Madagascar Starling,Saroglossa_aurata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Threskiornis,bernieri,bernieri,Threskiornithidae,Pelecaniformes,Madagascar Sacred Ibis,Threskiornis_bernieri,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
-Lophotibis,cristata,"cristata, urschi",Threskiornithidae,Pelecaniformes,Madagascar Crested Ibis,Lophotibis_cristata,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Platalea,alba,None,Threskiornithidae,Pelecaniformes,African Spoonbill,Platalea_alba,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Turnix,nigricollis,None,Turnicidae,Charadriiformes,Madagascar Buttonquail,Turnix_nigricollis,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
-Tyto,alba,affinis,Tytonidae,Strigiformes,Common Barn-owl,Tyto_alba,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
-Tyto,soumagnei,None,Tytonidae,Strigiformes,Madagascar Red Owl,Tyto_soumagnei,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Upupa,marginata,None,Upupidae,Bucerotiformes,Madagascar Hoopoe,Upupa_epops,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Cyanolanius,madagascarinus,madagascarinus,Vangidae,Passeriformes,Madagascar Blue Vanga,Cyanolanius_madagascarinus,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
-Artamella,viridis,"viridis, annae",Vangidae,Passeriformes,White-headed Vanga,Artamella_viridis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Calicalicus,madagascariensis,None,Vangidae,Passeriformes,Red-tailed Vanga,Calicalicus_madagascariensis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Calicalicus,rufocarpalis,None,Vangidae,Passeriformes,Red-shouldered Vanga,Calicalicus_rufocarpalis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Euryceros,prevostii,None,Vangidae,Passeriformes,Helmet Vanga,Euryceros_prevostii,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Falculea,palliata,None,Vangidae,Passeriformes,Sickle-billed Vanga,Falculea_palliata,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Hypositta,corallirostris,None,Vangidae,Passeriformes,Nuthatch Vanga,Hypositta_corallirostris,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Leptopterus,chabert,"chabert, schistocercus",Vangidae,Passeriformes,Chabert Vanga,Leptopterus_chabert,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Mystacornis,crossleyi,None,Vangidae,Passeriformes,Crossley's Vanga,Mystacornis_crossleyi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Newtonia,amphichroa,"amphichroa, lavarambo",Vangidae,Passeriformes,Dark Newtonia,Newtonia_amphichroa,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Newtonia,archboldi,None,Vangidae,Passeriformes,Archbold's Newtonia,Newtonia_archboldi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Newtonia,brunneicauda,"brunneicauda, monticola",Vangidae,Passeriformes,Common Newtonia,Newtonia_brunneicauda,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Newtonia,fanovanae,None,Vangidae,Passeriformes,Red-tailed Newtonia,Newtonia_fanovanae,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Oriolia,bernieri,None,Vangidae,Passeriformes,Bernier's Vanga,Oriolia_bernieri,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Pseudobias,wardi,None,Vangidae,Passeriformes,Ward's Flycatcher,Pseudobias_wardi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Schetba,rufa,"rufa, occidentalis",Vangidae,Passeriformes,Rufous Vanga,Schetba_rufa,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Tylas,eduardi,None,Vangidae,Passeriformes,Tylas Vanga,Tylas_eduardi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Vanga,curvirostris,"curvirostris, cetera",Vangidae,Passeriformes,Hook-billed Vanga,Vanga_curvirostris,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Xenopirostris,damii,None,Vangidae,Passeriformes,Van Dam's Vanga,Xenopirostris_damii,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Xenopirostris,polleni,None,Vangidae,Passeriformes,Pollen's Vanga,Xenopirostris_polleni,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
-Xenopirostris,xenopirostris,None,Vangidae,Passeriformes,Lafresnaye's Vanga,Xenopirostris_xenopirostris,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
-Zosterops,maderaspatanus,maderaspatanus,Zosteropidae,Passeriformes,Madagascar White-eye,Zosterops_maderaspatanus,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
-Milvus,aegyptius,aegyptius/parasitus,Accipitridae,Accipitriformes,Yellow-billed Kite,Milvus_migrans,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Dendrocygna,viduata,None,Anatidae,Anseriformes,White-faced Whistling-duck,Dendrocygna_viduata,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Sarkidiornis,melanotos,None,Anatidae,Anseriformes,African Comb Duck,Sarkidiornis_melanotos,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Egretta,garzetta,dimorpha,Ardeidae,Pelecaniformes,Little Egret,Egretta_garzetta,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Nycticorax,nycticorax,None,Ardeidae,Pelecaniformes,Black-crowned Night-heron,Nycticorax_nycticorax,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Ardeola,idae,None,Ardeidae,Pelecaniformes,Madagascar Pond-heron,Ardeola_idae,TRUE,FALSE,Extant,Non-endemic,Non-endemic,TRUE
-Bubulcus,ibis,ibis,Ardeidae,Pelecaniformes,Cattle Egret,Bubulcus_ibis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Charadrius,hiaticula,None,Charadriidae,Charadriiformes,Common Ringed Plover,Charadrius_hiaticula,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Charadrius,leschenaultii,None,Charadriidae,Charadriiformes,Greater Sandplover,Charadrius_leschenaultii,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Pluvialis,squatarola,None,Charadriidae,Charadriiformes,Grey Plover,Pluvialis_squatarola,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Eurystomus,glaucurus,glaucurus,Coraciidae,Coraciiformes,Broad-billed Roller,Eurystomus_glaucurus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Cuculus,rochii,None,Cuculidae,Cuculiformes,Madagascar Cuckoo,Cuculus_rochii,TRUE,TRUE,Extant,Breeding endemic,Non-endemic,TRUE
-Thalassarche,carteri,None,Diomedeidae,Procellariiformes,Indian Yellow-nosed Albatross,Thalassarche_carteri,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Dromas,ardeola,None,Dromadidae,Charadriiformes,Crab-plover,Dromas_ardeola,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Falco,concolor,None,Falconidae,Falconiformes,Sooty Falcon,Falco_concolor,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Falco,eleonorae,None,Falconidae,Falconiformes,Eleonora's Falcon,Falco_eleonorae,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Fregata,ariel,None,Fregatidae,Suliformes,Lesser Frigatebird,Fregata_ariel,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Fregata,minor,None,Fregatidae,Suliformes,Great Frigatebird,Fregata_minor,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Glareola,ocularis,None,Glareolidae,Charadriiformes,Madagascar Pratincole,Glareola_ocularis,TRUE,FALSE,Extant,Breeding endemic,Non-endemic,TRUE
-Delichon,urbicum,None,Hirundinidae,Passeriformes,Northern House Martin,Delichon_urbicum,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Phedina,borbonica,madagascariensis,Hirundinidae,Passeriformes,Mascarene Martin,Phedina_borbonica,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Hydroprogne,caspia,None,Laridae,Charadriiformes,Caspian Tern,Sterna_caspia,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Larus,cirrocephalus,poiocephalus,Laridae,Charadriiformes,Grey-headed Gull,Larus_cirrocephalus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Larus,dominicanus,melisandae,Laridae,Charadriiformes,Kelp Gull,Larus_dominicanus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Sterna,dougallii,arideensis,Laridae,Charadriiformes,Roseate Tern,Sterna_dougallii,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Sternula,saundersi,None,Laridae,Charadriiformes,Saunders's Tern,Sterna_saundersi,TRUE,FALSE,Extant,Non-endemic,Non-endemic,TRUE
-Chlidonias,hybrida,delalandii,Laridae,Charadriiformes,Whiskered Tern,Chlidonias_hybrida,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Chlidonias,leucopterus,None,Laridae,Charadriiformes,White-winged Tern,Chlidonias_leucopterus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Sterna,hirundo,None,Laridae,Charadriiformes,Common Tern,Sterna_hirundo,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Anhinga,rufa,vulsini,Anhingidae,Suliformes,African Darter,Anhinga_rufa,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
 Anous,stolidus,None,Laridae,Charadriiformes,Brown Noddy,Anous_stolidus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
 Anous,tenuirostris,None,Laridae,Charadriiformes,Lesser Noddy,Anous_tenuirostris,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Onychoprion,anaethetus,antarcticus,Laridae,Charadriiformes,Bridled Tern,Sterna_anaethetus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Onychoprion,fuscatus,None,Laridae,Charadriiformes,Sooty Tern,Sterna_fuscata,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Thalasseus,bengalensis,None,Laridae,Charadriiformes,Lesser Crested Tern,Sterna_bengalensis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Thalasseus,bergii,None,Laridae,Charadriiformes,Greater Crested Tern,Sterna_bergii,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Fregetta,grallaria,None,Oceanitidae,Procellariiformes,White-bellied Storm-petrel,Fregetta_grallaria,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Fregetta,tropica,None,Oceanitidae,Procellariiformes,Black-bellied Storm-petrel,Fregetta_tropica,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Oceanites,oceanicus,None,Oceanitidae,Procellariiformes,Wilson's Storm-petrel,Oceanites_oceanicus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Phaethon,lepturus,None,Phaethontidae,Phaethontiformes,White-tailed Tropicbird,Phaethon_lepturus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Phaethon,rubricauda,None,Phaethontidae,Phaethontiformes,Red-tailed Tropicbird,Phaethon_rubricauda,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Phoeniconaias,minor,None,Phoenicopteridae,Phoenicopteriformes,Lesser Flamingo,Phoeniconaias_minor,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Phoenicopterus,roseus,None,Phoenicopteridae,Phoenicopteriformes,Greater Flamingo,Phoenicopterus_roseus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Tachybaptus,ruficollis,None,Podicipedidae,Podicipediformes,Little Grebe,Tachybaptus_ruficollis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Apus,affinis,None,Apodidae,Caprimulgiformes,Little Swift,Apus_affinis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Apus,balstoni,balstoni,Apodidae,Caprimulgiformes,Madagascar Swift,Apus_balstoni,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
+Aquila,sp. A,None,Accipitridae,Falconiformes,Extinct eagle,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Aquila,sp. B,None,Accipitridae,Falconiformes,Extinct eagle,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Ardea,alba,melanorhynchos,Ardeidae,Pelecaniformes,Great White Egret,Casmerodius_albus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Ardea,cinerea,firasa,Ardeidae,Pelecaniformes,Grey Heron,Ardea_cinerea,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Ardea,humbloti,None,Ardeidae,Pelecaniformes,Madagascar Heron,Ardea_humbloti,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
+Ardea,purpurea,madagascariensis,Ardeidae,Pelecaniformes,Purple Heron,Ardea_purpurea,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
 Ardenna,carneipes,None,Procellariidae,Procellariiformes,Flesh-footed Shearwater,Puffinus_creatopus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
 Ardenna,pacifica,None,Procellariidae,Procellariiformes,Wedge-tailed Shearwater,Puffinus_pacificus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Daption,capense,None,Procellariidae,Procellariiformes,Cape Petrel,Daption_capense,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Zapornia,pusilla,intermedia,Rallidae,Gruiformes,Baillon's Crake,Porzana_pusilla,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Himantopus,himantopus,None,Recurvirostridae,Charadriiformes,Black-winged Stilt,Himantopus_himantopus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Rostratula,benghalensis,None,Rostratulidae,Charadriiformes,Greater Painted-snipe,Rostratula_benghalensis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Actitis,hypoleucos,None,Scolopacidae,Charadriiformes,Common Sandpiper,Actitis_hypoleucos,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Ardeola,idae,None,Ardeidae,Pelecaniformes,Madagascar Pond-heron,Ardeola_idae,TRUE,FALSE,Extant,Non-endemic,Non-endemic,TRUE
+Ardeola,ralloides,None,Ardeidae,Pelecaniformes,Squacco Heron,Ardeola_ralloides,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
 Arenaria,interpres,None,Scolopacidae,Charadriiformes,Ruddy Turnstone,Arenaria_interpres,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Artamella,viridis,"viridis, annae",Vangidae,Passeriformes,White-headed Vanga,Artamella_viridis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Asio,capensis,hova,Strigidae,Strigiformes,Marsh Owl,Asio_capensis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Asio,madagascariensis,None,Strigidae,Strigiformes,Madagascar Long-eared Owl,Asio_madagascariensis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Atelornis,crossleyi,None,Brachypteraciidae,Coraciiformes,Rufous-headed Ground-roller,Atelornis_crossleyi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Atelornis,pittoides,None,Brachypteraciidae,Coraciiformes,Pitta-like Ground-roller,Atelornis_pittoides,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Athene,superciliaris,None,Strigidae,Strigiformes,White-browed Owl,Ninox_superciliaris,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Aviceda,madagascariensis,None,Accipitridae,Accipitriformes,Madagascar Cuckoo-hawk,Aviceda_madagascariensis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Aythya,innotata,None,Anatidae,Anseriformes,Madagascar Pochard,Aythya_innotata,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Bernieria,madagascariensis,None,Bernieridae,Passeriformes,Long-billed Tetraka,Bernieria_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brachypteracias,langrandi,None,Brachypteraciidae,Coraciiformes,Ampoza Ground Roller,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Brachypteracias,leptosomus,None,Brachypteraciidae,Coraciiformes,Short-legged Ground-roller,Brachypteracias_leptosomus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Brachypteracias,squamiger,None,Brachypteraciidae,Coraciiformes,Scaly Ground-roller,Brachypteracias_squamiger,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Bradypterus,brunneus,None,Locustellidae,Passeriformes,Brown Emu-tail,Dromaeocercus_brunneus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Bradypterus,seebohmi,None,Locustellidae,Passeriformes,Madagascar Grassbird,Bradypterus_seebohmi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Bubulcus,ibis,ibis,Ardeidae,Pelecaniformes,Cattle Egret,Bubulcus_ibis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Buteo,brachypterus,None,Accipitridae,Accipitriformes,Madagascar Buzzard,Buteo_brachypterus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Butorides,striata,rutenbergi,Ardeidae,Pelecaniformes,Green-backed Heron,Butorides_striata,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Calicalicus,madagascariensis,None,Vangidae,Passeriformes,Red-tailed Vanga,Calicalicus_madagascariensis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Calicalicus,rufocarpalis,None,Vangidae,Passeriformes,Red-shouldered Vanga,Calicalicus_rufocarpalis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
 Calidris,alba,None,Scolopacidae,Charadriiformes,Sanderling,Calidris_alba,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
 Calidris,ferruginea,None,Scolopacidae,Charadriiformes,Curlew Sandpiper,Calidris_ferruginea,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
 Calidris,minuta,None,Scolopacidae,Charadriiformes,Little Stint,Calidris_minuta,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
 Calidris,pugnax,None,Scolopacidae,Charadriiformes,Ruff,Philomachus_pugnax,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Caprimulgus,madagascariensis,madagascariensis,Caprimulgidae,Caprimulgiformes,Madagascar Nightjar,Caprimulgus_madagascariensis,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Ceblepyris,cinereus,"cinerea, pallida",Campephagidae,Passeriformes,Madagascar Cuckooshrike,Coracina_cinerea,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Centropus,toulou,toulou,Cuculidae,Cuculiformes,Madagascar Coucal,Centropus_toulou,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Centrornis,majori,None,Anatidae,Anseriformes,Malagasy sheldgoose,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Charadrius,hiaticula,None,Charadriidae,Charadriiformes,Common Ringed Plover,Charadrius_hiaticula,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Charadrius,leschenaultii,None,Charadriidae,Charadriiformes,Greater Sandplover,Charadrius_leschenaultii,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Charadrius,marginatus,tenellus,Charadriidae,Charadriiformes,White-fronted Plover,Charadrius_marginatus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Charadrius,pecuarius,None,Charadriidae,Charadriiformes,Kittlitz's Plover,Charadrius_pecuarius,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
+Charadrius,thoracicus,None,Charadriidae,Charadriiformes,Black-banded Plover,Charadrius_thoracicus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Charadrius,tricollaris,None,Charadriidae,Charadriiformes,Madagascar Three-banded Plover,Charadrius_tricollaris,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
+Chlidonias,hybrida,delalandii,Laridae,Charadriiformes,Whiskered Tern,Chlidonias_hybrida,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Chlidonias,leucopterus,None,Laridae,Charadriiformes,White-winged Tern,Chlidonias_leucopterus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Cinnyris,notatus,notatus,Nectariniidae,Passeriformes,Long-billed Sunbird,Nectarinia_notata,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
+Cinnyris,sovimanga,"sovimanga, apolis",Nectariniidae,Passeriformes,Souimanga Sunbird,Nectarinia_sovimanga,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Circus,macrosceles,None,Accipitridae,Accipitriformes,Madagascar Marsh-harrier,Circus_macrosceles,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Cisticola,cherina,None,Cisticolidae,Passeriformes,Madagascar Cisticola,Cisticola_cherina,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Copsychus,albospecularis,"albospecularis, inexspectatus, pica",Muscicapidae,Passeriformes,Madagascar Magpie-robin,Copsychus_albospecularis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Coracopsis,nigra,"nigra, libs",Psittacidae,Psittaciformes,Black Parrot,Coracopsis_nigra,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Coracopsis,vasa,None,Psittacidae,Psittaciformes,Vasa Parrot,Coracopsis_vasa,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Corvus,albus,None,Corvidae,Passeriformes,Pied Crow,Corvus_albus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Corythornis,madagascariensis,"dilutus, madagascariensis",Alcedinidae,Coraciiformes,Madagascar Pygmy-kingfisher,Ceyx_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Corythornis,vintsioides,vintsioides,Alcedinidae,Coraciiformes,Madagascar Kingfisher,Alcedo_vintsioides,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Coturnix,coturnix,None,Phasianidae,Galliformes,Common Quail,Coturnix_coturnix,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Coturnix,delegorguei,delegorguei,Phasianidae,Galliformes,Harlequin Quail,Coturnix_delegorguei,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
+Coua,berthae,None,Cuculidae,Cuculiformes,Bertha's Coua,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Coua,caerulea,None,Cuculidae,Cuculiformes,Blue Coua,Coua_caerulea,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Coua,coquereli,None,Cuculidae,Cuculiformes,Coquerel's Coua,Coua_coquereli,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Coua,cristata,"cristata, dumonti, pyropyga, maxima",Cuculidae,Cuculiformes,Crested Coua,Coua_cristata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Coua,cursor,None,Cuculidae,Cuculiformes,Running Coua,Coua_cursor,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Coua,delalandei,None,Cuculidae,Cuculiformes,Snail-eating Coua,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Coua,gigas,None,Cuculidae,Cuculiformes,Giant Coua,Coua_gigas,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Coua,primavea,None,Cuculidae,Cuculiformes,Ancient coua,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Coua,reynaudii,None,Cuculidae,Cuculiformes,Red-fronted Coua,Coua_reynaudii,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Coua,ruficeps,"olivaceiceps, ruficeps",Cuculidae,Cuculiformes,Red-capped Coua,Coua_ruficeps,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Coua,serriana,None,Cuculidae,Cuculiformes,Red-breasted Coua,Coua_serriana,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Coua,verreauxi,None,Cuculidae,Cuculiformes,Verreaux's Coua,Coua_verreauxi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Crossleyia,xanthophrys,None,Bernieridae,Passeriformes,Madagascar Yellowbrow,Crossleyia_xanthophrys,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Cryptosylvicola,randrianasoloi,None,Bernieridae,Passeriformes,Cryptic Warbler,Cryptosylvicola_randrianasoloi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Cuculus,rochii,None,Cuculidae,Cuculiformes,Madagascar Cuckoo,Cuculus_rochii,TRUE,TRUE,Extant,Breeding endemic,Non-endemic,TRUE
+Cyanolanius,madagascarinus,madagascarinus,Vangidae,Passeriformes,Madagascar Blue Vanga,Cyanolanius_madagascarinus,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Cypsiurus,gracilis,gracilis,Apodidae,Caprimulgiformes,Madagascar Palm-swift,NA,FALSE,FALSE,Extant,Non-endemic,Endemic,FALSE
+Cypsiurus,parvus,None,Apodidae,Caprimulgiformes,African palm swift,Cypsiurus_parvus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Daption,capense,None,Procellariidae,Procellariiformes,Cape Petrel,Daption_capense,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Delichon,urbicum,None,Hirundinidae,Passeriformes,Northern House Martin,Delichon_urbicum,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Dendrocygna,bicolor,None,Anatidae,Anseriformes,Fulvous Whistling-duck,Dendrocygna_bicolor,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Dendrocygna,viduata,None,Anatidae,Anseriformes,White-faced Whistling-duck,Dendrocygna_viduata,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Dicrurus,forficatus,forficatus,Dicruridae,Passeriformes,Crested Drongo,Dicrurus_forficatus,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Dromas,ardeola,None,Dromadidae,Charadriiformes,Crab-plover,Dromas_ardeola,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Dryolimnas,cuvieri,cuvieri,Rallidae,Gruiformes,White-throated Rail,Dryolimnas_cuvieri,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
+Egretta,ardesiaca,None,Ardeidae,Pelecaniformes,Black Heron,Egretta_ardesiaca,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
+Egretta,garzetta,dimorpha,Ardeidae,Pelecaniformes,Little Egret,Egretta_garzetta,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Eremopterix,hova,None,Alaudidae,Passeriformes,Madagascar Lark,Mirafra_hova,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Euryceros,prevostii,None,Vangidae,Passeriformes,Helmet Vanga,Euryceros_prevostii,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Eurystomus,glaucurus,glaucurus,Coraciidae,Coraciiformes,Broad-billed Roller,Eurystomus_glaucurus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Eutriorchis,astur,None,Accipitridae,Accipitriformes,Madagascar Serpent-eagle,Eutriorchis_astur,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Falco,concolor,None,Falconidae,Falconiformes,Sooty Falcon,Falco_concolor,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Falco,eleonorae,None,Falconidae,Falconiformes,Eleonora's Falcon,Falco_eleonorae,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Falco,newtoni,newtoni,Falconidae,Falconiformes,Madagascar Kestrel,Falco_newtoni,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Falco,peregrinus,radama,Falconidae,Falconiformes,Peregrine Falcon,Falco_peregrinus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Falco,zoniventris,None,Falconidae,Falconiformes,Banded Kestrel,Falco_zoniventris,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Falculea,palliata,None,Vangidae,Passeriformes,Sickle-billed Vanga,Falculea_palliata,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Foudia,madagascariensis,None,Ploceidae,Passeriformes,Red Fody,Foudia_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Foudia,omissa,None,Ploceidae,Passeriformes,Forest Fody,Foudia_omissa,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Fregata,ariel,None,Fregatidae,Suliformes,Lesser Frigatebird,Fregata_ariel,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Fregata,minor,None,Fregatidae,Suliformes,Great Frigatebird,Fregata_minor,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Fregetta,grallaria,None,Oceanitidae,Procellariiformes,White-bellied Storm-petrel,Fregetta_grallaria,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Fregetta,tropica,None,Oceanitidae,Procellariiformes,Black-bellied Storm-petrel,Fregetta_tropica,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Fulica,cristata,None,Rallidae,Gruiformes,Red-knobbed Coot,Fulica_cristata,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Gactornis,enarratus,None,Caprimulgidae,Caprimulgiformes,Collared Nightjar,Caprimulgus_enarratus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Gallinago,macrodactyla,None,Scolopacidae,Charadriiformes,Madagascar Snipe,Gallinago_macrodactyla,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Gallinula,chloropus,pyrrhorrhoa,Rallidae,Gruiformes,Common Moorhen,Gallinula_chloropus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Glareola,ocularis,None,Glareolidae,Charadriiformes,Madagascar Pratincole,Glareola_ocularis,TRUE,FALSE,Extant,Breeding endemic,Non-endemic,TRUE
+Haliaeetus,vociferoides,None,Accipitridae,Accipitriformes,Madagascar Fish-eagle,Haliaeetus_vociferoides,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Hartertula,flavoviridis,None,Bernieridae,Passeriformes,Wedge-tailed Tetraka,Neomixis_flavoviridis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Hartlaubius,auratus,None,Sturnidae,Passeriformes,Madagascar Starling,Saroglossa_aurata,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Himantopus,himantopus,None,Recurvirostridae,Charadriiformes,Black-winged Stilt,Himantopus_himantopus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Hovacrex,roberti,None,Rallidae,Gruiformes,Hova Gallinule,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Hydroprogne,caspia,None,Laridae,Charadriiformes,Caspian Tern,Sterna_caspia,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Hypositta,corallirostris,None,Vangidae,Passeriformes,Nuthatch Vanga,Hypositta_corallirostris,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Hypsipetes,madagascariensis,madagascariensis,Pycnonotidae,Passeriformes,Madagascar Bulbul,Hypsipetes_madagascariensis,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Ixobrychus,minutus,podiceps,Ardeidae,Pelecaniformes,Common Little Bittern,Ixobrychus_minutus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Larus,cirrocephalus,poiocephalus,Laridae,Charadriiformes,Grey-headed Gull,Larus_cirrocephalus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Larus,dominicanus,melisandae,Laridae,Charadriiformes,Kelp Gull,Larus_dominicanus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Lepidopygia,nana,None,Estrildidae,Passeriformes,Madagascar Munia,Lonchura_nana,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Leptopterus,chabert,"chabert, schistocercus",Vangidae,Passeriformes,Chabert Vanga,Leptopterus_chabert,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Leptosomus,discolor,discolor,Leptosomidae,Leptosomiformes,Cuckoo Roller,Leptosomus_discolor,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
 Limosa,lapponica,None,Scolopacidae,Charadriiformes,Bar-tailed Godwit,Limosa_lapponica,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Lophotibis,cristata,"cristata, urschi",Threskiornithidae,Pelecaniformes,Madagascar Crested Ibis,Lophotibis_cristata,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Macheiramphus,alcinus,None,Accipitridae,Accipitriformes,Bat Hawk,Macheiramphus_alcinus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Margaroperdix,madagarensis,None,Phasianidae,Galliformes,Madagascar Partridge,Margaroperdix_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Mentocrex,beankaensis,None,Rallidae,Gruiformes,Tsingy Wood-rail,NA,FALSE,FALSE,Extant,Endemic,Endemic,FALSE
+Mentocrex,kioloides,"kioloides, berliozi",Rallidae,Gruiformes,Madagascar Wood-rail,Canirallus_kioloides,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Merops,superciliosus,superciliosus,Meropidae,Coraciiformes,Olive Bee-eater,Merops_superciliosus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Mesitornis,unicolor,None,Mesitornithidae,Mesitornithiformes,Brown Mesite,Mesitornis_unicolor,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Mesitornis,variegatus,None,Mesitornithidae,Mesitornithiformes,White-breasted Mesite,Mesitornis_variegatus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Microcarbo,africanus,pictilis,Phalacrocoracidae,Suliformes,Long-tailed Cormorant,Phalacrocorax_africanus,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
+Milvus,aegyptius,aegyptius/parasitus,Accipitridae,Accipitriformes,Yellow-billed Kite,Milvus_migrans,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Monias,benschi,None,Mesitornithidae,Mesitornithiformes,Subdesert Mesite,Monias_benschi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Monias,sp.,None,Mesitornithidae,Mesitornithiformes,Subdesert Mesite,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Monticola,imerina,None,Muscicapidae,Passeriformes,Littoral Rock-thrush,Monticola_imerinus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Monticola,sharpei,"bensoni, erythronotus, sharpei",Muscicapidae,Passeriformes,Forest Rock-thrush,Monticola_sharpei,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Motacilla,flaviventris,None,Motacillidae,Passeriformes,Madagascar Wagtail,Motacilla_flaviventris,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Mullerornis,agilis,None,Aepyornithidae,Aepyornithiformes,Agile Elephant bird,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Mullerornis,betsilei,None,Aepyornithidae,Aepyornithiformes,Betsilei's Elephant bird,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Mullerornis,grandis,None,Aepyornithidae,Aepyornithiformes,None,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Mullerornis,rudis,None,Aepyornithidae,Aepyornithiformes,Robust elephant-bird,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Mycteria,ibis,None,Ciconiidae,Ciconiiformes,Yellow-billed Stork,Mycteria_ibis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Mystacornis,crossleyi,None,Vangidae,Passeriformes,Crossley's Vanga,Mystacornis_crossleyi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Neodrepanis,coruscans,None,Philepittidae,Passeriformes,Common Sunbird-asity,Neodrepanis_coruscans,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Neodrepanis,hypoxantha,None,Philepittidae,Passeriformes,Yellow-bellied Sunbird-asity,Neodrepanis_hypoxantha,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Neomixis,striatigula,"striatigula, sclateri, pallidior",Cisticolidae,Passeriformes,Stripe-throated Jery,Neomixis_striatigula,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Neomixis,tenella,"tenella, decaryi, orientalis, debilis",Cisticolidae,Passeriformes,Common Jery,Neomixis_tenella,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Neomixis,viridis,"viridis, delacouri",Cisticolidae,Passeriformes,Green Jery,Neomixis_viridis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Nesillas,lantzii,None,Acrocephalidae,Passeriformes,Subdesert Brush-warbler,Nesillas_lantzii,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Nesillas,typica,"typica, obscura",Acrocephalidae,Passeriformes,Madagascar Brush-warbler,Nesillas_typica,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Nesoenas,picturatus,picturatus,Columbidae,Columbiformes,Madagascar Turtle-dove,Nesoenas_picturata,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
+Nettapus,auritus,None,Anatidae,Anseriformes,African Pygmy-goose,Nettapus_auritus,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
+Newtonia,amphichroa,"amphichroa, lavarambo",Vangidae,Passeriformes,Dark Newtonia,Newtonia_amphichroa,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Newtonia,archboldi,None,Vangidae,Passeriformes,Archbold's Newtonia,Newtonia_archboldi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Newtonia,brunneicauda,"brunneicauda, monticola",Vangidae,Passeriformes,Common Newtonia,Newtonia_brunneicauda,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Newtonia,fanovanae,None,Vangidae,Passeriformes,Red-tailed Newtonia,Newtonia_fanovanae,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
 Numenius,arquata,None,Scolopacidae,Charadriiformes,Eurasian Curlew,Numenius_arquata,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
 Numenius,phaeopus,None,Scolopacidae,Charadriiformes,Whimbrel,Numenius_phaeopus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Tringa,glareola,None,Scolopacidae,Charadriiformes,Wood Sandpiper,Tringa_glareola,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Tringa,nebularia,None,Scolopacidae,Charadriiformes,Common Greenshank,Tringa_nebularia,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Tringa,stagnatilis,None,Scolopacidae,Charadriiformes,Marsh Sandpiper,Tringa_stagnatilis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Xenus,cinereus,None,Scolopacidae,Charadriiformes,Terek Sandpiper,Xenus_cinereus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Nycticorax,nycticorax,None,Ardeidae,Pelecaniformes,Black-crowned Night-heron,Nycticorax_nycticorax,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Oceanites,oceanicus,None,Oceanitidae,Procellariiformes,Wilson's Storm-petrel,Oceanites_oceanicus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Oena,capensis,aliena,Columbidae,Columbiformes,Namaqua Dove,Oena_capensis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Onychoprion,anaethetus,antarcticus,Laridae,Charadriiformes,Bridled Tern,Sterna_anaethetus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Onychoprion,fuscatus,None,Laridae,Charadriiformes,Sooty Tern,Sterna_fuscata,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Oriolia,bernieri,None,Vangidae,Passeriformes,Bernier's Vanga,Oriolia_bernieri,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Otus,rutilus,None,Strigidae,Strigiformes,Madagascar Scops-owl,Otus_rutilus,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Oxylabes,madagascariensis,None,Bernieridae,Passeriformes,White-throated Oxylabes,Oxylabes_madagascariensis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Pachycoccyx,audeberti,audeberti,Cuculidae,Cuculiformes,Thick-billed Cuckoo,Pachycoccyx_audeberti,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Phaethon,lepturus,None,Phaethontidae,Phaethontiformes,White-tailed Tropicbird,Phaethon_lepturus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Phaethon,rubricauda,None,Phaethontidae,Phaethontiformes,Red-tailed Tropicbird,Phaethon_rubricauda,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Phalacrocorax,sp.,None,Phalacrocoracidae,Pelecaniformes,Extinct cormorant,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Phedina,borbonica,madagascariensis,Hirundinidae,Passeriformes,Mascarene Martin,Phedina_borbonica,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Philepitta,castanea,None,Philepittidae,Passeriformes,Velvet Asity,Philepitta_castanea,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Philepitta,schlegeli,None,Philepittidae,Passeriformes,Schlegel's Asity,Philepitta_schlegeli,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Phoeniconaias,minor,None,Phoenicopteridae,Phoenicopteriformes,Lesser Flamingo,Phoeniconaias_minor,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Phoenicopterus,roseus,None,Phoenicopteridae,Phoenicopteriformes,Greater Flamingo,Phoenicopterus_roseus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Platalea,alba,None,Threskiornithidae,Pelecaniformes,African Spoonbill,Platalea_alba,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Plegadis,falcinellus,None,Threskiornithidae,Pelecaniformes,Glossy Ibis,Plegadis_falcinellus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Ploceus,nelicourvi,None,Ploceidae,Passeriformes,Nelicourvi Weaver,Ploceus_nelicourvi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Ploceus,sakalava,"sakalava, minor",Ploceidae,Passeriformes,Sakalava Weaver,Ploceus_sakalava,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Pluvialis,squatarola,None,Charadriidae,Charadriiformes,Grey Plover,Pluvialis_squatarola,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Polyboroides,radiatus,None,Accipitridae,Accipitriformes,Madagascar Harrier-hawk,Polyboroides_radiatus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Porphyrio,alleni,None,Rallidae,Gruiformes,Allen's Gallinule,Porphyrio_alleni,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
+Porphyrio,porphyrio,None,Rallidae,Gruiformes,Purple Swamphen,Porphyrio_porphyrio,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Pseudobias,wardi,None,Vangidae,Passeriformes,Ward's Flycatcher,Pseudobias_wardi,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Pterocles,personatus,None,Pteroclidae,Pterocliformes,Madagascar Sandgrouse,Pterocles_personatus,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Rallus,madagascariensis,None,Rallidae,Gruiformes,Madagascar Rail,Rallus_madagascariensis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Randia,pseudozosterops,None,Bernieridae,Passeriformes,Rand's Warbler,Randia_pseudozosterops,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Riparia,paludicola,cowani,Hirundinidae,Passeriformes,Madagascar Plain Martin,Riparia_paludicola,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Rostratula,benghalensis,None,Rostratulidae,Charadriiformes,Greater Painted-snipe,Rostratula_benghalensis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Sarkidiornis,melanotos,None,Anatidae,Anseriformes,African Comb Duck,Sarkidiornis_melanotos,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Sarothrura,insularis,None,Rallidae,Gruiformes,Madagascar Flufftail,Sarothrura_insularis,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Sarothrura,watersi,None,Rallidae,Gruiformes,Slender-billed Flufftail,Sarothrura_watersi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Saxicola,torquatus,sibilla,Muscicapidae,Passeriformes,Common Stonechat,Saxicola_torquatus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Schetba,rufa,"rufa, occidentalis",Vangidae,Passeriformes,Rufous Vanga,Schetba_rufa,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Scopus,umbretta,umbretta,Scopidae,Pelecaniformes,Hamerkop,Scopus_umbretta,TRUE,FALSE,Extant,Non-endemic,Non-endemic,FALSE
+Spatula,hottentota,None,Anatidae,Anseriformes,Blue-billed Teal,Anas_hottentota,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Stephanoaetus,mahery,None,Accipitridae,Accipitriformes,Malagasy Crowned eagle,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Sterna,dougallii,arideensis,Laridae,Charadriiformes,Roseate Tern,Sterna_dougallii,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Sterna,hirundo,None,Laridae,Charadriiformes,Common Tern,Sterna_hirundo,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Sternula,saundersi,None,Laridae,Charadriiformes,Saunders's Tern,Sterna_saundersi,TRUE,FALSE,Extant,Non-endemic,Non-endemic,TRUE
 Sula,dactylatra,None,Sulidae,Suliformes,Masked Booby,Sula_dactylatra,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
 Sula,leucogaster,None,Sulidae,Suliformes,Brown Booby,Sula_leucogaster,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
 Sula,sula,None,Sulidae,Suliformes,Red-footed Booby,Sula_sula,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
-Plegadis,falcinellus,None,Threskiornithidae,Pelecaniformes,Glossy Ibis,Plegadis_falcinellus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Tachybaptus,pelzelnii,None,Podicipedidae,Podicipediformes,Madagascar Grebe,Tachybaptus_pelzelnii,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Tachybaptus,ruficollis,None,Podicipedidae,Podicipediformes,Little Grebe,Tachybaptus_ruficollis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Tachybaptus,rufolavatus,None,Podicipedidae,Podicipediformes,Alaotra Grebe,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Tachymarptis,melba,willsi,Apodidae,Caprimulgiformes,Alpine Swift,Tachymarptis_melba,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Terpsiphone,mutata,mutata,Monarchidae,Passeriformes,Madagascar Paradise-flycatcher,Terpsiphone_mutata,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
+Thalassarche,carteri,None,Diomedeidae,Procellariiformes,Indian Yellow-nosed Albatross,Thalassarche_carteri,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Thalasseus,bengalensis,None,Laridae,Charadriiformes,Lesser Crested Tern,Sterna_bengalensis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Thalasseus,bergii,None,Laridae,Charadriiformes,Greater Crested Tern,Sterna_bergii,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Thalassornis,leuconotus,insularis,Anatidae,Anseriformes,White-backed Duck,Thalassornis_leuconotus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Thamnornis,chloropetoides,None,Bernieridae,Passeriformes,Thamnornis,Thamnornis_chloropetoides,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Threskiornis,bernieri,bernieri,Threskiornithidae,Pelecaniformes,Madagascar Sacred Ibis,Threskiornis_bernieri,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
+Treron,australis,"australis, xenius",Columbidae,Columbiformes,Madagascar Green-pigeon,Treron_australis,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Tringa,glareola,None,Scolopacidae,Charadriiformes,Wood Sandpiper,Tringa_glareola,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Tringa,nebularia,None,Scolopacidae,Charadriiformes,Common Greenshank,Tringa_nebularia,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Tringa,stagnatilis,None,Scolopacidae,Charadriiformes,Marsh Sandpiper,Tringa_stagnatilis,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Turnix,nigricollis,None,Turnicidae,Charadriiformes,Madagascar Buttonquail,Turnix_nigricollis,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
+Tylas,eduardi,None,Vangidae,Passeriformes,Tylas Vanga,Tylas_eduardi,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Tyto,alba,affinis,Tytonidae,Strigiformes,Common Barn-owl,Tyto_alba,TRUE,TRUE,Extant,Non-endemic,Non-endemic,FALSE
+Tyto,soumagnei,None,Tytonidae,Strigiformes,Madagascar Red Owl,Tyto_soumagnei,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Upupa,marginata,None,Upupidae,Bucerotiformes,Madagascar Hoopoe,NA,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Uratelornis,chimaera,None,Brachypteraciidae,Coraciiformes,Long-tailed Ground-roller,Uratelornis_chimaera,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Vanellus,madagascariensis,None,Charadriidae,Charadriiformes,Madagascar Lapwing,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Vanga,curvirostris,"curvirostris, cetera",Vangidae,Passeriformes,Hook-billed Vanga,Vanga_curvirostris,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Vorombe,titans,None,Aepyornithidae,Aepyornithiformes,Titan Elephant bird,NA,FALSE,FALSE,Extinct,Endemic,Endemic,FALSE
+Xanthomixis,apperti,None,Bernieridae,Passeriformes,Appert's Tetraka,Bernieria_apperti,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Xanthomixis,cinereiceps,None,Bernieridae,Passeriformes,Grey-crowned Tetraka,Bernieria_cinereiceps,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Xanthomixis,tenebrosa,None,Bernieridae,Passeriformes,Dusky Tetraka,Bernieria_tenebrosa,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Xanthomixis,zosterops,"zosterops, fulvescens, andapae, ankafanae",Bernieridae,Passeriformes,Spectacled Tetraka,Bernieria_zosterops,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Xenopirostris,damii,None,Vangidae,Passeriformes,Van Dam's Vanga,Xenopirostris_damii,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Xenopirostris,polleni,None,Vangidae,Passeriformes,Pollen's Vanga,Xenopirostris_polleni,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Xenopirostris,xenopirostris,None,Vangidae,Passeriformes,Lafresnaye's Vanga,Xenopirostris_xenopirostris,TRUE,TRUE,Extant,Endemic,Endemic,FALSE
+Xenus,cinereus,None,Scolopacidae,Charadriiformes,Terek Sandpiper,Xenus_cinereus,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Zapornia,olivieri,None,Rallidae,Gruiformes,Sakalava Rail,Amaurornis_olivieri,TRUE,FALSE,Extant,Endemic,Endemic,FALSE
+Zapornia,pusilla,intermedia,Rallidae,Gruiformes,Baillon's Crake,Porzana_pusilla,TRUE,TRUE,Extant,Non-endemic,Non-endemic,TRUE
+Zoonavena,grandidieri,grandidieri,Apodidae,Caprimulgiformes,Madagascar Spinetail,Zoonavena_grandidieri,TRUE,FALSE,Extant,Non-endemic,Endemic,FALSE
+Zosterops,maderaspatanus,maderaspatanus,Zosteropidae,Passeriformes,Madagascar White-eye,Zosterops_maderaspatanus,TRUE,TRUE,Extant,Non-endemic,Endemic,FALSE
