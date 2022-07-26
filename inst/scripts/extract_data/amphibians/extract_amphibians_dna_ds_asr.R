@@ -42,6 +42,16 @@ multi_island_tbl_dna <- lapply(
   species_name = "Plethodontohyla_brevipes"
 )
 
+# convert all non-endemic species to max age colonisation as the phylogeny
+# only has species level sampling and so the colonisation time of singleton
+# non-endemics cannot be precisely extracted from the tree
+multi_island_tbl_dna <- lapply(multi_island_tbl_dna, \(x) {
+  index <- which(x@island_tbl$status == "nonendemic")
+  x@island_tbl$col_max_age[index] <- TRUE
+  x
+})
+
+
 # convert to daisie data table
 daisie_datatable_dna <- lapply(
   multi_island_tbl_dna,
@@ -54,7 +64,7 @@ daisie_data_list_dna <- lapply(
   daisie_datatable_dna,
   DAISIEprep::create_daisie_data,
   island_age = 88,
-  num_mainland_species = 1000
+  num_mainland_species = 200
 )
 
 # save the main data outputs

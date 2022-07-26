@@ -17,10 +17,31 @@ complete_multi_phylods <- island_data$phylods
 # tree in the posterior contains the same species and just differs in branch
 # lengths and topology, when the stem age is found, a stem age from each tree is
 # required
-DAISIEprep::extract_stem_age(
-  genus_name = "Aepyornis",
-  phylod = complete_multi_phylods[[1]],
-  extraction_method = "asr"
+
+# add the elephant birds (Aepyornis, Mullerornis and  Vorombe) as an island age
+# max age as there is no stem age in the tree
+multi_island_tbl_complete <- lapply(
+  multi_island_tbl_complete,
+  DAISIEprep::add_island_colonist,
+  clade_name = "elephant_birds",
+  status = "endemic",
+  missing_species = 8,
+  col_time = NA_real_,
+  col_max_age = TRUE,
+  branching_times = NA_real_,
+  min_age = NA_real_,
+  species = c(
+    "Aepyornis_gracilis",
+    "Aepyornis_hildebrandti",
+    "Aepyornis_maximus",
+    "Aepyornis_medius",
+    "Mullerornis_agilis",
+    "Mullerornis_betsilei",
+    "Mullerornis_grandis",
+    "Mullerornis_rudis",
+    "Vorombe_titans"
+  ),
+  clade_type = 1
 )
 
 Alopochen_stem_age <- list()
@@ -28,95 +49,33 @@ for (i in seq_along(complete_multi_phylods)) {
   Alopochen_stem_age[[i]] <- DAISIEprep::extract_stem_age(
     genus_name = "Alopochen",
     phylod = complete_multi_phylods[[i]],
-    extraction_method = "asr"
+    stem = "genus"
   )
 }
+
+# add the Alopochen as an stem age max age given the stem age in the tree
+multi_island_tbl_complete <- mapply(
+  DAISIEprep::add_island_colonist,
+  multi_island_tbl_complete,
+  clade_name = list("Alopochen_sirabensis"),
+  status = list("endemic"),
+  missing_species = list(0),
+  col_time = Alopochen_stem_age,
+  col_max_age = list(TRUE),
+  branching_times = list(NA_real_),
+  min_age = list(NA_real_),
+  species = list("Alopochen_sirabensis"),
+  clade_type = list(1)
+)
 
 Aquila_stem_age <- list()
 for (i in seq_along(complete_multi_phylods)) {
   Aquila_stem_age[[i]] <- DAISIEprep::extract_stem_age(
     genus_name = "Aquila",
     phylod = complete_multi_phylods[[i]],
-    extraction_method = "asr"
+    stem = "genus"
   )
 }
-
-DAISIEprep::extract_stem_age(
-  genus_name = "Centrornis",
-  phylod = complete_multi_phylods[[1]],
-  extraction_method = "asr"
-)
-
-DAISIEprep::extract_stem_age(
-  genus_name = "Hovacrex",
-  phylod = complete_multi_phylods[[1]],
-  extraction_method = "asr"
-)
-
-DAISIEprep::extract_stem_age(
-  genus_name = "Mentocrex",
-  phylod = complete_multi_phylods[[1]],
-  extraction_method = "asr"
-)
-
-DAISIEprep::extract_stem_age(
-  genus_name = "Mullerornis",
-  phylod = complete_multi_phylods[[1]],
-  extraction_method = "asr"
-)
-
-Stephanoaetus_stem_age <- list()
-for (i in seq_along(complete_multi_phylods)) {
-  Stephanoaetus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
-    genus_name = "Stephanoaetus",
-    phylod = complete_multi_phylods[[i]],
-    extraction_method = "asr"
-  )
-}
-
-Vanellus_stem_age <- list()
-for (i in seq_along(complete_multi_phylods)) {
-  Vanellus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
-    genus_name = "Vanellus",
-    phylod = complete_multi_phylods[[i]],
-    extraction_method = "asr"
-  )
-}
-
-DAISIEprep::extract_stem_age(
-  genus_name = "Vorombe",
-  phylod = complete_multi_phylods[[1]],
-  extraction_method = "asr"
-)
-
-# add the Aepyornis as an island age max age as there is no stem age in the tree
-multi_island_tbl_complete <- lapply(
-  multi_island_tbl_complete,
-  DAISIEprep::add_island_colonist,
-  clade_name = "Aepyornis_gracilis",
-  status = "endemic",
-  missing_species = 3,
-  branching_times = 88,
-  min_age = NA,
-  species = c(
-    "Aepyornis_gracilis",
-    "Aepyornis_hildebrandti",
-    "Aepyornis_maximus",
-    "Aepyornis_medius"
-  )
-)
-
-# add the Alopochen as an stem age max age given the stem age in the tree
-new_multi_island_tbl_complete <- mapply(
-  DAISIEprep::add_island_colonist,
-  multi_island_tbl_complete,
-  clade_name = list("Alopochen_sirabensis"),
-  status = list("endemic"),
-  missing_species = list(0),
-  branching_times = Alopochen_stem_age,
-  min_age = list(NA),
-  species = list("Alopochen_sirabensis")
-)
 
 # add the Aquila as an stem age max age given the stem age in the tree
 multi_island_tbl_complete <- mapply(
@@ -125,21 +84,65 @@ multi_island_tbl_complete <- mapply(
   clade_name = list("Aquila_A"),
   status = list("endemic"),
   missing_species = list(1),
-  branching_times = Aquila_stem_age,
-  min_age = list(NA),
-  species = list(c("Aquila_A", "Aquila_B"))
+  col_time = Aquila_stem_age,
+  col_max_age = list(TRUE),
+  branching_times = list(NA_real_),
+  min_age = list(NA_real_),
+  species = list(c("Aquila_A", "Aquila_B")),
+  clade_type = list(1)
 )
 
-# add the Centrornis as an island age max age as there is no stem age in the tree
+DAISIEprep::extract_stem_age(
+  genus_name = "Centrornis",
+  phylod = complete_multi_phylods[[1]],
+  stem = "genus"
+)
+
+# add the Centrornis as an island age max age as there is no stem age in the
+# tree
 multi_island_tbl_complete <- lapply(
   multi_island_tbl_complete,
   DAISIEprep::add_island_colonist,
   clade_name = "Centrornis_majori",
   status = "endemic",
   missing_species = 0,
-  branching_times = 88,
-  min_age = NA,
-  species = "Centrornis	majori"
+  col_time = NA_real_,
+  col_max_age = TRUE,
+  branching_times = NA_real_,
+  min_age = NA_real_,
+  species = "Centrornis_majori",
+  clade_type = 1
+)
+
+# Cypsiurus
+Cypsiurus_stem_age <- list()
+for (i in seq_along(complete_multi_phylods)) {
+  Cypsiurus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Cypsiurus",
+    phylod = complete_multi_phylods[[i]],
+    stem = "genus"
+  )
+}
+
+# add the Cypsiurus as an stem age max age given the stem age in the tree
+multi_island_tbl_complete <- mapply(
+  DAISIEprep::add_island_colonist,
+  multi_island_tbl_complete,
+  clade_name = list("Cypsiurus_gracilis"),
+  status = list("endemic"),
+  missing_species = list(0),
+  col_time = Cypsiurus_stem_age,
+  col_max_age = list(TRUE),
+  branching_times = list(NA_real_),
+  min_age = list(NA_real_),
+  species = list("Cypsiurus_gracilis"),
+  clade_type = list(1)
+)
+
+DAISIEprep::extract_stem_age(
+  genus_name = "Hovacrex",
+  phylod = complete_multi_phylods[[1]],
+  stem = "genus"
 )
 
 # add the Hovacrex as an island age max age as there is no stem age in the tree
@@ -149,39 +152,57 @@ multi_island_tbl_complete <- lapply(
   clade_name = "Hovacrex_roberti",
   status = "endemic",
   missing_species = 0,
-  branching_times = 88,
-  min_age = NA,
-  species = "Hovacrex_roberti"
+  col_time = NA_real_,
+  col_max_age = TRUE,
+  branching_times = NA_real_,
+  min_age = NA_real_,
+  species = "Hovacrex_roberti",
+  clade_type = 1
 )
 
-# add the Mentocrex as an island age max age as there is no stem age in the tree
+# add the Mentocrex as a missing species of the clade with
+# Canirallus_kioloides in it as they come from a single colonisation
+# on Madagascar
 multi_island_tbl_complete <- lapply(
   multi_island_tbl_complete,
-  DAISIEprep::add_island_colonist,
-  clade_name = "Mentocrex_beankaensis",
-  status = "endemic",
-  missing_species = 0,
-  branching_times = 88,
-  min_age = NA,
-  species = "Mentocrex_beankaensis"
+  DAISIEprep::add_missing_species,
+  num_missing_species = 1,
+  species_name = "Canirallus_kioloides"
 )
 
-# add the Mullerornis as an island age max age as there is no stem age in the tree
-multi_island_tbl_complete <- lapply(
-  multi_island_tbl_complete,
-  DAISIEprep::add_island_colonist,
-  clade_name = "Mullerornis_agilis",
-  status = "endemic",
-  missing_species = 3,
-  branching_times = 88,
-  min_age = NA,
-  species = c(
-    "Mullerornis_agilis",
-    "Mullerornis_betsilei",
-    "Mullerornis_grandis",
-    "Mullerornis_rudis"
+Phalacrocorax_stem_age <- list()
+for (i in seq_along(complete_multi_phylods)) {
+  Phalacrocorax_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Phalacrocorax",
+    phylod = complete_multi_phylods[[i]],
+    stem = "genus"
   )
+}
+
+# add the Phalacrocorax endemic species as an stem age max age given the stem
+# age in the tree
+multi_island_tbl_complete <- mapply(
+  DAISIEprep::add_island_colonist,
+  multi_island_tbl_complete,
+  clade_name = list("Phalacrocorax_A"),
+  status = list("endemic"),
+  missing_species = list(0),
+  col_time = Phalacrocorax_stem_age,
+  col_max_age = list(TRUE),
+  branching_times = list(NA_real_),
+  min_age = list(NA_real_),
+  species = list("Phalacrocorax_A"),
+  clade_type = list(1)
 )
+
+Stephanoaetus_stem_age <- list()
+for (i in seq_along(complete_multi_phylods)) {
+  Stephanoaetus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Stephanoaetus",
+    phylod = complete_multi_phylods[[i]],
+    stem = "genus"
+  )
+}
 
 # add the Stephanoaetus as an stem age max age given the stem age in the tree
 multi_island_tbl_complete <- mapply(
@@ -190,10 +211,22 @@ multi_island_tbl_complete <- mapply(
   clade_name = list("Stephanoaetus_mahery"),
   status = list("endemic"),
   missing_species = list(0),
-  branching_times = Stephanoaetus_stem_age,
-  min_age = list(NA),
-  species = list("Stephanoaetus_mahery")
+  col_time = Stephanoaetus_stem_age,
+  col_max_age = list(TRUE),
+  branching_times = list(NA_real_),
+  min_age = list(NA_real_),
+  species = list("Stephanoaetus_mahery"),
+  clade_type = list(1)
 )
+
+Vanellus_stem_age <- list()
+for (i in seq_along(complete_multi_phylods)) {
+  Vanellus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Vanellus",
+    phylod = complete_multi_phylods[[i]],
+    stem = "genus"
+  )
+}
 
 # add the Vanellus as an stem age max age given the stem age in the tree
 multi_island_tbl_complete <- mapply(
@@ -202,22 +235,22 @@ multi_island_tbl_complete <- mapply(
   clade_name = list("Vanellus_madagascariensis"),
   status = list("endemic"),
   missing_species = list(0),
-  branching_times = Vanellus_stem_age,
-  min_age = list(NA),
-  species = list("Vanellus_madagascariensis")
+  col_time = Vanellus_stem_age,
+  col_max_age = list(TRUE),
+  branching_times = list(NA_real_),
+  min_age = list(NA_real_),
+  species = list("Vanellus_madagascariensis"),
+  clade_type = list(1)
 )
 
-# add the Vorombe as an island age max age as there is no stem age in the tree
-multi_island_tbl_complete <- lapply(
-  multi_island_tbl_complete,
-  DAISIEprep::add_island_colonist,
-  clade_name = "Vorombe_titans",
-  status = "endemic",
-  missing_species = 0,
-  branching_times = 88,
-  min_age = NA,
-  species = "Vorombe_titans"
-)
+# convert all non-endemic species to max age colonisation as the phylogeny
+# only has species level sampling and so the colonisation time of singleton
+# non-endemics cannot be precisely extracted from the tree
+multi_island_tbl_complete <- lapply(multi_island_tbl_complete, \(x) {
+  index <- which(x@island_tbl$status == "nonendemic")
+  x@island_tbl$col_max_age[index] <- TRUE
+  x
+})
 
 # convert to daisie data table
 daisie_datatable_complete <- lapply(

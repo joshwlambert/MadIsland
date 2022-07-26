@@ -76,6 +76,15 @@ multi_island_tbl_complete <- lapply(
   species_name = "Tenrec_ecaudatus"
 )
 
+# convert all non-endemic species to max age colonisation as the phylogeny
+# only has species level sampling and so the colonisation time of singleton
+# non-endemics cannot be precisely extracted from the tree
+multi_island_tbl_complete <- lapply(multi_island_tbl_complete, \(x) {
+  index <- which(x@island_tbl$status == "nonendemic")
+  x@island_tbl$col_max_age[index] <- TRUE
+  x
+})
+
 # convert to daisie data table
 daisie_datatable_complete <- lapply(
   multi_island_tbl_complete,
@@ -88,7 +97,7 @@ daisie_data_list_complete <- lapply(
   daisie_datatable_complete,
   DAISIEprep::create_daisie_data,
   island_age = 88,
-  num_mainland_species = 1000
+  num_mainland_species = 500
 )
 
 # save the main data outputs

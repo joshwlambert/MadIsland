@@ -26,8 +26,7 @@ dna_multi_phylods <- island_data$phylods
 DAISIEprep::extract_stem_age(
   genus_name = "Brygophis",
   phylod = dna_multi_phylods[[1]],
-  stem = "genus",
-  constrain_to_island = FALSE
+  stem = "genus"
 )
 
 # add the Brygophis as an island age max age as there is no stem age in the tree
@@ -49,8 +48,7 @@ multi_island_tbl_dna <- lapply(
 DAISIEprep::extract_stem_age(
   genus_name = "Pararhadinaea",
   phylod = dna_multi_phylods[[1]],
-  stem = "genus",
-  constrain_to_island = FALSE
+  stem = "genus"
 )
 
 # add the Pararhadinaea as an island age max age as there is no stem age in the
@@ -79,6 +77,15 @@ multi_island_tbl_dna <- lapply(
   species_name = "Voeltzkowia_petiti"
 )
 
+# convert all non-endemic species to max age colonisation as the phylogeny
+# only has species level sampling and so the colonisation time of singleton
+# non-endemics cannot be precisely extracted from the tree
+multi_island_tbl_dna <- lapply(multi_island_tbl_dna, \(x) {
+  index <- which(x@island_tbl$status == "nonendemic")
+  x@island_tbl$col_max_age[index] <- TRUE
+  x
+})
+
 # convert to daisie data table
 daisie_datatable_dna <- lapply(
   multi_island_tbl_dna,
@@ -91,7 +98,7 @@ daisie_data_list_dna <- lapply(
   daisie_datatable_dna,
   DAISIEprep::create_daisie_data,
   island_age = 88,
-  num_mainland_species = 1000
+  num_mainland_species = 600
 )
 
 # save the main data outputs

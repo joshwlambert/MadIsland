@@ -55,8 +55,7 @@ for (i in seq_along(dna_multi_phylods)) {
   Hippopotamus_stem_age[[i]] <- DAISIEprep::extract_stem_age(
     genus_name = "Hippopotamus",
     phylod = dna_multi_phylods[[i]],
-    stem = "genus",
-    constrain_to_island = FALSE
+    stem = "genus"
   )
 }
 
@@ -106,6 +105,15 @@ multi_island_tbl_dna <- lapply(
   species_name = "Tenrec_ecaudatus"
 )
 
+# convert all non-endemic species to max age colonisation as the phylogeny
+# only has species level sampling and so the colonisation time of singleton
+# non-endemics cannot be precisely extracted from the tree
+multi_island_tbl_dna <- lapply(multi_island_tbl_dna, \(x) {
+  index <- which(x@island_tbl$status == "nonendemic")
+  x@island_tbl$col_max_age[index] <- TRUE
+  x
+})
+
 # convert to daisie data table
 daisie_datatable_dna <- lapply(
   multi_island_tbl_dna,
@@ -118,7 +126,7 @@ daisie_data_list_dna <- lapply(
   daisie_datatable_dna,
   DAISIEprep::create_daisie_data,
   island_age = 88,
-  num_mainland_species = 1000
+  num_mainland_species = 500
 )
 
 # save the main data outputs
