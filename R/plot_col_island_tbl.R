@@ -110,7 +110,8 @@ plot_col_island_tbl <- function(multi_island_tbl_list,
         Amphibians = "Amphibians",
         Nonvolant_Mammals = "NV Mammals",
         Volant_Mammals = "V Mammals",
-        Squamates = "Squamates"
+        Squamates = "Squamates",
+        Birds = "Birds"
       ))
     ) +
     ggplot2::scale_y_discrete(

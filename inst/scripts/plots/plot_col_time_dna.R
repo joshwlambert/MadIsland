@@ -34,11 +34,21 @@ squamates <- readRDS(file = system.file(
   mustWork = TRUE
 ))
 
+birds <- readRDS(file = system.file(
+  "extdata",
+  "extracted_data",
+  "bird_data",
+  "bird_island_tbl_dna_ds_asr.rds",
+  package = "MadIsland",
+  mustWork = TRUE
+))
+
 multi_island_tbl_list <- list(
   Amphibians = amphibians,
   Nonvolant_Mammals = nonvolant_mammals,
   Volant_Mammals = volant_mammals,
-  Squamates = squamates
+  Squamates = squamates,
+  Birds = birds
 )
 
 
