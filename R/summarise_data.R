@@ -52,6 +52,22 @@ summarise_data <- function(data) {
   mean_min_clade_size <- mean(min_clade_size)
   sd_min_clade_size <- stats::sd(min_clade_size)
 
+  # calculate the mean and sd for the number of clades that have at least 2
+  # species across each posterior
+  num_two_species_radiation <- unlist(lapply(clade_size, \(x) {
+    length(which(x >= 2))
+  }))
+  mean_num_two_species_radiation <- mean(num_two_species_radiation)
+  sd_num_two_species_radiation <- stats::sd(num_two_species_radiation)
+
+  # calculate the mean and sd for the number of clades that have at least 5
+  # species across each posterior
+  num_five_species_radiation <- unlist(lapply(clade_size, \(x) {
+    length(which(x >= 5))
+  }))
+  mean_num_five_species_radiation <- mean(num_five_species_radiation)
+  sd_num_five_species_radiation <- stats::sd(num_five_species_radiation)
+
   # calculate the mean and sd for the percentage endemism across each posterior
   status <- lapply(data, \(x) {x@island_tbl$status})
   status_per_species <- mapply(rep, status, clade_size)
@@ -73,6 +89,10 @@ summarise_data <- function(data) {
     sd_max_clade_size = sd_max_clade_size,
     mean_min_clade_size = mean_min_clade_size,
     sd_min_clade_size = sd_min_clade_size,
+    mean_num_two_species_radiation = mean_num_two_species_radiation,
+    sd_num_two_species_radiation = sd_num_two_species_radiation,
+    mean_num_five_species_radiation = mean_num_five_species_radiation,
+    sd_num_five_species_radiation = sd_num_five_species_radiation,
     mean_percent_endemic = mean_percent_endemic,
     sd_percent_endemic = sd_percent_endemic
   )
