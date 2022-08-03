@@ -22,49 +22,24 @@ dna_multi_phylods <- island_data$phylods
 # searched for as the species can be added as a missing species of its close
 # relative on the island
 
-# extract stem age for Brygophis
-DAISIEprep::extract_stem_age(
-  genus_name = "Brygophis",
-  phylod = dna_multi_phylods[[1]],
-  stem = "genus"
-)
-
-# add the Brygophis as an island age max age as there is no stem age in the tree
+# add the Brygophis as a missing species of the clade with
+# Thamnosophis_infrasignatus in it as it is a member of the Pseudoxyrhophiidae
+# radiation on Madagascar
 multi_island_tbl_dna <- lapply(
   multi_island_tbl_dna,
-  DAISIEprep::add_island_colonist,
-  clade_name = "Brygophis_coulangesi",
-  status = "endemic",
-  missing_species = 0,
-  col_time = 88,
-  col_max_age = TRUE,
-  branching_times = NA_real_,
-  min_age = NA,
-  species = c("Brygophis_coulangesi"),
-  clade_type = 1
+  DAISIEprep::add_missing_species,
+  num_missing_species = 1,
+  species_name = "Thamnosophis_infrasignatus"
 )
 
-# extract stem age for Pararhadinaea
-DAISIEprep::extract_stem_age(
-  genus_name = "Pararhadinaea",
-  phylod = dna_multi_phylods[[1]],
-  stem = "genus"
-)
-
-# add the Pararhadinaea as an island age max age as there is no stem age in the
-# tree
+# add the Pararhadinaea as a missing species of the clade with
+# Thamnosophis_infrasignatus in it as it is a member of the Pseudoxyrhophiidae
+# radiation on Madagascar
 multi_island_tbl_dna <- lapply(
   multi_island_tbl_dna,
-  DAISIEprep::add_island_colonist,
-  clade_name = "Pararhadinaea_melanogaster",
-  status = "endemic",
-  missing_species = 0,
-  col_time = 88,
-  col_max_age = TRUE,
-  branching_times = NA_real_,
-  min_age = NA_real_,
-  species = c("Pararhadinaea_melanogaster"),
-  clade_type = 1
+  DAISIEprep::add_missing_species,
+  num_missing_species = 1,
+  species_name = "Thamnosophis_infrasignatus"
 )
 
 # add the Sirenoscincus as a missing species of the clade with
@@ -75,6 +50,24 @@ multi_island_tbl_dna <- lapply(
   DAISIEprep::add_missing_species,
   num_missing_species = 2,
   species_name = "Voeltzkowia_petiti"
+)
+
+# Lemuriatyphlops is added as a separate colonist from Madatyphlops but they are
+# synonyms and are of the same genus, therefore we remove Lemuriatyphlops
+# as a separate colonist and add the two species as missing species to
+# Madatyphlops (Madatyphlops_rajeryi)
+multi_island_tbl_dna <- lapply(
+  multi_island_tbl_dna,
+  DAISIEprep::rm_island_colonist,
+  clade_name = "Lemuriatyphlops"
+)
+
+# add Lemuriatyphlops species to Madatyphlops
+multi_island_tbl_dna <- lapply(
+  multi_island_tbl_dna,
+  DAISIEprep::add_missing_species,
+  num_missing_species = 2,
+  species_name = "Madatyphlops_rajeryi"
 )
 
 # convert all non-endemic species to max age colonisation as the phylogeny

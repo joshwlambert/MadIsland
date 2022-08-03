@@ -22,6 +22,31 @@ complete_multi_phylods <- island_data$phylods
 # searched for as the species can be added as a missing species of its close
 # relative on the island
 
+# add Chaerephon species as separate colonisation
+Chaerephon_stem_age <- list()
+for (i in seq_along(complete_multi_phylods)) {
+  Chaerephon_stem_age[[i]] <- DAISIEprep::extract_stem_age(
+    genus_name = "Chaerephon",
+    phylod = complete_multi_phylods[[i]],
+    stem = "genus"
+  )
+}
+
+# add the Chaerephon as an stem age max age given the stem age in the tree
+multi_island_tbl_complete <- mapply(
+  DAISIEprep::add_island_colonist,
+  multi_island_tbl_complete,
+  clade_name = list("Chaerephon_leucogaster"),
+  status = list("nonendemic"),
+  missing_species = list(0),
+  col_time = Chaerephon_stem_age,
+  col_max_age = list(TRUE),
+  branching_times = list(NA_real_),
+  min_age = list(NA_real_),
+  species = list("Chaerephon_leucogaster"),
+  clade_type = list(1)
+)
+
 # add the Macronycteris as a missing species of the clade with
 # Hipposideros_commersoni in it as it is a bat species
 multi_island_tbl_complete <- lapply(

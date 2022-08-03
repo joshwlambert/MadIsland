@@ -413,7 +413,7 @@ multi_island_tbl_dna <- mapply(
 multi_island_tbl_dna <- lapply(
   multi_island_tbl_dna,
   DAISIEprep::add_missing_species,
-  num_missing_species = 15,
+  num_missing_species = 13,
   species_name = "Vanga_curvirostris"
 )
 

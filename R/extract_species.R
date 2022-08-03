@@ -108,10 +108,12 @@ extract_species <- function(checklist_file_name,
   )
 
   # remove missing species that have already been inserted into the island tbl
-  no_island_tbl_missing_species <- lapply(
-    missing_genus,
+  no_island_tbl_missing_species <- mapply(
     DAISIEprep::rm_multi_missing_species,
-    missing_species = missing_species
+    missing_genus,
+    multi_island_tbl,
+    missing_species = list(missing_species),
+    SIMPLIFY = FALSE
   )
 
   # check that all the missing species that have not already been assigned are
