@@ -720,12 +720,12 @@ multi_island_tbl_dna <- lapply(
 # add the Monias as a missing species of the clade with
 # Monias_benschi as they are an endemic radiation of Monias and Mesitornis
 # from a single colonist
-multi_island_tbl_dna <- lapply(
-  multi_island_tbl_dna,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 1,
-  species_name = "Monias_benschi"
-)
+# multi_island_tbl_dna <- lapply(
+#   multi_island_tbl_dna,
+#   DAISIEprep::add_missing_species,
+#   num_missing_species = 1,
+#   species_name = "Monias_benschi"
+# )
 
 # stem age comes from Eremopterix as this missing species (Mirafra_hova) has
 # been reclassified as Eremopterix
