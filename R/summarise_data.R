@@ -20,12 +20,12 @@ summarise_data <- function(data) {
 
   # calculate mean and sd maximum (oldest) colonisation time across each posterior
   col_times <- lapply(data, \(x) {x@island_tbl$col_time})
-  max_col_time <- unlist(lapply(col_times, max))
+  max_col_time <- unlist(lapply(col_times, max, na.rm = TRUE))
   mean_max_col_time <- mean(max_col_time)
   sd_max_col_time <- stats::sd(max_col_time)
 
   # calculate mean and sd minimum (youngest) colonisation time across each posterior
-  min_col_time <- unlist(lapply(col_times, min))
+  min_col_time <- unlist(lapply(col_times, min, na.rm = TRUE))
   mean_min_col_time <- mean(min_col_time)
   sd_min_col_time <- stats::sd(min_col_time)
 
