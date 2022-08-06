@@ -14,7 +14,7 @@ summarise_daisie_rates <- function(data) {
   params_tbl <- dplyr::group_by(params_tbl, params)
   summary_stats <- dplyr::summarise(
     params_tbl,
-    mean = mean(value, na.rm = TRUE),
+    median = median(value, na.rm = TRUE),
     sd = sd(value, na.rm = TRUE)
   )
 
