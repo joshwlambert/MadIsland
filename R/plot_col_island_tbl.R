@@ -129,7 +129,7 @@ plot_col_island_tbl <- function(multi_island_tbl_list,
       axis.line.y = ggplot2::element_blank(),
       strip.background = ggplot2::element_blank(),
       strip.placement = "outside",
-      strip.text = ggplot2::element_text(size = 8)
+      strip.text = ggplot2::element_text(size = 7)
     )
 
   # return col_times_plot

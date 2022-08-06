@@ -50,6 +50,10 @@ k_tbl <- tidyr::pivot_longer(
 
 k_tbl$taxonomic_group <- factor(k_tbl$taxonomic_group)
 
+# set any values greater than 10,000 to infinite for plotting purposes as these
+# values can be considered diversity-independent in reality
+k_tbl$k[which(k_tbl$k > 10000)] <- Inf
+
 k_plot <- ggplot2::ggplot(data = k_tbl) +
   ggplot2::geom_density(
     mapping = ggplot2::aes(
