@@ -283,7 +283,7 @@ stt_plot <- ggplot2::ggplot(data = plot_tbl) +
     name = "Time (Million years ago)",
     trans = "reverse"
   ) +
-  ggplot2::scale_fill_brewer(
+  ggplot2::scale_fill_manual(
     name = "Taxonomic group",
     labels = c(
       amphibian = "Amphibians",
@@ -292,7 +292,8 @@ stt_plot <- ggplot2::ggplot(data = plot_tbl) +
       squamate = "Squamates",
       bird = "Birds"
     ),
-    palette = "Set2") +
+    values = c("#7fbd2d", "#073dfd", "#a8856e", "#01783f", "#3d3d3d")
+  ) +
   ggplot2::theme_classic() +
   ggplot2::theme(
     strip.background = ggplot2::element_blank(),
@@ -305,7 +306,7 @@ ggplot2::ggsave(
   filename = file.path(
     "inst",
     "plots",
-    "stt.png"
+    "stt_complete.png"
   ),
   device = "png",
   width = 150,
