@@ -66,7 +66,7 @@ k_plot <- ggplot2::ggplot(data = k_tbl) +
   ggplot2::scale_y_continuous(name = "Density") +
   ggplot2::scale_fill_manual(
     labels = c("Amphibian", "Squamate"),
-    values = c("#1B9E77", "#7570B3"),
+    values = c("#7fbd2d", "#01783f"),
     guide = ggplot2::guide_legend("Taxonomic Group")
   ) +
   ggplot2::guides("Taxonomic Group") +
