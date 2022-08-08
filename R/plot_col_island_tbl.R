@@ -92,6 +92,13 @@ plot_col_island_tbl <- function(multi_island_tbl_list,
     xlab <- "Crown age (Million years ago)"
   }
 
+  land_bridge <- data.frame(
+    start_time = c(66, 36, 12),
+    end_time = c(60, 30, 5),
+    y_min = rep(0, 3),
+    y_max = rep(max(col_tbl$posterior_index), 3)
+  )
+
   # plot colonisation times
   col_times_plot <- ggplot2::ggplot(data = col_tbl) +
     ggplot2::geom_point(
@@ -114,6 +121,21 @@ plot_col_island_tbl <- function(multi_island_tbl_list,
         Birds = "Birds"
       ))
     ) +
+    ggplot2::geom_vline(
+      xintercept = 88,
+      linetype = "dashed"
+    ) +
+    geom_rect(
+      data = land_bridge,
+      mapping = ggplot2::aes(
+        xmin = start_time,
+        xmax = end_time,
+        ymin = y_min,
+        ymax = y_max
+      ),
+      fill = "darkslategrey",
+      alpha = 0.3
+    ) +
     ggplot2::scale_y_discrete(
       name = "Taxonomic group"
     ) +
@@ -122,7 +144,9 @@ plot_col_island_tbl <- function(multi_island_tbl_list,
       trans = "reverse",
       breaks = scales::breaks_extended(n = 8)
     ) +
-    ggplot2::scale_color_brewer(palette = "Dark2") +
+    ggplot2::scale_colour_manual(
+      values = c("#7fbd2d", "#073dfd", "#a8856e", "#01783f", "#3d3d3d")
+    ) +
     ggplot2::theme_classic() +
     ggplot2::theme(
       legend.position = "none",
