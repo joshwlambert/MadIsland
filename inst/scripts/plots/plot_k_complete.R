@@ -62,7 +62,10 @@ k_plot <- ggplot2::ggplot(data = k_tbl) +
     ),
     alpha = 0.5
   ) +
-  ggplot2::scale_x_continuous(name = "Carrying Capacity (K')") +
+  ggplot2::scale_x_continuous(
+    name = "Carrying Capacity (K')",
+    limits = c(0, max(k_tbl$k[which(is.finite(k_tbl$k))]))
+  ) +
   ggplot2::scale_y_continuous(name = "Density") +
   ggplot2::scale_fill_manual(
     labels = c("Amphibian", "Squamate"),
