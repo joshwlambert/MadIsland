@@ -66,7 +66,7 @@ multi_island_tbl_dna <- lapply(
 multi_island_tbl_dna <- lapply(
   multi_island_tbl_dna,
   DAISIEprep::add_missing_species,
-  num_missing_species = 2,
+  num_missing_species = 3,
   species_name = "Madatyphlops_rajeryi"
 )
 
