@@ -49,6 +49,33 @@ multi_island_tbl_dna <- lapply(
   species_name = "Megaladapis_edwardsi"
 )
 
+# add the Mesopropithecus as a missing species of the clade with
+# Megaladapis_edwardsi in it as it is a extinct lemur species
+multi_island_tbl_dna <- lapply(
+  multi_island_tbl_dna,
+  DAISIEprep::add_missing_species,
+  num_missing_species = 3,
+  species_name = "Megaladapis_edwardsi"
+)
+
+# add the Pachylemur as a missing species of the clade with
+# Megaladapis_edwardsi in it as it is a extinct lemur species
+multi_island_tbl_dna <- lapply(
+  multi_island_tbl_dna,
+  DAISIEprep::add_missing_species,
+  num_missing_species = 2,
+  species_name = "Megaladapis_edwardsi"
+)
+
+# add the Plesiorycteropus as a missing_species of the clade with
+# Tenrec_ecaudatus in it as it is a tenrec species
+multi_island_tbl_dna <- lapply(
+  multi_island_tbl_dna,
+  DAISIEprep::add_missing_species,
+  num_missing_species = 2,
+  species_name = "Tenrec_ecaudatus"
+)
+
 # extract stem age for Hippopotamus
 Hippopotamus_stem_age <- list()
 for (i in seq_along(dna_multi_phylods)) {
@@ -76,33 +103,6 @@ multi_island_tbl_dna <- mapply(
     "Hippopotamus_madagascariensis"
   )),
   clade_type = list(1)
-)
-
-# add the Mesopropithecus as a missing species of the clade with
-# Megaladapis_edwardsi in it as it is a extinct lemur species
-multi_island_tbl_dna <- lapply(
-  multi_island_tbl_dna,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 3,
-  species_name = "Megaladapis_edwardsi"
-)
-
-# add the Pachylemur as a missing species of the clade with
-# Megaladapis_edwardsi in it as it is a extinct lemur species
-multi_island_tbl_dna <- lapply(
-  multi_island_tbl_dna,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 2,
-  species_name = "Megaladapis_edwardsi"
-)
-
-# add the Plesiorycteropus as a missing_species of the clade with
-# Tenrec_ecaudatus in it as it is a tenrec species
-multi_island_tbl_dna <- lapply(
-  multi_island_tbl_dna,
-  DAISIEprep::add_missing_species,
-  num_missing_species = 2,
-  species_name = "Tenrec_ecaudatus"
 )
 
 # convert all non-endemic species to max age colonisation as the phylogeny
