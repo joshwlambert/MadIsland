@@ -1,7 +1,7 @@
 test_that("read_checklist works", {
-  checklist <- read_checklist(file_name = "mammal_checklist.csv")
+  checklist <- read_checklist(file_name = "nonvolant_mammal_checklist.csv")
   expect_true(is.data.frame(checklist))
-  expect_equal(nrow(checklist), 249)
+  expect_equal(nrow(checklist), 203)
   expect_equal(ncol(checklist), 13)
   expect_equal(
     colnames(checklist),
