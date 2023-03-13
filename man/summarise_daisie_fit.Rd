@@ -5,7 +5,7 @@
 \title{Takes the collated output from the DAISIE model and calculates the mean and
 standard deviation of the log likelihood and Bayesian information criterion}
 \usage{
-summarise_daisie_fit(data)
+summarise_daisie_fit(oceanic_data, nonoceanic_data)
 }
 \arguments{
 \item{data}{Collated daisie output}
