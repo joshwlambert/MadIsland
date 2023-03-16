@@ -21,7 +21,8 @@ read_checklist <- function(file_name){
   tbl <- utils::read.csv(
     file = system.file(
       file_path,
-      package = "MadIsland"
+      package = "MadIsland",
+      mustWork = TRUE
     ),
     header = TRUE,
   )
