@@ -34,8 +34,8 @@ amphibians <- readRDS(file = system.file(
 mammals <- readRDS(file = system.file(
   "extdata",
   "extracted_data",
-  "mammal_data",
-  "mammal_island_tbl_complete_ds_asr.rds",
+  "volant_mammal_data",
+  "volant_mammal_island_tbl_complete_ds_asr.rds",
   package = "MadIsland",
   mustWork = TRUE
 ))

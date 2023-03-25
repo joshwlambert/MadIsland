@@ -8,8 +8,12 @@
 #' @export
 #'
 #' @examples
-#' mammal_checklist <- read_checklist(file_name = "mammal_checklist.csv")
-#' count_missing_species(checklist = mammal_checklist)
+#' mammal_checklist <- read_checklist(file_name = "volant_mammal_checklist.csv")
+#' count_missing_species(
+#'   checklist = mammal_checklist,
+#'   dna_or_complete = "complete",
+#'   daisie_status = TRUE
+#' )
 count_missing_species <- function(checklist,
                                   dna_or_complete,
                                   daisie_status) {

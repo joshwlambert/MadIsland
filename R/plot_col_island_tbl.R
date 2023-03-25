@@ -21,8 +21,8 @@
 #' mammals <- readRDS(file = system.file(
 #'   "extdata",
 #'   "extracted_data",
-#'   "mammal_data",
-#'   "mammal_island_tbl_complete_ds_asr.rds",
+#'   "volant_mammal_data",
+#'   "volant_mammal_island_tbl_complete_ds_asr.rds",
 #'   package = "MadIsland",
 #'   mustWork = TRUE
 #' ))
@@ -125,7 +125,7 @@ plot_col_island_tbl <- function(multi_island_tbl_list,
       xintercept = 88,
       linetype = "dashed"
     ) +
-    geom_rect(
+    ggplot2::geom_rect(
       data = land_bridge,
       mapping = ggplot2::aes(
         xmin = start_time,

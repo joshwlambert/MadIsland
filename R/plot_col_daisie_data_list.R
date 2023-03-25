@@ -10,11 +10,11 @@
 #'
 #' @examples
 #' data("amphibian_daisie_data_list_complete_ds_asr")
-#' data("mammal_daisie_data_list_complete_ds_asr")
+#' data("volant_mammal_daisie_data_list_complete_ds_asr")
 #' data("squamate_daisie_data_list_complete_ds_asr")
 #' daisie_data_list <- list(
 #'   Amphibians = amphibian_daisie_data_list_complete_ds_asr,
-#'   Mammals = mammal_daisie_data_list_complete_ds_asr,
+#'   Mammals = volant_mammal_daisie_data_list_complete_ds_asr,
 #'   Squamates = squamate_daisie_data_list_complete_ds_asr
 #' )
 #' plot_col_daisie_data_list(listed_daisie_data_list = daisie_data_list)

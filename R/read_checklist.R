@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples
-#' read_checklist(file_name = "mammal_checklist.csv")
+#' read_checklist(file_name = "volant_mammal_checklist.csv")
 read_checklist <- function(file_name){
 
   # check that a single csv file name is input
