@@ -71,14 +71,21 @@ summarise_data <- function(data) {
   # calculate the mean and sd for the percentage endemism across each posterior
   status <- lapply(data, \(x) {x@island_tbl$status})
   status_per_species <- mapply(rep, status, clade_size)
-  percent_endemic <- apply(
-    X = status_per_species,
-    MARGIN = 2,
-    FUN = \(x) {
+  if (inherits(status_per_species, "matrix")) {
+    percent_endemic <- apply(
+      X = status_per_species,
+      MARGIN = 2,
+      FUN = \(x) {
+        sum(x == "endemic") / (sum(x != "endemic") + sum(x == "endemic")) * 100
+      },
+      simplify = TRUE
+    )
+  } else if (inherits(status_per_species, "list")) {
+    percent_endemic <- unlist(lapply(status_per_species, \(x) {
       sum(x == "endemic") / (sum(x != "endemic") + sum(x == "endemic")) * 100
-    },
-    simplify = TRUE
-  )
+    }))
+  }
+
   mean_percent_endemic <- mean(percent_endemic)
   sd_percent_endemic <- stats::sd(percent_endemic)
 
