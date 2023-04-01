@@ -1,4 +1,4 @@
-plot_daisie_rates <- function(results_file) {
+plot_daisie_rates <- function(results_file, plot_col) {
 
   # get the files names
   params_tbl <- readRDS(
@@ -21,8 +21,8 @@ plot_daisie_rates <- function(results_file) {
   rates_plot <- ggplot2::ggplot(data = rates_tbl) +
     ggplot2::geom_density(
       mapping = ggplot2::aes(value),
-      fill = "red",
-      alpha = 0.2) +
+      fill = plot_col,
+      alpha = 0.75) +
     ggplot2::facet_wrap(
       ggplot2::vars(params),
       scales = "free",
