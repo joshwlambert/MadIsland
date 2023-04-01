@@ -43,6 +43,11 @@ summarise_data <- function(data) {
       if(is.na(y[1])) 1 else length(y) + 1
     }))
   })
+  missing_species <- lapply(data, \(x) {
+    x@island_tbl$missing_species
+  })
+  clade_size <- mapply(FUN = `+`, clade_size, missing_species, SIMPLIFY = FALSE)
+
   max_clade_size <- unlist(lapply(clade_size, max))
   mean_max_clade_size <- mean(max_clade_size)
   sd_max_clade_size <- stats::sd(max_clade_size)
