@@ -90,7 +90,7 @@ volant_mammals_dna <- plot_daisie_rates(
   plot_col = "#3d3d3d"
 )
 
-complete <- cowplot::plot_grid(
+complete_daisie_rates <- cowplot::plot_grid(
   amphibians_complete,
   birds_complete,
   nonvolant_mammals_complete,
@@ -98,10 +98,38 @@ complete <- cowplot::plot_grid(
   volant_mammals_complete
 )
 
-dna <- cowplot::plot_grid(
+ggplot2::ggsave(
+  plot = complete_daisie_rates,
+  filename = file.path(
+    "inst",
+    "plots",
+    "daisie_rates_complete.png"
+  ),
+  device = "png",
+  width = 150,
+  height = 100,
+  units = "mm",
+  dpi = 600
+)
+
+dna_daisie_rates <- cowplot::plot_grid(
   amphibians_dna,
   birds_complete,
   nonvolant_mammals_dna,
   squamates_dna,
   volant_mammals_dna
+)
+
+ggplot2::ggsave(
+  plot = dna_daisie_rates,
+  filename = file.path(
+    "inst",
+    "plots",
+    "daisie_rates_dna.png"
+  ),
+  device = "png",
+  width = 150,
+  height = 100,
+  units = "mm",
+  dpi = 600
 )

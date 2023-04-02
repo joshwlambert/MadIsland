@@ -33,14 +33,15 @@ plot_daisie_rates <- function(results_file, plot_col) {
         mu = "Extinction",
         gamma =  "Colonisation"))
     ) +
-    ggplot2::scale_x_continuous(name = "Rates") +
+    ggplot2::scale_x_continuous(name = "") +
     ggplot2::theme_classic() +
     ggplot2::theme(
       axis.title.y = ggplot2::element_blank(),
       axis.text.y = ggplot2::element_blank(),
       axis.ticks.y = ggplot2::element_blank(),
       strip.background = ggplot2::element_blank(),
-      strip.placement = "outside"
+      strip.placement = "outside",
+      text = ggplot2::element_text(size = 7)
     )
 
   # return rates_plot
