@@ -1154,10 +1154,9 @@
     "renv": {
       "Package": "renv",
       "Version": "1.0.3",
-      "OS_type": NA,
+      "OS_type": null,
       "Repository": "CRAN",
-      "Source": "Repository",
-      "Requirements": []
+      "Source": "Repository"
     },
     "reshape2": {
       "Package": "reshape2",
