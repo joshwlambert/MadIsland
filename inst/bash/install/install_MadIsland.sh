@@ -9,4 +9,6 @@
 
 mkdir -p logs
 ml R
+Rscript -e "install.packages('renv')"
+Rscript -e "renv::restore()"
 Rscript -e "devtools::install()"
