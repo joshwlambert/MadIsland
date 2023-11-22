@@ -53,7 +53,7 @@ multi_island_tbl_dna <- lapply(
   multi_island_tbl_dna,
   DAISIEprep::add_missing_species,
   num_missing_species = 2,
-  species_name = "Hipposideros_commersoni"
+  species_to_add_to = "Hipposideros_commersoni"
 )
 
 # extract stem age for Pipistrellus

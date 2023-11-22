@@ -29,7 +29,7 @@ multi_island_tbl_dna <- lapply(
   multi_island_tbl_dna,
   DAISIEprep::add_missing_species,
   num_missing_species = 1,
-  species_name = "Thamnosophis_infrasignatus"
+  species_to_add_to = "Thamnosophis_infrasignatus"
 )
 
 # add the Pararhadinaea as a missing species of the clade with
@@ -39,7 +39,7 @@ multi_island_tbl_dna <- lapply(
   multi_island_tbl_dna,
   DAISIEprep::add_missing_species,
   num_missing_species = 1,
-  species_name = "Thamnosophis_infrasignatus"
+  species_to_add_to = "Thamnosophis_infrasignatus"
 )
 
 # add the Sirenoscincus as a missing species of the clade with
@@ -49,7 +49,7 @@ multi_island_tbl_dna <- lapply(
   multi_island_tbl_dna,
   DAISIEprep::add_missing_species,
   num_missing_species = 2,
-  species_name = "Voeltzkowia_petiti"
+  species_to_add_to = "Voeltzkowia_petiti"
 )
 
 # Lemuriatyphlops is added as a separate colonist from Madatyphlops but they are
@@ -67,7 +67,7 @@ multi_island_tbl_dna <- lapply(
   multi_island_tbl_dna,
   DAISIEprep::add_missing_species,
   num_missing_species = 3,
-  species_name = "Madatyphlops_rajeryi"
+  species_to_add_to = "Madatyphlops_rajeryi"
 )
 
 # convert all non-endemic species to max age colonisation as the phylogeny

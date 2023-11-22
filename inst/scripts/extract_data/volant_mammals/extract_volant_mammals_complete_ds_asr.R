@@ -53,7 +53,7 @@ multi_island_tbl_complete <- lapply(
   multi_island_tbl_complete,
   DAISIEprep::add_missing_species,
   num_missing_species = 2,
-  species_name = "Hipposideros_commersoni"
+  species_to_add_to = "Hipposideros_commersoni"
 )
 
 # convert all non-endemic species to max age colonisation as the phylogeny

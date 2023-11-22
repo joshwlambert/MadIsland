@@ -29,7 +29,7 @@ multi_island_tbl_complete <- lapply(
   multi_island_tbl_complete,
   DAISIEprep::add_missing_species,
   num_missing_species = 3,
-  species_name = "Plethodontohyla_brevipes"
+  species_to_add_to = "Plethodontohyla_brevipes"
 )
 
 # convert all non-endemic species to max age colonisation as the phylogeny

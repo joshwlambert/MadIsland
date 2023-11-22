@@ -379,7 +379,7 @@ multi_island_tbl_dna <- lapply(
   multi_island_tbl_dna,
   DAISIEprep::add_missing_species,
   num_missing_species = 1,
-  species_name = "Dromaeocercus_brunneus"
+  species_to_add_to = "Dromaeocercus_brunneus"
 )
 
 Buteo_stem_age <- list()
@@ -414,7 +414,7 @@ multi_island_tbl_dna <- lapply(
   multi_island_tbl_dna,
   DAISIEprep::add_missing_species,
   num_missing_species = 13,
-  species_name = "Vanga_curvirostris"
+  species_to_add_to = "Vanga_curvirostris"
 )
 
 # Canirallus and Mentocrex are the same colonist of the same genus, but
@@ -975,7 +975,7 @@ multi_island_tbl_dna <- lapply(
   multi_island_tbl_dna,
   DAISIEprep::add_missing_species,
   num_missing_species = 1,
-  species_name = "Oxylabes_madagascariensis"
+  species_to_add_to = "Oxylabes_madagascariensis"
 )
 
 Sarothrura_stem_age <- list()

@@ -29,7 +29,7 @@ multi_island_tbl_dna <- lapply(
   multi_island_tbl_dna,
   DAISIEprep::add_missing_species,
   num_missing_species = 1,
-  species_name = "Plethodontohyla_brevipes"
+  species_to_add_to = "Plethodontohyla_brevipes"
 )
 
 # add the Mini as a missing species of the clade with
@@ -39,7 +39,7 @@ multi_island_tbl_dna <- lapply(
   multi_island_tbl_dna,
   DAISIEprep::add_missing_species,
   num_missing_species = 3,
-  species_name = "Plethodontohyla_brevipes"
+  species_to_add_to = "Plethodontohyla_brevipes"
 )
 
 # convert all non-endemic species to max age colonisation as the phylogeny
