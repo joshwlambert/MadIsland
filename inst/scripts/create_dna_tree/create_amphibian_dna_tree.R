@@ -1,9 +1,9 @@
 library(MadIsland)
 
 # load the complete trees
-amphibian_posterior_complete <- ape::read.nexus(
+amphibian_posterior_complete <- readRDS(
   file = system.file(
-    "extdata", "phylos", "Jetz_Pyron_complete_posterior_100.nex",
+    "extdata", "phylos", "Jetz_Pyron_complete_posterior_100.rds",
     package = "MadIsland"
   )
 )
@@ -46,12 +46,12 @@ Jetz_Pyron_dna_posterior_100 <- lapply(
 class(Jetz_Pyron_dna_posterior_100) <- "multiPhylo"
 
 # save DNA-only trees
-ape::write.nexus(
+saveRDS(
   Jetz_Pyron_dna_posterior_100,
   file = file.path(
     "inst",
     "extdata",
     "phylos",
-    "Jetz_Pyron_dna_posterior_100.nex"
+    "Jetz_Pyron_dna_posterior_100.rds"
   )
 )

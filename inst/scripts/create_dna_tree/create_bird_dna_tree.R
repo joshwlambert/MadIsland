@@ -1,9 +1,9 @@
 library(MadIsland)
 
 # load the complete trees
-bird_posterior_complete <- ape::read.nexus(
+bird_posterior_complete <- readRDS(
   file = system.file(
-    "extdata", "phylos", "Jetz_complete_posterior_100.nex",
+    "extdata", "phylos", "Jetz_complete_posterior_100.rds",
     package = "MadIsland"
   )
 )
@@ -42,12 +42,12 @@ Jetz_dna_posterior_100 <- lapply(
 class(Jetz_dna_posterior_100) <- "multiPhylo"
 
 # save DNA-only trees
-ape::write.nexus(
+saveRDS(
   Jetz_dna_posterior_100,
   file = file.path(
     "inst",
     "extdata",
     "phylos",
-    "Jetz_dna_posterior_100.nex"
+    "Jetz_dna_posterior_100.rds"
   )
 )

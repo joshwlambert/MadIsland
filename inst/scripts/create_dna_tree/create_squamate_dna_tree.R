@@ -1,9 +1,9 @@
 library(MadIsland)
 
 # load the complete trees
-squamate_posterior_complete <- ape::read.nexus(
+squamate_posterior_complete <- readRDS(
   file = system.file(
-    "extdata", "phylos", "Tonini_complete_posterior_100.nex",
+    "extdata", "phylos", "Tonini_complete_posterior_100.rds",
     package = "MadIsland"
   )
 )
@@ -47,12 +47,12 @@ Tonini_dna_posterior_100 <- lapply(
 class(Tonini_dna_posterior_100) <- "multiPhylo"
 
 # save DNA-only trees
-ape::write.nexus(
+saveRDS(
   Tonini_dna_posterior_100,
   file = file.path(
     "inst",
     "extdata",
     "phylos",
-    "Tonini_dna_posterior_100.nex"
+    "Tonini_dna_posterior_100.rds"
   )
 )

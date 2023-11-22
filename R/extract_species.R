@@ -49,7 +49,7 @@ extract_species <- function(checklist_file_name,
   )
 
   # load the trees
-  phylos <- ape::read.nexus(
+  phylos <- readRDS(
     file = system.file(
       "extdata", "phylos", phylo_file_name,
       package = "MadIsland"
