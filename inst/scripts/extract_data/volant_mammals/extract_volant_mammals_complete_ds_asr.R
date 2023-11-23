@@ -1,4 +1,7 @@
 library(MadIsland)
+# load ape to prevent class conversion issues, not 100% sure why but could be
+# class-specific subsetting that is exported in ape
+library(ape)
 
 island_data <- MadIsland::extract_species(
   checklist_file_name = "volant_mammal_checklist.csv",
