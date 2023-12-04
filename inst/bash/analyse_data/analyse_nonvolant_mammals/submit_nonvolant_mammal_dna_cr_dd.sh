@@ -6,7 +6,7 @@
 #SBATCH --output=logs/submit_nonvolant_mammal_dna_mls_cr_dd_%a.log
 #SBATCH --mem=5GB
 #SBATCH --partition=gelifes
-#SBATCH --array=1-20
+#SBATCH --array=1-5
 
 sbatch DAISIEutils/bash/submit_run_daisie_ml_long.sh \
   nonvolant_mammal_daisie_data_list_dna_ds_asr \
