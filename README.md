@@ -34,7 +34,17 @@ Run each of the extraction scripts from `MadIsland` to produce the extracted dat
   
 Before running the analyses, make sure a logs folder is in the home directory. If this is not present create a logs folder.
 
-Now that the island community data has been extracted and can be used for fitting the DAISIE inference models there is one more preparation step. The `DAISIEutils` package loads data using the `data()` function and thus it cannot be loaded from within the `inst/` folder where the extracted data is currently stored. Therefore, the `data-raw` scripts need to be executed to move the data sets we are fitting DAISIE to across to data. All data-raw scripts read the extracted data from `inst/extdata/extracted_data/...` and save it as data to be read by `data()`. To do this step automatically run `sbatch inst/bash/move_data/move_data.sh`. Then to ensure the data is available reinstall the package by opening R (`ml R` and then `R`) and reinstall the package (`devtools::install()`).
+Now that the island community data has been extracted and can be used for fitting the DAISIE inference models there is one more preparation step. The `DAISIEutils` package loads data using the `data()` function and thus it cannot be loaded from within the `inst/` folder where the extracted data is currently stored. Therefore, the `data-raw` scripts need to be executed to move the data sets we are fitting DAISIE to across to data. All data-raw scripts read the extracted data from `inst/extdata/extracted_data/...` and save it as data to be read by `data()`. To do this step automatically run `sbatch inst/bash/move_data/move_data.sh`. 
+
+Then to ensure the data is available reinstall the package in the home directory by opening R (`ml R` and then `R`) and reinstall the package (`devtools::install("MadIsland")`). Make sure this step is done in the home directory so the `MadIsland` package is installed on the general Hábrók system and not in the `renv` cache.
+
+***Side note***: if `DAISIEprep` or `ggtree` (a dependency of `DAISIEprep`) have not been installed on the system before you may need to run:
+``` r
+install.packages("BiocManager")
+BiocManager::install("ggtree")
+install.packages("DAISIEprep")
+```
+then try reinstalling `MadIsland` (`devtools::install("MadIsland")`).
 
 Run the analysis scripts the home working directory on the Hábrók HPCC. 
 This is because MadIsland interacts with the DAISIEutils package to run the 
