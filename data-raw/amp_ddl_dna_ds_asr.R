@@ -1,15 +1,14 @@
-## code to prepare `amphibian_daisie_data_list_dna_ds_asr` dataset goes
-## here
+## code to prepare `amp_ddl_dna_ds_asr` dataset goes here
 
-amphibian_daisie_data_list_dna_ds_asr <- readRDS(
+amp_ddl_dna_ds_asr <- readRDS(
   file = system.file(
     "extdata",
     "extracted_data",
-    "amphibian_data",
-    "amphibian_daisie_data_list_dna_ds_asr.rds",
+    "amp_data",
+    "amp_ddl_dna_ds_asr.rds",
     package = "MadIsland",
     mustWork = TRUE
   )
 )
 
-usethis::use_data(amphibian_daisie_data_list_dna_ds_asr, overwrite = TRUE)
+usethis::use_data(amp_ddl_dna_ds_asr, overwrite = TRUE)

@@ -1,18 +1,14 @@
-## code to prepare `nonvolant_mammal_daisie_data_list_dna_ds_asr` dataset goes
-## here
+## code to prepare `nvm_ddl_dna_ds_asr` dataset goes here
 
-nonvolant_mammal_daisie_data_list_dna_ds_asr <- readRDS(
+nvm_ddl_dna_ds_asr <- readRDS(
   file = system.file(
     "extdata",
     "extracted_data",
-    "nonvolant_mammal_data",
-    "nonvolant_mammal_daisie_data_list_dna_ds_asr.rds",
+    "nvm_data",
+    "nvm_ddl_dna_ds_asr.rds",
     package = "MadIsland",
     mustWork = TRUE
   )
 )
 
-usethis::use_data(
-  nonvolant_mammal_daisie_data_list_dna_ds_asr,
-  overwrite = TRUE
-)
+usethis::use_data(nvm_ddl_dna_ds_asr, overwrite = TRUE)
