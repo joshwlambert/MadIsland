@@ -60,7 +60,7 @@ extract_species <- function(checklist_file_name,
   phylos <- phylos[1:5] # TODO: change this to 20 and then 100
 
   # setup for future parallelisation
-  future::plan(multisession)
+  future::plan(future::multisession)
 
   # convert trees to phylo4 objects
   phylos <- future.apply::future_lapply(
