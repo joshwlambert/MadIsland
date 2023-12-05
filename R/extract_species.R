@@ -59,30 +59,40 @@ extract_species <- function(checklist_file_name,
   # delete
   phylos <- phylos[1:5] # TODO: change this to 20 and then 100
 
+  # setup for future parallelisation
+  future::plan(multisession)
+
   # convert trees to phylo4 objects
-  phylos <- lapply(phylos, phylobase::phylo4)
+  phylos <- future.apply::future_lapply(
+    phylos,
+    phylobase::phylo4,
+    future.seed = TRUE
+  )
 
   # create endemicity status data frame
-  endemicity_status <- lapply(
+  endemicity_status <- future.apply::future_lapply(
     phylos,
     DAISIEprep::create_endemicity_status,
-    island_species = island_endemicity_status
+    island_species = island_endemicity_status,
+    future.seed = TRUE
   )
 
   # combine tree and endemicity status
-  phylods <- mapply(
+  phylods <- future.apply::future_mapply(
     phylobase::phylo4d,
     phylos,
-    endemicity_status
+    endemicity_status,
+    future.seed = TRUE
   )
 
   if (extraction_method == "asr") {
     # reconstruct geographic ancestral states for extraction with asr
-    phylods <- lapply(
+    phylods <- future.apply::future_lapply(
       phylods,
       DAISIEprep::add_asr_node_states,
       asr_method = "mk",
-      tie_preference = "mainland"
+      tie_preference = "mainland",
+      future.seed = TRUE
     )
   }
 
