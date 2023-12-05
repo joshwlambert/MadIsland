@@ -9,7 +9,7 @@
 #SBATCH --array=1-5
 
 sbatch DAISIEutils/bash/submit_run_daisie_ml_long.sh \
-  bird_daisie_data_list_dna_ds_asr \
+  bird_ddl_dna_ds_asr \
   nonoceanic_cr_dd \
   MadIsland \
   0 \
