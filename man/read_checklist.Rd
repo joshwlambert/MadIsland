@@ -17,5 +17,5 @@ Data frame
 Read a checklist into R given a file name
 }
 \examples{
-read_checklist(file_name = "volant_mammal_checklist.csv")
+read_checklist(file_name = "vm_checklist.csv")
 }

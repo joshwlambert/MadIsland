@@ -1,6 +1,6 @@
 test_that("count_missing_species works for non-volant mammals", {
   mammal_checklist <- read_checklist(
-    file_name = "nonvolant_mammal_checklist.csv"
+    file_name = "nvm_checklist.csv"
   )
   missing_mammals <- count_missing_species(
     checklist = mammal_checklist,

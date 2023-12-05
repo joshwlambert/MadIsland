@@ -1,6 +1,6 @@
 # Amphibians
 
-amphibians <- read_checklist(file_name = "amphibian_checklist.csv")
+amphibians <- read_checklist(file_name = "amp_checklist.csv")
 head(amphibians)
 checklist_stats(amphibians)
 
@@ -12,18 +12,18 @@ checklist_stats(birds)
 
 # Non-volant Mammals
 
-nonvolant_mammals <- read_checklist(file_name = "nonvolant_mammal_checklist.csv")
+nonvolant_mammals <- read_checklist(file_name = "nvm_checklist.csv")
 head(nonvolant_mammals)
 checklist_stats(nonvolant_mammals)
 
 # Volant Mammals
 
-volant_mammals <- read_checklist(file_name = "volant_mammal_checklist.csv")
+volant_mammals <- read_checklist(file_name = "vm_checklist.csv")
 head(volant_mammals)
 checklist_stats(volant_mammals)
 
 # Squamates
 
-squamates <- read_checklist(file_name = "squamate_checklist.csv")
+squamates <- read_checklist(file_name = "squa_checklist.csv")
 head(squamates)
 checklist_stats(squamates)

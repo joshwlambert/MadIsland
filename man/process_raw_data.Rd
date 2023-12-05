@@ -31,7 +31,7 @@ the species names in the phylogeny and their endemicity status on the island
 }
 \examples{
 data <- process_raw_data(
-  file_name = "volant_mammal_checklist.csv",
+  file_name = "vm_checklist.csv",
   dna_or_complete = "complete",
   daisie_status = TRUE
 )

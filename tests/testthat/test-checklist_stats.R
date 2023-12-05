@@ -1,6 +1,6 @@
 test_that("checklist_stats works as expected for amphibians", {
 
-  amphibians <- read_checklist(file_name = "amphibian_checklist.csv")
+  amphibians <- read_checklist(file_name = "amp_checklist.csv")
   stats <- checklist_stats(amphibians)
   expect_type(stats, "list")
   expect_length(stats, 13)
@@ -32,7 +32,7 @@ test_that("checklist_stats works as expected for birds", {
 
 test_that("checklist_stats works as expected for non-volant mammals", {
 
-  nonvolant_mammals <- read_checklist(file_name = "nonvolant_mammal_checklist.csv")
+  nonvolant_mammals <- read_checklist(file_name = "nvm_checklist.csv")
   stats <- checklist_stats(nonvolant_mammals)
   expect_type(stats, "list")
   expect_length(stats, 13)
@@ -48,7 +48,7 @@ test_that("checklist_stats works as expected for non-volant mammals", {
 
 test_that("checklist_stats works as expected for volant mammals", {
 
-  volant_mammals <- read_checklist(file_name = "volant_mammal_checklist.csv")
+  volant_mammals <- read_checklist(file_name = "vm_checklist.csv")
   stats <- checklist_stats(volant_mammals)
   expect_type(stats, "list")
   expect_length(stats, 13)
@@ -64,7 +64,7 @@ test_that("checklist_stats works as expected for volant mammals", {
 
 test_that("checklist_stats works as expected for squamates", {
 
-  squamates <- read_checklist(file_name = "squamate_checklist.csv")
+  squamates <- read_checklist(file_name = "squa_checklist.csv")
   stats <- checklist_stats(squamates)
   expect_type(stats, "list")
   expect_length(stats, 13)

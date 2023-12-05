@@ -1,6 +1,6 @@
 test_that("process_raw_data works with complete data", {
   data <- process_raw_data(
-    file_name = "nonvolant_mammal_checklist.csv",
+    file_name = "nvm_checklist.csv",
     dna_or_complete = "complete",
     daisie_status = TRUE
   )
@@ -11,7 +11,7 @@ test_that("process_raw_data works with complete data", {
 
 test_that("process_raw_data works with DNA data", {
   data <- process_raw_data(
-    file_name = "nonvolant_mammal_checklist.csv",
+    file_name = "nvm_checklist.csv",
     dna_or_complete = "DNA",
     daisie_status = TRUE
   )

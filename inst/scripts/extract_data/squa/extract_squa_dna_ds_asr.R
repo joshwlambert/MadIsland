@@ -4,7 +4,7 @@ library(MadIsland)
 library(ape)
 
 island_data <- MadIsland::extract_species(
-  checklist_file_name = "squamate_checklist.csv",
+  checklist_file_name = "squa_checklist.csv",
   phylo_file_name = "Tonini_dna_posterior_100.rds",
   dna_or_complete = "DNA",
   daisie_status = TRUE,

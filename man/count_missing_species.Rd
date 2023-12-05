@@ -29,7 +29,7 @@ not in the phylogeny (represented by NA) and counts the number of species
 missing from the phylogeny each genus
 }
 \examples{
-mammal_checklist <- read_checklist(file_name = "volant_mammal_checklist.csv")
+mammal_checklist <- read_checklist(file_name = "vm_checklist.csv")
 count_missing_species(
   checklist = mammal_checklist,
   dna_or_complete = "complete",
