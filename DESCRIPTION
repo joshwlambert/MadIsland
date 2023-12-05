@@ -25,7 +25,8 @@ RoxygenNote: 7.2.3
 Imports: 
     DAISIE (>= 4.4.1),
     DAISIEprep (>= 0.3.2),
-    DAISIEutils
+    DAISIEutils,
+    future.apply
 Remotes:
     tece-lab/DAISIEutils
 Depends: 
