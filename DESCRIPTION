@@ -26,6 +26,7 @@ Imports:
     DAISIE (>= 4.4.1),
     DAISIEprep (>= 0.3.2),
     DAISIEutils,
+    future,
     future.apply
 Remotes:
     tece-lab/DAISIEutils
