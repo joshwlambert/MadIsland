@@ -279,7 +279,7 @@ saveRDS(
     "extdata",
     "extracted_data",
     "bird_data",
-    "bird_island_tbl_complete_ds_asr.rds"
+    "bird_it_complete_ds_asr.rds"
   )
 )
 
@@ -291,7 +291,7 @@ saveRDS(
     "extdata",
     "extracted_data",
     "bird_data",
-    "bird_daisie_datatable_complete_ds_asr.rds"
+    "bird_ddt_complete_ds_asr.rds"
   )
 )
 
@@ -303,6 +303,6 @@ saveRDS(
     "extdata",
     "extracted_data",
     "bird_data",
-    "bird_daisie_data_list_complete_ds_asr.rds"
+    "bird_ddl_complete_ds_asr.rds"
   )
 )

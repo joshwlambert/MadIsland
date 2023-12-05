@@ -105,8 +105,8 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "squamate_data",
-    "squamate_island_tbl_dna_ds_asr.rds"
+    "squa_data",
+    "squa_it_dna_ds_asr.rds"
   )
 )
 
@@ -117,8 +117,8 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "squamate_data",
-    "squamate_daisie_datatable_dna_ds_asr.rds"
+    "squa_data",
+    "squa_ddt_dna_ds_asr.rds"
   )
 )
 
@@ -129,7 +129,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "squamate_data",
-    "squamate_daisie_data_list_dna_ds_asr.rds"
+    "squa_data",
+    "squa_ddl_dna_ds_asr.rds"
   )
 )

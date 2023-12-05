@@ -67,8 +67,8 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "amphibian_data",
-    "amphibian_island_tbl_complete_ds_asr.rds"
+    "amp_data",
+    "amp_it_complete_ds_asr.rds"
   )
 )
 
@@ -79,8 +79,8 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "amphibian_data",
-    "amphibian_daisie_datatable_complete_ds_asr.rds"
+    "amp_data",
+    "amp_ddt_complete_ds_asr.rds"
   )
 )
 
@@ -91,7 +91,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "amphibian_data",
-    "amphibian_daisie_data_list_complete_ds_asr.rds"
+    "amp_data",
+    "amp_ddl_complete_ds_asr.rds"
   )
 )

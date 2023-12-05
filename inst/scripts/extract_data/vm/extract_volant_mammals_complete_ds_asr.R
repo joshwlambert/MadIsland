@@ -91,8 +91,8 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "volant_mammal_data",
-    "volant_mammal_island_tbl_complete_ds_asr.rds"
+    "vm_data",
+    "vm_it_complete_ds_asr.rds"
   )
 )
 
@@ -103,8 +103,8 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "volant_mammal_data",
-    "volant_mammal_daisie_datatable_complete_ds_asr.rds"
+    "vm_data",
+    "vm_ddt_complete_ds_asr.rds"
   )
 )
 
@@ -115,7 +115,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "volant_mammal_data",
-    "volant_mammal_daisie_data_list_complete_ds_asr.rds"
+    "vm_data",
+    "vm_ddl_complete_ds_asr.rds"
   )
 )

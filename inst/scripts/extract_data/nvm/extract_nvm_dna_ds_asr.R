@@ -140,8 +140,8 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "nonvolant_mammal_data",
-    "nonvolant_mammal_island_tbl_dna_ds_asr.rds"
+    "nvm_data",
+    "nvm_it_dna_ds_asr.rds"
   )
 )
 
@@ -152,8 +152,8 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "nonvolant_mammal_data",
-    "nonvolant_mammal_daisie_datatable_dna_ds_asr.rds"
+    "nvm_data",
+    "nvm_ddt_dna_ds_asr.rds"
   )
 )
 
@@ -164,7 +164,7 @@ saveRDS(
     "inst",
     "extdata",
     "extracted_data",
-    "nonvolant_mammal_data",
-    "nonvolant_mammal_daisie_data_list_dna_ds_asr.rds"
+    "nvm_data",
+    "nvm_ddl_dna_ds_asr.rds"
   )
 )
