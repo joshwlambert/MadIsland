@@ -4,7 +4,7 @@ amp_ddl_complete_ds_asr <- readRDS(
   file = system.file(
     "extdata",
     "extracted_data",
-    "ampn_data",
+    "amp_data",
     "amp_ddl_complete_ds_asr.rds",
     package = "MadIsland",
     mustWork = TRUE

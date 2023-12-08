@@ -1,6 +1,6 @@
 ## code to prepare `nvm_ddl_complete_ds_asr` dataset goes here
 
-nonvolant_mammal_daisie_data_list_complete_ds_asr <- readRDS(
+nvm_ddl_complete_ds_asr <- readRDS(
   file = system.file(
     "extdata",
     "extracted_data",

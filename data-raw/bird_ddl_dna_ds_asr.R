@@ -1,6 +1,6 @@
 ## code to prepare `bird_ddl_dna_ds_asr` dataset goes here
 
-bird_daisie_data_list_dna_ds_asr <- readRDS(
+bird_ddl_dna_ds_asr <- readRDS(
   file = system.file(
     "extdata",
     "extracted_data",
