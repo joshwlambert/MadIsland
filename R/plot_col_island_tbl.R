@@ -5,6 +5,8 @@
 #' @param multi_island_tbl_list Named list of daisie_data_list objects
 #' @param col_time A character string, either "stem" or "crown"
 #'
+#' @importFrom rlang .data
+#'
 #' @return ggplot2 object
 #' @export
 #'
@@ -105,7 +107,7 @@ plot_col_island_tbl <- function(multi_island_tbl_list,
       mapping = ggplot2::aes(
         x = col_times,
         y = posterior_index,
-        colour = clade
+        colour = .data$clade
       ),
       alpha = 0.5
     ) +
@@ -128,10 +130,10 @@ plot_col_island_tbl <- function(multi_island_tbl_list,
     ggplot2::geom_rect(
       data = land_bridge,
       mapping = ggplot2::aes(
-        xmin = start_time,
-        xmax = end_time,
-        ymin = y_min,
-        ymax = y_max
+        xmin = .data$start_time,
+        xmax = .data$end_time,
+        ymin = .data$y_min,
+        ymax = .data$y_max
       ),
       fill = "darkslategrey",
       alpha = 0.3
