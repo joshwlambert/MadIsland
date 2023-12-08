@@ -1,0 +1,26 @@
+---
+title: "MadIsland File System"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{MadIsland File System}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+This vignette documents the file system naming in the MadIsland package. 
+
+`*` is used here as a wildcard character and represent some characters that are variable.
+
+Files names for taxonomic groups:
+- `amp_*`: amphibians
+- `bird_*`: birds
+- `nvm_*`: non-volant mammals
+- `squa_*`: squamates
+- `vm_*`: volant mammals
+
+File names for DAISIE data types:
+- `*_ddl_*`: DAISIE data list
+- `*_ddt_*`: DAISIE data tabel
+- `*_it_*`: Island table (`<Island_tbl>` class)
+
+
