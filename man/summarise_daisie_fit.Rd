@@ -8,7 +8,9 @@ standard deviation of the log likelihood and Bayesian information criterion}
 summarise_daisie_fit(oceanic_data, nonoceanic_data)
 }
 \arguments{
-\item{data}{Collated daisie output}
+\item{oceanic_data}{Collated daisie output from oceanic DAISIE model.}
+
+\item{nonoceanic_data}{Collated daisie output from nonoceanic DAISIE model.}
 }
 \value{
 tibble

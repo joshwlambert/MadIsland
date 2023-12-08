@@ -1,7 +1,8 @@
 #' Takes the collated output from the DAISIE model and calculates the mean and
 #' standard deviation of the log likelihood and Bayesian information criterion
 #'
-#' @param data Collated daisie output
+#' @param oceanic_data Collated daisie output from oceanic DAISIE model.
+#' @param nonoceanic_data Collated daisie output from nonoceanic DAISIE model.
 #'
 #' @return tibble
 #' @export
