@@ -25,6 +25,7 @@ Suggests:
 Config/testthat/edition: 3
 RoxygenNote: 7.2.3
 Imports: 
+    stats,
     DAISIE (>= 4.4.1),
     DAISIEprep (>= 0.3.2),
     DAISIEutils,

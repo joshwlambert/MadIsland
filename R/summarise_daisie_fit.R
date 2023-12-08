@@ -25,9 +25,9 @@ summarise_daisie_fit <- function(oceanic_data,
   summary_stats <- dplyr::summarise(
     fit_tbl,
     oceanic_mean = mean(value.x, na.rm = TRUE),
-    oceanic_sd = sd(value.x, na.rm = TRUE),
+    oceanic_sd = stats::sd(value.x, na.rm = TRUE),
     nonoceanic_mean = mean(value.y, na.rm = TRUE),
-    nonoceanic_sd = sd(value.y, na.rm = TRUE)
+    nonoceanic_sd = stats::sd(value.y, na.rm = TRUE)
   )
 
   # return summary_stats
