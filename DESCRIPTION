@@ -29,7 +29,14 @@ Imports:
     DAISIEprep (>= 0.3.2),
     DAISIEutils,
     future,
-    future.apply
+    future.apply,
+    dplyr,
+    ggplot2,
+    scales,
+    tibble,
+    tidyr,
+    rlang,
+    phylobase
 Remotes:
     tece-lab/DAISIEutils
 Depends: 
