@@ -8,3 +8,5 @@
 ^data-raw$
 ^scripts$
 ^bash$
+^doc$
+^Meta$
