@@ -1,3 +1,4 @@
+#' @importFrom rlang .data
 plot_bic_diff <- function(data) {
 
   ggplot2::ggplot(data = data) +
