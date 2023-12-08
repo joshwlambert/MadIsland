@@ -16,7 +16,7 @@
 #'   or type 2 clade, type 1 is the default state, type 2 is when those clades
 #'   have a distinct set of rates}
 #' }
-"amphibian_daisie_data_list_complete_ds_asr"
+"amp_ddl_complete_ds_asr"
 
 #' DAISIE data list of amphibians of Madagascar (DNA data).
 #'
@@ -36,7 +36,7 @@
 #'   or type 2 clade, type 1 is the default state, type 2 is when those clades
 #'   have a distinct set of rates}
 #' }
-"amphibian_daisie_data_list_dna_ds_asr"
+"amp_ddl_dna_ds_asr"
 
 #' DAISIE data list of birds of Madagascar (complete data).
 #'
@@ -56,7 +56,7 @@
 #'   or type 2 clade, type 1 is the default state, type 2 is when those clades
 #'   have a distinct set of rates}
 #' }
-"bird_daisie_data_list_complete_ds_asr"
+"bird_ddl_complete_ds_asr"
 
 #' DAISIE data list of birds of Madagascar (DNA data).
 #'
@@ -76,7 +76,7 @@
 #'   or type 2 clade, type 1 is the default state, type 2 is when those clades
 #'   have a distinct set of rates}
 #' }
-"bird_daisie_data_list_dna_ds_asr"
+"bird_ddl_dna_ds_asr"
 
 #' DAISIE data list of nonvolant mammals of Madagascar (complete data).
 #'
@@ -96,7 +96,7 @@
 #'   or type 2 clade, type 1 is the default state, type 2 is when those clades
 #'   have a distinct set of rates}
 #' }
-"nonvolant_mammal_daisie_data_list_complete_ds_asr"
+"nvm_ddl_complete_ds_asr"
 
 #' DAISIE data list of nonvolant mammals of Madagascar (DNA data).
 #'
@@ -116,7 +116,7 @@
 #'   or type 2 clade, type 1 is the default state, type 2 is when those clades
 #'   have a distinct set of rates}
 #' }
-"nonvolant_mammal_daisie_data_list_dna_ds_asr"
+"nvm_ddl_dna_ds_asr"
 
 #' DAISIE data list of squamates of Madagascar (complete data).
 #'
@@ -136,7 +136,7 @@
 #'   or type 2 clade, type 1 is the default state, type 2 is when those clades
 #'   have a distinct set of rates}
 #' }
-"squamate_daisie_data_list_complete_ds_asr"
+"squa_ddl_complete_ds_asr"
 
 #' DAISIE data list of squamates of Madagascar (DNA data).
 #'
@@ -156,7 +156,7 @@
 #'   or type 2 clade, type 1 is the default state, type 2 is when those clades
 #'   have a distinct set of rates}
 #' }
-"squamate_daisie_data_list_dna_ds_asr"
+"squa_ddl_dna_ds_asr"
 
 #' DAISIE data list of volant mammals of Madagascar (complete data).
 #'
@@ -176,7 +176,7 @@
 #'   or type 2 clade, type 1 is the default state, type 2 is when those clades
 #'   have a distinct set of rates}
 #' }
-"volant_mammal_daisie_data_list_complete_ds_asr"
+"vm_ddl_complete_ds_asr"
 
 #' DAISIE data list of volant mammals of Madagascar (DNA data).
 #'
@@ -196,4 +196,4 @@
 #'   or type 2 clade, type 1 is the default state, type 2 is when those clades
 #'   have a distinct set of rates}
 #' }
-"volant_mammal_daisie_data_list_dna_ds_asr"
+"vm_ddl_dna_ds_asr"
