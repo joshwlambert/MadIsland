@@ -8,7 +8,7 @@
 #SBATCH --partition=gelifes
 #SBATCH --array=1-5
 
-sbatch DAISIEutils/bash/submit_run_daisie_ml_long.sh \
+sbatch DAISIEutils/bash/submit_run_daisie_ml.sh \
   vm_ddl_dna_ds_asr \
   nonoceanic_cr_dd \
   MadIsland \
