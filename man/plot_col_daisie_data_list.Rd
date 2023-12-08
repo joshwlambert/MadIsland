@@ -22,13 +22,13 @@ of an island for each taxonomic group given in the list of daisie_data_list
 objects
 }
 \examples{
-data("amphibian_daisie_data_list_complete_ds_asr")
-data("volant_mammal_daisie_data_list_complete_ds_asr")
-data("squamate_daisie_data_list_complete_ds_asr")
+data("amp_ddl_complete_ds_asr")
+data("vm_ddl_complete_ds_asr")
+data("squa_ddl_complete_ds_asr")
 daisie_data_list <- list(
-  Amphibians = amphibian_daisie_data_list_complete_ds_asr,
-  Mammals = volant_mammal_daisie_data_list_complete_ds_asr,
-  Squamates = squamate_daisie_data_list_complete_ds_asr
+  Amphibians = amp_ddl_complete_ds_asr,
+  Mammals = vm_ddl_complete_ds_asr,
+  Squamates = squa_ddl_complete_ds_asr
 )
 plot_col_daisie_data_list(listed_daisie_data_list = daisie_data_list)
 }

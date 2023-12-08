@@ -13,7 +13,7 @@
 #'
 #' @examples
 #' # name of results of results folder
-#' results_dir <- "amphibian_daisie_data_list_complete_ds_asr"
+#' results_dir <- "amp_ddl_complete_ds_asr"
 #' # number of phylogeny replicates used
 #' num_phylos <- 3
 #' # oceanic results

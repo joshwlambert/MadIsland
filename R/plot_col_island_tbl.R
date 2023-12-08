@@ -12,8 +12,8 @@
 #' amphibians <- readRDS(file = system.file(
 #'   "extdata",
 #'   "extracted_data",
-#'   "amphibian_data",
-#'   "amphibian_island_tbl_complete_ds_asr.rds",
+#'   "amp_data",
+#'   "amp_it_complete_ds_asr.rds",
 #'   package = "MadIsland",
 #'   mustWork = TRUE
 #' ))
@@ -21,8 +21,8 @@
 #' mammals <- readRDS(file = system.file(
 #'   "extdata",
 #'   "extracted_data",
-#'   "volant_mammal_data",
-#'   "volant_mammal_island_tbl_complete_ds_asr.rds",
+#'   "vm_data",
+#'   "vm_it_complete_ds_asr.rds",
 #'   package = "MadIsland",
 #'   mustWork = TRUE
 #' ))
@@ -30,8 +30,8 @@
 #' squamates <- readRDS(file = system.file(
 #'   "extdata",
 #'   "extracted_data",
-#'   "squamate_data",
-#'   "squamate_island_tbl_complete_ds_asr.rds",
+#'   "squa_data",
+#'   "squa_it_complete_ds_asr.rds",
 #'   package = "MadIsland",
 #'   mustWork = TRUE
 #' ))

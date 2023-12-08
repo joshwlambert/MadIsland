@@ -10,8 +10,8 @@
 #' amphibians <- readRDS(file = system.file(
 #'   "extdata",
 #'   "extracted_data",
-#'   "amphibian_data",
-#'   "amphibian_island_tbl_complete_ds_asr.rds",
+#'   "amp_data",
+#'   "amp_it_complete_ds_asr.rds",
 #'   package = "MadIsland",
 #'   mustWork = TRUE
 #' ))
