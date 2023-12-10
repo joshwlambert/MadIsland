@@ -62,9 +62,44 @@ Run each of the extraction scripts from `MadIsland` to produce the extracted dat
   * `sbatch inst/bash/extract_data/squa/extract_squa_complete_ds_asr.sh`
   * `sbatch inst/bash/extract_data/squa/extract_squa_dna_ds_asr.sh`
   
-Before running the analyses, make sure a logs folder is in the home directory. If this is not present create a logs folder.
+## {-}
 
-Now that the island community data has been extracted and can be used for fitting the DAISIE inference models there is one more preparation step. The `DAISIEutils` package loads data using the `data()` function and thus it cannot be loaded from within the `inst/` folder where the extracted data is currently stored. Therefore, the `data-raw` scripts need to be executed to move the data sets we are fitting DAISIE to across to data. All data-raw scripts read the extracted data from `inst/extdata/extracted_data/...` and save it as data to be read by `data()`. To do this step automatically run `sbatch inst/bash/move_data/move_data.sh`. 
+## Moving data {.tabset}
+
+Now that the island community data has been extracted and can be used for fitting the DAISIE inference models there is one more preparation step. The `DAISIEutils` package loads data using the `data()` function and thus it cannot be loaded from within the `inst/` folder where the extracted data is currently stored. Therefore, the `data-raw` scripts need to be executed to move the data sets we are fitting DAISIE to across to data. All data-raw scripts read the extracted data from `inst/extdata/extracted_data/...` and save it as data to be read by `data()`. 
+
+### Local
+
+Run each of the `data-raw` scripts:
+
+* `source(file.path("data-raw", "amp_ddl_complete_ds_asr.R"))`
+* `source(file.path("data-raw", "amp_ddl_dna_ds_asr.R"))`
+* `source(file.path("data-raw", "bird_ddl_complete_ds_asr.R"))`
+* `source(file.path("data-raw", "bird_ddl_dna_ds_asr.R"))`
+* `source(file.path("data-raw", "nvm_ddl_complete_ds_asr.R"))`
+* `source(file.path("data-raw", "nvm_ddl_dna_ds_asr.R"))`
+* `source(file.path("data-raw", "squa_ddl_complete_ds_asr.R"))`
+* `source(file.path("data-raw", "squa_ddl_dna_ds_asr.R"))`
+* `source(file.path("data-raw", "vm_ddl_complete_ds_asr.R"))`
+* `source(file.path("data-raw", "vm_ddl_dna_ds_asr.R"))`
+
+### HPCC
+
+To do this step automatically run `sbatch inst/bash/move_data/move_data.sh`. 
+
+## {-}
+
+## Analysing data {.tabset}
+
+### Local
+
+This step cannot be run locally and requires using a HPCC. If you have been running things locally up to this point you need to clone your local `MadIsland` repository onto the HPCC to make sure all the data is available. 
+
+`MadIsland` is setup to use the `DAISIEutils` package to run the DAISIE models on the data. See HPCC tab.
+
+### HPCC
+
+Before running the analyses, make sure a `logs/` folder is in the home directory. If this is not present create a logs folder.
 
 Then to ensure the data is available reinstall the package in the home directory by opening R (`ml R` and then `R`) and reinstall the package (`devtools::install("MadIsland")`). Make sure this step is done in the home directory so the `MadIsland` package is installed on the general Hábrók system and not in the `renv` cache.
 
@@ -77,23 +112,22 @@ install.packages("DAISIEprep")
 then try reinstalling `MadIsland` (`devtools::install("MadIsland")`).
 
 Run the analysis scripts the home working directory on the Hábrók HPCC. 
-This is because MadIsland interacts with the DAISIEutils package to run the 
+This is because `MadIsland` interacts with the `DAISIEutils` package to run the 
 DAISIE maximum likelihood models.
 
 Run each of the analysis scripts to produce the DAISIE model output (parameter
 estimates and model likelihood and Bayesian Information Criterion):
 
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_amphibians/submit_amphibian_complete_nonoceanic_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_amphibians/submit_amphibian_dna_nonoceanic_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_birds/submit_bird_complete_nonoceanic_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_birds/submit_bird_dna_nonoceanic_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_nonvolant_mammals/submit_nonvolant_mammal_complete_nonoceanic_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_nonvolant_mammals/submit_nonvolant_mammal_dna_nonoceanic_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_volant_mammals/submit_volant_mammal_complete_nonoceanic_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_volant_mammals/submit_volant_mammal_dna_nonoceanic_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_squamates/submit_squamate_complete_nonoceanic_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_squamates/submit_squamate_dna_nonoceanic_cr_dd.sh`
-  
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_amp/submit_amp_complete_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_amp/submit_amp_dna_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_bird/submit_bird_complete_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_bird/submit_bird_dna_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_nvm/submit_nvm_complete_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_nvm/submit_nvm_dna_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_vms/submit_vm_complete_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_vm/submit_vm_dna_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_squa/submit_squa_complete_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_squa/submit_squa_dna_nonoceanic_cr_dd.sh`
 
 ## {-}
 
