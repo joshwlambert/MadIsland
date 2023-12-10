@@ -1,34 +1,66 @@
 ---
 title: "Reproducibility"
-output: rmarkdown::html_vignette
+output: rmarkdown::html_document
 vignette: >
   %\VignetteIndexEntry{Reproducibility}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
-This section is a guide to reproducing the data and results in this package.
+This vignette is a guide to reproducing the data and results in the Madagascar terrestrial vertebrate paper.
 
-Running on the Hábrók High Performance Cluster Computer (HPCC):
+The vignette goes step-by-step to extract data, run the analysis and then make the plots and summary statistics. Certain parts are computationally intensive and require a High Performance Cluster Computer (HPCC). In our case we run on the Hábrók HPCC. Other parts that can be run on a local machine (i.e. laptop) or on the HPCC have tabs detailing the different approaches. Fundamentally, they both run the same code, but the HPCC requires bash scripts and some maneuvering around the working directory.
+
+## Install {.tabset}
+
+### Local
+
+Clone the `MadIsland` repository onto your machine. Once it is cloned, install the package using `devtools::install()` (this requires being in the root directory of the `MadIsland` package as the working directory).
+
+Next restore the packages to their version using in the manuscript using `renv::restore()`.
+
+### HPCC
 
 Clone the DAISIEutils R package and the MadIsland R package in the home working directory. Here the home working directory refers to home/p-number/. 
 
 Then change directory into MadIsland (`cd MadIsland`). Run the install bash script to ensure MadIsland is installed on the cluster (`sbatch inst/bash/install/install_MadIsland.sh`). 
 
+## {-}
+
+## Extract island community data {.tabset}
+
+### Local
+
+Each of the extraction scripts can be run by entering the following into the R console:
+
+* `source(file.path("inst", "scripts", "extract_data", "amp", "extract_amp_complete_ds_asr.R"))`
+* `source(file.path("inst", "scripts", "extract_data", "amp", "extract_amp_dna_ds_asr.R"))`
+* `source(file.path("inst", "scripts", "extract_data", "bird", "extract_bird_complete_ds_asr.R"))`
+* `source(file.path("inst", "scripts", "extract_data", "bird", "extract_bird_dna_ds_asr.R"))`
+* `source(file.path("inst", "scripts", "extract_data", "nvm", "extract_nvm_complet_ds_asr.R"))`
+* `source(file.path("inst", "scripts", "extract_data", "nvm", "extract_nvm_complete_ds_asr.R"))`
+* `source(file.path("inst", "scripts", "extract_data", "nvm", "extract_nvm_dna_ds_asr.R"))`
+* `source(file.path("inst", "scripts", "extract_data", "squa", "extract_squa_complete_ds_asr.R"))`
+* `source(file.path("inst", "scripts", "extract_data", "squa", "extract_squa_dna_ds_asr.R"))`
+* `source(file.path("inst", "scripts", "extract_data", "vm", "extract_vm_complete_ds_asr.R"))`
+* `source(file.path("inst", "scripts", "extract_data", "vm", "extract_vm_dna_ds_asr.R"))`
+
+### HPCC
+
 Run the extraction scripts with `MadIsland` as the working directory due to the file paths for saving, for compatibility with running the scripts locally (e.g. within Rstudio). The other option would be to have a platform identifier (e.g. `.Platform$OS.type`) to determine the file path. However, this platform specific option prevents reproducibility for those running the scripts locally on a Mac or Linux machine (because `.Platform$OS.type == "unix"` in those cases). The logs folder is already present at this point as it is made in the install of MadIsland, but good to check that the logs folder is in `MadIsland`. 
 
 Run each of the extraction scripts from `MadIsland` to produce the extracted data:
 
-  * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_complete_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/amphibians/extract_amphibians_dna_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/birds/extract_birds_complete_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/birds/extract_birds_dna_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_complete_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/nonvolant_mammals/extract_nonvolant_mammals_dna_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_complete_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/volant_mammals/extract_volant_mammals_dna_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/squamates/extract_squamates_complete_ds_asr.sh`
-  * `sbatch inst/bash/extract_data/squamates/extract_squamates_dna_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/amp/extract_amp_complete_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/amp/extract_amp_dna_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/bird/extract_bird_complete_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/bird/extract_bird_dna_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/nvm/extract_nvm_complete_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/nvm/extract_nvm_dna_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/vm/extract_vm_complete_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/vm/extract_vm_dna_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/squa/extract_squa_complete_ds_asr.sh`
+  * `sbatch inst/bash/extract_data/squa/extract_squa_dna_ds_asr.sh`
   
 Before running the analyses, make sure a logs folder is in the home directory. If this is not present create a logs folder.
 
@@ -63,5 +95,5 @@ estimates and model likelihood and Bayesian Information Criterion):
   * `sbatch MadIsland/inst/bash/analyse_data/analyse_squamates/submit_squamate_dna_nonoceanic_cr_dd.sh`
   
 
-
+## {-}
 
