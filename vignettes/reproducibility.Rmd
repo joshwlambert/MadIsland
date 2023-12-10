@@ -124,7 +124,7 @@ estimates and model likelihood and Bayesian Information Criterion):
   * `sbatch MadIsland/inst/bash/analyse_data/analyse_bird/submit_bird_dna_nonoceanic_cr_dd.sh`
   * `sbatch MadIsland/inst/bash/analyse_data/analyse_nvm/submit_nvm_complete_nonoceanic_cr_dd.sh`
   * `sbatch MadIsland/inst/bash/analyse_data/analyse_nvm/submit_nvm_dna_nonoceanic_cr_dd.sh`
-  * `sbatch MadIsland/inst/bash/analyse_data/analyse_vms/submit_vm_complete_nonoceanic_cr_dd.sh`
+  * `sbatch MadIsland/inst/bash/analyse_data/analyse_vm/submit_vm_complete_nonoceanic_cr_dd.sh`
   * `sbatch MadIsland/inst/bash/analyse_data/analyse_vm/submit_vm_dna_nonoceanic_cr_dd.sh`
   * `sbatch MadIsland/inst/bash/analyse_data/analyse_squa/submit_squa_complete_nonoceanic_cr_dd.sh`
   * `sbatch MadIsland/inst/bash/analyse_data/analyse_squa/submit_squa_dna_nonoceanic_cr_dd.sh`
