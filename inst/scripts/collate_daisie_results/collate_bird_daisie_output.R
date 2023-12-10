@@ -3,9 +3,9 @@
 
 # collate bird complete data for the nonoceanic model
 bird_complete_nonoceanic <- collate_daisie_output(
-  results_dir = "bird_daisie_data_list_complete_ds_asr",
+  results_dir = "bird_ddl_complete_ds_asr",
   oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 20
+  num_phylos = 5
 )
 
 # save the collated data
@@ -22,9 +22,9 @@ saveRDS(
 
 # collate bird DNA data for the nonoceanic model
 bird_dna_nonoceanic <- collate_daisie_output(
-  results_dir = "bird_daisie_data_list_dna_ds_asr",
+  results_dir = "bird_ddl_dna_ds_asr",
   oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 20
+  num_phylos = 5
 )
 
 # save the collated data

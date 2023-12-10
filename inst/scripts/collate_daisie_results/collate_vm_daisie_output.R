@@ -2,39 +2,39 @@
 # each taxonomic group across each posterior distribution of trees
 
 # collate mammal complete data for the nonoceanic model
-volant_mammal_complete_nonoceanic <- collate_daisie_output(
-  results_dir = "volant_mammal_daisie_data_list_complete_ds_asr",
+vm_complete_nonoceanic <- collate_daisie_output(
+  results_dir = "vm_ddl_complete_ds_asr",
   oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 20
+  num_phylos = 5
 )
 
 # save the collated data
 saveRDS(
-  volant_mammal_complete_nonoceanic,
+  vm_complete_nonoceanic,
   file.path(
     "inst",
     "extdata",
     "collated_daisie_output",
-    "volant_mammal_daisie_output",
-    "volant_mammal_complete_nonoceanic.rds"
+    "vm_daisie_output",
+    "vm_complete_nonoceanic.rds"
   )
 )
 
 # collate mammal DNA data for the nonoceanic model
-volant_mammal_dna_nonoceanic <- collate_daisie_output(
-  results_dir = "volant_mammal_daisie_data_list_dna_ds_asr",
+vm_dna_nonoceanic <- collate_daisie_output(
+  results_dir = "vm_ddl_dna_ds_asr",
   oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 20
+  num_phylos = 5
 )
 
 # save the collated data
 saveRDS(
-  volant_mammal_dna_nonoceanic,
+  vm_dna_nonoceanic,
   file.path(
     "inst",
     "extdata",
     "collated_daisie_output",
-    "volant_mammal_daisie_output",
-    "volant_mammal_dna_nonoceanic.rds"
+    "vm_daisie_output",
+    "vm_dna_nonoceanic.rds"
   )
 )

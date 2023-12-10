@@ -2,39 +2,39 @@
 # each taxonomic group across each posterior distribution of trees
 
 # collate amphibian complete data for the nonoceanic model
-amphibian_complete_nonoceanic <- collate_daisie_output(
-  results_dir = "amphibian_daisie_data_list_complete_ds_asr",
+amp_complete_nonoceanic <- collate_daisie_output(
+  results_dir = "amp_ddl_complete_ds_asr",
   oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 20
+  num_phylos = 5
 )
 
 # save the collated data
 saveRDS(
-  amphibian_complete_nonoceanic,
+  amp_complete_nonoceanic,
   file.path(
     "inst",
     "extdata",
     "collated_daisie_output",
-    "amphibian_daisie_output",
-    "amphibian_complete_nonoceanic.rds"
+    "amp_daisie_output",
+    "amp_complete_nonoceanic.rds"
   )
 )
 
 # collate amphibian DNA data for the nonoceanic model
-amphibian_dna_nonoceanic <- collate_daisie_output(
-  results_dir = "amphibian_daisie_data_list_dna_ds_asr",
+amp_dna_nonoceanic <- collate_daisie_output(
+  results_dir = "amp_ddl_dna_ds_asr",
   oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 20
+  num_phylos = 5
 )
 
 # save the collated data
 saveRDS(
-  amphibian_dna_nonoceanic,
+  amp_dna_nonoceanic,
   file.path(
     "inst",
     "extdata",
     "collated_daisie_output",
-    "amphibian_daisie_output",
-    "amphibian_dna_nonoceanic.rds"
+    "amp_daisie_output",
+    "amp_dna_nonoceanic.rds"
   )
 )
