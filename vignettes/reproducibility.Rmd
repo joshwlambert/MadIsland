@@ -64,7 +64,7 @@ Run each of the extraction scripts from `MadIsland` to produce the extracted dat
   
 ## {-}
 
-## Moving data {.tabset}
+## Moving island community data {.tabset}
 
 Now that the island community data has been extracted and can be used for fitting the DAISIE inference models there is one more preparation step. The `DAISIEutils` package loads data using the `data()` function and thus it cannot be loaded from within the `inst/` folder where the extracted data is currently stored. Therefore, the `data-raw` scripts need to be executed to move the data sets we are fitting DAISIE to across to data. All data-raw scripts read the extracted data from `inst/extdata/extracted_data/...` and save it as data to be read by `data()`. 
 
@@ -128,6 +128,31 @@ estimates and model likelihood and Bayesian Information Criterion):
   * `sbatch MadIsland/inst/bash/analyse_data/analyse_vm/submit_vm_dna_nonoceanic_cr_dd.sh`
   * `sbatch MadIsland/inst/bash/analyse_data/analyse_squa/submit_squa_complete_nonoceanic_cr_dd.sh`
   * `sbatch MadIsland/inst/bash/analyse_data/analyse_squa/submit_squa_dna_nonoceanic_cr_dd.sh`
+
+## {-}
+
+## Moving DAISIE results {.tabset}
+
+### Local
+
+This step is dependent on the previous analysing data step which required using the HPCC. This step also requires using the HPCC, see HPCC tab.
+
+### HPCC
+
+The results of fitting the DAISIE models to the data are saved in the `results/` folder in the home directory of the HPCC. The files need to be transferred, for which we use git. The DAISIE output files therefore need to be moved into a directory which has git initialised, we use the `MadIsland` directory and transfer the files into an existing folder called `raw_daisie_output/`. This can be done using the following:
+
+* `cp -r results/amp_ddl_complete_ds_asr/ MadIsland/inst/extdata/raw_daisie_output/`
+* `cp -r results/amp_ddl_dna_ds_asr/ MadIsland/inst/extdata/raw_daisie_output/`
+* `cp -r results/bird_ddl_complete_ds_asr/ MadIsland/inst/extdata/raw_daisie_output/`
+* `cp -r results/bird_ddl_dna_ds_asr/ MadIsland/inst/extdata/raw_daisie_output/`
+* `cp -r results/nvm_ddl_complete_ds_asr/ MadIsland/inst/extdata/raw_daisie_output/`
+* `cp -r results/nvm_ddl_dna_ds_asr/ MadIsland/inst/extdata/raw_daisie_output/`
+* `cp -r results/squa_ddl_complete_ds_asr/ MadIsland/inst/extdata/raw_daisie_output/`
+* `cp -r results/squa_ddl_dna_ds_asr/ MadIsland/inst/extdata/raw_daisie_output/`
+* `cp -r results/vm_ddl_complete_ds_asr/ MadIsland/inst/extdata/raw_daisie_output/`
+* `cp -r results/vm_ddl_dna_ds_asr/ MadIsland/inst/extdata/raw_daisie_output/`
+
+Once the files are moved (technically they are copied) into `raw_daisie_output/` they can be commited and pushed (`git commit` & `git push`).
 
 ## {-}
 
