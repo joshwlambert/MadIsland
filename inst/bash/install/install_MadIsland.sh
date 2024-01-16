@@ -10,5 +10,5 @@
 mkdir -p logs
 ml R
 Rscript -e "install.packages(c('renv', 'devtools'))"
-Rscript -e "renv::restore(prompt = FALSE)"
 Rscript -e "devtools::install()"
+Rscript -e "renv::restore(prompt = FALSE)"
