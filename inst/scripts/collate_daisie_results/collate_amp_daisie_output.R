@@ -1,40 +1,40 @@
 # script to collate all the DAISIE maximum likelihood parameter estimates for
 # each taxonomic group across each posterior distribution of trees
 
-# collate bird complete data for the nonoceanic model
-bird_complete_nonoceanic <- collate_daisie_output(
-  results_dir = "bird_daisie_data_list_complete_ds_asr",
+# collate amphibian complete data for the nonoceanic model
+amp_complete_nonoceanic <- collate_daisie_output(
+  results_dir = "amp_dll_complete_ds_asr",
   oceanic_or_nonoceanic = "nonoceanic",
   num_phylos = 20
 )
 
 # save the collated data
 saveRDS(
-  bird_complete_nonoceanic,
+  amp_complete_nonoceanic,
   file.path(
     "inst",
     "extdata",
     "collated_daisie_output",
-    "bird_daisie_output",
-    "bird_complete_nonoceanic.rds"
+    "amp_daisie_output",
+    "amp_complete_nonoceanic.rds"
   )
 )
 
-# collate bird DNA data for the nonoceanic model
-bird_dna_nonoceanic <- collate_daisie_output(
-  results_dir = "bird_daisie_data_list_dna_ds_asr",
+# collate amphibian DNA data for the nonoceanic model
+amp_dna_nonoceanic <- collate_daisie_output(
+  results_dir = "amp_dll_dna_ds_asr",
   oceanic_or_nonoceanic = "nonoceanic",
   num_phylos = 20
 )
 
 # save the collated data
 saveRDS(
-  bird_dna_nonoceanic,
+  amp_dna_nonoceanic,
   file.path(
     "inst",
     "extdata",
     "collated_daisie_output",
-    "bird_daisie_output",
-    "bird_dna_nonoceanic.rds"
+    "amp_daisie_output",
+    "amp_dna_nonoceanic.rds"
   )
 )
