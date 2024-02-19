@@ -6,11 +6,14 @@
 #' @export
 checklist_stats <- function(checklist) {
 
+  # remove non-true island species
+  checklist <- checklist[!checklist$Remove_Species, ]
+
   # return list of summary stats
   list(
 
-    # number of species in checklist
-    num_species = nrow(checklist),
+    # number of true island species in checklist
+    num_true_island_species = sum(!checklist$Remove_Species),
 
     # number of genera in checklist
     num_genera = length(unique(checklist$Genus)),
@@ -29,25 +32,22 @@ checklist_stats <- function(checklist) {
 
     # number of extant species in checklist
     num_extant_species = sum(grepl(
-      pattern = "Extant", x = checklist$Extinct_Extant, ignore.case = TRUE
+      pattern = "^Extant$", x = checklist$Extinct_Extant, ignore.case = TRUE
     )),
 
     # number of extinct species in checklist
     num_extinct_species = sum(grepl(
-      pattern = "Extinct", x = checklist$Extinct_Extant, ignore.case = TRUE
+      pattern = "^Extinct$", x = checklist$Extinct_Extant, ignore.case = TRUE
     )),
-
-    # number of species in checklist removed due to not be true island species
-    num_species_removed = sum(checklist$Remove_Species),
 
     # number of endemic species in checklist
     # true endemicity
     num_endemic_species = sum(grepl(
-      pattern = "Endemic", x = checklist$Status_Species, ignore.case = TRUE
+      pattern = "^Endemic$", x = checklist$Status_Species, ignore.case = TRUE
     )),
     # DAISIE endemicity
     num_daisie_endemic_species = sum(grepl(
-      pattern = "Endemic",
+      pattern = "^Endemic$",
       x = checklist$DAISIE_Status_Species,
       ignore.case = TRUE
     )),
@@ -55,11 +55,11 @@ checklist_stats <- function(checklist) {
     # number of non-endemic species in checklist
     # true endemicity
     num_nonendemic_species = sum(grepl(
-      pattern = "Non-endemic", x = checklist$Status_Species, ignore.case = TRUE
+      pattern = "^Non-endemic$", x = checklist$Status_Species, ignore.case = TRUE
     )),
     # DAISIE endemicity
     num_daisie_nonendemic_species = sum(grepl(
-      pattern = "Non-endemic",
+      pattern = "^Non-endemic$",
       x = checklist$DAISIE_Status_Species,
       ignore.case = TRUE
     ))
