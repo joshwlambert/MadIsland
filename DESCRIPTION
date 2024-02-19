@@ -23,7 +23,7 @@ Suggests:
     rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 Imports: 
     stats,
     DAISIE (>= 4.4.1),
