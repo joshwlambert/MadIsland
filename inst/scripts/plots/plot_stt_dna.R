@@ -312,5 +312,5 @@ ggplot2::ggsave(
   width = 150,
   height = 100,
   units = "mm",
-  dpi = 600
+  dpi = 300
 )
