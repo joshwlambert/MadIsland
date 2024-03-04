@@ -1,8 +1,8 @@
 amphibians <- readRDS(file = system.file(
   "extdata",
   "extracted_data",
-  "amphibian_data",
-  "amphibian_island_tbl_dna_ds_asr.rds",
+  "amp_data",
+  "amp_it_dna_ds_asr.rds",
   package = "MadIsland",
   mustWork = TRUE
 ))
@@ -10,8 +10,8 @@ amphibians <- readRDS(file = system.file(
 nonvolant_mammals <- readRDS(file = system.file(
   "extdata",
   "extracted_data",
-  "nonvolant_mammal_data",
-  "nonvolant_mammal_island_tbl_dna_ds_asr.rds",
+  "nvm_data",
+  "nvm_it_dna_ds_asr.rds",
   package = "MadIsland",
   mustWork = TRUE
 ))
@@ -19,8 +19,8 @@ nonvolant_mammals <- readRDS(file = system.file(
 volant_mammals <- readRDS(file = system.file(
   "extdata",
   "extracted_data",
-  "volant_mammal_data",
-  "volant_mammal_island_tbl_dna_ds_asr.rds",
+  "vm_data",
+  "vm_it_dna_ds_asr.rds",
   package = "MadIsland",
   mustWork = TRUE
 ))
@@ -28,8 +28,8 @@ volant_mammals <- readRDS(file = system.file(
 squamates <- readRDS(file = system.file(
   "extdata",
   "extracted_data",
-  "squamate_data",
-  "squamate_island_tbl_dna_ds_asr.rds",
+  "squa_data",
+  "squa_it_dna_ds_asr.rds",
   package = "MadIsland",
   mustWork = TRUE
 ))
@@ -38,7 +38,7 @@ birds <- readRDS(file = system.file(
   "extdata",
   "extracted_data",
   "bird_data",
-  "bird_island_tbl_dna_ds_asr.rds",
+  "bird_it_dna_ds_asr.rds",
   package = "MadIsland",
   mustWork = TRUE
 ))
