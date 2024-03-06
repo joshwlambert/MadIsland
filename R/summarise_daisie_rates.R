@@ -6,7 +6,6 @@
 #' @return tibble
 #' @export
 summarise_daisie_rates <- function(data) {
-
   params_tbl <- dplyr::filter(
     data,
     params %in% c("lambda_c", "mu", "K", "gamma", "lambda_a", "prob_init_pres")
