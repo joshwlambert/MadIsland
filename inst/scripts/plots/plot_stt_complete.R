@@ -5,32 +5,32 @@ amphibian_nonoceanic_rates <- readRDS(
   file = system.file(
     "extdata",
     "collated_daisie_output",
-    "amphibian_daisie_output",
-    "amphibian_complete_nonoceanic.rds",
+    "amp_daisie_output",
+    "amp_complete_nonoceanic.rds",
     package = "MadIsland",
     mustWork = TRUE
   )
 )
 
 # calculate median rates
-amphibian_rates <- summarise_daisie_rates(data = amphibian_nonoceanic_rates)
+amphibian_rates <- min_median_rd_params(data = amphibian_nonoceanic_rates)
 
 # get parameters
-lambda_c <- amphibian_rates[which(amphibian_rates$params == "lambda_c"), "median"]
-mu <- amphibian_rates[which(amphibian_rates$params == "mu"), "median"]
-k <- amphibian_rates[which(amphibian_rates$params == "K"), "median"]
-gamma <- amphibian_rates[which(amphibian_rates$params == "gamma"), "median"]
-lambda_a <- amphibian_rates[which(amphibian_rates$params == "lambda_a"), "median"]
-prob_init_pres <- amphibian_rates[which(amphibian_rates$params == "prob_init_pres"), "median"]
+lambda_c <- amphibian_rates$value[amphibian_rates$params == "lambda_c"]
+mu <- amphibian_rates$value[amphibian_rates$params == "mu"]
+k <- amphibian_rates$value[amphibian_rates$params == "K"]
+gamma <- amphibian_rates$value[amphibian_rates$params == "gamma"]
+lambda_a <- amphibian_rates$value[amphibian_rates$params == "lambda_a"]
+prob_init_pres <- amphibian_rates$value[amphibian_rates$params == "prob_init_pres"]
 
 # simulate with amphibian MLE estimates
 amphibian <- DAISIE::DAISIE_sim_cr(
   time = 88,
   M = 200,
-  pars = c(lambda_c[[1]], mu[[1]], k[[1]], gamma[[1]], lambda_a[[1]]),
-  replicates = 10,
+  pars = c(lambda_c, mu, k, gamma, lambda_a),
+  replicates = 1000,
   divdepmodel = "CS",
-  nonoceanic_pars = c(prob_init_pres[[1]], 0),
+  nonoceanic_pars = c(prob_init_pres, 0),
   sample_freq = 176,
   verbose = TRUE
 )
@@ -54,32 +54,32 @@ squamate_nonoceanic_rates <- readRDS(
   file = system.file(
     "extdata",
     "collated_daisie_output",
-    "squamate_daisie_output",
-    "squamate_complete_nonoceanic.rds",
+    "squa_daisie_output",
+    "squa_complete_nonoceanic.rds",
     package = "MadIsland",
     mustWork = TRUE
   )
 )
 
 # calculate median rates
-squamate_rates <- summarise_daisie_rates(data = squamate_nonoceanic_rates)
+squamate_rates <- min_median_rd_params(data = squamate_nonoceanic_rates)
 
 # get parameters
-lambda_c <- squamate_rates[which(squamate_rates$params == "lambda_c"), "median"]
-mu <- squamate_rates[which(squamate_rates$params == "mu"), "median"]
-k <- squamate_rates[which(squamate_rates$params == "K"), "median"]
-gamma <- squamate_rates[which(squamate_rates$params == "gamma"), "median"]
-lambda_a <- squamate_rates[which(squamate_rates$params == "lambda_a"), "median"]
-prob_init_pres <- squamate_rates[which(squamate_rates$params == "prob_init_pres"), "median"]
+lambda_c <- squamate_rates$value[squamate_rates$params == "lambda_c"]
+mu <- squamate_rates$value[squamate_rates$params == "mu"]
+k <- squamate_rates$value[squamate_rates$params == "K"]
+gamma <- squamate_rates$value[squamate_rates$params == "gamma"]
+lambda_a <- squamate_rates$value[squamate_rates$params == "lambda_a"]
+prob_init_pres <- squamate_rates$value[squamate_rates$params == "prob_init_pres"]
 
 # simulate with squamate MLE estimates
 squamate <- DAISIE::DAISIE_sim_cr(
   time = 88,
   M = 600,
-  pars = c(lambda_c[[1]], mu[[1]], k[[1]], gamma[[1]], lambda_a[[1]]),
-  replicates = 10,
+  pars = c(lambda_c, mu, k, gamma, lambda_a),
+  replicates = 1000,
   divdepmodel = "CS",
-  nonoceanic_pars = c(prob_init_pres[[1]], 0),
+  nonoceanic_pars = c(prob_init_pres, 0),
   sample_freq = 176,
   verbose = TRUE
 )
@@ -114,24 +114,24 @@ bird_nonoceanic_rates <- readRDS(
 )
 
 # calculate median rates
-bird_rates <- summarise_daisie_rates(data = bird_nonoceanic_rates)
+bird_rates <- min_median_rd_params(data = bird_nonoceanic_rates)
 
 # get parameters
-lambda_c <- bird_rates[which(bird_rates$params == "lambda_c"), "median"]
-mu <- bird_rates[which(bird_rates$params == "mu"), "median"]
-k <- bird_rates[which(bird_rates$params == "K"), "median"]
-gamma <- bird_rates[which(bird_rates$params == "gamma"), "median"]
-lambda_a <- bird_rates[which(bird_rates$params == "lambda_a"), "median"]
-prob_init_pres <- bird_rates[which(bird_rates$params == "prob_init_pres"), "median"]
+lambda_c <- bird_rates$value[bird_rates$params == "lambda_c"]
+mu <- bird_rates$value[bird_rates$params == "mu"]
+k <- bird_rates$value[bird_rates$params == "K"]
+gamma <- bird_rates$value[bird_rates$params == "gamma"]
+lambda_a <- bird_rates$value[bird_rates$params == "lambda_a"]
+prob_init_pres <- bird_rates$value[bird_rates$params == "prob_init_pres"]
 
 # simulate with bird MLE estimates
 bird <- DAISIE::DAISIE_sim_cr(
   time = 88,
   M = 1000,
-  pars = c(lambda_c[[1]], mu[[1]], k[[1]], gamma[[1]], lambda_a[[1]]),
-  replicates = 10,
+  pars = c(lambda_c, mu, k, gamma, lambda_a),
+  replicates = 1000,
   divdepmodel = "CS",
-  nonoceanic_pars = c(prob_init_pres[[1]], 0),
+  nonoceanic_pars = c(prob_init_pres, 0),
   sample_freq = 176,
   verbose = TRUE
 )
@@ -158,32 +158,32 @@ nonvolant_mammal_nonoceanic_rates <- readRDS(
   file = system.file(
     "extdata",
     "collated_daisie_output",
-    "nonvolant_mammal_daisie_output",
-    "nonvolant_mammal_complete_nonoceanic.rds",
+    "nvm_daisie_output",
+    "nvm_complete_nonoceanic.rds",
     package = "MadIsland",
     mustWork = TRUE
   )
 )
 
 # calculate median rates
-nonvolant_mammal_rates <- summarise_daisie_rates(data = nonvolant_mammal_nonoceanic_rates)
+nonvolant_mammal_rates <- min_median_rd_params(data = nonvolant_mammal_nonoceanic_rates)
 
 # get parameters
-lambda_c <- nonvolant_mammal_rates[which(nonvolant_mammal_rates$params == "lambda_c"), "median"]
-mu <- nonvolant_mammal_rates[which(nonvolant_mammal_rates$params == "mu"), "median"]
-k <- nonvolant_mammal_rates[which(nonvolant_mammal_rates$params == "K"), "median"]
-gamma <- nonvolant_mammal_rates[which(nonvolant_mammal_rates$params == "gamma"), "median"]
-lambda_a <- nonvolant_mammal_rates[which(nonvolant_mammal_rates$params == "lambda_a"), "median"]
-prob_init_pres <- nonvolant_mammal_rates[which(nonvolant_mammal_rates$params == "prob_init_pres"), "median"]
+lambda_c <- nonvolant_mammal_rates$value[nonvolant_mammal_rates$params == "lambda_c"]
+mu <- nonvolant_mammal_rates$value[nonvolant_mammal_rates$params == "mu"]
+k <- nonvolant_mammal_rates$value[nonvolant_mammal_rates$params == "K"]
+gamma <- nonvolant_mammal_rates$value[nonvolant_mammal_rates$params == "gamma"]
+lambda_a <- nonvolant_mammal_rates$value[nonvolant_mammal_rates$params == "lambda_a"]
+prob_init_pres <- nonvolant_mammal_rates$value[nonvolant_mammal_rates$params == "prob_init_pres"]
 
 # simulate with non-volant mammal MLE estimates
 nonvolant_mammal <- DAISIE::DAISIE_sim_cr(
   time = 88,
   M = 500,
-  pars = c(lambda_c[[1]], mu[[1]], k[[1]], gamma[[1]], lambda_a[[1]]),
-  replicates = 10,
+  pars = c(lambda_c, mu, k, gamma, lambda_a),
+  replicates = 1000,
   divdepmodel = "CS",
-  nonoceanic_pars = c(prob_init_pres[[1]], 0),
+  nonoceanic_pars = c(prob_init_pres, 0),
   sample_freq = 176,
   verbose = TRUE
 )
@@ -210,32 +210,32 @@ volant_mammal_nonoceanic_rates <- readRDS(
   file = system.file(
     "extdata",
     "collated_daisie_output",
-    "volant_mammal_daisie_output",
-    "volant_mammal_complete_nonoceanic.rds",
+    "vm_daisie_output",
+    "vm_complete_nonoceanic.rds",
     package = "MadIsland",
     mustWork = TRUE
   )
 )
 
 # calculate median rates
-volant_mammal_rates <- summarise_daisie_rates(data = volant_mammal_nonoceanic_rates)
+volant_mammal_rates <- min_median_rd_params(data = volant_mammal_nonoceanic_rates)
 
 # get parameters
-lambda_c <- volant_mammal_rates[which(volant_mammal_rates$params == "lambda_c"), "median"]
-mu <- volant_mammal_rates[which(volant_mammal_rates$params == "mu"), "median"]
-k <- volant_mammal_rates[which(volant_mammal_rates$params == "K"), "median"]
-gamma <- volant_mammal_rates[which(volant_mammal_rates$params == "gamma"), "median"]
-lambda_a <- volant_mammal_rates[which(volant_mammal_rates$params == "lambda_a"), "median"]
-prob_init_pres <- volant_mammal_rates[which(volant_mammal_rates$params == "prob_init_pres"), "median"]
+lambda_c <- volant_mammal_rates$value[volant_mammal_rates$params == "lambda_c"]
+mu <- volant_mammal_rates$value[volant_mammal_rates$params == "mu"]
+k <- volant_mammal_rates$value[volant_mammal_rates$params == "K"]
+gamma <- volant_mammal_rates$value[volant_mammal_rates$params == "gamma"]
+lambda_a <- volant_mammal_rates$value[volant_mammal_rates$params == "lambda_a"]
+prob_init_pres <- volant_mammal_rates$value[volant_mammal_rates$params == "prob_init_pres"]
 
 # simulate with volant mammal MLE estimates
 volant_mammal <- DAISIE::DAISIE_sim_cr(
   time = 88,
   M = 100,
-  pars = c(lambda_c[[1]], mu[[1]], k[[1]], gamma[[1]], lambda_a[[1]]),
-  replicates = 10,
+  pars = c(lambda_c, mu, k, gamma, lambda_a),
+  replicates = 1000,
   divdepmodel = "CS",
-  nonoceanic_pars = c(prob_init_pres[[1]], 0),
+  nonoceanic_pars = c(prob_init_pres, 0),
   sample_freq = 176,
   verbose = TRUE
 )
@@ -312,5 +312,5 @@ ggplot2::ggsave(
   width = 150,
   height = 100,
   units = "mm",
-  dpi = 600
+  dpi = 300
 )

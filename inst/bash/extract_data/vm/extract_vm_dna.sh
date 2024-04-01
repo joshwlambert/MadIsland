@@ -1,11 +1,11 @@
 #!/bin/bash
-#SBATCH --time=0-01:00:00
+#SBATCH --time=1-23:00:00
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --job-name=extract_volant_mammals_dna
-#SBATCH --output=logs/extract_volant_mammals_dna.log
+#SBATCH --job-name=extract_vm_dna
+#SBATCH --output=logs/extract_vm_dna.log
 #SBATCH --mem=5GB
 #SBATCH --partition=gelifes
 
 ml R
-Rscript inst/scripts/extract_data/volant_mammals/extract_volant_mammals_dna.R
+Rscript inst/scripts/extract_data/vm/extract_vm_dna.R

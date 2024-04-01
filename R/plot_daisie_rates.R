@@ -1,5 +1,9 @@
 plot_daisie_rates <- function(results_file, plot_col) {
 
+  # Fix build warnings
+  params <- NULL; rm(params) # nolint, fixes warning: no visible binding for global variable
+  value <- NULL; rm(value) # nolint, fixes warning: no visible binding for global variable
+
   # get the files names
   params_tbl <- readRDS(
     file = system.file(

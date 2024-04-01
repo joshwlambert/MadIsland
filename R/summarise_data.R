@@ -15,8 +15,8 @@
 #'   package = "MadIsland",
 #'   mustWork = TRUE
 #' ))
-#' summarise_data(data = amphibians)
-summarise_data <- function(data) {
+#' phylo_stats(data = amphibians)
+phylo_stats <- function(data) {
 
   # calculate mean and sd maximum (oldest) colonisation time across each posterior
   col_times <- lapply(data, \(x) {x@island_tbl$col_time})

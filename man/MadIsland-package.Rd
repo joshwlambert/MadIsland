@@ -6,6 +6,6 @@
 \alias{MadIsland-package}
 \title{MadIsland: Package to hold all the scripts to reproduce paper on colonisation and divesification history of Madagascar's tetrapods}
 \description{
-Reproduce all analyses and plots from the paper on the colonisation and diversification history of Madagascar's tetrapods. Note that this package is tailored to use the Peregrine High Performance Computing Cluster (HPCC) (https://wiki.hpc.rug.nl/peregrine/start) therefore rerunning certain analyses sequentially on a desktop/laptop will be time consuming.
+Reproduce all analyses and plots from the paper on the colonisation and diversification history of Madagascar's tetrapods. Note that this package is tailored to use the Hábrók High Performance Computing Cluster (HPCC) \url{https://wiki.hpc.rug.nl/habrok/start} therefore rerunning certain analyses sequentially on a desktop/laptop will be time consuming.
 }
 \keyword{internal}

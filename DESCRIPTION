@@ -11,8 +11,8 @@ Author: person(given = "Joshua W.",
 Maintainer: Joshua W. Lambert <j.w.l.lambert@rug.nl>
 Description: Reproduce all analyses and plots from the paper on the colonisation
     and diversification history of Madagascar's tetrapods. Note that this package
-    is tailored to use the Peregrine High Performance Computing Cluster (HPCC) 
-    (https://wiki.hpc.rug.nl/peregrine/start) therefore rerunning certain analyses
+    is tailored to use the Hábrók High Performance Computing Cluster (HPCC) 
+    <https://wiki.hpc.rug.nl/habrok/start> therefore rerunning certain analyses
     sequentially on a desktop/laptop will be time consuming.
 License: GPL (>= 3)
 Encoding: UTF-8
@@ -23,7 +23,7 @@ Suggests:
     rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 Imports: 
     stats,
     DAISIE (>= 4.4.1),

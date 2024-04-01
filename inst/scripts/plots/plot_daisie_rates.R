@@ -109,7 +109,7 @@ ggplot2::ggsave(
   width = 150,
   height = 100,
   units = "mm",
-  dpi = 600
+  dpi = 300
 )
 
 dna_daisie_rates <- cowplot::plot_grid(
@@ -131,5 +131,5 @@ ggplot2::ggsave(
   width = 150,
   height = 100,
   units = "mm",
-  dpi = 600
+  dpi = 300
 )

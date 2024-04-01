@@ -47,6 +47,9 @@
 plot_col_island_tbl <- function(multi_island_tbl_list,
                                 col_time = "stem") {
 
+  # Fix build warnings
+  posterior_index <- NULL; rm(posterior_index) # nolint, fixes warning: no visible binding for global variable
+
   if (is.null(names(multi_island_tbl_list))) {
     stop("Data must be a named list to use the names for plotting")
   }
@@ -109,7 +112,8 @@ plot_col_island_tbl <- function(multi_island_tbl_list,
         y = posterior_index,
         colour = .data$clade
       ),
-      alpha = 0.5
+      alpha = 0.25,
+      size = 0.5
     ) +
     ggplot2::facet_wrap(
       facets = "clade",

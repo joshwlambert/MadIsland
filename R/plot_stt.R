@@ -2,6 +2,9 @@ plot_stt <- function(daisie_data_list,
                      log_num_species = TRUE,
                      median_res = 1) {
 
+  # Fix build warnings
+  num_lineages <- NULL; rm(num_lineages) # nolint, fixes warning: no visible binding for global variable
+
   if (log_num_species) {
     trans <- "log"
     breaks <- scales::breaks_log()

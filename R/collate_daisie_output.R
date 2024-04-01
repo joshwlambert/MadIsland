@@ -22,16 +22,11 @@ collate_daisie_output <- function(results_dir,
                                   oceanic_or_nonoceanic,
                                   num_phylos) {
 
+  # Fix build warnings
+  prob_init_pres <- NULL; rm(prob_init_pres) # nolint, fixes warning: no visible binding for global variable
+
   # get the files names
-  files <- list.files(
-    system.file(
-      "extdata",
-      "raw_daisie_output",
-      results_dir,
-      package = "MadIsland",
-      mustWork = TRUE
-    )
-  )
+  files <- list.files(results_dir)
 
   # subset to the oceanic and nonoceanic data
   if (oceanic_or_nonoceanic == "oceanic") {
@@ -53,9 +48,6 @@ collate_daisie_output <- function(results_dir,
     posterior_rep_results <- lapply(
       as.list(
         file.path(
-          "inst",
-          "extdata",
-          "raw_daisie_output",
           results_dir,
           posterior_rep
         )

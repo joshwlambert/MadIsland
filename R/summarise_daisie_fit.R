@@ -9,6 +9,10 @@
 summarise_daisie_fit <- function(oceanic_data,
                                  nonoceanic_data) {
 
+  # Fix build warnings
+  params <- NULL; rm(params) # nolint, fixes warning: no visible binding for global variable
+  value.x <- NULL; rm(value.x) # nolint, fixes warning: no visible binding for global variable
+  value.y <- NULL; rm(value.y) # nolint, fixes warning: no visible binding for global variable
 
   param_tbl <- dplyr::right_join(
     oceanic_data,
