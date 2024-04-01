@@ -21,6 +21,11 @@
 plot_col_daisie_data_list <- function(listed_daisie_data_list,
                                       col_time = "stem") {
 
+  # Fix build warnings
+  daisie_data_list <- NULL; rm(daisie_data_list) # nolint, fixes warning: no visible binding for global variable
+  clade <- NULL; rm(clade) # nolint, fixes warning: no visible binding for global variable
+  posterior_index <- NULL; rm(posterior_index) # nolint, fixes warning: no visible binding for global variable
+
   #TODO implement crown age plotting
 
   if (is.null(names(daisie_data_list))) {

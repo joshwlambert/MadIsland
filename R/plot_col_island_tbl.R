@@ -47,6 +47,9 @@
 plot_col_island_tbl <- function(multi_island_tbl_list,
                                 col_time = "stem") {
 
+  # Fix build warnings
+  posterior_index <- NULL; rm(posterior_index) # nolint, fixes warning: no visible binding for global variable
+
   if (is.null(names(multi_island_tbl_list))) {
     stop("Data must be a named list to use the names for plotting")
   }
