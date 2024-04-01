@@ -1,0 +1,19 @@
+{
+  "creators": [
+    {
+      "orcid": "0000-0001-5218-3046",
+      "affiliation": "University of Groningen",
+      "name": "Lambert, Joshua W."
+    }
+  ],
+
+  "license": {
+    "id": "GPL-3.0-only"
+  },
+
+  "description": "<p>Reproduce all analyses and plots from the paper on the colonisation and diversification history of Madagascar's tetrapods. Note that this package is tailored to use the Hábrók High Performance Computing Cluster (HPCC) <https://wiki.hpc.rug.nl/habrok/start> therefore rerunning certain analyses sequentially on a desktop/laptop will be time consuming.</p>",
+  "language": "eng",
+  "title": "Package to hold all the scripts to reproduce paper on colonisation and divesification history of Madagascar's tetrapods.",
+
+  "access_right": "open"
+}
