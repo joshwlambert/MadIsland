@@ -16,7 +16,8 @@ extract_species <- function(checklist_file_name,
                             phylo_file_name,
                             dna_or_complete,
                             daisie_status,
-                            extraction_method) {
+                            extraction_method,
+                            rate_model) {
 
   # load the full raw data checklist of bird species of madagascar
   checklist <- read_checklist(file_name = checklist_file_name)
@@ -89,6 +90,7 @@ extract_species <- function(checklist_file_name,
       DAISIEprep::add_asr_node_states,
       asr_method = "mk",
       tie_preference = "mainland",
+      rate_model = rate_model,
       future.seed = TRUE
     )
   }
