@@ -4,7 +4,7 @@
 \name{MadIsland-package}
 \alias{MadIsland}
 \alias{MadIsland-package}
-\title{MadIsland: Package to hold all the scripts to reproduce paper on colonisation and divesification history of Madagascar's tetrapods}
+\title{MadIsland: An R package to hold all the scripts to reproduce paper on colonisation and diversification history of Madagascar's tetrapods}
 \description{
 Reproduce all analyses and plots from the paper on the colonisation and diversification history of Madagascar's tetrapods. Note that this package is tailored to use the Hábrók High Performance Computing Cluster (HPCC) \url{https://wiki.hpc.rug.nl/habrok/start} therefore rerunning certain analyses sequentially on a desktop/laptop will be time consuming.
 }

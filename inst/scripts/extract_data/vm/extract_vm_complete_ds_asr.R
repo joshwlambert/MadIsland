@@ -8,7 +8,8 @@ island_data <- MadIsland::extract_species(
   phylo_file_name = "Upham_complete_posterior_100.rds",
   dna_or_complete = "complete",
   daisie_status = TRUE,
-  extraction_method = "asr"
+  extraction_method = "asr",
+  rate_model = "ARD"
 )
 
 multi_island_tbl_complete <- island_data$multi_island_tbl

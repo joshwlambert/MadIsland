@@ -13,7 +13,8 @@ extract_species(
   phylo_file_name,
   dna_or_complete,
   daisie_status,
-  extraction_method
+  extraction_method,
+  rate_model
 )
 }
 \arguments{
@@ -36,6 +37,12 @@ migrated}
 whether to use the `min` or `asr` algorithms for the
 `DAISIEprep::extract_island_species()` extraction process, see `DAISIEprep`
 documentation for more information.}
+
+\item{rate_model}{A character string determining the discrete character
+Markov model (Mk) to be used. Only used when `extraction_method = "asr"`.
+Options are equal-rates `"ER"`, all rates different `"ARD"`, symmetrical
+`"SYM"`, only stepwise transitions `"SUEDE"` and only stepwise transitions
+to neighbouring states `"SRD".`}
 }
 \value{
 List with:

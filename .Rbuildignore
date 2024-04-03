@@ -10,3 +10,4 @@
 ^bash$
 ^doc$
 ^Meta$
+^\.zenodo\.json$

@@ -17,7 +17,8 @@ default_params_doc(
   daisie_status,
   extraction_method,
   num_missing_species,
-  species_name
+  species_name,
+  rate_model
 )
 }
 \arguments{
@@ -64,6 +65,12 @@ missing species are assigned. This is done by matching the species name
 given to the species within each island colonist, therefore the species name
 given does not need to match the clade_name of the island colonist (which is
 a representative species for the clade)}
+
+\item{rate_model}{A character string determining the discrete character
+Markov model (Mk) to be used. Only used when `extraction_method = "asr"`.
+Options are equal-rates `"ER"`, all rates different `"ARD"`, symmetrical
+`"SYM"`, only stepwise transitions `"SUEDE"` and only stepwise transitions
+to neighbouring states `"SRD".`}
 }
 \value{
 Nothing
