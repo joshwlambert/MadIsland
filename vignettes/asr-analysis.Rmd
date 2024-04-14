@@ -1,0 +1,280 @@
+---
+title: "Madagascar ASR Analysis"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Madagascar ASR analysis}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>", 
+  fig.width = 8, 
+  fig.height = 5
+)
+```
+
+This is a temporary vignette to showcase the behaviour of different Markov model (Mk) continuous-time ancestral state reconstruction parameterisations (including equal-rates, all rates different, sequential and others), and how they influence the extraction in `DAISIEprep` and what influence this has on the five Malagasy taxonomic groups analysed in the study.
+
+This vignette is not a full analysis, in the sense that it only uses a small subset of the empirical data and does not attempt to do a comprehensive assessment on simulated data, and is thus not part of the manuscript. But it does attempt to highlight some of the high-level patterns that each ASR algrithm has in `DAISIEprep`. In the end this vignette tries to justify the choice of ASR algorithm chosen for use in the `DAISIEprep` extraction used in the study.
+
+```{r setup}
+library(MadIsland)
+library(DAISIEprep)
+library(ape)
+library(phylobase)
+library(ggtree)
+library(ggimage)
+library(castor)
+```
+
+The seed is set so this vignette produces the same output each time it is rendered (due to stochastic methods used).
+
+```{r, set-seed}
+set.seed(
+  1,
+  kind = "Mersenne-Twister",
+  normal.kind = "Inversion",
+  sample.kind = "Rejection"
+)
+```
+
+First we'll demonstrate a general use case of `DAISIEprep` which involves a phylogeny, tip states, inferring node states using an ASR method, and then extracting species into an `Island_tbl`. We'll simulate a phylogeny and append some geographic tip states as either `"endemic"`, `"nonendemic"` or `"not_present"` on the island of interest.
+
+```{r, sim-tree}
+phylo <- ape::rcoal(10)
+```
+
+```{r, set-tip-names}
+phylo$tip.label <- c("Plant_a", "Plant_b", "Plant_c", "Plant_d", "Plant_e",
+                     "Plant_f", "Plant_g", "Plant_h", "Plant_i", "Plant_j")
+```
+
+```{r, convert-and-plot-tree}
+phylo <- phylobase::phylo4(phylo)
+phylobase::plot(phylo)
+```
+
+```{r, sample-and-set-tip-states}
+endemicity_status <- sample(
+  x = c("not_present", "endemic", "nonendemic"),
+  size = length(phylobase::tipLabels(phylo)),
+  replace = TRUE,
+  prob = c(0.6, 0.2, 0.2)
+)
+phylod <- phylobase::phylo4d(phylo, as.data.frame(endemicity_status))
+```
+
+```{r, plot-tip-states}
+plot_phylod(phylod = phylod)
+```
+
+```{r, add-node-states}
+phylod <- add_asr_node_states(phylod = phylod, asr_method = "mk", rate_model = "ER")
+```
+
+```{r, plot-node-states}
+plot_phylod(phylod = phylod)
+```
+
+```{r, extract-species}
+island_tbl <- extract_island_species(
+  phylod = phylod,
+  extraction_method = "asr"
+)
+island_tbl
+```
+
+Now the demonstration of the simple case is complete, we'll explore the different ASR methods on slightly larger simulated trees. 
+
+```{r, prep-phylod}
+phylo <- ape::rphylo(n = 30, birth = 1, death = 0)
+species_names <- c(letters, paste0("a", letters))[1:30]
+phylo$tip.label <- paste("Plant", species_names, sep = "_")
+phylo <- add_outgroup(phylo = phylo)
+phylo <- phylobase::phylo4(phylo)
+endemicity_status <- sample(
+  x = c("not_present", "endemic", "nonendemic"),
+  size = length(phylobase::tipLabels(phylo)),
+  replace = TRUE,
+  prob = c(0.6, 0.2, 0.2)
+)
+phylod <- phylobase::phylo4d(phylo, as.data.frame(endemicity_status))
+plot_phylod(phylod = phylod)
+```
+
+## Equal rates model
+
+```{r, mk-er}
+phylod_er <- add_asr_node_states(phylod = phylod, asr_method = "mk", rate_model = "ER")
+plot_phylod(phylod = phylod_er)
+phylod_er
+```
+
+## All Rates Different model
+
+```{r, mk-ard}
+phylod_ard <- add_asr_node_states(phylod = phylod, asr_method = "mk", rate_model = "ARD")
+plot_phylod(phylod = phylod_ard)
+phylod_ard
+```
+
+## Symmetrical rates model
+
+```{r, mk-sym}
+phylod_sym <- add_asr_node_states(phylod = phylod, asr_method = "mk", rate_model = "SYM")
+plot_phylod(phylod = phylod_sym)
+phylod_sym
+```
+
+## Only stepwise transitions equal rates model
+
+```{r, mk-suede}
+phylod_suede <- add_asr_node_states(phylod = phylod, asr_method = "mk", rate_model = "SUEDE")
+plot_phylod(phylod = phylod_suede)
+phylod_suede
+```
+
+## Only stepwuse transitions all rates different model
+
+```{r, mk-srd}
+phylod_srd <- add_asr_node_states(phylod = phylod, asr_method = "mk", rate_model = "SRD")
+plot_phylod(phylod = phylod_srd)
+phylod_srd
+```
+
+Overall the more parameter rich models have older colonisation times, and the `"SUEDE"` model has very little power in estimating ancestral states given the equal probability across each node in the tree to be in any states. 
+
+On some trees there is a jump between nodes from not present to endemic or vice versa, when the model does not allow jumps (e.g. `"SUEDE"`) but looking at the estimated transition matrix it seems that the rates are high between states and the rates that should be zero are indeed zero, so it appears the model can estimates two transitions during a single branch so the different in states between internal nodes can be more than one. 
+
+## Madagascar data
+
+## Amphibians
+
+```{r, a}
+checklist <- read_checklist(file_name = "amp_checklist.csv")
+```
+
+```{r, b}
+island_endemicity_status <- process_raw_data(
+    file_name = "amp_checklist.csv",
+    dna_or_complete = "DNA",
+    daisie_status = TRUE
+)
+```
+
+```{r, c}
+phylo <- readRDS(
+  file = system.file(
+    "extdata", "phylos", "Jetz_Pyron_dna_posterior_100.rds",
+    package = "MadIsland"
+  )
+)
+phylo <- phylo[[1]]
+```
+
+```{r, d}
+phylo <- phylobase::phylo4(phylo)
+```
+  
+```{r, e}
+endemicity_status <- DAISIEprep::create_endemicity_status(
+  phylo, 
+  island_species = island_endemicity_status
+)
+```
+
+```{r, f}
+phylod <- phylobase::phylo4d(
+  phylo,
+  endemicity_status
+)
+```
+
+## Equal rates model
+
+```{r}
+phylod <- DAISIEprep::add_asr_node_states(
+  phylod,
+  asr_method = "mk",
+  tie_preference = "mainland",
+  rate_model = "ER"
+)
+```
+
+```{r}
+island_tbl <- DAISIEprep::extract_island_species(
+  phylod = phylod, 
+  extraction_method = "asr"
+)
+island_tbl
+island_tbl@island_tbl$col_time
+island_tbl@island_tbl$branching_times
+```
+
+## All rates different model
+
+```{r}
+phylod <- DAISIEprep::add_asr_node_states(
+  phylod,
+  asr_method = "mk",
+  tie_preference = "mainland",
+  rate_model = "ARD"
+)
+```
+
+```{r}
+island_tbl <- DAISIEprep::extract_island_species(
+  phylod = phylod, 
+  extraction_method = "asr"
+)
+island_tbl
+island_tbl@island_tbl$col_time
+island_tbl@island_tbl$branching_times
+```
+
+## Stepwise transition equal rates model
+
+```{r}
+phylod <- DAISIEprep::add_asr_node_states(
+  phylod,
+  asr_method = "mk",
+  tie_preference = "mainland",
+  rate_model = "SUEDE"
+)
+```
+
+```{r}
+island_tbl <- DAISIEprep::extract_island_species(
+  phylod = phylod, 
+  extraction_method = "asr"
+)
+island_tbl
+island_tbl@island_tbl$col_time
+island_tbl@island_tbl$branching_times
+```
+
+## Stepwise transition all rates different model
+
+```{r}
+phylod <- DAISIEprep::add_asr_node_states(
+  phylod,
+  asr_method = "mk",
+  tie_preference = "mainland",
+  rate_model = "SRD"
+)
+```
+
+```{r}
+island_tbl <- DAISIEprep::extract_island_species(
+  phylod = phylod, 
+  extraction_method = "asr"
+)
+island_tbl
+island_tbl@island_tbl$col_time
+island_tbl@island_tbl$branching_times
+```
+
+
