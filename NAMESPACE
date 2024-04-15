@@ -3,6 +3,7 @@
 export(checklist_stats)
 export(collate_daisie_output)
 export(count_missing_species)
+export(create_daisie_transition_matrix)
 export(default_params_doc)
 export(extract_species)
 export(min_median_rd_params)
