@@ -8,7 +8,7 @@ amphibians <- readRDS(file = system.file(
   mustWork = TRUE
 ))
 
-phylo_stats(data = amphibians)
+amp <- phylo_stats(data = amphibians)
 
 # summarise bird island community complete data
 birds <- readRDS(file = system.file(
@@ -20,7 +20,7 @@ birds <- readRDS(file = system.file(
   mustWork = TRUE
 ))
 
-phylo_stats(data = birds)
+bird <- phylo_stats(data = birds)
 
 # summarise nonvolant mammal island community complete data
 nonvolant_mammals <- readRDS(file = system.file(
@@ -32,7 +32,7 @@ nonvolant_mammals <- readRDS(file = system.file(
   mustWork = TRUE
 ))
 
-phylo_stats(data = nonvolant_mammals)
+nvm <- phylo_stats(data = nonvolant_mammals)
 
 # summarise squamate island community complete data
 squamates <- readRDS(file = system.file(
@@ -44,7 +44,7 @@ squamates <- readRDS(file = system.file(
   mustWork = TRUE
 ))
 
-phylo_stats(data = squamates)
+squa <- phylo_stats(data = squamates)
 
 # summarise volant mammal island community complete data
 volant_mammals <- readRDS(file = system.file(
@@ -56,4 +56,12 @@ volant_mammals <- readRDS(file = system.file(
   mustWork = TRUE
 ))
 
-phylo_stats(data = volant_mammals)
+vm <- phylo_stats(data = volant_mammals)
+
+data.frame(
+  amp = unlist(amp),
+  bird = unlist(bird),
+  nvm = unlist(nvm),
+  squa = unlist(squa),
+  vm = unlist(vm)
+)
