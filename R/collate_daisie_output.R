@@ -17,23 +17,25 @@
 #' # number of phylogeny replicates used
 #' num_phylos <- 3
 #' # oceanic results
-#' oceanic_or_nonoceanic <- "oceanic"
-collate_daisie_output <- function(results_dir,
-                                  oceanic_or_nonoceanic,
-                                  num_phylos) {
+collate_daisie_output <- function(results_dir) {
 
   # Fix build warnings
   prob_init_pres <- NULL; rm(prob_init_pres) # nolint, fixes warning: no visible binding for global variable
 
   # get the files names
-  files <- list.files(results_dir)
+  daisie_results_files <- list.files(results_dir)
 
-  # subset to the oceanic and nonoceanic data
-  if (oceanic_or_nonoceanic == "oceanic") {
-    daisie_results_files <- files[-grep(pattern = "nonoceanic", x = files)]
-  } else {
-    daisie_results_files <- files[grep(pattern = "nonoceanic", x = files)]
-  }
+  daisie_results_posterior_rep <- gsub(
+    pattern = ".*cr_dd_[0-9]_",
+    replacement = "",
+    x = daisie_results_files
+  )
+  daisie_results_posterior_rep <- gsub(
+    pattern = ".rds",
+    replacement = "",
+    x = daisie_results_posterior_rep
+  )
+  num_phylos <- max(as.numeric(daisie_results_posterior_rep))
 
   # results list
   results <- list()
@@ -121,6 +123,15 @@ collate_daisie_output <- function(results_dir,
     }
   }))
 
+  prob_init_pres <- unlist(lapply(
+    results, \(x) {
+      if (is.null(x)) {
+        NA_real_
+      } else {
+        x$prob_init_pres
+      }
+    }))
+
   # put posterior distribution of parameter estimates into tibble
   results_tbl <- tibble::tibble(
     phylo = 1:num_phylos,
@@ -131,19 +142,8 @@ collate_daisie_output <- function(results_dir,
     lambda_a = lambda_a,
     loglik = loglik,
     bic = bic,
-    prob_init_pres = rep(NA_real_, num_phylos)
+    prob_init_pres = prob_init_pres
   )
-
-  if (oceanic_or_nonoceanic == "nonoceanic") {
-    results_tbl$prob_init_pres <- unlist(lapply(
-      results, \(x) {
-        if (is.null(x)) {
-          NA_real_
-        } else {
-          x$prob_init_pres
-        }
-      }))
-  }
 
   results_tbl <- tidyr::pivot_longer(
     data = results_tbl,
