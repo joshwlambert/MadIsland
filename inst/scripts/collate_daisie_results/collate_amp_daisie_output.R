@@ -5,7 +5,7 @@
 amp_complete_nonoceanic <- collate_daisie_output(
   results_dir = "amp_dll_complete_ds_asr",
   oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 20
+  num_phylos = 100
 )
 
 # save the collated data
@@ -24,7 +24,7 @@ saveRDS(
 amp_dna_nonoceanic <- collate_daisie_output(
   results_dir = "amp_dll_dna_ds_asr",
   oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 20
+  num_phylos = 100
 )
 
 # save the collated data

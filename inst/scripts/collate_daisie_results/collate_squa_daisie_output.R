@@ -5,7 +5,7 @@
 squa_complete_nonoceanic <- collate_daisie_output(
   results_dir = "squa_ddl_complete_ds_asr",
   oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 20
+  num_phylos = 100
 )
 
 # save the collated data
@@ -24,7 +24,7 @@ saveRDS(
 squa_dna_nonoceanic <- collate_daisie_output(
   results_dir = "squa_ddl_dna_ds_asr",
   oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 20
+  num_phylos = 100
 )
 
 # save the collated data
