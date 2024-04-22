@@ -26,7 +26,7 @@ collate_daisie_output <- function(results_dir) {
   daisie_results_files <- list.files(results_dir)
 
   daisie_results_posterior_rep <- gsub(
-    pattern = ".*cr_dd_[0-9]_",
+    pattern = ".*cr_dd_\\d{1,2}_",
     replacement = "",
     x = daisie_results_files
   )
