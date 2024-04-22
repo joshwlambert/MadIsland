@@ -3,9 +3,12 @@
 
 # collate amphibian complete data for the nonoceanic model
 amp_complete_nonoceanic <- collate_daisie_output(
-  results_dir = "amp_dll_complete_ds_asr",
-  oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 100
+  results_dir = file.path(
+    "inst",
+    "extdata",
+    "raw_daisie_output",
+    "amp_ddl_complete_ds_asr"
+  )
 )
 
 # save the collated data
@@ -22,9 +25,12 @@ saveRDS(
 
 # collate amphibian DNA data for the nonoceanic model
 amp_dna_nonoceanic <- collate_daisie_output(
-  results_dir = "amp_dll_dna_ds_asr",
-  oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 100
+  results_dir = file.path(
+    "inst",
+    "extdata",
+    "raw_daisie_output",
+    "amp_ddl_dna_ds_asr"
+  )
 )
 
 # save the collated data

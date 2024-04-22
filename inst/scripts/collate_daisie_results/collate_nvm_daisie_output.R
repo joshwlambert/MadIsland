@@ -3,9 +3,12 @@
 
 # collate nonvolant mammal complete data for the nonoceanic model
 nvm_complete_nonoceanic <- collate_daisie_output(
-  results_dir = "nvm_ddl_complete_ds_asr",
-  oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 100
+  results_dir = file.path(
+    "inst",
+    "extdata",
+    "raw_daisie_output",
+    "nvm_ddl_complete_ds_asr"
+  )
 )
 
 # save the collated data
@@ -22,9 +25,12 @@ saveRDS(
 
 # collate mammal DNA data for the nonoceanic model
 nvm_dna_nonoceanic <- collate_daisie_output(
-  results_dir = "nvm_ddl_dna_ds_asr",
-  oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 100
+  results_dir = file.path(
+    "inst",
+    "extdata",
+    "raw_daisie_output",
+    "nvm_ddl_dna_ds_asr"
+  )
 )
 
 # save the collated data

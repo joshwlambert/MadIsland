@@ -3,9 +3,12 @@
 
 # collate squamate complete data for the nonoceanic model
 squa_complete_nonoceanic <- collate_daisie_output(
-  results_dir = "squa_ddl_complete_ds_asr",
-  oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 100
+  results_dir = file.path(
+    "inst",
+    "extdata",
+    "raw_daisie_output",
+    "squa_ddl_complete_ds_asr"
+  )
 )
 
 # save the collated data
@@ -22,9 +25,12 @@ saveRDS(
 
 # collate squamate DNA data for the nonoceanic model
 squa_dna_nonoceanic <- collate_daisie_output(
-  results_dir = "squa_ddl_dna_ds_asr",
-  oceanic_or_nonoceanic = "nonoceanic",
-  num_phylos = 100
+  results_dir = file.path(
+    "inst",
+    "extdata",
+    "raw_daisie_output",
+    "squa_ddl_dna_ds_asr"
+  )
 )
 
 # save the collated data
