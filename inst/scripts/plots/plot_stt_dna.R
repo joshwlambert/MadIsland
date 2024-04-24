@@ -314,3 +314,17 @@ ggplot2::ggsave(
   units = "mm",
   dpi = 300
 )
+
+ggplot2::ggsave(
+  plot = stt_plot,
+  filename = file.path(
+    "inst",
+    "plots",
+    "stt_dna.svg"
+  ),
+  device = "svg",
+  width = 150,
+  height = 100,
+  units = "mm",
+  dpi = 300
+)
