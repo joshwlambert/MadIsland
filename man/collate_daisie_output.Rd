@@ -6,7 +6,7 @@
 specified results folder and extracts the best maximum likelihood optimisation
 for each different phylogeny and stores it as tabular data}
 \usage{
-collate_daisie_output(results_dir, oceanic_or_nonoceanic, num_phylos)
+collate_daisie_output(results_dir)
 }
 \arguments{
 \item{results_dir}{A character string of the folder name in
@@ -31,5 +31,4 @@ results_dir <- "amp_ddl_complete_ds_asr"
 # number of phylogeny replicates used
 num_phylos <- 3
 # oceanic results
-oceanic_or_nonoceanic <- "oceanic"
 }
