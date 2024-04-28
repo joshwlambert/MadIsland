@@ -71,6 +71,19 @@ ggplot2::ggsave(
   dpi = 300
 )
 
+ggplot2::ggsave(
+  plot = stem_col_time,
+  filename = file.path(
+    "inst",
+    "plots",
+    "stem_col_time_complete.svg"
+  ),
+  device = "svg",
+  width = 150,
+  height = 100,
+  units = "mm"
+)
+
 crown_col_time <- plot_col_island_tbl(
   multi_island_tbl_list = multi_island_tbl_list,
   col_time = "crown"
@@ -88,4 +101,17 @@ ggplot2::ggsave(
   height = 100,
   units = "mm",
   dpi = 300
+)
+
+ggplot2::ggsave(
+  plot = crown_col_time,
+  filename = file.path(
+    "inst",
+    "plots",
+    "crown_col_time_complete.svg"
+  ),
+  device = "svg",
+  width = 150,
+  height = 100,
+  units = "mm"
 )
