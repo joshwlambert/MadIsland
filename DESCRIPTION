@@ -2,7 +2,7 @@ Package: MadIsland
 Type: Package
 Title: An R package to hold all the scripts to reproduce paper on colonisation and 
     diversification history of Madagascar's tetrapods
-Version: 0.1.0
+Version: 0.2.0
 Author: person(given = "Joshua W.",
            family = "Lambert",
            email = "j.w.l.lambert@rug.nl",
