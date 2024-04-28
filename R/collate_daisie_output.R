@@ -4,9 +4,6 @@
 #'
 #' @param results_dir A character string of the folder name in
 #' inst/daisie_results to read the results from
-#' @param oceanic_or_nonoceanic A character string, either "oceanic" or
-#' "nonoceanic"
-#' @param num_phylos Numeric of how many phylogenies were used
 #'
 #' @return tibble
 #' @export
@@ -14,9 +11,6 @@
 #' @examples
 #' # name of results of results folder
 #' results_dir <- "amp_ddl_complete_ds_asr"
-#' # number of phylogeny replicates used
-#' num_phylos <- 3
-#' # oceanic results
 collate_daisie_output <- function(results_dir) {
 
   # Fix build warnings
