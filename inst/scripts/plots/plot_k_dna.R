@@ -94,25 +94,27 @@ k_tbl_finite$value[k_tbl$value >= max_k] <- max_k
 k_tbl_finite <- k_tbl_finite[k_tbl_finite$value < max_k, ]
 
 k_plot_dna <- ggplot2::ggplot(data = k_tbl_finite) +
-  ggplot2::geom_density(
+  ggplot2::geom_histogram(
     mapping = ggplot2::aes(
       x = value,
       fill = taxonomic_group
     ),
-    alpha = 0.75
+    alpha = 0.75,
+    position = "identity",
+    binwidth = 25
   ) +
   ggplot2::scale_x_continuous(
     name = "Carrying Capacity (K')",
     limits = c(0, max_k)
   ) +
-  ggplot2::scale_y_continuous(name = "Density") +
+  ggplot2::scale_y_continuous(name = "Count") +
   ggplot2::scale_fill_manual(
-    labels = c("Amphibian", "Squamate"),
-    values = c("#7fbd2d", "#01783f"),
+    labels = c("Amphibian", "Birds", "NV Mammals", "Squamate", "V Mammals"),
+    values = c("#7fbd2d", "#073dfd", "#a8856e", "#01783f", "#3d3d3d"),
     guide = ggplot2::guide_legend("Taxonomic Group")
   ) +
-  ggplot2::guides("Taxonomic Group") +
   ggplot2::theme_classic()
+
 
 k_plot_dna_inset <- ggplot2::ggplot(data = num_inf_k) +
   ggplot2::geom_col(
@@ -136,7 +138,7 @@ k_plot_dna_inset <- ggplot2::ggplot(data = num_inf_k) +
   ggplot2::theme(legend.position = "none")
 
 k_plot_dna <- cowplot::ggdraw(k_plot_dna) +
-  cowplot::draw_plot(k_plot_dna_inset, 0.35, 0.6, 0.4, 0.4)
+  cowplot::draw_plot(k_plot_dna_inset, 0.375, 0.6, 0.4, 0.4)
 
 ggplot2::ggsave(
   plot = k_plot_dna,
