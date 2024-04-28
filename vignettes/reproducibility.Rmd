@@ -155,3 +155,9 @@ The results of fitting the DAISIE models to the data are saved in the `results/`
 Once the files are moved (technically they are copied) into `raw_daisie_output/` they can be commited and pushed (`git commit` & `git push`).
 
 ## {-}
+
+## Plotting
+
+Once collated DAISIE data is saved in the package, the plotting scripts in `inst/scripts/plots/` can be run to produce the plots in `inst/plots/`.
+
+Some plots in the manuscript are post-processed to add silhouette (from [phylopic](https://www.phylopic.org/)). The SVGs of the plots that get modified are saved and used for editing, which are then saved as PNGs after post processing. The SVGs are added to the `.gitignore` file so will not be commited to git, and can optionally be deleted. Only the PNGs which are used in the manuscript are stored by the git version control.
