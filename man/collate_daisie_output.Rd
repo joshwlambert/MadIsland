@@ -11,11 +11,6 @@ collate_daisie_output(results_dir)
 \arguments{
 \item{results_dir}{A character string of the folder name in
 inst/daisie_results to read the results from}
-
-\item{oceanic_or_nonoceanic}{A character string, either "oceanic" or
-"nonoceanic"}
-
-\item{num_phylos}{Numeric of how many phylogenies were used}
 }
 \value{
 tibble
@@ -28,7 +23,4 @@ for each different phylogeny and stores it as tabular data
 \examples{
 # name of results of results folder
 results_dir <- "amp_ddl_complete_ds_asr"
-# number of phylogeny replicates used
-num_phylos <- 3
-# oceanic results
 }
