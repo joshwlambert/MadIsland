@@ -88,9 +88,14 @@
     },
     "DAISIEprep": {
       "Package": "DAISIEprep",
-      "Version": "0.4.0",
-      "Source": "Bioconductor",
-      "Repository": "CRAN",
+      "Version": "0.4.1",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "DAISIEprep",
+      "RemoteUsername": "joshwlambert",
+      "RemoteRef": "v0.4.1",
+      "RemoteSha": "cd2e01ed27e8e365e8257d04a640b0393e14d4ad",
       "Requirements": [
         "DAISIE",
         "R",
@@ -104,7 +109,7 @@
         "scales",
         "tibble"
       ],
-      "Hash": "dd92e6dd897015d5921a2ec24f38f6a5"
+      "Hash": "db1a313abd34d91a093a5b5764a8d88b"
     },
     "DAISIEutils": {
       "Package": "DAISIEutils",
@@ -259,7 +264,7 @@
     },
     "RcppArmadillo": {
       "Package": "RcppArmadillo",
-      "Version": "0.12.8.2.0",
+      "Version": "0.12.8.2.1",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -269,7 +274,7 @@
         "stats",
         "utils"
       ],
-      "Hash": "85c0c4491c06db4814ed7e39b960973c"
+      "Hash": "d5448fb24fb114c4da1275a37a571f37"
     },
     "RcppEigen": {
       "Package": "RcppEigen",
