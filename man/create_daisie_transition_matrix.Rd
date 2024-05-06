@@ -20,9 +20,10 @@ reconstruction when fitting the Mk model ([castor::asr_mk_model()]) using
 
 The constraints are colonisation to the island is from state 1
 (`not_present`) to state 2 (`nonendemic`) and species cannot colonise as
-endemics. Island extinction (state 3 and state 2 to state 1) are constrained
-to the same rate, back-colonisation from the island (state 3 to state 2)
-is given its own rate, as is anagenesis (state 2 to state 3).
+endemics. Island extinction is constrained to `nonendemic` to `not_present`
+(state 2 to state 1), island extinction of `endemic` cannot happen (state 3
+to state 1), back-colonisation from the island is not allowed (state 3 to
+state 2), and anagenesis has its own rate (state 2 to state 3).
 }
 \examples{
 create_daisie_transition_matrix
