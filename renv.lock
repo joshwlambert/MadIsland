@@ -88,14 +88,14 @@
     },
     "DAISIEprep": {
       "Package": "DAISIEprep",
-      "Version": "0.4.1",
+      "Version": "0.4.2",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteRepo": "DAISIEprep",
       "RemoteUsername": "joshwlambert",
-      "RemoteRef": "v0.4.1",
-      "RemoteSha": "cd2e01ed27e8e365e8257d04a640b0393e14d4ad",
+      "RemoteRepo": "DAISIEprep",
+      "RemoteRef": "v0.4.2",
+      "RemoteSha": "a9c0459eae90dc459da6d2eaecdea14cbe04e7b8",
       "Requirements": [
         "DAISIE",
         "R",
@@ -109,7 +109,7 @@
         "scales",
         "tibble"
       ],
-      "Hash": "db1a313abd34d91a093a5b5764a8d88b"
+      "Hash": "eaf1ec2913c3df5206f9bb8a2a1d0851"
     },
     "DAISIEutils": {
       "Package": "DAISIEutils",
@@ -857,9 +857,9 @@
     },
     "ggplot2": {
       "Package": "ggplot2",
-      "Version": "3.5.0",
+      "Version": "3.5.1",
       "Source": "Repository",
-      "Repository": "RSPM",
+      "Repository": "CRAN",
       "Requirements": [
         "MASS",
         "R",
@@ -878,7 +878,7 @@
         "vctrs",
         "withr"
       ],
-      "Hash": "52ef83f93f74833007f193b2d4c159a2"
+      "Hash": "44c6a2f8202d5b7e878ea274b1092426"
     },
     "ggplotify": {
       "Package": "ggplotify",
@@ -2007,14 +2007,14 @@
     },
     "treeio": {
       "Package": "treeio",
-      "Version": "1.27.0.002",
+      "Version": "1.29.0",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "GuangchuangYu",
       "RemoteRepo": "treeio",
       "RemoteRef": "devel",
-      "RemoteSha": "f6686330e437867add5dc80ef2e5db85c866c6c3",
+      "RemoteSha": "95046174ef1f4508f9e4417d2b203e4078fd05c6",
       "Requirements": [
         "R",
         "ape",
@@ -2029,7 +2029,7 @@
         "utils",
         "yulab.utils"
       ],
-      "Hash": "545643f9a451c86eea21504c2ac59b3b"
+      "Hash": "98e314ae172162c58102239937596cb0"
     },
     "usethis": {
       "Package": "usethis",
