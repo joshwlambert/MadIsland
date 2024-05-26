@@ -9,7 +9,7 @@ island_data <- MadIsland::extract_species(
   dna_or_complete = "complete",
   daisie_status = TRUE,
   extraction_method = "asr",
-  rate_model = create_daisie_transition_matrix()
+  rate_model = "ER"
 )
 
 multi_island_tbl_complete <- island_data$multi_island_tbl
