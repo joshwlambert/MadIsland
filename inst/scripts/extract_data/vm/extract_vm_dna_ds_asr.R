@@ -100,14 +100,14 @@ multi_island_tbl_dna <- lapply(multi_island_tbl_dna, \(x) {
 daisie_datatable_dna <- lapply(
   multi_island_tbl_dna,
   DAISIEprep::as_daisie_datatable,
-  island_age = 88
+  island_age = 75
 )
 
 # convert to daisie data list
 daisie_data_list_dna <- lapply(
   daisie_datatable_dna,
   DAISIEprep::create_daisie_data,
-  island_age = 88,
+  island_age = 75,
   num_mainland_species = 100
 )
 
