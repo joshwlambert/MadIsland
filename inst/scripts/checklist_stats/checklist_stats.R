@@ -30,8 +30,8 @@ squamates <- checklist_stats(squamates)
 
 data.frame(
   amp = unlist(amp),
-  bird = unlist(bird),
+  bird = unlist(birds),
   nvm = unlist(nvm),
-  squa = unlist(squa),
+  squa = unlist(squamates),
   vm = unlist(vm)
 )
