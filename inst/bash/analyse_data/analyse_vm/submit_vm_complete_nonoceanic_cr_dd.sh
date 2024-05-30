@@ -10,7 +10,7 @@
 
 sbatch DAISIEutils/bash/submit_run_daisie_ml.sh \
   vm_ddl_complete_ds_asr \
-  nonoceanic_cr_dd \
+  cr_dd \
   MadIsland \
   0 \
   NULL \
