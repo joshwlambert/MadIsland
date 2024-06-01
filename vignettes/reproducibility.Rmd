@@ -156,6 +156,26 @@ Once the files are moved (technically they are copied) into `raw_daisie_output/`
 
 ## {-}
 
+## Collating DAISIE results {.tabset}
+
+This step is dependent on whether in the previous step the raw DAISIE output has been commited to version control (e.g. git/GitHub). If the files have been committed and pushed to GitHub then the raw DAISIE output can be pulled onto a local machine and collated locally. If not then the collation will need to take place on the HPCC. 
+
+The benefit of doing this step on the HPCC and not locally is there a many raw DAISIE output files and storing these on version control can increase the size of the git history of the respository.
+
+### Local
+
+Run the scripts in `scripts/collate_daisie_results/`.
+
+The collated results are saved as `.rds` and can be pushed to version control.
+
+### HPCC
+
+Run the scripts in `scripts/collate_daisie_results/`. The code from these scripts can be run in the R console by loading and opening R (`ml R` and `R`) on the HPCC. Alternatively these scripts can be run with the `Rscript` command. 
+
+The collated results are saved as `.rds` and can be pushed to version control.
+
+## {-}
+
 ## Plotting
 
 Once collated DAISIE data is saved in the package, the plotting scripts in `inst/scripts/plots/` can be run to produce the plots in `inst/plots/`.
