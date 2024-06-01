@@ -124,7 +124,8 @@ collate_daisie_output <- function(results_dir) {
       } else {
         # oceanic DAISIE does not contain $prob_init_pres
         if (is.null(x$prob_init_pres)) {
-          NA_real_
+          # oceanic DAISIE is equivalent to prob_init_pres == 0
+          0
         } else {
           x$prob_init_pres
         }
