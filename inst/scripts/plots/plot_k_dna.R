@@ -109,8 +109,8 @@ k_plot_dna <- ggplot2::ggplot(data = k_tbl_finite) +
   ) +
   ggplot2::scale_y_continuous(name = "Count") +
   ggplot2::scale_fill_manual(
-    labels = c("Amphibian", "Birds", "NV Mammals", "Squamate", "V Mammals"),
-    values = c("#7fbd2d", "#073dfd", "#a8856e", "#01783f", "#3d3d3d"),
+    labels = c("Amphibian", "Birds", "Squamate"),
+    values = c("#7fbd2d", "#073dfd", "#01783f"),
     guide = ggplot2::guide_legend("Taxonomic Group")
   ) +
   ggplot2::theme_classic()
