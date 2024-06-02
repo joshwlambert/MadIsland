@@ -19,9 +19,10 @@ min_median_rd_params <- function(data) {
   params <- median_rates$params
   res <- list()
   for (i in seq_along(params)) {
-    res[[i]] <- abs(data$value[data$params == params[i]] -
-                      median_rates$median[median_rates$params == params[i]]) /
-      median_rates$median[median_rates$params == params[i]]
+    med_rate <- median_rates$median[median_rates$params == params[i]]
+    # prevent NaN produced from division by zero with ifelse
+    res[[i]] <- abs(data$value[data$params == params[i]] - med_rate) /
+      ifelse(test = med_rate == 0, yes = 1, no = med_rate)
   }
   names(res) <- params
 
