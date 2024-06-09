@@ -230,7 +230,7 @@ prob_init_pres <- volant_mammal_rates$value[volant_mammal_rates$params == "prob_
 
 # simulate with volant mammal MLE estimates
 volant_mammal <- DAISIE::DAISIE_sim_cr(
-  time = 88,
+  time = 75,
   M = 100,
   pars = c(lambda_c, mu, k, gamma, lambda_a),
   replicates = 1000,
@@ -281,6 +281,7 @@ stt_plot <- ggplot2::ggplot(data = plot_tbl) +
   ) +
   ggplot2::scale_x_continuous(
     name = "Time (Million years ago)",
+    n.breaks = 6,
     trans = "reverse"
   ) +
   ggplot2::scale_fill_manual(
