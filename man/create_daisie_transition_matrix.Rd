@@ -5,10 +5,19 @@
 \title{Create the transition matrix for the DAISIE data extraction using the
 ASR algorithm}
 \usage{
-create_daisie_transition_matrix(...)
+create_daisie_transition_matrix(
+  zero_endemic_ext = TRUE,
+  zero_endemic_back_col = TRUE
+)
 }
 \arguments{
-\item{...}{[dots] Not used, warns if arguments are supplied.}
+\item{zero_endemic_ext}{Set the extinction rate of endemic species to zero.
+Default is `TRUE`, if `FALSE` then the endemic species (state 3) can go to
+state 1 (not present on the island).}
+
+\item{zero_endemic_back_col}{Set the back colonisations rate of endemic
+species to zero. Default is `TRUE`, if `FALSE` then the endemic species
+(state 3) can go to state 2 (non-endemic on the island).}
 }
 \value{
 A 3x3 integer matrix.
