@@ -1,3 +1,18 @@
+# MadIsland 0.3.0
+
+The new minor version release of the MadIsland R package contains various minor updates for Lambert, Etienne and Valente (_in progress_).
+
+Changes include:
+
+* A new `create_daisie_transition_matrix()` function to easily create transition matrices that are parameterised for ancestral state reconstruction similar to the DAISIE inference model (unit tests also added).
+* Update to `collate_daisie_output()` to handle DAISIE inference model outputs from the continental and oceanic model (as bats now fit the oceanic DAISIE model).
+* `min_median_rd_params()` now checks to prevent division by zero.
+* The extraction Malagasy island communities have been updated (`inst/extdata` and `data/`).
+* The bash scripts for the volant mammals have been updated to call the constant-rate (oceanic) DAISIE model (`inst/bash`), the island age in the extraction scripts (`inst/scripts/extract_data/`) have also been updated to use 75 instead of 88 for volant mammals.
+* Plots for the manuscript have been updated.
+* The `reproducibility.Rmd` vignette has been updated with a Collating DAISIE results section.
+* The `renv.lock` file is updated.
+
 # MadIsland 0.2.0
 
 Updates to the MadIsland R package accompanying a new version of the Lambert, Etienne and Valente manuscript (work in progress).
